@@ -1,2 +1,0 @@
-/Applications/MaciASL.app/Contents/MacOS/iasl61 -da -dl -fe refs.txt *.aml
-
