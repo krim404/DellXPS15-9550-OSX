@@ -17,11 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>4.6</string>
+	<string>4.6.5</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>4.6</string>
+	<string>4.6.5</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -29,9 +29,9 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>11E52</string>
+	<string>12D75</string>
 	<key>DTSDKName</key>
-	<string>macosx10.7</string>
+	<string>macosx10.8</string>
 	<key>DTXcode</key>
 	<string>0611</string>
 	<key>DTXcodeBuild</key>
@@ -75,9 +75,9 @@
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © Apple Computer, Inc. 2000-2003. EMlyDinEsH (mg-dinesh@live.com) 2012-2015.</string>
+	<string>Copyright © EMlyDinEsH (mg-dinesh@live.com) 2012-2016. All rights reserved.</string>
 	<key>OSBundleCompatibleVersion</key>
-	<string>4.6</string>
+	<string>4.6.5</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IOACPIFamily</key>
