@@ -10,47 +10,6 @@
 		<string>0xB2</string>	
 		<key>ResetValue</key>	
 		<string>0x73</string>
-		<key>#DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>MCFG</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuPm</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>Cpu0Cst</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>Cpu0Ist</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>ApCst</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>ApIst</string>
-			</dict>
-		</array>
 		<key>DSDT</key>
 		<dict>
 			<key>Fixes</key>
@@ -478,10 +437,6 @@
 		<array>
 			<dict>
 				<key>Signature</key>
-				<string>#MCFG</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
 				<string>CpuPm</string>
@@ -533,8 +488,16 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
+		<key>C4</key>
+		<true/>
+		<key>C6</key>
+		<true/>
 		<key>UseARTFrequency</key>
 		<false/>
+		<key>HWPEnable</key>
+		<true/>
+		<key>HWPValue</key>
+		<string>0x94002301</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
