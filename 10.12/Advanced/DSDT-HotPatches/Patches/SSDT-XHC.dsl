@@ -21,6 +21,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "XHC", 0)
                 "AAPL,current-extra", Buffer() { 0x98, 0x08, 0, 0, },
                 "AAPL,current-extra-in-sleep", Buffer() { 0x40, 0x06, 0, 0, },
                 "AAPL,max-port-current-in-sleep", Buffer() { 0x34, 0x08, 0, 0 },
+                "AAPL,device-internal", Buffer(){ 0x02 },
             }
             // force USB2 on XHC if EHCI is disabled
             If (CondRefOf(\_SB.PCI0.RMD2))
