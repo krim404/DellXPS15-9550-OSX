@@ -485,6 +485,11 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
+		<key>FakeID</key>
+		<dict>
+		   <key>IntelGFX</key>
+		   <string>0x12345678</string>
+		</dict>
 		<key>AddProperties</key>
 		<array>
 			<dict>
