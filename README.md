@@ -5,7 +5,7 @@ It also contains my setup for OSX 10.12.2, based on darkhandz chinese tutorial
 Setup compatible with Toshiba 512GB SSD, 16GB RAM and 4K Display. Please don’t use the provided SSDT or DSDT files, they will not work for your system. I removed my SMC (serials).
 
 
-Follow this guide, if you want to make a working setup on your own for El Capitan: [guide][1]
+Follow this guide, if you want to make a working setup on your own for El Capitan: [guide][1]  
 Follow my guide, if you want to install Sierra: [guide][2]
 
 
