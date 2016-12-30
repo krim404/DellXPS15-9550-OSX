@@ -10,4 +10,4 @@ Follow my guide, if you want to install Sierra: [guide][2]
 
 
 [1]:	http://www.tonymacx86.com/threads/guide-wip-dell-xps-15-9550-skylake-gtx960m-ssd-via-clover-uefi.192598/
-[2]:  https://www.tonymacx86.com/threads/guide-dell-xps-15-9550-sierra-10-12-2-tutorial.210368/
+[2]:  Tutorial_10.12.md
