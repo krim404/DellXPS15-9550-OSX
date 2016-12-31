@@ -1,3 +1,4 @@
+![alt text](icon.png "Dell XPS 15")
 Before we start:
 this installation is based on the chinese tutorial of darkhandz. It includes real time DSDT/SSDT patching from within clover. This is pretty easy to install. But it is NOT suited for people with no or only few knowledge in Hackintosh Systems. If you only know how to copy commands in your shell and you dont know what they're doing, then stop the tutorial and revert to windows or buy a real mac. Even if you get it running: this system is not failsafe and will be broken multiple times in its usage time, where you have to fix it without a tutorial.
 English is not my mother-tongue and i'm writing this without proof reading, so please forgive my bad spelling 
