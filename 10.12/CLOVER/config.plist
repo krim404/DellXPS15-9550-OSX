@@ -1150,13 +1150,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<string>30783135623638303836</string>
+				<data>30783135623638303836</data>
 				<key>InfoPlistPatch</key>
 				<true/>
 				<key>Name</key>
 				<string>AppleUSBXHCIPCI</string>
 				<key>Replace</key>
-				<string>30783135623538303836</string>
+				<data>30783135623538303836</data>
 			</dict>
 		</array>
 	</dict>
