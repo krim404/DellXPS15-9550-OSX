@@ -1,4 +1,4 @@
-![alt text](icon.png "Dell XPS 15")
+![Computer Logo](Additional/icon.png "Dell XPS 15")
 Before we start:
 this installation is based on the chinese tutorial of darkhandz. It includes real time DSDT/SSDT patching from within clover. This is pretty easy to install. But it is NOT suited for people with no or only few knowledge in Hackintosh Systems. If you only know how to copy commands in your shell and you dont know what they're doing, then stop the tutorial and revert to windows or buy a real mac. Even if you get it running: this system is not failsafe and will be broken multiple times in its usage time, where you have to fix it without a tutorial.
 English is not my mother-tongue and i'm writing this without proof reading, so please forgive my bad spelling 
@@ -124,7 +124,8 @@ sudo codesign -f -s - /System/Library/Frameworks/CoreDisplay.framework/Versions/
 as i said before: this is not a tutorial for absolute beginners, albeit it's much easier then most other tutorials, because most is preconfigured in the supplied config.plist. Some Dells have components included, which are not supported by these preconfigured files. Then i can only suggest using Gymnaes tutorial which explains most of the DSDT patching, config.plist editing and kexts used in detail and use the supplied files here as templates.  
 •	Warning: Some people have reported multiple data losses on this machine. I suggest using time-machine whenever possible!  
 •	If you want to save the settings of the display brightness: downgrade to clover 3899, in the never versions the nvram restore is broken.  
-•	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $  
+•	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $
+
 •	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html  
 ## Tutorial Updates
 •	31. December 2016: USB-C Hotplug Fix and USB InjectAll Removed  

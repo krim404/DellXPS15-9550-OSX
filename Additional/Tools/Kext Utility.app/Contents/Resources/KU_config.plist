@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PatchKexts</key>
+	<dict>
+		<key>msdosfs.kext</key>
+		<false/>
+		<key>AppleKextExcludeList.kext</key>
+		<true/>
+	</dict>
+	<key>AddBootArgs</key>
+	<dict>
+		<key>-v</key>
+		<false/>
+		<key>kext-dev-mode=1</key>
+		<false/>
+		<key>rootless=0</key>
+		<false/>
+	</dict>
+</dict>
+</plist>
