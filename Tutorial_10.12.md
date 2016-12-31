@@ -125,12 +125,12 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
 •	Warning: Some people have reported multiple data losses on this machine. I suggest using time-machine whenever possible!  
 •	If you want to save the settings of the display brightness: downgrade to clover 3899, in the never versions the nvram restore is broken.  
 •	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $  
+•	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html  
 ## Tutorial Updates
 •	31. December 2016: USB-C Hotplug Fix and USB InjectAll Removed  
 •	28. December 2016: NVMe SSDT Spoof precreated, FakeID already preset in installation config.plist. VoodooHDA added as alternative to SSDT-ALC298 patch as well as color coding in tutorial  
 •	22. December 2016: FakeSMBios added  
 ## Appendix 1: Accessories
 The official Dell adaptor DA200 (http://accessories.euro.dell.com/sna/productdetail.aspx?c=at&l=de&s=dhs&cs=atdhs1&sku=470-abry) works completly on Sierra 10.2.2. You can use the Network, USB, HDMI and VGA. Everything is full hot-pluggable  
-a cheap 3rd party noname USB-C -> VGA adaptor didnt work
-
-
+a cheap 3rd party noname USB-C -> VGA adaptor didnt work  
+you can charge the Dell with a generic USB-C Power Adaptor, but USB-C has only a maximum power of 100W, so it's either charging OR usage, not both. Dont forget you need a special USB-C cable (Power Delivery 3.0) for charging  
