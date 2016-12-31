@@ -126,7 +126,7 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
 •	If you want to save the settings of the display brightness: downgrade to clover 3899, in the never versions the nvram restore is broken.  
 •	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $  
 ## Tutorial Updates
-•	31. December 2016: USB-C Hotplug Fix and USB InjectAll Removed. 
+•	31. December 2016: USB-C Hotplug Fix and USB InjectAll Removed  
 •	28. December 2016: NVMe SSDT Spoof precreated, FakeID already preset in installation config.plist. VoodooHDA added as alternative to SSDT-ALC298 patch as well as color coding in tutorial  
 •	22. December 2016: FakeSMBios added  
 ## Appendix 1: Accessories
