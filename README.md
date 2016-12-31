@@ -9,5 +9,5 @@ Follow this guide, if you want to make a working setup on your own for El Capita
 Follow my guide, if you want to install Sierra: [guide][2]
 
 
-[1]:	http://www.tonymacx86.com/threads/guide-wip-dell-xps-15-9550-skylake-gtx960m-ssd-via-clover-uefi.192598/
+[1]:  http://www.insanelymac.com/forum/topic/319766-dell-xps-9550-detailled-1011-guide/
 [2]:  Tutorial_10.12.md
