@@ -1,4 +1,11 @@
-Before we start: this installation is based on the chinese tutorial of darkhandz. It includes real time DSDT/SSDT patching from within clover. This is pretty easy to install. But it is NOT suited for people with no or only few knowledge in Hackintosh Systems. If you only know how to copy commands in your shell and you dont know what they're doing, then stop the tutorial and revert to windows or buy a real mac. Even if you get it running: this system is not failsafe and will be broken multiple times in its usage time, where you have to fix it without a tutorial. English is not my mother-tongue and i'm writing this without proof reading, so please forgive my bad spelling   If you've questions: please read the whole thread (doesn't matter how long it is) before asking to prevent multiple questions. Additionally do a search in google and this forum.   
+Before we start:
+this installation is based on the chinese tutorial of darkhandz. It includes real time DSDT/SSDT patching from within clover. This is pretty easy to install. But it is NOT suited for people with no or only few knowledge in Hackintosh Systems. If you only know how to copy commands in your shell and you dont know what they're doing, then stop the tutorial and revert to windows or buy a real mac. Even if you get it running: this system is not failsafe and will be broken multiple times in its usage time, where you have to fix it without a tutorial.
+English is not my mother-tongue and i'm writing this without proof reading, so please forgive my bad spelling 
+
+If you've questions: please read the whole thread (doesn't matter how long it is) before asking to prevent multiple questions. Additionally do a search in google and this forum.
+
+
+
 
 ## Credits:
 Based on the Tutorial and files of darkhandz: https://github.com/darkhandz/XPS15-9550-Sierra  
@@ -6,19 +13,20 @@ Mixed with much knowledge of the tutorial by @Gymnae: https://www.tonymacx86.com
 Using many kexts and solutions from @RehabMan  
 ## What's not working:
 • Hibernation (works somehow, but high chance to destroy your whole data)  
-• USB-C hotplug  
 • SD-Card reader  
 • Hynix SSD or Killer 1535 Wifi (rarely used, need replace)  
 • nVidia Graphics card (Intel works)  
 • FileVault 2 (full HDD encryption)  
 ## Requirements:
-• one working MAC OS X Enviroment (aka a real mac or at least a VMWare Container running OSX)  
+• one working MAC OS X Enviroment 
 • 16GB USB Stick (larger is sometimes not bootable and/or requires advanced partitioning)  
 • MacOS Sierra 10.12.2 installation file from the app store (redownload, just in case)  
 • Knowledge in PLIST editing  
 • USB Harddrive for backup - you'll loose all data on your computer!   
 ## Step 1: Prepare Installation
-Use the existing Mac to download the Sierra installer from the App Store and create a bootable USB stick with CLOVER. You can do this with the App "Pandora's Box" of insanelymac (use google for download link), which is pretty easy to use.  After you've finished you need to download the Dell XPS 15 specific configurations for clover.  
+Use the existing Mac to download the Sierra installer from the App Store and create a bootable USB stick with CLOVER. You can do this with the App "Pandora's Box" of insanelymac (use google for download link), which is pretty easy to use.
+
+After you've finished you need to download the Dell XPS 15 specific configurations for clover.  
 Link: https://github.com/wmchris/DellXPS15-9550-OSX/archive/master.zip / this repo. Unzip this file. You only need the folder 10.12, you can delete the 10.11. I'll refer to this folder by "git/"  
 Now mount the hidden EFI partition of the USB Stick by entering
 `diskutil mount EFI` 
@@ -47,7 +55,8 @@ Insert the stick on the Dell XPS 15 and boot it up holding the F12 key to get in
 ## Step 2: Partition and Installation
 INFORMATION: after this step your computer will loose ALL data! So if you haven't created a backup, yet: QUIT NOW!  
   
-Dont install macOS yet. Select the Diskutil and delete the old partitions. Create a new HFS partition and name it "OSX". If you want to multiboot with Windows 10, then you'll have to create a second partition, too (also HFS! Dont use FAT or it will not boot! You have to reformat it when installing Windows). Make sure to select GUID as partition sheme. Close the Diskutil and install OSX normally. You'll have to reboot multiple times, make sure to always boot using the attached USB stick. So dont forget to press F12. After the first reboot you should see a new boot option inside clover, which is highlighted by default. Just press enter. If you only see one, then something went wrong.  
+Dont install macOS yet. Select the Diskutil and delete the old partitions. Create a new HFS partition and name it "OSX". If you want to multiboot with Windows 10, then you'll have to create a second partition, too (also HFS! Dont use FAT or it will not boot! You have to reformat it when installing Windows). Make sure to select GUID as partition sheme.
+Close the Diskutil and install OSX normally. You'll have to reboot multiple times, make sure to always boot using the attached USB stick. So dont forget to press F12. After the first reboot you should see a new boot option inside clover, which is highlighted by default. Just press enter. If you only see one, then something went wrong.  
 
 ## Step 3: Make it bootable
 After a few reboots you should be inside your new macOS enviroment. You can always boot into it using the USB stick. Remove the USB drive after successful bootup. Enter 
