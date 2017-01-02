@@ -10,7 +10,7 @@ If you've questions: please read the whole thread (doesn't matter how long it is
 
 ## Credits:
 Based on the Tutorial and files of darkhandz: https://github.com/darkhandz/XPS15-9550-Sierra  
-Mixed with much knowledge of the tutorial by @Gymnae: https://www.tonymacx86.com/threads/guide-dell-xps-15-9550-skylake-gtx960m-ssd-via-clover-uefi.192598  
+Mixed with much knowledge of the tutorial by @Dagor: http://www.insanelymac.com/forum/topic/319766-dell-xps-9550-detailled-1011-guide/  
 Using many kexts and solutions from @RehabMan  
 ## What's not working:
 • Hibernation (works somehow, but high chance to destroy your whole data)  
@@ -104,7 +104,10 @@ sudo perl -i.bak -pe 's|\xB8\x01\x00\x00\x00\xF6\xC1\x01\x0F\x85|\x33\xC0\x90\x9
 sudo codesign -f -s - /System/Library/Frameworks/CoreDisplay.framework/Versions/Current/CoreDisplay
 ```
 To prevent getting in hibernation (which can and will corrupt your data).
-`sudo pmset -a hibernatemode 0`
+`sudo pmset -a hibernatemode 0`  
+To get HDMI Audio working:  
+Search for your Boarrd-ID in the config.plist and open /S/E/AppleGraphicsControl.kext/contents/plugin/AppleGraphicePolicy.kext/contents/info.plist with a texteditor. Search for your board-id in there and change the value of it from "Config2" to "none". 
+
 ## Step 5: iServices (AppStore, iMessages etc.)
 WARNING! DONT USE YOUR MAIN APPLE ACCOUNT FOR TESTING! It's pretty common that apple BANS your apple-id from iMessage and other services if you've logged in on not well configured hackintoshs!  
 If you want to use the iServices, you'll have to do some advanced steps, which are not completly explained in this tutorial. First you need to switch the faked network device already created by step 4 to be on en0. Goto your network settings and remove every network interface.
