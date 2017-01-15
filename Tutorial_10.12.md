@@ -106,8 +106,14 @@ sudo codesign -f -s - /System/Library/Frameworks/CoreDisplay.framework/Versions/
 To prevent getting in hibernation (which can and will corrupt your data).
 `sudo pmset -a hibernatemode 0`  
 To get HDMI Audio working:  
-Search for your Boarrd-ID in the config.plist and open /S/E/AppleGraphicsControl.kext/contents/plugin/AppleGraphicePolicy.kext/contents/info.plist with a texteditor. Search for your board-id in there and change the value of it from "Config2" to "none". 
-
+Search for your Boarrd-ID in the config.plist and open /S/E/AppleGraphicsControl.kext/contents/plugin/AppleGraphicePolicy.kext/contents/info.plist with a texteditor. Search for your board-id in there and change the value of it from "Config2" to "none".  
+  
+OPTIONAL (alternative power management):  
+the whole power management is done by intels speed step technology (HWP), which is enabled in the clover config. If you want to let OSX manage the power management, you'll have to do these steps:  
+```
+sudo cp ./Post-Install/CLOVER/ACPI/optional/SSDT.aml /EFI/EFI/CLOVER/ACPI/patched/
+```
+then open the config.plist (/EFI/EFI/CLOVER/config.plist) and change `<key>HWPEnable</key><true/>` to `<key>HWPEnable</key><false/>`.  
 ## Step 5: iServices (AppStore, iMessages etc.)
 WARNING! DONT USE YOUR MAIN APPLE ACCOUNT FOR TESTING! It's pretty common that apple BANS your apple-id from iMessage and other services if you've logged in on not well configured hackintoshs!  
 If you want to use the iServices, you'll have to do some advanced steps, which are not completly explained in this tutorial. First you need to switch the faked network device already created by step 4 to be on en0. Goto your network settings and remove every network interface.
@@ -131,6 +137,7 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
 
 •	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html  
 ## Tutorial Updates
+•	15. January 2017: updated tutorial regarding power management  
 •	31. December 2016: USB-C Hotplug Fix and USB InjectAll Removed  
 •	28. December 2016: NVMe SSDT Spoof precreated, FakeID already preset in installation config.plist. VoodooHDA added as alternative to SSDT-ALC298 patch as well as color coding in tutorial  
 •	22. December 2016: FakeSMBios added  
