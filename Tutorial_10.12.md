@@ -90,11 +90,12 @@ sudo ./AD-Kexts/VoodooPS2Daemon/_install.command
 Now you'll have to replace the config.plist. Because you'll install modified kexts you'll HAVE TO replace the config.plist in your installation. Otherwise your PC will not boot anymore.
 `diskutil mount EFI`
 replace EFI/CLOVER/config.plist with git/Post-Install/CLOVER/config.plist. Again: if your PC has a Core i5 processor, search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
-If you've a NVM SSD Drive, you need to install NVMe-Hackr with SSDT Spoofing (enables easier system upgrading from appstore). Dont do this if you use the HDD version of the Dell or you use your M.2 port for something different than a SSD (for ex. a UMTS modem)
+If you've a NVM SSD Drive, you need to install NVMe-Hackr with SSDT Spoofing (enables easier system upgrading from appstore). Dont do this if you use the HDD version of the Dell or you use your M.2 port for something different than a SSD (for ex. a UMTS modem). Use the correct KEXT for you. Hynix SSDs require a different KEXT (HackrNVMeFamilySpoof-10_12_2_HYNIX.kext instad of HackrNVMeFamilySpoof-10_12_2.kext
 ```
 sudo cp ./Post-Install/AD-Kexts/HackrNVMe/SSDT-Hackr.aml /EFI/EFI/CLOVER/ACPI/patched/  
 sudo cp -r ./Post-Install/AD-Kexts/HackrNVMe/HackrNVMeFamilySpoof-10_12_2.kext /Library/Extensions/
 ```
+
 OPTIONAL (in case you've audio problems):  
 AppleHDA has some problems after Wake-Up. You'll have to plug in a headphone to get your speakers working again. You can use VoodooHDA instead, which breaks the headphone jack most of the time, but makes the rest much more stable.
 ```
