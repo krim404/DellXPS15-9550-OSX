@@ -15,7 +15,7 @@ Using many kexts and solutions from @RehabMan
 ## What's not working:
 • Hibernation (works somehow, but high chance to destroy your whole data)  
 • SD-Card reader  
-• Hynix SSD or Killer 1535 Wifi (rarely used, need replace)  
+• Killer 1535 Wifi (rarely used, need replace)  
 • nVidia Graphics card (Intel works)  
 • FileVault 2 (full HDD encryption)  
 ## Requirements:
@@ -35,7 +35,20 @@ Inside the terminal. Mac OS will automaticly mount the EFI partition of the USB 
   
 Overwrite everything in the CLOVER folder of the partition EFI with the content of git/10.12/CLOVER.  
 If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
-  
+If you use a hynix device (AND ONLY THEN!), you'll have to add the following patch to your config.plist:
+```
+<key>Comment</key>
+<string>IONVMeFamily Pike R. Alpha Hynix SSD patch</string>
+<key>Disabled</key>
+<false/>
+<key>Find</key>
+<data>
+9sEQD4UcAQAA
+</data>
+<key>Name</key>
+<string>IONVMeFamily</string>
+<key>Replace</key>
+```
 Go into the EFI Configuration (BIOS) of your Dell XPS 15:  
 ```
 gymnae said: 
@@ -137,6 +150,7 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
 
 •	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html  
 ## Tutorial Updates
+•	23. January 2017: Hynix SSD fix added 	
 •	15. January 2017: updated tutorial regarding power management  
 •	31. December 2016: USB-C Hotplug Fix and USB InjectAll Removed  
 •	28. December 2016: NVMe SSDT Spoof precreated, FakeID already preset in installation config.plist. VoodooHDA added as alternative to SSDT-ALC298 patch as well as color coding in tutorial  
