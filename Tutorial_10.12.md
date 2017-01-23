@@ -48,6 +48,7 @@ If you use a hynix device (AND ONLY THEN!), you'll have to add the following pat
 <key>Name</key>
 <string>IONVMeFamily</string>
 <key>Replace</key>
+<data>9sECD4UcAQAA</data>
 ```
 Go into the EFI Configuration (BIOS) of your Dell XPS 15:  
 ```
