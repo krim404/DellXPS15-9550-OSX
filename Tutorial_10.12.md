@@ -149,7 +149,7 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
 •	Warning: Some people have reported multiple data losses on this machine. I suggest using time-machine whenever possible!  
 •	If you want to save the settings of the display brightness: downgrade to clover 3899, in the never versions the nvram restore is broken.  
 •	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $
-
+•	if you get "Model Name: Apple device" - then you've not booted with the cloverx64.efi. Update your EFI. See `Additional/Setup-Bootmanager.jpg` how to configure to boot from it  
 •	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html  
 ## Tutorial Updates
 •	4. February 2017: Dell SMBIOS Truncation workaround added 	
