@@ -84,12 +84,12 @@ Because all DSDT/SSDT changes are already in the config.plist, you dont need to 
 ```
 sudo cp -r ./Post-Install/LE-Kexts/* /Library/Extensions/  
 sudo mv /System/Library/Extensions/AppleACPIPS2Nub.kext /System/Library/Extensions/AppleACPIPS2Nub.bak  
-sudo mv /System/Library/Extensions/ApplePS2Controller.kext /System/Library/Extensions/ApplePS2Controller.bak  
+sudo mv /System/Library/Extensions/ApplePS2Controller.kext /System/Library/Extensions/ApplePS2Controller.bak 
 sudo ./AD-Kexts/VoodooPS2Daemon/_install.command
 ``` 
 Now you'll have to replace the config.plist. Because you'll install modified kexts you'll HAVE TO replace the config.plist in your installation. Otherwise your PC will not boot anymore.
 `diskutil mount EFI`
-replace EFI/CLOVER/config.plist with git/Post-Install/CLOVER/config.plist. Again: if your PC has a Core i5 processor, search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
+replace `EFI/CLOVER/config.plist` with `git/Post-Install/CLOVER/config.plist`. Also replace `EFI/CLOVER/CLOVERX64.efi` with `git/Post-Install/CLOVER/CLOVERX64.efi`. Again: if your PC has a Core i5 processor, search the config.plist for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
 If you've a NVM SSD Drive, you need to install NVMe-Hackr with SSDT Spoofing (enables easier system upgrading from appstore). Dont do this if you use the HDD version of the Dell or you use your M.2 port for something different than a SSD (for ex. a UMTS modem). Use the correct KEXT for you. Hynix SSDs require a different KEXT (HackrNVMeFamilySpoof-10_12_2_HYNIX.kext instad of HackrNVMeFamilySpoof-10_12_2.kext
 ```
 sudo cp ./Post-Install/AD-Kexts/HackrNVMe/SSDT-Hackr.aml /EFI/EFI/CLOVER/ACPI/patched/  
@@ -152,6 +152,7 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
 
 •	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html  
 ## Tutorial Updates
+•	4. February 2017: Dell SMBIOS Truncation workaround added 	
 •	23. January 2017: Hynix SSD fix added 	
 •	15. January 2017: updated tutorial regarding power management  
 •	31. December 2016: USB-C Hotplug Fix and USB InjectAll Removed  
