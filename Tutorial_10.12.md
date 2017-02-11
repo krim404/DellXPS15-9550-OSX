@@ -77,7 +77,7 @@ Close the Diskutil and install OSX normally. You'll have to reboot multiple time
 After a few reboots you should be inside your new macOS enviroment. You can always boot into it using the USB stick. Remove the USB drive after successful bootup. Enter 
 `diskutil mount EFI`
 in your terminal, which should mount the EFI partition of your local installation.  
-install git/10.12/Post-Install/Tools/Clover_v2.3k_r3961.pkg. Make sure to select "Install Clover in ESP". Also select to install the RC-Scripts. This should install the Clover Boot System. Now copy everything from git/10.12/CLOVER to EFI/CLOVER like you did before by creating the usb stick. (if you had to modify the config.plist in step 1, do it here, too). Your system should be bootable by itself. Reboot and check if your system can boot by itself.  
+install git/Additional/Clover_v2.4k_r4003. Make sure to select "Install Clover in ESP". Also select to install the RC-Scripts. This should install the Clover Boot System. Now copy everything from git/10.12/CLOVER to EFI/CLOVER like you did before by creating the usb stick. (if you had to modify the config.plist in step 1, do it here, too). Your system should be bootable by itself. Reboot and check if your system can boot by itself.  
 
 ## Step 4: Post Installation
 Because all DSDT/SSDT changes are already in the config.plist, you dont need to recompile your DSDT (albeit i suggest doing it anyway to make your system a lil bit more failsafe, see gymnaes El-Capitan tutorial for more informations). So we can skip this part and go directly to the installation of the required kexts. Open a terminal and goto the GIT folder.
@@ -89,7 +89,7 @@ sudo ./AD-Kexts/VoodooPS2Daemon/_install.command
 ``` 
 Now you'll have to replace the config.plist. Because you'll install modified kexts you'll HAVE TO replace the config.plist in your installation. Otherwise your PC will not boot anymore.
 `diskutil mount EFI`
-replace `EFI/CLOVER/config.plist` with `git/Post-Install/CLOVER/config.plist`. Also replace `EFI/CLOVER/CLOVERX64.efi` with `git/Post-Install/CLOVER/CLOVERX64.efi`. Again: if your PC has a Core i5 processor, search the config.plist for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
+replace `EFI/CLOVER/config.plist` with `git/Post-Install/CLOVER/config.plist`. Again: if your PC has a Core i5 processor, search the config.plist for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
 If you've a NVM SSD Drive, you need to install NVMe-Hackr with SSDT Spoofing (enables easier system upgrading from appstore). Dont do this if you use the HDD version of the Dell or you use your M.2 port for something different than a SSD (for ex. a UMTS modem). Use the correct KEXT for you. Hynix SSDs require a different KEXT (HackrNVMeFamilySpoof-10_12_2_HYNIX.kext instad of HackrNVMeFamilySpoof-10_12_2.kext
 ```
 sudo cp ./Post-Install/AD-Kexts/HackrNVMe/SSDT-Hackr.aml /EFI/EFI/CLOVER/ACPI/patched/  
@@ -134,7 +134,7 @@ WARNING! DONT USE YOUR MAIN APPLE ACCOUNT FOR TESTING! It's pretty common that a
 If you want to use the iServices, you'll have to do some advanced steps, which are not completly explained in this tutorial. First you need to switch the faked network device already created by step 4 to be on en0. Goto your network settings and remove every network interface.
 `sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist`
 Reboot, go back in the network configuration and add the network interfaces (LAN) before Wifi.  
-You also need to modify your SMBIOS in the config.plist of Clover in your EFI partition with valid informations about your "fake" mac. There are multiple tutorials which explain how to do it like "http://www.fitzweekly.com/2016/02/hackintosh-imessage-tutorial.html". Dont forget we have the "Dell Truncation Problem". There is a workaround available inside the FakeSMBIOS.kext. If you edit your Model to something longer than 11 chars (for ex. MacBookPro13,3), you'll have to edit the info.plist in this kext, too. If you use something lower (like iMac17,1), you can delete the FakeSMBIOS.kext.  
+You also need to modify your SMBIOS in the config.plist of Clover in your EFI partition with valid informations about your "fake" mac. There are multiple tutorials which explain how to do it like "http://www.fitzweekly.com/2016/02/hackintosh-imessage-tutorial.html".   
 It's possible you have to call the apple hotline to get your fake serial whitelisted by telling a good story why apple forgot to add your serial number in their system. (aka: dont do it if you dont own a real mac). I personally suggest using real data from an old (broken) macbook.
 ## Step 6: Upgrading to macOS 10.12.3 or higher / installing security updates
 Each upgrade will possibly break your system!  

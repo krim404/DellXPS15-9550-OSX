@@ -677,6 +677,8 @@
 		<true/>
 		<key>AsusAICPUPM</key>
 		<true/>
+		<key>DellSMBIOSPatch</key>
+		<true/>
 		<key>ForceKextsToLoad</key>
 		<array>
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
@@ -931,38 +933,6 @@
 				VUiJ5THAXcNBVUFUU0iB7DgB
 				</data>
 			</dict>
-			<dict>
-                <key>Comment</key>
-                <string>SMBios</string>
-                <key>Disabled</key>
-                <false/>
-                <key>Find</key>
-                <data>
-                RUI5RDJEMzE=
-                </data>
-                <key>Name</key>
-                <string>AppleACPIPlatform</string>
-                <key>Replace</key>
-                <data>
-                RUI5RDJEMzU=
-                </data>
-            </dict>
-            <dict>
-                <key>Comment</key>
-                <string>SMBios</string>
-                <key>Disabled</key>
-                <false/>
-                <key>Find</key>
-                <data>
-                RUI5RDJEMzE=
-                </data>
-                <key>Name</key>
-                <string>AppleSMBIOS</string>
-                <key>Replace</key>
-                <data>
-                RUI5RDJEMzU=
-                </data>
-            </dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
