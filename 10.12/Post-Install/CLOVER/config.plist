@@ -691,20 +691,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>AppleHDA#1</string>
-				<key>Find</key>
-				<data>
-				QcYGAEmLvCQ=
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				QcYGAUmLvCQ=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>AppleHDA#2</string>
 				<key>Find</key>
 				<data>
@@ -747,20 +733,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>AppleHDA#5</string>
-				<key>Find</key>
-				<data>
-				hAjsEA==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>AppleHDA#6</string>
 				<key>Find</key>
 				<data>
@@ -771,20 +743,6 @@
 				<key>Replace</key>
 				<data>
 				mALsEA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AppleHDA#7</string>
-				<key>Find</key>
-				<data>
-				gxnUEQ==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAAAAA==
 				</data>
 			</dict>
 			<dict>
