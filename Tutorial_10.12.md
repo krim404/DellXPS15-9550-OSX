@@ -66,7 +66,7 @@ In my case I left VT-d and Fastboot as they were. Also, update your 9550 to the 
 Don't forget to set mode to "AHCI" in the sub-menu "SATA Operation" of "System Configuration". It's mandatory.
 ```
 
-Insert the stick on the Dell XPS 15 and boot it up holding the F12 key to get in the boot-menu and start by selecting your USB-Stick (if you've done it correctly it's named "Clover: Install macOS Sierra", otherwise it's just the brandname of your USB-Drive). You should get to the MacOS Installation like on a real mac. If you're asked to log-in with your apple-id: select not now! Reason: see Step 5.
+Also disable the SD-Card Reader to reduce the power consumption drastically. Insert the stick on the Dell XPS 15 and boot it up holding the F12 key to get in the boot-menu and start by selecting your USB-Stick (if you've done it correctly it's named "Clover: Install macOS Sierra", otherwise it's just the brandname of your USB-Drive). You should get to the MacOS Installation like on a real mac. If you're asked to log-in with your apple-id: select not now! Reason: see Step 5.
 ## Step 2: Partition and Installation
 INFORMATION: after this step your computer will loose ALL data! So if you haven't created a backup, yet: QUIT NOW!  
   
@@ -152,6 +152,7 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
 •	if you get "Model Name: Apple device" - then you've not booted with the cloverx64.efi. Update your EFI. See `Additional/Setup-Bootmanager.jpg` how to configure to boot from it  
 •	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html  
 ## Tutorial Updates
+•       7. March 2017: Suggestion to disable the SD Card Reader for reduced power consumption  
 •	4. February 2017: Dell SMBIOS Truncation workaround added 	
 •	23. January 2017: Hynix SSD fix added 	
 •	15. January 2017: updated tutorial regarding power management  
