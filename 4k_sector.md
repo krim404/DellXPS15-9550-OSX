@@ -23,4 +23,4 @@ the setting with the + in front is the active one
 You can switch the settings by  
 `nvme format -l 1 /dev/nvme0`
   
-Now remove SSDT-NVME.dsl from EFI/ACPI/patched, hackrnvmefamily.kext or the clover storage hotpatches from your EFI bootloader and reinstall OSX
+Now remove SSDT-Hackr.aml from EFI/ACPI/patched, the hackrnvmefamily kext or the clover storage hotpatches from your EFI bootloader and reinstall OSX
