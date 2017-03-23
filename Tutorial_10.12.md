@@ -153,7 +153,7 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
 •	if you get "Model Name: Apple device" - then you've not booted with the cloverx64.efi. Update your EFI. See `Additional/Setup-Bootmanager.jpg` how to configure to boot from it  
 •	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html  
 ## Tutorial Updates
-•	23. March 2017: 4k sector patch against NVMe corruption added  
+•	23. March 2017: 4k sector tutorial against NVMe corruption added  
 •   7. March 2017: Suggestion to disable the SD Card Reader for reduced power consumption  
 •	4. February 2017: Dell SMBIOS Truncation workaround added 	
 •	23. January 2017: Hynix SSD fix added 	
