@@ -11,7 +11,7 @@ If you've questions: please read the whole thread (doesn't matter how long it is
 ## Credits:
 Based on the Tutorial and files of darkhandz: https://github.com/darkhandz/XPS15-9550-Sierra  
 Mixed with much knowledge of the tutorial by @Dagor: http://www.insanelymac.com/forum/topic/319766-dell-xps-9550-detailled-1011-guide/  
-Using many kexts and solutions from @RehabMan  
+Using many kexts and solutions from @RehabMan 
 ## What's not working:
 • Hibernation (works somehow, but high chance to destroy your whole data)  
 • SD-Card reader  
@@ -25,8 +25,9 @@ Using many kexts and solutions from @RehabMan
 • Knowledge in PLIST editing  
 • USB Harddrive for backup - you'll loose all data on your computer!   
 ## Step 1: Prepare Installation
-Use the existing Mac to download the Sierra installer from the App Store and create a bootable USB stick with CLOVER. You can do this with the App "Pandora's Box" of insanelymac (use google for download link), which is pretty easy to use.
-
+Use the existing Mac to download the Sierra installer from the App Store and create a bootable USB stick with CLOVER. You can do this with the App "Pandora's Box" of insanelymac (use google for download link), which is pretty easy to use.  
+Optional: check if your SSD can be switched to 4k sector size. This prevents NVMe corruption. See [this Tutorial](4k_sector.md)
+  
 After you've finished you need to download the Dell XPS 15 specific configurations for clover.  
 Link: https://github.com/wmchris/DellXPS15-9550-OSX/archive/master.zip / this repo. Unzip this file. You only need the folder 10.12, you can delete the 10.11. I'll refer to this folder by "git/"  
 Now mount the hidden EFI partition of the USB Stick by entering
@@ -35,7 +36,8 @@ Inside the terminal. Mac OS will automaticly mount the EFI partition of the USB 
   
 Overwrite everything in the CLOVER folder of the partition EFI with the content of git/10.12/CLOVER.  
 If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
-If you use a hynix device (AND ONLY THEN!), you'll have to add the following patch to your config.plist:
+If you could use the 4k sector patch, replace the config.plist with the 4kconfig.plist.  
+If you use a hynix device and you didnt do the 4k sector switch, you'll have to add the following patch to your config.plist:
 ```
 <key>Comment</key>
 <string>IONVMeFamily Pike R. Alpha Hynix SSD patch</string>
@@ -90,7 +92,7 @@ sudo ./AD-Kexts/VoodooPS2Daemon/_install.command
 Now you'll have to replace the config.plist. Because you'll install modified kexts you'll HAVE TO replace the config.plist in your installation. Otherwise your PC will not boot anymore.
 `diskutil mount EFI`
 replace `EFI/CLOVER/config.plist` with `git/Post-Install/CLOVER/config.plist`. Again: if your PC has a Core i5 processor, search the config.plist for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
-If you've a NVM SSD Drive, you need to install NVMe-Hackr with SSDT Spoofing (enables easier system upgrading from appstore). Dont do this if you use the HDD version of the Dell or you use your M.2 port for something different than a SSD (for ex. a UMTS modem). Use the correct KEXT for you. Hynix SSDs require a different KEXT (HackrNVMeFamilySpoof-10_12_2_HYNIX.kext instad of HackrNVMeFamilySpoof-10_12_2.kext
+If you've a NVM SSD Drive which is incompatible with the 4k fix, you need to install NVMe-Hackr with SSDT Spoofing (enables easier system upgrading from appstore). Dont do this if you use the HDD version of the Dell or you use your M.2 port for something different than a SSD (for ex. a UMTS modem). Use the correct KEXT for you. Hynix SSDs require a different KEXT (HackrNVMeFamilySpoof-10_12_2_HYNIX.kext instad of HackrNVMeFamilySpoof-10_12_2.kext
 ```
 sudo cp ./Post-Install/AD-Kexts/HackrNVMe/SSDT-Hackr.aml /EFI/EFI/CLOVER/ACPI/patched/  
 sudo cp -r ./Post-Install/AD-Kexts/HackrNVMe/HackrNVMeFamilySpoof-10_12_2.kext /Library/Extensions/
@@ -152,6 +154,7 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
 •	if you get "Model Name: Apple device" - then you've not booted with the cloverx64.efi. Update your EFI. See `Additional/Setup-Bootmanager.jpg` how to configure to boot from it  
 •	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html  
 ## Tutorial Updates
+•	23. March 2017: 4k sector patch against NVMe corruption added  
 •	4. February 2017: Dell SMBIOS Truncation workaround added 	
 •	23. January 2017: Hynix SSD fix added 	
 •	15. January 2017: updated tutorial regarding power management  
