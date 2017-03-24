@@ -1,7 +1,6 @@
 FIX for the NVMe Corruption  
-This fix is making it possible to use the native NVMe driver from apple on many machines. There is no drawback, because all modern OS (like Windows 7 and newer) support 4k sector sizes.  
-  
-How to set your SSD to 4k sector size. 
+This fix is making it possible to use the native NVMe driver from apple on many machines. There is no drawback, because all modern OS (like Windows 7 and newer) support 4k sector sizes. After this step your SSD will be unreadable and must be reformatted. You'll loose all your data.   
+
   
 Boot from Ubuntu 16.10 Live USB  
 Enable Universe repository and reload repo database  
@@ -21,7 +20,7 @@ Id Fmt  Data  Metadt  Rel_Perf
 ```
 
 the setting with the + in front is the active one  
-You can switch the settings by  
+You can switch the settings by reformating it:  
 `nvme format -l 1 /dev/nvme0`
   
 Now remove SSDT-Hackr.aml from EFI/ACPI/patched, the hackrnvmefamily kext or the clover storage hotpatches from your EFI bootloader and reinstall OSX
