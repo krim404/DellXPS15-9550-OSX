@@ -5,6 +5,7 @@ How to set your SSD to 4k sector size.
   
 Boot from Ubuntu 16.10 Live USB  
 Enable Universe repository and reload repo database  
+check the device for your ssd (can be /dev/nvme0, /dev/sda0 or something completly different.  
 open the terminal  
 ```
 sudo apt-get install smartmontools  
