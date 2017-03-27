@@ -114,10 +114,9 @@ sudo touch /System/Library/Extensions && sudo kextcache -u /
 sometimes you'll have to redo the last command if your system shows "Lock acquired".  
 OSX 10.12.2 removed the posibility to load unsigned code. You can enable this by entering 
 `sudo spctl --master-disable `
-If you're using the 4K monitor, you'll have to apply a small patch:
+If you're using the 4K monitor, you'll have to copy the UHD enabling kexts to your clover directory:
 ```
-sudo perl -i.bak -pe 's|\xB8\x01\x00\x00\x00\xF6\xC1\x01\x0F\x85|\x33\xC0\x90\x90\x90\x90\x90\x90\x90\xE9|sg' /System/Library/Frameworks/CoreDisplay.framework/Versions/Current/CoreDisplay  
-sudo codesign -f -s - /System/Library/Frameworks/CoreDisplay.framework/Versions/Current/CoreDisplay
+sudo cp ./Post-Install/AD-Kexts/UHD-Kexts/* /EFI/EFI/CLOVER/kexts/10.12/
 ```
 To prevent getting in hibernation (which can and will corrupt your data).
 `sudo pmset -a hibernatemode 0`  
@@ -139,12 +138,8 @@ You also need to modify your SMBIOS in the config.plist of Clover in your EFI pa
 It's possible you have to call the apple hotline to get your fake serial whitelisted by telling a good story why apple forgot to add your serial number in their system. (aka: dont do it if you dont own a real mac). I personally suggest using real data from an old (broken) macbook.
 ## Step 6: Upgrading to macOS 10.12.3 or higher / installing security updates
 Each upgrade will possibly break your system!  
-(Update: most has been removed, because it's now more update proof)  
-If you're using the 4K display,After update boot your machine with the installation stick and boot into your installation (do not select install). You can then redo the patch and reboot normally:
-```
-sudo perl -i.bak -pe 's|\xB8\x01\x00\x00\x00\xF6\xC1\x01\x0F\x85|\x33\xC0\x90\x90\x90\x90\x90\x90\x90\xE9|sg' /System/Library/Frameworks/CoreDisplay.framework/Versions/Current/CoreDisplay  
-sudo codesign -f -s - /System/Library/Frameworks/CoreDisplay.framework/Versions/Current/CoreDisplay
-```
+(Update: after the latest updates the system should be update-proof.)  
+
 ## Afterword and fixes
 as i said before: this is not a tutorial for absolute beginners, albeit it's much easier then most other tutorials, because most is preconfigured in the supplied config.plist. Some Dells have components included, which are not supported by these preconfigured files. Then i can only suggest using Gymnaes tutorial which explains most of the DSDT patching, config.plist editing and kexts used in detail and use the supplied files here as templates.  
 •	Warning: Some people have reported multiple data losses on this machine. I suggest using time-machine whenever possible!  
@@ -153,6 +148,7 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
 •	if you get "Model Name: Apple device" - then you've not booted with the cloverx64.efi. Update your EFI. See `Additional/Setup-Bootmanager.jpg` how to configure to boot from it  
 •	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html  
 ## Tutorial Updates
+•	27. March 2017: UHD Kexts added, replaces perl command
 •	23. March 2017: 4k sector tutorial against NVMe corruption added  
 •   7. March 2017: Suggestion to disable the SD Card Reader for reduced power consumption  
 •	4. February 2017: Dell SMBIOS Truncation workaround added 	
