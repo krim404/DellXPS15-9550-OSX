@@ -1,4 +1,4 @@
-##UHD Kexts
+## UHD Kexts
 This kexts have been published on insanelymac and replaces the old perl command for patching the coredisplay to enable UHD resolution. Only use these kexts if you've the 4K touch display.  
 Uses @vit9696 lilu patching framework  
 Patcher created by @PMHeart  
