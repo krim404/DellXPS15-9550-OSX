@@ -1,4 +1,4 @@
-FIX for the NVMe Corruption  
+##FIX for the NVMe Corruption  
 This fix is making it possible to use the native NVMe driver from apple on many machines. There is no drawback, because all modern OS (like Windows 7 and newer) support 4k sector sizes. After this step your SSD will be unreadable and must be reformatted. You'll loose all your data.   
 
   

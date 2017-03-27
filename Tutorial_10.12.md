@@ -138,21 +138,21 @@ You also need to modify your SMBIOS in the config.plist of Clover in your EFI pa
 It's possible you have to call the apple hotline to get your fake serial whitelisted by telling a good story why apple forgot to add your serial number in their system. (aka: dont do it if you dont own a real mac). I personally suggest using real data from an old (broken) macbook.
 ## Step 6: Upgrading to macOS 10.12.3 or higher / installing security updates
 Each upgrade will possibly break your system!  
-(Update: after the latest updates the system should be update-proof.)  
+(Update: after the latest updates in the tutorial the system should be update-proof.)  
 
 ## Afterword and fixes
 as i said before: this is not a tutorial for absolute beginners, albeit it's much easier then most other tutorials, because most is preconfigured in the supplied config.plist. Some Dells have components included, which are not supported by these preconfigured files. Then i can only suggest using Gymnaes tutorial which explains most of the DSDT patching, config.plist editing and kexts used in detail and use the supplied files here as templates.  
 •	Warning: Some people have reported multiple data losses on this machine. I suggest using time-machine whenever possible!  
 •	If you want to save the settings of the display brightness: downgrade to clover 3899, in the never versions the nvram restore is broken.  
-•	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $
+•	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $  
 •	if you get "Model Name: Apple device" - then you've not booted with the cloverx64.efi. Update your EFI. See `Additional/Setup-Bootmanager.jpg` how to configure to boot from it  
 •	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html  
 ## Tutorial Updates
-•	27. March 2017: UHD Kexts added, replaces perl command
+•	27. March 2017: UHD Kexts added, replaces perl command  
 •	23. March 2017: 4k sector tutorial against NVMe corruption added  
 •   7. March 2017: Suggestion to disable the SD Card Reader for reduced power consumption  
-•	4. February 2017: Dell SMBIOS Truncation workaround added 	
-•	23. January 2017: Hynix SSD fix added 	
+•	4. February 2017: Dell SMBIOS Truncation workaround added  
+•	23. January 2017: Hynix SSD fix added  
 •	15. January 2017: updated tutorial regarding power management  
 •	31. December 2016: USB-C Hotplug Fix and USB InjectAll Removed  
 •	28. December 2016: NVMe SSDT Spoof precreated, FakeID already preset in installation config.plist. VoodooHDA added as alternative to SSDT-ALC298 patch as well as color coding in tutorial  
