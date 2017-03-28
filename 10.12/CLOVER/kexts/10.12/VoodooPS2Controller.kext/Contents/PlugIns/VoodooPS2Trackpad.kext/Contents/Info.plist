@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>16B2657</string>
+	<string>16E195</string>
 	<key>CFBundleExecutable</key>
 	<string>VoodooPS2Trackpad</string>
 	<key>CFBundleGetInfoString</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.8.25c</string>
+	<string>1.8.25</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -29,17 +29,17 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>8B62</string>
+	<string>8E162</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>16B2649</string>
+	<string>16E185</string>
 	<key>DTSDKName</key>
 	<string>macosx10.12</string>
 	<key>DTXcode</key>
-	<string>0810</string>
+	<string>0830</string>
 	<key>DTXcodeBuild</key>
-	<string>8B62</string>
+	<string>8E162</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ALPS GlidePoint</key>
@@ -275,7 +275,7 @@
 						<key>TrackpadSecondaryClickCorners</key>
 						<true/>
 						<key>TrackpadThreeFingerDrag</key>
-						<false/>
+						<true/>
 					</dict>
 					<key>DisableDevice</key>
 					<false/>
@@ -300,9 +300,11 @@
 					<key>DoubleTapThresholdY</key>
 					<integer>100</integer>
 					<key>DragExitDelayTime</key>
-					<integer>1000000000</integer>
+					<integer>750000000</integer>
 					<key>DragLockTempMask</key>
 					<integer>1048592</integer>
+					<key>Dragging</key>
+					<integer>1</integer>
 					<key>DynamicEWMode</key>
 					<false/>
 					<key>EdgeBottom</key>
@@ -360,7 +362,7 @@
 					<key>QuietTimeAfterTyping</key>
 					<integer>500000000</integer>
 					<key>Resolution</key>
-					<integer>400</integer>
+					<integer>305</integer>
 					<key>RightClickZoneBottom</key>
 					<integer>0</integer>
 					<key>RightClickZoneLeft</key>
@@ -374,7 +376,7 @@
 					<key>ScrollDeltaThreshY</key>
 					<integer>0</integer>
 					<key>ScrollResolution</key>
-					<integer>400</integer>
+					<integer>305</integer>
 					<key>SkipPassThrough</key>
 					<false/>
 					<key>SmoothInput</key>
@@ -464,87 +466,6 @@
 					<key>ProBook-87</key>
 					<string>ProBook</string>
 				</dict>
-				<key>LENOVO</key>
-				<dict>
-					<key>BogusDeltaThreshX</key>
-					<integer>400</integer>
-					<key>BogusDeltaThreshY</key>
-					<integer>350</integer>
-					<key>ClickPad</key>
-					<dict>
-						<key>EdgeBottom</key>
-						<integer>0</integer>
-						<key>FingerZ</key>
-						<integer>30</integer>
-						<key>MaxTapTime</key>
-						<integer>100000000</integer>
-						<key>MouseMultiplierX</key>
-						<integer>2</integer>
-						<key>MouseMultiplierY</key>
-						<integer>2</integer>
-						<key>MouseScrollMultiplierX</key>
-						<integer>2</integer>
-						<key>MouseScrollMultiplierY</key>
-						<integer>2</integer>
-					</dict>
-					<key>Clicking</key>
-					<true/>
-					<key>DragLock</key>
-					<false/>
-					<key>DragLockTempMask</key>
-					<integer>262148</integer>
-					<key>Dragging</key>
-					<false/>
-					<key>DynamicEWMode</key>
-					<false/>
-					<key>FakeMiddleButton</key>
-					<false/>
-					<key>PalmNoAction When Typing</key>
-					<true/>
-					<key>ScrollResolution</key>
-					<integer>800</integer>
-					<key>SmoothInput</key>
-					<true/>
-					<key>T420</key>
-					<string>TrackPad</string>
-					<key>T460</key>
-					<string>ClickPad</string>
-					<key>T560</key>
-					<string>ClickPad</string>
-					<key>TrackPad</key>
-					<dict>
-						<key>DivisorX</key>
-						<integer>1</integer>
-						<key>DivisorY</key>
-						<integer>1</integer>
-						<key>FingerZ</key>
-						<integer>47</integer>
-						<key>MaxTapTime</key>
-						<integer>100000000</integer>
-						<key>MomentumScrollThreshY</key>
-						<integer>16</integer>
-						<key>MouseMultiplierX</key>
-						<integer>8</integer>
-						<key>MouseMultiplierY</key>
-						<integer>8</integer>
-						<key>MouseScrollMultiplierX</key>
-						<integer>2</integer>
-						<key>MouseScrollMultiplierY</key>
-						<integer>2</integer>
-						<key>MultiFingerHorizontalDivisor</key>
-						<integer>4</integer>
-						<key>MultiFingerVerticalDivisor</key>
-						<integer>4</integer>
-						<key>Resolution</key>
-						<integer>3200</integer>
-						<key>ScrollDeltaThreshX</key>
-						<integer>10</integer>
-						<key>ScrollDeltaThreshY</key>
-						<integer>10</integer>
-					</dict>
-					<key>UnsmoothInput</key>
-					<true/>
-				</dict>
 			</dict>
 			<key>ProductID</key>
 			<integer>547</integer>
@@ -568,6 +489,6 @@
 	<key>OSBundleRequired</key>
 	<string>Console</string>
 	<key>Source Code</key>
-	<string>https://github.com/tluck/OS-X-Voodoo-PS2-Controller</string>
+	<string>https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller</string>
 </dict>
 </plist>
