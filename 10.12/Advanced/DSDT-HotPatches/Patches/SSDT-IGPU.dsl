@@ -184,7 +184,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "IGPU", 0)
             },
             // Skylake/HD530
             //REVIEW: add more ids..., just guessing on the ID
-            0x1912, 0, Package()
+            0x191b, 0, Package()
             {
                 "AAPL,ig-platform-id", Buffer() { 0x00, 0x00, 0x16, 0x19 },
                 "hda-gfx", Buffer() { "onboard-1" },
