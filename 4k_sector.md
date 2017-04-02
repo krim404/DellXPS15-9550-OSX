@@ -1,7 +1,10 @@
 ## FIX for the NVMe Corruption  
 This fix is making it possible to use the native NVMe driver from apple on many machines. There is no drawback, because all modern OS (like Windows 7 and newer) support 4k sector sizes. After this step your SSD will be unreadable and must be reformatted. You'll loose all your data.   
 
-  
+First check your firmware upgrades for your SSD. Especially if you use Toshiba drives, these have a critical "drive disappearing" bug which can happen at any time (and has nothing to do with the 4k patch). See http://www.dell.com/support/home/en/en/debsdt1/Drivers/DriversDetails?driverId=2N42W
+
+
+## Ok lets start
 Boot from Ubuntu 16.10 Live USB  
 Enable Universe repository and reload repo database  
 check the device for your ssd (can be /dev/nvme0, /dev/sda0 or something completly different.  
