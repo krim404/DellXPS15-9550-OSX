@@ -111,9 +111,7 @@ If you're using the 4K monitor, you'll have to copy the UHD enabling kexts to yo
 sudo cp ./Post-Install/AD-Kexts/UHD-Kexts/* /EFI/EFI/CLOVER/kexts/10.12/
 ```
 To prevent getting in hibernation (which can and will corrupt your data).
-`sudo pmset -a hibernatemode 0`  
-To get HDMI Audio working:  
-Search for your Boarrd-ID in the config.plist and open /S/E/AppleGraphicsControl.kext/contents/plugin/AppleGraphicePolicy.kext/contents/info.plist with a texteditor. Search for your board-id in there and change the value of it from "Config2" to "none".  
+`sudo pmset -a hibernatemode 0`   
   
 
 ## Step 5: iServices (AppStore, iMessages etc.)
@@ -130,7 +128,7 @@ Each upgrade will possibly break your system!
 ## Step 7: Fixes / Enhancements / Alternatives
 ### HDMI Video-Out Fix for iMac7,1 or MBP13,3
 Open /System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist  
-Find the Borad-ID which used in your config.plist, default in this tutorial is "Mac-B809C3757DA9BB8D". Differs when using different smbios.  
+Find the Board-ID which used in your config.plist, default in this tutorial is "Mac-B809C3757DA9BB8D". Differs when using different smbios.  
 Replace the attribute Config2 with none  
 `sudo kextcache -system-prelinked-kernel && sudo kextcache -system-caches`  
 reboot 
