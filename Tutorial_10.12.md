@@ -26,7 +26,7 @@ and much more. I try to give credit whenever possible in the corresponding readm
 
 ## Locations and required Files 
 * [this repository](https://github.com/wmchris/DellXPS15-9550-OSX/archive/master.zip). Unzip this file to a folder of your choice. I'll refer to this folder by "./" in the whole tutorial.  
-* EFI Partition with its folder EFI. This is a hidden partition on your HDD. After mounting available from /Volumes/EFI/EFI/. I refer to it by EFI/ in the whole tutorial.  
+* EFI Partition with its folder EFI. This is a hidden partition on your HDD. After mounting it's normally available at /Volumes/EFI/EFI/. I refer to it by EFI/ in the whole tutorial.  
 
 ## Step 1: Prepare Installation
 Use the existing Mac to download the Sierra installer from the App Store and create a bootable USB stick with CLOVER. You can do this with the App "Pandora's Box" of insanelymac (use google for download link), which is pretty easy to use.  
@@ -105,7 +105,7 @@ If your notebook is equipped with the UHD touch monitor, you'll have to copy the
 ```
 sudo cp ./10.12/Post-Install/AD-Kexts/UHD-Kexts/* /Volumes/EFI/EFI/CLOVER/kexts/10.12/
 ```
-To prevent getting in hibernation (which can and will corrupt your data).
+To prevent getting in hibernation (which can and will corrupt your data if you're not using the 4k switch).
 `sudo pmset -a hibernatemode 0`   
   
 
@@ -126,7 +126,7 @@ I moved this part to its own file. Please click [here](Tutorial_10.12_Step7.md)
 as i said before: this is not a tutorial for absolute beginners, albeit it's much easier then most other tutorials, because most is preconfigured in the supplied config.plist. Some Dells have components included, which are not supported by these preconfigured files. Then i can only suggest using Gymnaes tutorial which explains most of the DSDT patching, config.plist editing and kexts used in detail and use the supplied files here as templates.  
 *	Warning: Some people have reported multiple data losses on this machine. I suggest using time-machine whenever possible!  
 *	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $   
-*	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html 
+*	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see [this tutorial](http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html)
    
 
 ## Tutorial Updates
@@ -141,6 +141,6 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
 * on 28. December 2016: NVMe SSDT Spoof precreated, FakeID already preset in installation config.plist. VoodooHDA added as alternative to SSDT-ALC298 patch as well as color coding in tutorial  
 * on 22. December 2016: FakeSMBios added  
 ## Appendix 1: Accessories
-The official Dell adaptor DA200 (http://accessories.euro.dell.com/sna/productdetail.aspx?c=at&l=de&s=dhs&cs=atdhs1&sku=470-abry) works completly on Sierra 10.2.2. You can use the Network, USB, HDMI and VGA. Everything is full hot-pluggable  
+The official [Dell adaptor DA200](http://accessories.euro.dell.com/sna/productdetail.aspx?c=at&l=de&s=dhs&cs=atdhs1&sku=470-abry) works completly on Sierra 10.2.2. You can use the Network, USB, HDMI and VGA. Everything is full hot-pluggable  
 a cheap 3rd party noname USB-C -> VGA adaptor didnt work  
 you can charge the Dell with a generic USB-C Power Adaptor, but USB-C has only a maximum power of 100W, so it's either charging OR usage, not both. Dont forget you need a special USB-C cable (Power Delivery 3.0) for charging  
