@@ -45,6 +45,24 @@ You don't have to decompile the DSDT/SSDT files by yourself. The source dsl file
 ## NVRAM Emulation / Saving Sound and Brightness settings after reboot
 the native nvram installed in the Dell is not usable right now because of the Aptiofix. Clover can emulate this storage. Just install clover normally, but select "Advanced" when asked for the location of the installation. Now select "Install all RC Scripts on the target partition". You can find the installation files for clover in ./Additional/Clover_v2.4k_r4003.pkg - but i suggest downloading the newest from [Sourceforge](https://sourceforge.net/projects/cloverefiboot/)
 
+## Some Multitouch Gestures don't work
+Most multitouch gestures are hardcoded in the VoodooPS2 driver and result in keyboard commands. The options in the Control Panel->Touchpad are mostly useless.  
+The currently enabled multitouch commands are:  
+* swipe 3 fingers left/right => Mapped to CMD + LEFT ARROW / RIGHT ARROW (defaults previous and next page)
+* swipe 2 fingers from right side in => Mapped to CTRL+CMD+0
+* swipe 2 fingers from left side in => Mapped to CTRL+CMD+9
+* swipe 3 fingers up => CTRL + UP ARROW (defaults mission control)
+* swipe 3 fingers down => CTRL + CMD + DOWN ARROW 
+* swipe 4 fingers up => F11 (defaults show desktop)
+* swipe 4 fingers down => CMD + M (defaults minimize)
+* swipe 4 fingers left/right => CTRL+RIGHT ARROW / LEFT ARROW (inverse)
+you can modify which commands should be triggered by each gesture from controlpanel -> Keyboard -> Shortcuts. For example set "Notification Bar" to CTRL+CMD+0 to show the bar on swiping left in
+
+## Sleep results in reboot
+This is only in case sleep worked in the past. If you have sleep issues from the beginning and you strictly followed this tutorial (check at least twice!), you need additional assistance (easiest way is asking in a forum).  
+  
+Sometimes (especially on a dual boot environment after booting in the other OS) a normal sleep results in a full (and dirty) reboot. For me the old behaviour can be obtained by issuing this command: `sudo pmset -a hibernatemode 0 && sudo reboot`, albeit already being in hibernatemode 0. The reboot is mandatory, otherwise it doesn't work. Some people reported this fixes their problems, while other still had sleep issues. Just give it a shot.
+
 ## Additional Resources / Request help
 It's much to read, but this thread include many solutions to the less common problems. Please read every post before asking a question:  
 http://www.insanelymac.com/forum/topic/319764-guide-dell-xps-15-9550-sierra-10122-quick-installation/  
