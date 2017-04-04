@@ -8,9 +8,9 @@ If you've questions: please read the whole thread (doesn't matter how long it is
 
 
 ## Credits:
-Based on the Tutorial and files of darkhandz: https://github.com/darkhandz/XPS15-9550-Sierra  
-Mixed with much knowledge of the tutorial by @Dagor: http://www.insanelymac.com/forum/topic/319766-dell-xps-9550-detailled-1011-guide/  
-Using many kexts and solutions from @RehabMan 
+Based on the files of @Rehabman: https://github.com/RehabMan/OS-X-Clover-Laptop-Config and darkhandz: https://github.com/darkhandz/XPS15-9550-Sierra  
+Mixed with much knowledge of the tutorial by @Gymnae: http://www.insanelymac.com/forum/topic/319766-dell-xps-9550-detailled-1011-guide/  
+and much more. I try to give credit whenever possible in the corresponding readme.md files.  
 ## What's not working:
 • Hibernation (works somehow, but high chance to destroy your whole data)  
 • SD-Card reader  

@@ -40,7 +40,7 @@ ICC profile for 4k screen calibrated with Spyder4Pro colorimeter and DisplayCAL 
 Every panel is a lil bit different, so don't expect too much precision, but this profile works great for sRGB and AdobeRGB.
 
 ### SSDT / DSDT Modifications
-You don't have to decompile the DSDT/SSDT files by yourself. The source AML files are available in ./10.12/Advanced/DSDT-HotPatches/Patches. Use these for modifications.
+You don't have to decompile the DSDT/SSDT files by yourself. The source dsl files are available in ./10.12/Advanced/DSDT-HotPatches/Patches. Use these for modifications.
 
 ### Additional Resources / Request help
 It's much to read, but this thread include many solutions to the less common problems. Please read every post before asking a question:  
