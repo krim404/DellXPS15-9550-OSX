@@ -12,21 +12,21 @@ Based on the files of @Rehabman: https://github.com/RehabMan/OS-X-Clover-Laptop-
 Mixed with much knowledge of the tutorial by @Gymnae: http://www.insanelymac.com/forum/topic/319766-dell-xps-9550-detailled-1011-guide/  
 and much more. I try to give credit whenever possible in the corresponding readme.md files.  
 ## What's not working:
-• Hibernation (works somehow, but high chance to destroy your whole data)  
-• SD-Card reader  
-• Killer 1535 Wifi (rarely used, need replace)  
-• nVidia Graphics card (Intel works)  
-• FileVault 2 (full HDD encryption)  
+* Hibernation (works somehow, but high chance to destroy your whole data)  
+* SD-Card reader  
+* Killer 1535 Wifi (rarely used, need replace)  
+* nVidia Graphics card (Intel works)  
+* FileVault 2 (full HDD encryption)  
 ## Requirements:
-• one working MAC OS X Enviroment  
-• 16GB USB Stick (larger is sometimes not bootable and/or requires advanced partitioning)  
-• MacOS Sierra 10.12.2 installation file from the app store (redownload, just in case)  
-• Knowledge in PLIST editing  
-• USB Harddrive for backup - you'll loose all data on your computer! 
+* one working MAC OS X Enviroment  
+* 16GB USB Stick (larger is sometimes not bootable and/or requires advanced partitioning)  
+* MacOS Sierra 10.12.2 installation file from the app store (redownload, just in case)  
+* Knowledge in PLIST editing  
+* USB Harddrive for backup - you'll loose all data on your computer! 
 
 ## Locations and required Files 
-[this repository](https://github.com/wmchris/DellXPS15-9550-OSX/archive/master.zip). Unzip this file to a folder of your choice. I'll refer to this folder by "./" in the whole tutorial.  
-EFI Partition with its folder EFI. This is a hidden partition on your HDD. After mounting available from /Volumes/EFI/EFI/. I refer to it by EFI/ in the whole tutorial.  
+* [this repository](https://github.com/wmchris/DellXPS15-9550-OSX/archive/master.zip). Unzip this file to a folder of your choice. I'll refer to this folder by "./" in the whole tutorial.  
+* EFI Partition with its folder EFI. This is a hidden partition on your HDD. After mounting available from /Volumes/EFI/EFI/. I refer to it by EFI/ in the whole tutorial.  
 
 ## Step 1: Prepare Installation
 Use the existing Mac to download the Sierra installer from the App Store and create a bootable USB stick with CLOVER. You can do this with the App "Pandora's Box" of insanelymac (use google for download link), which is pretty easy to use.  
@@ -81,21 +81,26 @@ sudo ./10.12/Post-Install/AD-Kexts/VoodooPS2Daemon/_install.command
 Now you'll have to replace the config.plist. Because you'll install modified kexts you'll HAVE TO replace the config.plist in your installation. Otherwise your PC will not boot anymore.
 `diskutil mount EFI`
 replace `EFI/CLOVER/config.plist` with `./10.12/Post-Install/CLOVER/config.plist`. Again: if your PC has a Core i5 processor, search the config.plist for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
+  
 If you've a NVM SSD Drive which is incompatible with the 4k fix, you need to install NVMe-Hackr with SSDT Spoofing (enables easier system upgrading from appstore). Dont do this if you use the HDD version of the Dell or you use your M.2 port for something different than a SSD (for ex. a UMTS modem). Use the correct KEXT for you. Hynix SSDs require a different KEXT (HackrNVMeFamilySpoof-10_12_2_HYNIX.kext instad of HackrNVMeFamilySpoof-10_12_2.kext
 ```
 sudo cp ./10.12/Post-Install/AD-Kexts/HackrNVMe/SSDT-Hackr.aml /Volumes/EFI/EFI/CLOVER/ACPI/patched/  
 sudo cp -r ./10.12/Post-Install/AD-Kexts/HackrNVMe/HackrNVMeFamilySpoof-10_12_2.kext /Library/Extensions/
 ```
-i also suggest moving some of the kext from EFI/CLOVER/kexts/10.12 to /Library/Extensions. It's just more stable.  
+  
+I suggest moving some of the kext from EFI/CLOVER/kexts/10.12 to /Library/Extensions.
+   
 Finalize the kext-copy by recreating the kernel cache:
 ```
 sudo rm -rf /System/Library/Caches/com.apple.kext.caches/Startup/kernelcache  
 sudo rm -rf /System/Library/PrelinkedKernels/prelinkedkernel  
 sudo touch /System/Library/Extensions && sudo kextcache -u /
 ```
-sometimes you'll have to redo the last command if your system shows "Lock acquired".  
+sometimes you'll have to redo the last command if your system shows "Lock acquired". 
+   
 OSX 10.12.2 removed the posibility to load unsigned code. You can enable this by entering 
-`sudo spctl --master-disable `
+`sudo spctl --master-disable `  
+  
 If your notebook is equipped with the UHD touch monitor, you'll have to copy the UHD enabling kexts to your clover directory:
 ```
 sudo cp ./10.12/Post-Install/AD-Kexts/UHD-Kexts/* /Volumes/EFI/EFI/CLOVER/kexts/10.12/
@@ -106,10 +111,8 @@ To prevent getting in hibernation (which can and will corrupt your data).
 
 ## Step 5: iServices (AppStore, iMessages etc.)
 WARNING! DONT USE YOUR MAIN APPLE ACCOUNT FOR TESTING! It's pretty common that apple BANS your apple-id from iMessage and other services if you've logged in on not well configured hackintoshs!  
-If you want to use the iServices, you'll have to do some advanced steps, which are not completly explained in this tutorial. First you need to switch the faked network device already created by step 4 to be on en0. Goto your network settings and remove every network interface.
-`sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist`
-Reboot, go back in the network configuration and add the network interfaces (LAN) before Wifi.  
-You also need to modify your SMBIOS in the config.plist of Clover in your EFI partition with valid informations about your "fake" mac. There are multiple tutorials which explain how to do it like "http://www.fitzweekly.com/2016/02/hackintosh-imessage-tutorial.html".   
+If you want to use the iServices, you'll have to do some advanced steps, which are not completly explained in this tutorial. First you need to switch the faked network device already created by step 4 to be on en0. Goto your network settings and remove every network interface, then `sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist` and reboot. Go back in the network configuration and add the network interfaces (LAN) before Wifi.  
+You also need to modify your SMBIOS in the config.plist of Clover in your EFI partition with valid informations about your "fake" mac. There exist [http://www.fitzweekly.com/2016/02/hackintosh-imessage-tutorial.html](multiple tutorials) which explain how to do it.   
 It's possible you have to call the apple hotline to get your fake serial whitelisted by telling a good story why apple forgot to add your serial number in their system. (aka: dont do it if you dont own a real mac). I personally suggest using real data from an old (broken) macbook.
 ## Step 6: Upgrading to macOS 10.12.3 or higher / installing security updates
 Each upgrade will possibly break your system!  
@@ -121,21 +124,21 @@ I moved this part to its own file. Please click [here](Tutorial_10.12_Step7.md)
 
 ## Afterword
 as i said before: this is not a tutorial for absolute beginners, albeit it's much easier then most other tutorials, because most is preconfigured in the supplied config.plist. Some Dells have components included, which are not supported by these preconfigured files. Then i can only suggest using Gymnaes tutorial which explains most of the DSDT patching, config.plist editing and kexts used in detail and use the supplied files here as templates.  
-•	Warning: Some people have reported multiple data losses on this machine. I suggest using time-machine whenever possible!  
-•	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $   
-•	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html 
+*	Warning: Some people have reported multiple data losses on this machine. I suggest using time-machine whenever possible!  
+*	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $   
+*	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html 
    
 
 ## Tutorial Updates
-•	27. March 2017: UHD Kexts added, replaces perl command  
-•	23. March 2017: 4k sector tutorial against NVMe corruption added  
-•   7. March 2017: Suggestion to disable the SD Card Reader for reduced power consumption  
-•	4. February 2017: Dell SMBIOS Truncation workaround added  
-•	23. January 2017: Hynix SSD fix added  
-•	15. January 2017: updated tutorial regarding power management  
-•	31. December 2016: USB-C Hotplug Fix and USB InjectAll Removed  
-•	28. December 2016: NVMe SSDT Spoof precreated, FakeID already preset in installation config.plist. VoodooHDA added as alternative to SSDT-ALC298 patch as well as color coding in tutorial  
-•	22. December 2016: FakeSMBios added  
+*	27. March 2017: UHD Kexts added, replaces perl command  
+*	23. March 2017: 4k sector tutorial against NVMe corruption added  
+*   7. March 2017: Suggestion to disable the SD Card Reader for reduced power consumption  
+*	4. February 2017: Dell SMBIOS Truncation workaround added  
+*	23. January 2017: Hynix SSD fix added  
+*	15. January 2017: updated tutorial regarding power management  
+*	31. December 2016: USB-C Hotplug Fix and USB InjectAll Removed  
+*	28. December 2016: NVMe SSDT Spoof precreated, FakeID already preset in installation config.plist. VoodooHDA added as alternative to SSDT-ALC298 patch as well as color coding in tutorial  
+*	22. December 2016: FakeSMBios added  
 ## Appendix 1: Accessories
 The official Dell adaptor DA200 (http://accessories.euro.dell.com/sna/productdetail.aspx?c=at&l=de&s=dhs&cs=atdhs1&sku=470-abry) works completly on Sierra 10.2.2. You can use the Network, USB, HDMI and VGA. Everything is full hot-pluggable  
 a cheap 3rd party noname USB-C -> VGA adaptor didnt work  
