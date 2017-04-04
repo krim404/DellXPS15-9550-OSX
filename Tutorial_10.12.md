@@ -130,11 +130,11 @@ Each upgrade will possibly break your system!
 ## Step 7: Fixes / Enhancements / Alternatives
 ### Video - Out Fix for iMac7,1 smbios
 `
-Open /System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist.
-Find the Borad-ID which used in your config.plist, default in this tutorial is "Mac-B809C3757DA9BB8D"
-Replace the attribute Config2 with none
-Execute commands sudo kextcache -system-prelinked-kernel and sudo kextcache -system-caches.
-Reboot and everything is done.
+Open /System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist  
+Find the Borad-ID which used in your config.plist, default in this tutorial is "Mac-B809C3757DA9BB8D"  
+Replace the attribute Config2 with none  
+`sudo kextcache -system-prelinked-kernel && sudo kextcache -system-caches`  
+reboot 
 `
 ### Model Name Error
 if you get "Model Name: Apple device" - then you've not booted with the newest cloverx64.efi. Update your EFI Configuration. See `Additional/Setup-Bootmanager.jpg` how to configure to boot from it 
