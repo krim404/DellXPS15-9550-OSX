@@ -32,6 +32,15 @@ alternative to VoodooHDA and with better compatibility, but less stability.
 See [this Tutorial](/10.12/Post-Install/AD-Kexts/AppleHDA_sysCL/readme.md)  
 folder: ./10.12/Post-Install/AD-Kexts/AppleHDA_sysCL
 
+### Display Backlight Control not working
+the supplied AppleBacklightInjector contains an id for the display. It is theoretically possible that this id is different on another machine. In this case just follow [this tutorial](Additional/PatchAppleBacklight_v2/readme.md)
+
+### Display ICC Calibration
+ICC profile for 4k screen calibrated with Spyder4Pro colorimeter and DisplayCAL is available in Additional/Profiles.   
+Every panel is a lil bit different, so don't expect too much precision, but this profile works great for sRGB and AdobeRGB.
+
+### SSDT / DSDT Modifications
+You don't have to decompile the DSDT/SSDT files by yourself. The source AML files are available in ./10.12/Advanced/DSDT-HotPatches/Patches. Use these for modifications.
 
 ### Additional Resources / Request help
 It's much to read, but this thread include many solutions to the less common problems. Please read every post before asking a question:  
