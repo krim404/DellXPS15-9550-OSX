@@ -106,7 +106,7 @@ sudo touch /System/Library/Extensions && sudo kextcache -u /
 sometimes you'll have to redo the last command if your system shows "Lock acquired".  
 OSX 10.12.2 removed the posibility to load unsigned code. You can enable this by entering 
 `sudo spctl --master-disable `
-If you're using the 4K monitor, you'll have to copy the UHD enabling kexts to your clover directory:
+If your notebook is equipped with the UHD touch monitor, you'll have to copy the UHD enabling kexts to your clover directory:
 ```
 sudo cp ./Post-Install/AD-Kexts/UHD-Kexts/* /EFI/EFI/CLOVER/kexts/10.12/
 ```
