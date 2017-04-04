@@ -128,9 +128,9 @@ Each upgrade will possibly break your system!
 (Update: after the latest updates in the tutorial the system should be relative update-proof)  
 
 ## Step 7: Fixes / Enhancements / Alternatives
-### Video - Out Fix for iMac7,1 smbios
+### HDMI Video-Out Fix for iMac7,1 or MBP13,3
 Open /System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist  
-Find the Borad-ID which used in your config.plist, default in this tutorial is "Mac-B809C3757DA9BB8D"  
+Find the Borad-ID which used in your config.plist, default in this tutorial is "Mac-B809C3757DA9BB8D". Differs when using different smbios.  
 Replace the attribute Config2 with none  
 `sudo kextcache -system-prelinked-kernel && sudo kextcache -system-caches`  
 reboot 
@@ -155,7 +155,7 @@ sudo rm /EFI/EFI/CLOVER/ACPI/patched/SSDT-ALC298.aml
 ```
 then remove from your config.plist from the key "KextsToPatch" the elements "AppleHDA#1" to "AppleHDA#7". Install the package: git/Post-Install/AD-Kexts/VoodooHDA-2.8.8.pkg  
 
-### Audio Fox by using patched AppleHDA
+### Audio Fix by using patched AppleHDA
 alternative to VoodooHDA and with better compatibility, but less stability.  
 See [this Tutorial](/10.12/Post-Install/AD-Kexts/AppleHDA_sysCL/readme.md)  
 folder: ./10.12/Post-Install/AD-Kexts/AppleHDA_sysCL
