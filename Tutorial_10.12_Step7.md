@@ -7,8 +7,8 @@ Replace the attribute Config2 with none
 `sudo kextcache -system-prelinked-kernel && sudo kextcache -system-caches`  
 reboot 
 
-## Model Name Error
-if you get "Model Name: Apple device" - then you've not booted with the newest cloverx64.efi. Update your EFI Configuration. See [Additional/Setup-Bootmanager.jpg](Additional/Setup-Bootmanager.jpg) how to configure to boot from it 
+## Model Name Error AND clover doesnt boot
+if you get "Model Name: Apple device" in "About this mac"  - then you've not booted with the newest cloverx64.efi. Update your EFI Configuration. See [Additional/Setup-Bootmanager.jpg](Additional/Setup-Bootmanager.jpg) how to configure to boot from it 
 
 ## Alternative Power Management
 The whole power management is done by intels speed step technology (HWP), which is enabled in the clover config. If you want to let OSX manage the power management, you'll have to do these steps:  
@@ -56,6 +56,7 @@ The currently enabled multitouch commands are:
 * swipe 4 fingers up => F11 (defaults show desktop)
 * swipe 4 fingers down => CMD + M (defaults minimize)
 * swipe 4 fingers left/right => CTRL+RIGHT ARROW / LEFT ARROW (inverse)
+    
 you can modify which commands should be triggered by each gesture from controlpanel -> Keyboard -> Shortcuts. For example set "Notification Bar" to CTRL+CMD+0 to show the bar on swiping left in
 
 ## Sleep results in reboot
