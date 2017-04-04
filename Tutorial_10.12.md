@@ -155,7 +155,7 @@ then remove from your config.plist from the key "KextsToPatch" the elements "App
 
 ### Audio Fix by using patched AppleHDA
 alternative to VoodooHDA and with better compatibility, but less stability.  
-See [this Tutorial](/10.12/Post-Install/AD-Kexts/AppleHDA_sysCL/readme.txt)  
+See [this Tutorial](/10.12/Post-Install/AD-Kexts/AppleHDA_sysCL/readme.md)  
 folder: ./10.12/Post-Install/AD-Kexts/AppleHDA_sysCL
 
 ## Afterword
