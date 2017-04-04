@@ -126,7 +126,8 @@ Each upgrade will possibly break your system!
 (Update: after the latest updates in the tutorial the system should be relative update-proof)  
 
 ## Step 7: Fixes / Enhancements / Alternative Solutions / Bugs
-If you have any problems, please read this section first. It contains some fixes to known problems and ideas. Click [here](Tutorial_10.12_Step7.md)  
+If you have any problems, please read this section first. It contains some fixes to known problems and ideas.  
+I moved this part to its own file. Please click [here](Tutorial_10.12_Step7.md)  
 
 ## Afterword
 as i said before: this is not a tutorial for absolute beginners, albeit it's much easier then most other tutorials, because most is preconfigured in the supplied config.plist. Some Dells have components included, which are not supported by these preconfigured files. Then i can only suggest using Gymnaes tutorial which explains most of the DSDT patching, config.plist editing and kexts used in detail and use the supplied files here as templates.  
