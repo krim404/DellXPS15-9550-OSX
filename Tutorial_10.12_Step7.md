@@ -7,8 +7,8 @@ Replace the attribute Config2 with none
 `sudo kextcache -system-prelinked-kernel && sudo kextcache -system-caches`  
 reboot 
 
-## Model Name Error AND clover doesnt boot
-if you get "Model Name: Apple device" in "About this mac"  - then you've not booted with the newest cloverx64.efi. Update your EFI Configuration. See [Additional/Setup-Bootmanager.jpg](Additional/Setup-Bootmanager.jpg) how to configure to boot from it 
+## Model Name Error OR clover doesnt boot
+if you get "Model Name: Apple device" in "About this mac" or your mac cant boot without the USB stick - then you're not loading the cloverx64.efi from your EFI. Simply update your EFI configuration by adding it to the boot order by hand. See [Additional/Setup-Bootmanager.jpg](Additional/Setup-Bootmanager.jpg) how to configure to boot from it 
 
 ## Alternative Power Management
 The whole power management is done by intels speed step technology (HWP), which is enabled in the clover config. If you want to let OSX manage the power management, you'll have to do these steps:  
