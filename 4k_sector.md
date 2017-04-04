@@ -3,10 +3,10 @@ This fix is making it possible to use the native NVMe driver from apple on many 
 
 ## Do first
 First check your firmware upgrades for your SSD. Especially if you use Toshiba drives, these have a critical "drive disappearing" bug which can happen at any time. See http://www.dell.com/support/home/en/en/debsdt1/Drivers/DriversDetails?driverId=2N42W.  
-Some people reported problems with identification of a 4Ke formatted drive in its Dell Notebooks (looks like the disappearing bug). Recovery is sometimes possible by restarting multiple times until the disk is visible again and switching back to the 512b mode.  
+Some people reported problems with identification of a 4Ke formatted drive in its Dell Notebooks (looks like the disappearing bug). Recovery is possible by restarting multiple times until the disk is visible again and switching back to the 512b mode. This change will not brick your drive, but you will loose all your data after the format, even if the 4k switch was unsuccessful and reverted.  
 
 
-## Ok lets start
+## Begin
 Boot from Ubuntu 16.10 Live USB  
 Enable Universe repository and reload repo database  
 check the device for your ssd (can be /dev/nvme0, /dev/sda0 or something completly different.  
@@ -25,7 +25,8 @@ Id Fmt  Data  Metadt  Rel_Perf
 ```
 
 the setting with the + in front is the active one  
-You can switch the settings by reformating it:  
+You can switch the settings:  
 `nvme format -l 1 /dev/nvme0`
+this will do a low level format. You need to create a new partition table afterwards from the OSX installation disk utility.  
   
 Now remove SSDT-Hackr.aml from EFI/ACPI/patched, the hackrnvmefamily kext or the clover storage hotpatches from your EFI bootloader and reinstall OSX
