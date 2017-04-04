@@ -86,7 +86,7 @@ Because all DSDT/SSDT changes are already in the config.plist, you dont need to 
 sudo cp -r ./Post-Install/LE-Kexts/* /Library/Extensions/  
 sudo mv /System/Library/Extensions/AppleACPIPS2Nub.kext /System/Library/Extensions/AppleACPIPS2Nub.bak 2> /dev/null  
 sudo mv /System/Library/Extensions/ApplePS2Controller.kext /System/Library/Extensions/ApplePS2Controller.bak 2> /dev/null
-sudo ./AD-Kexts/VoodooPS2Daemon/_install.command
+sudo ./Post-Install/AD-Kexts/VoodooPS2Daemon/_install.command
 ``` 
 Now you'll have to replace the config.plist. Because you'll install modified kexts you'll HAVE TO replace the config.plist in your installation. Otherwise your PC will not boot anymore.
 `diskutil mount EFI`
