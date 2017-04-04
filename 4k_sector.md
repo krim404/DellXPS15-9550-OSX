@@ -2,8 +2,9 @@
 This fix is making it possible to use the native NVMe driver from apple on many machines. There is no drawback, because all modern OS (like Windows 7 and newer) support 4k sector sizes. After this step your SSD will be unreadable and must be reformatted. You'll loose all your data.   
 
 ## Do first
-First check your firmware upgrades for your SSD. Especially if you use Toshiba drives, these have a critical "drive disappearing" bug which can happen at any time. See http://www.dell.com/support/home/en/en/debsdt1/Drivers/DriversDetails?driverId=2N42W.  
+First check your firmware upgrades for your SSD. Especially if you use Toshiba drives, these have a critical "drive disappearing" bug which can happen at any time. [Link](http://www.dell.com/support/home/en/en/debsdt1/Drivers/DriversDetails?driverId=2N42W)  
 Some people reported problems with identification of a 4Ke formatted drive in its Dell Notebooks (looks like the disappearing bug). Recovery is possible by restarting multiple times until the disk is visible again and switching back to the 512b mode. This change will not brick your drive, but you will loose all your data after the format, even if the 4k switch was unsuccessful and reverted.  
+Samsung drives are incompatible  
 
 
 ## Begin
