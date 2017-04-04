@@ -28,7 +28,7 @@ Use the existing Mac to download the Sierra installer from the App Store and cre
 Optional: check if your SSD can be switched to 4k sector size. This prevents NVMe corruption. See [this Tutorial](4k_sector.md)
   
 After you've finished you need to download the Dell XPS 15 specific configurations for clover.  
-Link: https://github.com/wmchris/DellXPS15-9550-OSX/archive/master.zip / this repo. Unzip this file. You only need the folder 10.12, you can delete the 10.11. I'll refer to this folder by "git/"  
+Link: https://github.com/wmchris/DellXPS15-9550-OSX/archive/master.zip / this repo. Unzip this file to a folder. I'll refer to this folder by "git/" or "./" in the whole tutorial  
 Now mount the hidden EFI partition of the USB Stick by entering
 `diskutil mount EFI` 
 Inside the terminal. Mac OS will automaticly mount the EFI partition of the USB stick, but just in case: make sure it really is  
@@ -36,22 +36,9 @@ Inside the terminal. Mac OS will automaticly mount the EFI partition of the USB 
 Overwrite everything in the CLOVER folder of the partition EFI with the content of git/10.12/CLOVER.  
 If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
 If you could use the 4k sector patch, replace the config.plist with the 4kconfig.plist.  
-If you use a hynix device and you didnt do the 4k sector switch, you'll have to add the following patch to your config.plist:
-```
-<key>Comment</key>
-<string>IONVMeFamily Pike R. Alpha Hynix SSD patch</string>
-<key>Disabled</key>
-<false/>
-<key>Find</key>
-<data>
-9sEQD4UcAQAA
-</data>
-<key>Name</key>
-<string>IONVMeFamily</string>
-<key>Replace</key>
-<data>9sECD4UcAQAA</data>
-```
-Go into the EFI Configuration (BIOS) of your Dell XPS 15:  
+If you use a hynix device and you didnt do the 4k sector switch, you'll have to add the patch mentioned in [./10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md](10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md)
+  
+Go into the EFI Configuration (BIOS) of your Dell XPS 15:   
 ```
 gymnae said: 
 In order to boot the Clover from the USB, you should visit your BIOS settings:  
