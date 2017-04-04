@@ -96,14 +96,6 @@ If you've a NVM SSD Drive which is incompatible with the 4k fix, you need to ins
 sudo cp ./Post-Install/AD-Kexts/HackrNVMe/SSDT-Hackr.aml /EFI/EFI/CLOVER/ACPI/patched/  
 sudo cp -r ./Post-Install/AD-Kexts/HackrNVMe/HackrNVMeFamilySpoof-10_12_2.kext /Library/Extensions/
 ```
-
-OPTIONAL (in case you've audio problems):  
-AppleHDA has some problems after Wake-Up. You'll have to plug in a headphone to get your speakers working again. You can use VoodooHDA instead, which breaks the headphone jack most of the time, but makes the rest much more stable.
-```
-sudo rm -r /Library/Extensions/CodecCommander.kext  
-sudo rm /EFI/EFI/CLOVER/ACPI/patched/SSDT-ALC298.aml
-```
-then remove from your config.plist from the key "KextsToPatch" the elements "AppleHDA#1" to "AppleHDA#7". Install the package: git/Post-Install/AD-Kexts/VoodooHDA-2.8.8.pkg  
 i also suggest moving some of the kext from EFI/CLOVER/kexts/10.12 to /Library/Extensions. It's just more stable.  
 Finalize the kext-copy by recreating the kernel cache:
 ```
@@ -123,12 +115,7 @@ To prevent getting in hibernation (which can and will corrupt your data).
 To get HDMI Audio working:  
 Search for your Boarrd-ID in the config.plist and open /S/E/AppleGraphicsControl.kext/contents/plugin/AppleGraphicePolicy.kext/contents/info.plist with a texteditor. Search for your board-id in there and change the value of it from "Config2" to "none".  
   
-OPTIONAL (alternative power management):  
-the whole power management is done by intels speed step technology (HWP), which is enabled in the clover config. If you want to let OSX manage the power management, you'll have to do these steps:  
-```
-sudo cp ./Post-Install/CLOVER/ACPI/optional/SSDT.aml /EFI/EFI/CLOVER/ACPI/patched/
-```
-then open the config.plist (/EFI/EFI/CLOVER/config.plist) and change `<key>HWPEnable</key><true/>` to `<key>HWPEnable</key><false/>`.  
+
 ## Step 5: iServices (AppStore, iMessages etc.)
 WARNING! DONT USE YOUR MAIN APPLE ACCOUNT FOR TESTING! It's pretty common that apple BANS your apple-id from iMessage and other services if you've logged in on not well configured hackintoshs!  
 If you want to use the iServices, you'll have to do some advanced steps, which are not completly explained in this tutorial. First you need to switch the faked network device already created by step 4 to be on en0. Goto your network settings and remove every network interface.
@@ -138,15 +125,49 @@ You also need to modify your SMBIOS in the config.plist of Clover in your EFI pa
 It's possible you have to call the apple hotline to get your fake serial whitelisted by telling a good story why apple forgot to add your serial number in their system. (aka: dont do it if you dont own a real mac). I personally suggest using real data from an old (broken) macbook.
 ## Step 6: Upgrading to macOS 10.12.3 or higher / installing security updates
 Each upgrade will possibly break your system!  
-(Update: after the latest updates in the tutorial the system should be update-proof.)  
+(Update: after the latest updates in the tutorial the system should be relative update-proof)  
 
-## Afterword and fixes
+## Step 7: Fixes / Enhancements / Alternatives
+### Video - Out Fix for iMac7,1 smbios
+`
+Open /System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist.
+Find the Borad-ID which used in your config.plist, default in this tutorial is "Mac-B809C3757DA9BB8D"
+Replace the attribute Config2 with none
+Execute commands sudo kextcache -system-prelinked-kernel and sudo kextcache -system-caches.
+Reboot and everything is done.
+`
+### Model Name Error
+if you get "Model Name: Apple device" - then you've not booted with the newest cloverx64.efi. Update your EFI Configuration. See `Additional/Setup-Bootmanager.jpg` how to configure to boot from it 
+
+### Alternative Power Management
+The whole power management is done by intels speed step technology (HWP), which is enabled in the clover config. If you want to let OSX manage the power management, you'll have to do these steps:  
+```
+sudo cp ./Post-Install/CLOVER/ACPI/optional/SSDT.aml /EFI/EFI/CLOVER/ACPI/patched/
+```
+then open the config.plist (/EFI/EFI/CLOVER/config.plist) and change `<key>HWPEnable</key><true/>` to `<key>HWPEnable</key><false/>`.  
+This is not compatible with Skylake SMBIOS like MB9,1 or MBP13,1.
+
+### Audio Fix by using VoodooHDA
+in case you've audio problems: 
+AppleHDA has some problems after Wake-Up. You'll have to plug in a headphone to get your speakers working again. You can use VoodooHDA instead, which breaks the headphone jack most of the time, but makes the rest much more stable.
+```
+sudo rm -r /Library/Extensions/CodecCommander.kext  
+sudo rm /EFI/EFI/CLOVER/ACPI/patched/SSDT-ALC298.aml
+```
+then remove from your config.plist from the key "KextsToPatch" the elements "AppleHDA#1" to "AppleHDA#7". Install the package: git/Post-Install/AD-Kexts/VoodooHDA-2.8.8.pkg  
+
+### Audio Fox by using patched AppleHDA
+alternative to VoodooHDA and with better compatibility, but less stability.  
+See [this Tutorial](/10.12/Post-Install/AD-Kexts/AppleHDA_sysCL/readme.md)  
+folder: ./10.12/Post-Install/AD-Kexts/AppleHDA_sysCL
+
+## Afterword
 as i said before: this is not a tutorial for absolute beginners, albeit it's much easier then most other tutorials, because most is preconfigured in the supplied config.plist. Some Dells have components included, which are not supported by these preconfigured files. Then i can only suggest using Gymnaes tutorial which explains most of the DSDT patching, config.plist editing and kexts used in detail and use the supplied files here as templates.  
 •	Warning: Some people have reported multiple data losses on this machine. I suggest using time-machine whenever possible!  
-•	If you want to save the settings of the display brightness: downgrade to clover 3899, in the never versions the nvram restore is broken.  
-•	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $  
-•	if you get "Model Name: Apple device" - then you've not booted with the cloverx64.efi. Update your EFI. See `Additional/Setup-Bootmanager.jpg` how to configure to boot from it  
-•	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html  
+•	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $   
+•	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see: http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html 
+   
+
 ## Tutorial Updates
 •	27. March 2017: UHD Kexts added, replaces perl command  
 •	23. March 2017: 4k sector tutorial against NVMe corruption added  
