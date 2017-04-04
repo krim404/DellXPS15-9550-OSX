@@ -25,7 +25,7 @@ and much more. I try to give credit whenever possible in the corresponding readm
 • USB Harddrive for backup - you'll loose all data on your computer! 
 
 ## Locations and required Files 
-(this repository)[https://github.com/wmchris/DellXPS15-9550-OSX/archive/master.zip]. Unzip this file to a folder of your choice. I'll refer to this folder by "./" in the whole tutorial.  
+[https://github.com/wmchris/DellXPS15-9550-OSX/archive/master.zip](this repository). Unzip this file to a folder of your choice. I'll refer to this folder by "./" in the whole tutorial.  
 EFI Partition with its folder EFI. This is a hidden partition on your HDD. After mounting available from /Volumes/EFI/EFI/. I refer to it by EFI/ in the whole tutorial.  
 
 ## Step 1: Prepare Installation

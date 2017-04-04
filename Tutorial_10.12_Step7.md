@@ -43,7 +43,7 @@ Every panel is a lil bit different, so don't expect too much precision, but this
 You don't have to decompile the DSDT/SSDT files by yourself. The source dsl files are available in ./10.12/Advanced/DSDT-HotPatches/Patches. Use these for modifications.
 
 ## NVRAM Emulation / Saving Sound and Brightness settings after reboot
-the native nvram installed in the Dell is not usable right now because of the Aptiofix. Clover can emulate this storage. Just install clover normally, but select "Advanced" when asked for the location of the installation. Now select "Install all RC Scripts on the target partition". You can find the installation files for clover in Additional/Clover_v2.4k_r4003.pkg - but i suggest downloading the newest from [Sourceforge](https://sourceforge.net/projects/cloverefiboot/)
+the native nvram installed in the Dell is not usable right now because of the Aptiofix. Clover can emulate this storage. Just install clover normally, but select "Advanced" when asked for the location of the installation. Now select "Install all RC Scripts on the target partition". You can find the installation files for clover in ./Additional/Clover_v2.4k_r4003.pkg - but i suggest downloading the newest from [Sourceforge](https://sourceforge.net/projects/cloverefiboot/)
 
 ## Additional Resources / Request help
 It's much to read, but this thread include many solutions to the less common problems. Please read every post before asking a question:  
