@@ -18,23 +18,26 @@ and much more. I try to give credit whenever possible in the corresponding readm
 • nVidia Graphics card (Intel works)  
 • FileVault 2 (full HDD encryption)  
 ## Requirements:
-• one working MAC OS X Enviroment 
+• one working MAC OS X Enviroment  
 • 16GB USB Stick (larger is sometimes not bootable and/or requires advanced partitioning)  
 • MacOS Sierra 10.12.2 installation file from the app store (redownload, just in case)  
 • Knowledge in PLIST editing  
-• USB Harddrive for backup - you'll loose all data on your computer!   
+• USB Harddrive for backup - you'll loose all data on your computer! 
+
+## Locations and required Files 
+(this repository)[https://github.com/wmchris/DellXPS15-9550-OSX/archive/master.zip]. Unzip this file to a folder of your choice. I'll refer to this folder by "./" in the whole tutorial.  
+EFI Partition with its folder EFI. This is a hidden partition on your HDD. After mounting available from /Volumes/EFI/EFI/. I refer to it by EFI/ in the whole tutorial.  
+
 ## Step 1: Prepare Installation
 Use the existing Mac to download the Sierra installer from the App Store and create a bootable USB stick with CLOVER. You can do this with the App "Pandora's Box" of insanelymac (use google for download link), which is pretty easy to use.  
 Optional: check if your SSD can be switched to 4k sector size. This prevents NVMe corruption. See [this Tutorial](4k_sector.md)
-  
-After you've finished you need to download the Dell XPS 15 specific configurations for clover.  
-Link: https://github.com/wmchris/DellXPS15-9550-OSX/archive/master.zip / this repo. Unzip this file to a folder. I'll refer to this folder by "git/" or "./" in the whole tutorial  
+ 
 Now mount the hidden EFI partition of the USB Stick by entering
 `diskutil mount EFI` 
-Inside the terminal. Mac OS will automaticly mount the EFI partition of the USB stick, but just in case: make sure it really is  
+Inside the terminal. Mac OS will automatically mount the EFI partition of the USB stick and not the local machine, but just in case: make sure it really is to prevent damage to the host machine  
   
-Overwrite everything in the CLOVER folder of the partition EFI with the content of git/10.12/CLOVER.  
-If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
+Overwrite everything in the CLOVER folder of the partition EFI with the content of ./10.12/CLOVER.  
+If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
 If you could use the 4k sector patch, replace the config.plist with the 4kconfig.plist.  
 If you use a hynix device and you didnt do the 4k sector switch, you'll have to add the patch mentioned in [./10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md](10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md)
   
@@ -65,23 +68,23 @@ Close the Diskutil and install OSX normally. You'll have to reboot multiple time
 After a few reboots you should be inside your new macOS enviroment. You can always boot into it using the USB stick. Remove the USB drive after successful bootup. Enter 
 `diskutil mount EFI`
 in your terminal, which should mount the EFI partition of your local installation.  
-install git/Additional/Clover_v2.4k_r4003. Make sure to select "Install Clover in ESP". Also select to install the RC-Scripts. This should install the Clover Boot System. Now copy everything from git/10.12/CLOVER to EFI/CLOVER like you did before by creating the usb stick. (if you had to modify the config.plist in step 1, do it here, too). Your system should be bootable by itself. Reboot and check if your system can boot by itself.  
+install ./Additional/Clover_v2.4k_r4003. Make sure to select "Install Clover in ESP". Also select to install the RC-Scripts. This should install the Clover Boot System. Now copy everything from ./10.12/CLOVER to EFI/CLOVER like you did before by creating the usb stick. (if you had to modify the config.plist in step 1, do it here, too). Your system should be bootable by itself. Reboot and check if your system can boot by itself.  
 
 ## Step 4: Post Installation
 Because all DSDT/SSDT changes are already in the config.plist, you dont need to recompile your DSDT (albeit i suggest doing it anyway to make your system a lil bit more failsafe, see gymnaes El-Capitan tutorial for more informations). So we can skip this part and go directly to the installation of the required kexts. Open a terminal and goto the GIT folder.
 ```
-sudo cp -r ./Post-Install/LE-Kexts/* /Library/Extensions/  
+sudo cp -r ./10.12/Post-Install/LE-Kexts/* /Library/Extensions/  
 sudo mv /System/Library/Extensions/AppleACPIPS2Nub.kext /System/Library/Extensions/AppleACPIPS2Nub.bak 2> /dev/null  
 sudo mv /System/Library/Extensions/ApplePS2Controller.kext /System/Library/Extensions/ApplePS2Controller.bak 2> /dev/null
-sudo ./Post-Install/AD-Kexts/VoodooPS2Daemon/_install.command
+sudo ./10.12/Post-Install/AD-Kexts/VoodooPS2Daemon/_install.command
 ``` 
 Now you'll have to replace the config.plist. Because you'll install modified kexts you'll HAVE TO replace the config.plist in your installation. Otherwise your PC will not boot anymore.
 `diskutil mount EFI`
-replace `EFI/CLOVER/config.plist` with `git/Post-Install/CLOVER/config.plist`. Again: if your PC has a Core i5 processor, search the config.plist for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
+replace `EFI/CLOVER/config.plist` with `./10.12/Post-Install/CLOVER/config.plist`. Again: if your PC has a Core i5 processor, search the config.plist for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
 If you've a NVM SSD Drive which is incompatible with the 4k fix, you need to install NVMe-Hackr with SSDT Spoofing (enables easier system upgrading from appstore). Dont do this if you use the HDD version of the Dell or you use your M.2 port for something different than a SSD (for ex. a UMTS modem). Use the correct KEXT for you. Hynix SSDs require a different KEXT (HackrNVMeFamilySpoof-10_12_2_HYNIX.kext instad of HackrNVMeFamilySpoof-10_12_2.kext
 ```
-sudo cp ./Post-Install/AD-Kexts/HackrNVMe/SSDT-Hackr.aml /EFI/EFI/CLOVER/ACPI/patched/  
-sudo cp -r ./Post-Install/AD-Kexts/HackrNVMe/HackrNVMeFamilySpoof-10_12_2.kext /Library/Extensions/
+sudo cp ./10.12/Post-Install/AD-Kexts/HackrNVMe/SSDT-Hackr.aml /Volumes/EFI/EFI/CLOVER/ACPI/patched/  
+sudo cp -r ./10.12/Post-Install/AD-Kexts/HackrNVMe/HackrNVMeFamilySpoof-10_12_2.kext /Library/Extensions/
 ```
 i also suggest moving some of the kext from EFI/CLOVER/kexts/10.12 to /Library/Extensions. It's just more stable.  
 Finalize the kext-copy by recreating the kernel cache:
@@ -95,7 +98,7 @@ OSX 10.12.2 removed the posibility to load unsigned code. You can enable this by
 `sudo spctl --master-disable `
 If your notebook is equipped with the UHD touch monitor, you'll have to copy the UHD enabling kexts to your clover directory:
 ```
-sudo cp ./Post-Install/AD-Kexts/UHD-Kexts/* /EFI/EFI/CLOVER/kexts/10.12/
+sudo cp ./10.12/Post-Install/AD-Kexts/UHD-Kexts/* /Volumes/EFI/EFI/CLOVER/kexts/10.12/
 ```
 To prevent getting in hibernation (which can and will corrupt your data).
 `sudo pmset -a hibernatemode 0`   

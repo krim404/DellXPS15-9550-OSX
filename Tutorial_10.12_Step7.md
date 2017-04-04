@@ -8,14 +8,14 @@ Replace the attribute Config2 with none
 reboot 
 
 ## Model Name Error
-if you get "Model Name: Apple device" - then you've not booted with the newest cloverx64.efi. Update your EFI Configuration. See `Additional/Setup-Bootmanager.jpg` how to configure to boot from it 
+if you get "Model Name: Apple device" - then you've not booted with the newest cloverx64.efi. Update your EFI Configuration. See [Additional/Setup-Bootmanager.jpg](Additional/Setup-Bootmanager.jpg) how to configure to boot from it 
 
 ## Alternative Power Management
 The whole power management is done by intels speed step technology (HWP), which is enabled in the clover config. If you want to let OSX manage the power management, you'll have to do these steps:  
 ```
-sudo cp ./Post-Install/CLOVER/ACPI/optional/SSDT.aml /EFI/EFI/CLOVER/ACPI/patched/
+sudo cp ./10.12/Post-Install/CLOVER/ACPI/optional/SSDT.aml /Volumes/EFI/EFI/CLOVER/ACPI/patched/
 ```
-then open the config.plist (/EFI/EFI/CLOVER/config.plist) and change `<key>HWPEnable</key><true/>` to `<key>HWPEnable</key><false/>`.  
+then open your installed config.plist from your EFI partition (EFI/CLOVER/config.plist) and change `<key>HWPEnable</key><true/>` to `<key>HWPEnable</key><false/>`.  
 This is not compatible with Skylake SMBIOS like MB9,1 or MBP13,1.
 
 ## Audio Fix by using VoodooHDA
@@ -25,7 +25,7 @@ AppleHDA has some problems after Wake-Up. You'll have to plug in a headphone to 
 sudo rm -r /Library/Extensions/CodecCommander.kext  
 sudo rm /EFI/EFI/CLOVER/ACPI/patched/SSDT-ALC298.aml
 ```
-then remove from your config.plist from the key "KextsToPatch" the elements "AppleHDA#1" to "AppleHDA#7". Install the package: git/Post-Install/AD-Kexts/VoodooHDA-2.8.8.pkg  
+then remove in your config.plist (EFI/CLOVER/config.plist) from the key "KextsToPatch" the elements "AppleHDA#1" to "AppleHDA#7". Then install the package: ./10.12/Post-Install/AD-Kexts/VoodooHDA-2.8.8.pkg  
 
 ## Audio Fix by using patched AppleHDA
 alternative to VoodooHDA and with better compatibility, but less stability.  
