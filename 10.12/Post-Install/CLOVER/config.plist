@@ -471,6 +471,12 @@
 				<key>TableId</key>
 				<string>xh_rvp10</string>
 			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>PtidDevc</string>
+			</dict>
 		</array>
 		<key>SSDT</key>
 		<dict>
