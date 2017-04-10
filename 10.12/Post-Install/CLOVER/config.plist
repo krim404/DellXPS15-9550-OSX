@@ -457,6 +457,20 @@
 					WFJNVg==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Redirect _E42 call to solve recursion issue for USB-C hotplug, pair with SSDT-XE42 - dpassmor</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RFBURgFfRTQy
+					</data>
+					<key>Replace</key>
+					<data>
+					RFBURgFYRTQy
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
