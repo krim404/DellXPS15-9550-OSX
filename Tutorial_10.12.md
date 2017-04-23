@@ -103,7 +103,7 @@ OSX 10.12.2 removed the posibility to load unsigned code. You can enable this by
   
 If your notebook is equipped with the UHD touch monitor, you'll have to copy the UHD enabling kexts to your clover directory:
 ```
-sudo cp ./10.12/Post-Install/AD-Kexts/UHD-Kexts/* /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+sudo cp -R ./10.12/Post-Install/AD-Kexts/UHD-Kexts/* /Volumes/EFI/EFI/CLOVER/kexts/10.12/
 ```
 To prevent getting in hibernation (which can and will corrupt your data if you're not using the 4k switch).
 `sudo pmset -a hibernatemode 0`   
