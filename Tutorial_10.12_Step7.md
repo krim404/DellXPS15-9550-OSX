@@ -1,13 +1,13 @@
 # Step 7: Fixes / Enhancements / Alternative Solutions / Bugs
 
-## HDMI Video-Out Fix for iMac7,1 or MBP13,3
+## HDMI/VGA Video-Out Fix for iMac7,1 or MBP13,3
 Open /System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist  
 Find the Board-ID which used in your config.plist, default in this tutorial is "Mac-B809C3757DA9BB8D". Differs when using different smbios.  
 Replace the attribute Config2 with none  
 `sudo kextcache -system-prelinked-kernel && sudo kextcache -system-caches`  
 reboot 
 
-## Model Name Error OR clover doesnt boot
+## clover doesnt boot OR Model Name Error 
 if you get "Model Name: Apple device" in "About this mac" or your mac cant boot without the USB stick - then you're not loading the cloverx64.efi from your EFI. Simply update your EFI configuration by adding it to the boot order by hand. See [Additional/Setup-Bootmanager.jpg](Additional/Setup-Bootmanager.jpg) how to configure to boot from it 
 
 ## Alternative Power Management
@@ -33,7 +33,7 @@ See [this Tutorial](/10.12/Post-Install/AD-Kexts/AppleHDA_sysCL/readme.md)
 folder: ./10.12/Post-Install/AD-Kexts/AppleHDA_sysCL
 
 ## Display Backlight Control not working
-the supplied AppleBacklightInjector contains an id for the display. It is theoretically possible that this id is different on another machine. In this case just follow [this tutorial](Additional/PatchAppleBacklight_v2/readme.md)
+the supplied AppleBacklightInjector contains an id for the display. It is possible that this id is different on your machine (especially if you use the non touch display). In this case just follow [this tutorial](Additional/PatchAppleBacklight_v2/readme.md)
 
 ## Display ICC Calibration
 ICC profile for 4k screen calibrated with Spyder4Pro colorimeter and DisplayCAL is available in Additional/Profiles.   
