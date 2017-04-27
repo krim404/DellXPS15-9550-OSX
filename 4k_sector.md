@@ -29,5 +29,12 @@ the setting with the + in front is the active one
 You can switch the settings:  
 `nvme format -l 1 /dev/nvme0`
 this will do a low level format. You need to create a new partition table afterwards from the OSX installation disk utility.  
-  
-Now remove SSDT-Hackr.aml from EFI/ACPI/patched, the hackrnvmefamily kext or the clover storage hotpatches from your EFI bootloader and reinstall OSX
+
+## Before you boot
+you have to remove any trace from the HackrNVMe patch from your installation drive (and obviously also from the productive used one)! With the patch enabled it will not recognize your drive anymore!
+Delete if exist:
+* SSDT-Hackr.aml from EFI/ACPI/patched
+* hackrnvmefamily kext
+* hotpatches inside your config.plist (IONVMeFamily Patch#N)
+
+
