@@ -64,7 +64,7 @@ This is a known issue, which is triggered from the ACPI Battery Driver after cli
 There is no real fix, only a workaround. If the Activity Monitor crashes, enter 
 ```
 rm ~/Library/Preferences/com.apple.ActivityMonitor.plist
-open /Applications/Utilities/Activity\ Monitor.app && sleep 1 && chflags uchg ~/Library/Preferences/com.apple.ActivityMonitor.plist
+open /Applications/Utilities/Activity\ Monitor.app && sleep 1 && osascript -e 'quit app "Activity Monitor"' && chflags uchg ~/Library/Preferences/com.apple.ActivityMonitor.plist
 ```
 make sure there is no blank after ".plist", otherwise chflags will give a file not found error.  
 the activity monitor will continue to crash on clicking on the Energy Tab, but after closing and manually reopening it will not crash anymore on startup  
