@@ -1,14 +1,15 @@
 ![Computer Logo](Additional/icon.png "Dell XPS 15")
 Before we start:
-this installation is based on the chinese tutorial of darkhandz. It includes real time DSDT/SSDT patching from within clover. This is pretty easy to install. But it is NOT suited for people with no or only few knowledge in Hackintosh Systems. If you only know how to copy commands in your shell and you dont know what they're doing, then stop the tutorial and revert to windows or buy a real mac. Even if you get it running: this system is not failsafe and will be broken multiple times in its usage time, where you have to fix it without a tutorial.
+this installation includes real time DSDT/SSDT patching from within clover. This is pretty easy to install. But it is NOT suited for people with no or only few knowledge in Hackintosh Systems. If you only know how to copy commands in your shell and you dont know what they're doing, then stop the tutorial and revert to windows or buy a real mac. Even if you get it running: this system is not failsafe and will be broken multiple times in its usage time, where you have to fix it without a tutorial.
 English is not my mother-tongue and i'm writing this without proof reading, so please forgive my bad spelling 
 
-If you've questions: please read the whole thread (doesn't matter how long it is) before asking to prevent multiple questions. Additionally do a search in google and this forum.
+If you've questions: please read the whole documentation (doesn't matter how long it is) before issuing a report to prevent multiple questions. Additionally do a google search
 
-
+## BRANCH
+This is the BRANCH for Firmware Version 1.2.21 or older. The newer Firmware versions require a different clover installation. If you plan to install on a new system, i suggest upgrading your Firmware to 1.2.25 or newer and using the newest versions: [https://github.com/wmchris/DellXPS15-9550-OSX/tree/master](https://github.com/wmchris/DellXPS15-9550-OSX/tree/master).  
 
 ## Credits:
-Based on the files of @Rehabman: https://github.com/RehabMan/OS-X-Clover-Laptop-Config and darkhandz: https://github.com/darkhandz/XPS15-9550-Sierra  
+Based on the files of @Rehabman: https://github.com/RehabMan/OS-X-Clover-Laptop-Config
 Mixed with much knowledge of the tutorial by @Gymnae: http://www.insanelymac.com/forum/topic/319766-dell-xps-9550-detailled-1011-guide/  
 and much more. I try to give credit whenever possible in the corresponding readme.md files.  
 ## What's not working:
