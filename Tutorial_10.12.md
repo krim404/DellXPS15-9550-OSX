@@ -1,6 +1,6 @@
 ![Computer Logo](Additional/icon.png "Dell XPS 15")
 Before we start:
-this installation is based on the chinese tutorial of darkhandz. It includes real time DSDT/SSDT patching from within clover. This is pretty easy to install. But it is NOT suited for people with no or only few knowledge in Hackintosh Systems. If you only know how to copy commands in your shell and you dont know what they're doing, then stop the tutorial and revert to windows or buy a real mac. Even if you get it running: this system is not failsafe and will be broken multiple times in its usage time, where you have to fix it without a tutorial.
+this installation includes real time DSDT/SSDT patching from within clover. This is pretty easy to install. But it is NOT suited for people with no or only few knowledge in Hackintosh Systems. If you only know how to copy commands in your shell and you dont know what they're doing, then stop the tutorial and revert to windows or buy a real mac. Even if you get it running: this system is not failsafe and will be broken multiple times in its usage time, where you have to fix it without a tutorial.
 English is not my mother-tongue and i'm writing this without proof reading, so please forgive my bad spelling 
 
 If you've questions: please read the whole thread (doesn't matter how long it is) before asking to prevent multiple questions. Additionally do a search in google and this forum.
@@ -29,7 +29,7 @@ and much more. I try to give credit whenever possible in the corresponding readm
 * EFI Partition with its folder EFI. This is a hidden partition on your HDD. After mounting it's normally available at /Volumes/EFI/EFI/. I refer to it by EFI/ in the whole tutorial.  
 
 ## Step 1: Prepare Installation
-Upgrade your EFI by using the Firmware Update XPS_9550_1.2.21.exe (Additionals/BIOS). Do not update to 1.2.25, this one is reported as non functional with OSX.  
+If your Firmware is below 1.2.25, upgrade your EFI by using the Firmware Update XPS_9550_1.2.25.exe (Additional/BIOS). Help in [this Tutorial](Additional/bios_upgrade.md)  
 Use the existing Mac to download the Sierra installer from the App Store and create a bootable USB stick with CLOVER. You can do this with the App "Pandora's Box" of insanelymac (use google for download link), which is pretty easy to use.  
 Optional: check if your SSD can be switched to 4k sector size. This prevents NVMe corruption. See [this Tutorial](4k_sector.md)
  
