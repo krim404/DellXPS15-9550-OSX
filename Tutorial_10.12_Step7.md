@@ -45,6 +45,9 @@ You don't have to decompile the DSDT/SSDT files by yourself. The source dsl file
 ## NVRAM Emulation / Saving Sound and Brightness settings after reboot
 the native nvram installed in the Dell is not usable right now because of the Aptiofix. Clover can emulate this storage. Just install clover normally, but select "Advanced" when asked for the location of the installation. Now select "Install all RC Scripts on the target partition". You can find the installation files for clover in ./Additional/Clover_v2.4k_r4003.pkg - but i suggest downloading the newest from [Sourceforge](https://sourceforge.net/projects/cloverefiboot/)
 
+## OSX doesn't boot anymore after Firmware upgrade to 1.2.25 or higher
+1.2.25 and newer firmwares (BIOS) don't work with OSXAPTIO Version 1. Replace the EFI/CLOVER/drivers64UEFI with the content from this repository and add slide=168 to the boot arguments
+
 ## Some Multitouch Gestures don't work
 Most multitouch gestures are hardcoded in the VoodooPS2 driver and result in keyboard commands. The options in the Control Panel->Touchpad are mostly useless.  
 The currently enabled multitouch commands are:  
