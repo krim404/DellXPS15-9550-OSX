@@ -29,6 +29,7 @@ and much more. I try to give credit whenever possible in the corresponding readm
 * EFI Partition with its folder EFI. This is a hidden partition on your HDD. After mounting it's normally available at /Volumes/EFI/EFI/. I refer to it by EFI/ in the whole tutorial.  
 
 ## Step 1: Prepare Installation
+Upgrade your EFI by using the Firmware Update XPS_9550_1.2.21.exe (Additionals/BIOS). Do not update to 1.2.25, this one is reported as non functional with OSX.  
 Use the existing Mac to download the Sierra installer from the App Store and create a bootable USB stick with CLOVER. You can do this with the App "Pandora's Box" of insanelymac (use google for download link), which is pretty easy to use.  
 Optional: check if your SSD can be switched to 4k sector size. This prevents NVMe corruption. See [this Tutorial](4k_sector.md)
  
