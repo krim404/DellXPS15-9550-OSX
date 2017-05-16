@@ -6,7 +6,7 @@ English is not my mother-tongue and i'm writing this without proof reading, so p
 If you've questions: please read the whole document before reporting an issue to prevent multiple questions. Also check [Step7](Tutorial_10.12_Step7.md) and do a google search.  
 
 ## Credits:
-Based on the files of @Rehabman: https://github.com/RehabMan/OS-X-Clover-Laptop-Config and darkhandz: https://github.com/darkhandz/XPS15-9550-Sierra  
+Based on the files of @Rehabman: https://github.com/RehabMan/OS-X-Clover-Laptop-Config 
 Mixed with much knowledge of the tutorial by @Gymnae: http://www.insanelymac.com/forum/topic/319766-dell-xps-9550-detailled-1011-guide/  
 and much more. I try to give credit whenever possible in the corresponding readme.md files.  
 ## What's not working:
