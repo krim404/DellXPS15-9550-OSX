@@ -7,6 +7,16 @@ Replace the attribute Config2 with none
 `sudo kextcache -system-prelinked-kernel && sudo kextcache -system-caches`  
 reboot 
 
+## OSX doesn't boot anymore after Firmware upgrade to 1.2.25 or higher
+If you have an old installation and recently upgraded your firmware: 1.2.25 and newer firmwares (BIOS) don't work with OSXAPTIO Version 1. This needs to be replaced with OSXAPTIOv2. Replace the EFI/CLOVER/drivers64UEFI with the content from this repository and add slide=168 to the boot arguments
+
+## Error: couldn't allocate runtime area / unable to start installer / unable to boot at all
+Since OSXAptioV2 is a lil bit picky with memory maps, you'll have to change your slide= command (see question above) to a suitable number. See [this Tutorial](/Additional/slide_calc.md) for more informations. It is still possible you cant get it to boot because no memory section is big enough. This is happening on some machines especially on installation. Try to DOWNGRADE your BIOS (See [this Tutorial](/Additional/bios_upgrade.md)) with the files from the branch
+```
+git clone https://github.com/wmchris/DellXPS15-9550-OSX -b 10.12-BIOS1.2.21
+```
+(the 1.2.21 BIOS version is inside this branch in Additional/BIOS). Then install OSX normally, upgrade BIOS and recalculate your slide. This works most of the time. Or just stay at the older firmware. Your choice.
+
 ## clover doesnt boot OR Model Name Error 
 if you get "Model Name: Apple device" in "About this mac" or your mac cant boot without the USB stick - then you're not loading the cloverx64.efi from your EFI. Simply update your EFI configuration by adding it to the boot order by hand. See [Additional/Setup-Bootmanager.jpg](Additional/Setup-Bootmanager.jpg) how to configure to boot from it 
 
@@ -44,9 +54,6 @@ You don't have to decompile the DSDT/SSDT files by yourself. The source dsl file
 
 ## NVRAM Emulation / Saving Sound and Brightness settings after reboot
 the native nvram installed in the Dell is not usable right now because of the Aptiofix. Clover can emulate this storage. Just install clover normally, but select "Advanced" when asked for the location of the installation. Now select "Install all RC Scripts on the target partition". You can find the installation files for clover in ./Additional/Clover_v2.4k_r4003.pkg - but i suggest downloading the newest from [Sourceforge](https://sourceforge.net/projects/cloverefiboot/)
-
-## OSX doesn't boot anymore after Firmware upgrade to 1.2.25 or higher
-1.2.25 and newer firmwares (BIOS) don't work with OSXAPTIO Version 1. Replace the EFI/CLOVER/drivers64UEFI with the content from this repository and add slide=168 to the boot arguments
 
 ## Some Multitouch Gestures don't work
 Most multitouch gestures are hardcoded in the VoodooPS2 driver and result in keyboard commands. The options in the Control Panel->Touchpad are mostly useless.  
