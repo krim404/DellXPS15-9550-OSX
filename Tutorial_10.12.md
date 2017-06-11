@@ -10,11 +10,12 @@ Based on the files of @Rehabman: https://github.com/RehabMan/OS-X-Clover-Laptop-
 Mixed with much knowledge of the tutorial by @Gymnae: http://www.insanelymac.com/forum/topic/319766-dell-xps-9550-detailled-1011-guide/  
 and much more. I try to give credit whenever possible in the corresponding readme.md files.  
 ## What's not working:
-* Hibernation (works somehow, but high chance to destroy your whole data)  
+* Hibernation  
 * SD-Card reader  
-* Killer 1535 Wifi (rarely used, need replace)  
+* Killer 1535 Wifi (rarely used in the 9550, need replace)  
 * nVidia Graphics card (Intel works)  
-* FileVault 2 (full HDD encryption)  
+* FileVault2  
+* TB3 over USB-C
 ## Requirements:
 * one working MAC OS X Enviroment  
 * 16GB USB Stick (larger is sometimes not bootable and/or requires advanced partitioning)  
