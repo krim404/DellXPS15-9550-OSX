@@ -39,7 +39,7 @@ Inside the terminal. Mac OS will automatically mount the EFI partition of the US
 Overwrite everything in the CLOVER folder of the partition EFI with the content of ./10.12/CLOVER.  
 If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
 If you could use the 4k sector patch, replace the config.plist with the 4kconfig.plist.  
-If you use a hynix device and you didnt do the 4k sector switch, you'll have to add the patch mentioned in [./10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md](10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md)
+If you have a hynix or liteon nvme ssd and you didn't/couldn't do the 4k sector switch, you'll have to add the patch mentioned in [./10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md](10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md)
   
 Go into the EFI Configuration (BIOS) of your Dell XPS 15:   
 ```
