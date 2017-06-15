@@ -481,6 +481,10 @@
 			</dict>
 			<dict>
 				<key>Signature</key>
+				<string>BGRP</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
 				<string>xh_rvp10</string>
