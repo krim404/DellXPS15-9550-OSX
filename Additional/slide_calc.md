@@ -1,6 +1,6 @@
 # How to calculate the slide parameter for OsxAptioFix2Drv
-If you cannot boot because of an error like "couldn't allocate runtime area" with OSXAptioFIX2 then your memory is too fragmented. 
-You need to manually "slide" the pointer of the OSXAptioFix2 to a free map in your memory.  
+If you cannot boot because of an error like "couldn't allocate runtime area, error allocating `0xXXXX` pages (...)" with OSXAptioFIX2 then your memory is too fragmented. 
+You need to manually "slide" the pointer of the OSXAptioFix2 to a free continuous map of at least the size of `0xXXXX` in your memory.  
 Because this memory map is unique to each system configuration you have to use a different slide command on most computers.    
 
 ## Step 1: Get Memory Map
@@ -12,7 +12,8 @@ Boot into the UEFI Shell from Clover and enter the command `memmap`. You'll get 
 use a hexadecimal calculator (like calc from mac in programmers mode on 16)
 
 ## Step 3: Add the number of pages till first suitable block
-you need a decent amount of pages to boot. Look in your memmap for the first Available block with enough pages.  
+you need a decent amount of pages to boot. Look in your memmap for the first Available block with enough pages. slide doesnt work with high numbers, so you really should always look for the first one.  
+  
 Each integer in slide will move the pointer 200000. It begins at 100000. So the calculation would be:  
 (TARGET - 100000) / 200000. 
 
