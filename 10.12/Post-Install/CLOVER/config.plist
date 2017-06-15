@@ -458,19 +458,19 @@
 					</data>
 				</dict>
 				<dict>
-					<key>Comment</key>
-					<string>Redirect _E42 call to solve recursion issue for USB-C hotplug, pair with SSDT-XE42 - dpassmor</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RFBURgFfRTQy
-					</data>
-					<key>Replace</key>
-					<data>
-					RFBURgFYRTQy
-					</data>
-				</dict>
+                    <key>Comment</key>
+                    <string>Rename XTBT to YTBT, XTBT call redirect to solve recursion issue for USB-C hotplug, pair with SSDT-YTBT (credit dpassmor)</string>
+                    <key>Disabled</key>
+                    <false/>
+                    <key>Find</key>
+                    <data>
+                        pABYVEJUVEJTRUNQR04=
+                    </data>
+                    <key>Replace</key>
+                    <data>
+                        pABZVEJUVEJTRUNQR04=
+                    </data>
+                </dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
