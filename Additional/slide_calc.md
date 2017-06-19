@@ -8,8 +8,8 @@ Because this memory map is unique to each system configuration you have to use a
 Boot into the UEFI Shell from Clover and enter the command `memmap`. You'll get an output like from the image above
 
 ## Step 2: Use hexadecimal calculator
+use a **hexadecimal calculator** (like the original calc from mac os in programmers mode set at **16**)
 ![Calc](BIOS/pictures/calc.png "Calc")  
-use a hexadecimal calculator (like calc from mac in programmers mode on 16)
 
 ## Step 3: Add the number of pages till first suitable block
 you need a decent amount of pages to boot. Look in your memmap for the first Available block with enough pages. slide doesnt work with high numbers, so you really should always look for the first one.  
