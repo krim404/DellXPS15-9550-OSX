@@ -20,7 +20,7 @@
  */
 DefinitionBlock ("", "SSDT", 1, "APPLE ", "DefMon", 0x00003000)
 {
-    External (_SB_.PCI0.LPCB.ECDV.KDRT, MethodObj)    // 1 Arguments (from opcode)
+    External (_SB_.PCI0.LPCB.EC__.KDRT, MethodObj)    // 1 Arguments (from opcode)
 
     Device (_SB.PCI0.LPCB.MON0)
     {
@@ -33,7 +33,7 @@ DefinitionBlock ("", "SSDT", 1, "APPLE ", "DefMon", 0x00003000)
         })
         Method (FAN0, 0, NotSerialized)
         {
-            Store (\_SB.PCI0.LPCB.ECDV.KDRT (0x02), Local0)
+            Store (\_SB.PCI0.LPCB.EC__.KDRT (0x02), Local0)
             Return (Add (0x07D0, Multiply (Local0, 0x0A)))
         }
     }
