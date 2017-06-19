@@ -6,15 +6,16 @@ English is not my mother-tongue and i'm writing this without proof reading, so p
 If you've questions: please read the whole document before reporting an issue to prevent multiple questions. Also check [Step7](Tutorial_10.12_Step7.md) and do a google search.  
 
 ## Credits:
-Based on the files of @Rehabman: https://github.com/RehabMan/OS-X-Clover-Laptop-Config and darkhandz: https://github.com/darkhandz/XPS15-9550-Sierra  
+Based on the files of @Rehabman: https://github.com/RehabMan/OS-X-Clover-Laptop-Config 
 Mixed with much knowledge of the tutorial by @Gymnae: http://www.insanelymac.com/forum/topic/319766-dell-xps-9550-detailled-1011-guide/  
 and much more. I try to give credit whenever possible in the corresponding readme.md files.  
 ## What's not working:
-* Hibernation (works somehow, but high chance to destroy your whole data)  
+* Hibernation  
 * SD-Card reader  
-* Killer 1535 Wifi (rarely used, need replace)  
+* Killer 1535 Wifi (rarely used in the 9550, need replace)  
 * nVidia Graphics card (Intel works)  
-* FileVault 2 (full HDD encryption)  
+* FileVault2  
+* TB3 over USB-C
 ## Requirements:
 * one working MAC OS X Enviroment  
 * 16GB USB Stick (larger is sometimes not bootable and/or requires advanced partitioning)  
@@ -38,7 +39,7 @@ Inside the terminal. Mac OS will automatically mount the EFI partition of the US
 Overwrite everything in the CLOVER folder of the partition EFI with the content of ./10.12/CLOVER.  
 If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
 If you could use the 4k sector patch, replace the config.plist with the 4kconfig.plist.  
-If you use a hynix device and you didnt do the 4k sector switch, you'll have to add the patch mentioned in [./10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md](10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md)
+If you have a hynix or liteon nvme ssd and you didn't/couldn't do the 4k sector switch, you'll have to add the patch mentioned in [./10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md](10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md)
   
 Go into the EFI Configuration (BIOS) of your Dell XPS 15:   
 ```

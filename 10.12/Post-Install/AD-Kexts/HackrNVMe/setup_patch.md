@@ -1,4 +1,4 @@
-If you use a hynix device and you didnt do the 4k sector switch, you'll have to add the following patch to your config.plist before starting the installation:
+If you use a hynix device and you didnt do the 4k sector switch, you'll have to add the following patch to your config.plist before starting the installation. This is REQUIRED for installations on LiteON drives:
 ```
 <key>Comment</key>
 <string>IONVMeFamily Pike R. Alpha Hynix SSD patch</string>
