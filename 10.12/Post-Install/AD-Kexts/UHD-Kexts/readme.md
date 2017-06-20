@@ -1,9 +1,9 @@
 ## UHD Kexts
-This kexts have been published on insanelymac and replaces the old perl command for patching the coredisplay to enable UHD resolution. Only use these kexts if you've the 4K touch display.  
+This kexts have been published on insanelymac and replaces the old perl command for patching the coredisplay to enable UHD resolution with the Intel GPU. You only require these kexts if your Dell 9550 has the 4K touch display installed.  
 Uses @vit9696 lilu patching framework  
 Patcher created by @PMHeart  
 
-# WARNING - this is bugged in 10.12.5 and will result in a kernel panic! Use the old command instead!
+# WARNING - this can be buggy and result in a kernel panic after some time. We dont know why. The manual patching using the old command (see below) is much more reliable.
 
 ## Old Command
 Old command (can be used to replace these kexts):  
