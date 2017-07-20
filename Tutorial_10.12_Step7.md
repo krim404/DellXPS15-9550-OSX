@@ -52,7 +52,7 @@ folder: ./10.12/Post-Install/AD-Kexts/Audio/AppleHDA_sysCL
 
 ### Audio Fix by using ported hdaverb
 this is the newest fix by KNNSpeed - engineered for the Dell 9560, but works on the 9550, too. This has a dependency on Lilu.kext, which is known to randomly generate kernel panics on boot.
-See [this Tutorial](/10.12/Post-Install/AD-Kexts/Audio/VerbStub_knnspeed/readme.md)  
+See [this Tutorial](/10.12/Post-Install/AD-Kexts/Audio/VerbStub_knnspeed/README.md)  
 folder: ./10.12/Post-Install/AD-Kexts/Audio/VerbStub_knnspeed
 
 ## Display Backlight Control not working
