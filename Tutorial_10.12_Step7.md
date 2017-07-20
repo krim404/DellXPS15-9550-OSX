@@ -31,19 +31,29 @@ sudo cp ./10.12/Post-Install/CLOVER/ACPI/optional/SSDT.aml /Volumes/EFI/EFI/CLOV
 then open your installed config.plist from your EFI partition (EFI/CLOVER/config.plist) and change `<key>HWPEnable</key><true/>` to `<key>HWPEnable</key><false/>`.  
 This is not compatible with Skylake SMBIOS like MB9,1 or MBP13,1.
 
-## Audio Fix by using VoodooHDA
-in case you've audio problems: 
-AppleHDA has some problems after Wake-Up. You'll have to plug in a headphone to get your speakers working again. You can use VoodooHDA instead, which breaks the headphone jack most of the time, but makes the rest much more stable.
+## Audio Fixes
+in case you've audio problems: AppleHDA has some problems after Wake-Up. You'll have to plug in a headphone to get your speakers working again.  
+Because there is no clear "best way" in audio, there are multiple different solutions available.  
+In each case you have to remove the original HDA patch:  
 ```
 sudo rm -r /Library/Extensions/CodecCommander.kext  
 sudo rm /EFI/EFI/CLOVER/ACPI/patched/SSDT-ALC298.aml
 ```
-then remove in your config.plist (EFI/CLOVER/config.plist) from the key "KextsToPatch" the elements "AppleHDA#1" to "AppleHDA#7". Then install the package: ./10.12/Post-Install/AD-Kexts/VoodooHDA-2.8.8.pkg  
+then remove in your config.plist (EFI/CLOVER/config.plist) from the key "KextsToPatch" the elements "AppleHDA#1" to "AppleHDA#7".
 
-## Audio Fix by using patched AppleHDA
-alternative to VoodooHDA and with better compatibility, but less stability.  
-See [this Tutorial](/10.12/Post-Install/AD-Kexts/AppleHDA_sysCL/readme.md)  
-folder: ./10.12/Post-Install/AD-Kexts/AppleHDA_sysCL
+### Audio Fix by using VoodooHDA
+You can use VoodooHDA instead, which makes the headphone jack useless most of the time (distorted sound from headphone jack), but makes the normal audio much more stable. 
+Just install the package: ./10.12/Post-Install/AD-Kexts/VoodooHDA-2.8.8.pkg  
+
+### Audio Fix by using patched AppleHDA
+alternative to VoodooHDA and with better compatibility, but less stability. Requires replacing the AppleHDA Kext from Apple
+See [this Tutorial](/10.12/Post-Install/AD-Kexts/Audio/AppleHDA_sysCL/readme.md)  
+folder: ./10.12/Post-Install/AD-Kexts/Audio/AppleHDA_sysCL
+
+### Audio Fix by using ported hdaverb
+this is the newest fix by KNNSpeed - engineered for the Dell 9560, but works on the 9550, too. This has a dependency on Lilu.kext, which is known to randomly generate kernel panics on boot.
+See [this Tutorial](/10.12/Post-Install/AD-Kexts/Audio/VerbStub_knnspeed/readme.md)  
+folder: ./10.12/Post-Install/AD-Kexts/Audio/VerbStub_knnspeed
 
 ## Display Backlight Control not working
 the supplied AppleBacklightInjector contains an id for the display. It is possible that this id is different on your machine (especially if you use the non touch display). In this case just follow [this tutorial](Additional/PatchAppleBacklight_v2/readme.md)

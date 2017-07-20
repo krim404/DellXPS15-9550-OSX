@@ -16,12 +16,18 @@ sudo rm -r /Library/Extensions/CodecCommander.kext
 sudo rm /Volumes/EFI/EFI/CLOVER/ACPI/patched/SSDT-Config.aml
 sudo rm -Rf /Volumes/EFI/EFI/CLOVER/kexts/10.12/AppleALC.kext
 
-echo "Step 2: Adding files to your EFI partition"
+echo "Step 2: Adding files to your Library and EFI„
 sudo cp SSDT-Config.aml /Volumes/EFI/EFI/CLOVER/ACPI/patched/
-sudo cp -R AppleALC.kext /Volumes/EFI/EFI/CLOVER/kexts/10.12/
-sudo cp -R VerbStub.kext /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+sudo cp -R AppleALC.kext /Library/Extensions/
+sudo cp -R VerbStub.kext /Library/Extensions/
+sudo cp -R Lilu.kext /Library/Extensions/
 
-echo "Step 3: Installing local configuration"
+echo "Step 3: Updating Kext Caches"
+sudo rm -rf /System/Library/Caches/com.apple.kext.caches/Startup/kernelcache  
+sudo rm -rf /System/Library/PrelinkedKernels/prelinkedkernel  
+sudo touch /System/Library/Extensions && sudo kextcache -u /
+
+echo "Step 4: Installing local configuration"
 sudo cp ComboJack /usr/bin
 sudo chmod 755 /usr/bin/ComboJack
 sudo chown root:wheel /usr/bin/ComboJack
