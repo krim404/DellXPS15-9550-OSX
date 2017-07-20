@@ -13,13 +13,13 @@ echo "Step 1: removing old content. 'Not found' errors are normal in this step"
 sudo rm /usr/bin/ALCPlugFix
 sudo rm /Library/LaunchAgents/good.win.ALCPlugFix.plist
 sudo rm -r /Library/Extensions/CodecCommander.kext
-sudo rm /EFI/EFI/CLOVER/ACPI/patched/SSDT-Config.aml
-sudo rm -Rf /EFI/EFI/CLOVER/kexts/10.12/AppleALC.kext
+sudo rm /Volumes/EFI/EFI/CLOVER/ACPI/patched/SSDT-Config.aml
+sudo rm -Rf /Volumes/EFI/EFI/CLOVER/kexts/10.12/AppleALC.kext
 
 echo "Step 2: Adding files to your EFI partition"
-sudo cp SSDT-Config.aml /EFI/EFI/CLOVER/ACPI/patched/
-sudo cp -R AppleALC.kext /EFI/EFI/CLOVER/kexts/10.12/
-sudo cp -R VerbStub.kext /EFI/EFI/CLOVER/kexts/10.12/
+sudo cp SSDT-Config.aml /Volumes/EFI/EFI/CLOVER/ACPI/patched/
+sudo cp -R AppleALC.kext /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+sudo cp -R VerbStub.kext /Volumes/EFI/EFI/CLOVER/kexts/10.12/
 
 echo "Step 3: Installing local configuration"
 sudo cp ComboJack /usr/bin
@@ -43,4 +43,4 @@ echo "\"com_XPS_SetVerb\" somewhere within the \"HDEF\" entry's hierarchy."
 echo
 echo "Enjoy!"
 echo
-exit 0
+exit 
