@@ -82,16 +82,6 @@ The currently enabled multitouch commands are:
     
 you can modify which commands should be triggered by each gesture from controlpanel -> Keyboard -> Shortcuts. For example set "Notification Bar" to CTRL+CMD+0 to show the bar on swiping left in
 
-## Activity Monitor App crashes on opening
-This is a known issue, which is triggered from the ACPI Battery Driver after clicking on the Energy tab once.  
-There is no real fix, only a workaround. If the Activity Monitor crashes, enter 
-```
-rm ~/Library/Preferences/com.apple.ActivityMonitor.plist
-open /Applications/Utilities/Activity\ Monitor.app && sleep 1 && osascript -e 'quit app "Activity Monitor"' && chflags uchg ~/Library/Preferences/com.apple.ActivityMonitor.plist
-```
-make sure there is no blank after ".plist", otherwise chflags will give a file not found error.  
-the activity monitor will continue to crash on clicking on the Energy Tab, but after closing and manually reopening it will not crash anymore on startup  
-
 ## Sleep results in reboot
 This is only in case sleep worked in the past. If you have sleep issues from the beginning and you strictly followed this tutorial (check at least twice!), you need additional assistance (easiest way is asking in a forum).  
   
