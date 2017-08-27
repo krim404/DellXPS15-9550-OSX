@@ -16,7 +16,7 @@ sudo rm -r /Library/Extensions/CodecCommander.kext
 sudo rm /Volumes/EFI/EFI/CLOVER/ACPI/patched/SSDT-Config.aml
 sudo rm -Rf /Volumes/EFI/EFI/CLOVER/kexts/10.12/AppleALC.kext
 
-echo "Step 2: Adding files to your Library and EFI„
+echo "Step 2: Adding files to your Library and EFI"
 sudo cp SSDT-Config.aml /Volumes/EFI/EFI/CLOVER/ACPI/patched/
 sudo cp -R AppleALC.kext /Library/Extensions/
 sudo cp -R VerbStub.kext /Library/Extensions/
