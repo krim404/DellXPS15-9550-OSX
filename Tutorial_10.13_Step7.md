@@ -13,12 +13,12 @@ If you have an old installation and recently upgraded your firmware: 1.2.25 and 
 ## Error: couldn't allocate runtime area / unable to start installer / unable to boot at all
 Since OSXAptioV2 is a lil bit picky with memory maps, you'll have to change your slide= command (see question above) to a suitable number. See [this Tutorial](/Additional/slide_calc.md) for more informations. It is still possible you cant get it to boot because no memory section is big enough. This is happening on some machines especially on installation. Try to DOWNGRADE your BIOS (See [this Tutorial](/Additional/bios_upgrade.md)) with the files from the branch
 ```
-git clone https://github.com/wmchris/DellXPS15-9550-OSX -b 10.12-BIOS1.2.21
+git clone https://github.com/wmchris/DellXPS15-9550-OSX -b 10.13-BIOS1.2.21
 ```
 (the 1.2.21 BIOS version is inside this branch in Additional/BIOS). Then install OSX normally, upgrade BIOS and recalculate your slide.
 
 ## Error: same as above, but additionally mentiones "unable to load kernel cache"
-this normally only occurs on installation with firmware 1.2.25. If you have this message as well as the couldn't allocate runtime area, then there is a high posibility you can boot the installation with `OsxAptioFix2Drv-free2000.efi` instead of `OsxAptioFix2Drv-64.efi`. You can find the free2000 version in ./10.12/CLOVER/drivers64UEFI/Other. Replace them and install normally. Free2000 is not very stable and sometimes crash on start, so switch back to the normal version after installation. Sometimes you still need the slide parameter from above, sometimes you dont.
+this normally only occurs on installation with firmware 1.2.25. If you have this message as well as the couldn't allocate runtime area, then there is a high posibility you can boot the installation with `OsxAptioFix2Drv-free2000.efi` instead of `OsxAptioFix2Drv-64.efi`. You can find the free2000 version in ./10.13/CLOVER/drivers64UEFI/Other. Replace them and install normally. Free2000 is not very stable and sometimes crash on start, so switch back to the normal version after installation. Sometimes you still need the slide parameter from above, sometimes you dont.
 
 ## clover doesnt boot OR Model Name Error 
 if you get "Model Name: Apple device" in "About this mac" or your mac cant boot without the USB stick - then you're not loading the cloverx64.efi from your EFI. Simply update your EFI configuration by adding it to the boot order by hand. See [Additional/Setup-Bootmanager.jpg](Additional/Setup-Bootmanager.jpg) how to configure to boot from it 
@@ -26,7 +26,7 @@ if you get "Model Name: Apple device" in "About this mac" or your mac cant boot 
 ## Alternative Power Management
 The whole power management is done by intels speed step technology (HWP), which is enabled in the clover config. If you want to let OSX manage the power management, you'll have to do these steps:  
 ```
-sudo cp ./10.12/Post-Install/CLOVER/ACPI/optional/SSDT.aml /Volumes/EFI/EFI/CLOVER/ACPI/patched/
+sudo cp ./10.13/Post-Install/CLOVER/ACPI/optional/SSDT.aml /Volumes/EFI/EFI/CLOVER/ACPI/patched/
 ```
 then open your installed config.plist from your EFI partition (EFI/CLOVER/config.plist) and change `<key>HWPEnable</key><true/>` to `<key>HWPEnable</key><false/>`.  
 This is not compatible with Skylake SMBIOS like MB9,1 or MBP13,1.
@@ -43,17 +43,17 @@ then remove in your config.plist (EFI/CLOVER/config.plist) from the key "KextsTo
 
 ### Audio Fix by using VoodooHDA
 You can use VoodooHDA instead, which makes the headphone jack useless most of the time (distorted sound from headphone jack), but makes the normal audio much more stable. 
-Just install the package: ./10.12/Post-Install/AD-Kexts/VoodooHDA-2.8.8.pkg  
+Just install the package: ./10.13/Post-Install/AD-Kexts/VoodooHDA-2.8.8.pkg  
 
 ### Audio Fix by using patched AppleHDA
 alternative to VoodooHDA and with better compatibility, but less stability. Requires replacing the AppleHDA Kext from Apple
-See [this Tutorial](/10.12/Post-Install/AD-Kexts/Audio/AppleHDA_sysCL/readme.md)  
-folder: ./10.12/Post-Install/AD-Kexts/Audio/AppleHDA_sysCL
+See [this Tutorial](/10.13/Post-Install/AD-Kexts/Audio/AppleHDA_sysCL/readme.md)  
+folder: ./10.13/Post-Install/AD-Kexts/Audio/AppleHDA_sysCL
 
 ### Audio Fix by using ported hdaverb
 this is the newest fix by KNNSpeed - engineered for the Dell 9560, but works on the 9550, too. This has a dependency on Lilu.kext, which is known to randomly generate kernel panics on boot.
-See [this Tutorial](/10.12/Post-Install/AD-Kexts/Audio/VerbStub_knnspeed/README.md)  
-folder: ./10.12/Post-Install/AD-Kexts/Audio/VerbStub_knnspeed
+See [this Tutorial](/10.13/Post-Install/AD-Kexts/Audio/VerbStub_knnspeed/README.md)  
+folder: ./10.13/Post-Install/AD-Kexts/Audio/VerbStub_knnspeed
 
 ## Display Backlight Control not working
 the supplied AppleBacklightInjector contains an id for the display. It is possible that this id is different on your machine (especially if you use the non touch display). In this case just follow [this tutorial](Additional/PatchAppleBacklight_v2/readme.md)
@@ -63,7 +63,7 @@ ICC profile for 4k screen calibrated with Spyder4Pro colorimeter and DisplayCAL 
 Every panel is a lil bit different, so don't expect too much precision, but this profile works great for sRGB and AdobeRGB.
 
 ## SSDT / DSDT Modifications
-You don't have to decompile the DSDT/SSDT files by yourself. The source dsl files are available in ./10.12/Advanced/DSDT-HotPatches/Patches. Use these for modifications.
+You don't have to decompile the DSDT/SSDT files by yourself. The source dsl files are available in ./10.13/Advanced/DSDT-HotPatches/Patches. Use these for modifications.
 
 ## NVRAM Emulation / Saving Sound and Brightness settings after reboot
 the native nvram installed in the Dell is not usable right now because of the Aptiofix. Clover can emulate this storage. Just install clover normally, but select "Advanced" when asked for the location of the installation. Now select "Install all RC Scripts on the target partition". You can find the installation files for clover in ./Additional/Clover_v2.4k_r4003.pkg - but i suggest downloading the newest from [Sourceforge](https://sourceforge.net/projects/cloverefiboot/)

@@ -3,7 +3,7 @@ Before we start:
 this installation includes real time DSDT/SSDT patching from within clover. This is pretty easy to install. But it is NOT suited for people with no or only few knowledge in Hackintosh Systems. If you only know how to copy commands in your shell and you dont know what they're doing, then stop the tutorial and revert to windows or buy a real mac. Even if you get it running: this system is not failsafe and will be broken multiple times in its usage time, where you have to fix it without a step by step tutorial.
 English is not my mother-tongue and i'm writing this without proof reading, so please forgive my bad spelling 
 
-If you've questions: please read the whole document before reporting an issue to prevent multiple questions. Also check [Step7](Tutorial_10.12_Step7.md) and do a google search.  
+If you've questions: please read the whole document before reporting an issue to prevent multiple questions. Also check [Step7](Tutorial_10.13_Step7.md) and do a google search.  
 
 ## Credits:
 Based on the files of @Rehabman: https://github.com/RehabMan/OS-X-Clover-Laptop-Config 
@@ -19,7 +19,7 @@ and much more. I try to give credit whenever possible in the corresponding readm
 ## Requirements:
 * one working MAC OS X Enviroment  
 * 16GB USB Stick (larger is sometimes not bootable and/or requires advanced partitioning)  
-* MacOS Sierra 10.12.2 installation file from the app store (redownload, just in case)  
+* MacOS Sierra 10.13.2 installation file from the app store (redownload, just in case)  
 * Knowledge in PLIST editing  
 * USB Harddrive for backup - you'll loose all data on your computer! 
 
@@ -36,10 +36,8 @@ Mount the hidden EFI partition of the USB Stick by entering
 `diskutil mount EFI` 
 Inside the terminal. Mac OS will automatically mount the EFI partition of the USB stick and not the local machine, but just in case: make sure it really is to prevent damage to the host machine  
   
-Overwrite everything in the CLOVER folder of the partition EFI with the content of ./10.12/CLOVER.  
+Overwrite everything in the CLOVER folder of the partition EFI with the content of ./10.13/CLOVER.  
 If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
-If you could use the 4k sector patch, replace the config.plist with the 4kconfig.plist.  
-If you have a hynix or liteon nvme ssd and you didn't/couldn't do the 4k sector switch, you'll have to add the patch mentioned in [./10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md](10.12/Post-Install/AD-Kexts/HackrNVMe/setup_patch.md)
   
 Go into the EFI Configuration (BIOS) of your Dell XPS 15:   
 ```
@@ -68,31 +66,25 @@ Close the Diskutil and install OSX normally. You'll have to reboot multiple time
 After a few reboots you should be inside your new macOS enviroment. You can always boot into it using the USB stick. Remove the USB drive after successful bootup. Enter 
 `diskutil mount EFI`
 in your terminal, which should mount the EFI partition of your local installation.  
-install ./Additional/Clover_v2.4k_r4061. Make sure to select "Install Clover in ESP". Also select to install the RC-Scripts. This should install the Clover Boot System. Now copy everything from ./10.12/CLOVER to EFI/CLOVER like you did before by creating the usb stick. (if you had to modify the config.plist in step 1, do it here, too). Your system should be bootable by itself. Reboot and check if your system can boot by itself.  
+install ./Additional/Clover_v2.4k_r4061. Make sure to select "Install Clover in ESP". Also select to install the RC-Scripts. This should install the Clover Boot System. Now copy everything from ./10.13/CLOVER to EFI/CLOVER like you did before by creating the usb stick. (if you had to modify the config.plist in step 1, do it here, too). Your system should be bootable by itself. Reboot and check if your system can boot by itself.  
 
 ## Step 4: Post Installation
 Because all DSDT/SSDT changes are already in the config.plist, you dont need to recompile your DSDT (albeit i suggest doing it anyway to make your system a lil bit more failsafe, see gymnaes El-Capitan tutorial for more informations). So we can skip this part and go directly to the installation of the required kexts. Open a terminal and goto the GIT folder.
 ```
-sudo cp -r ./10.12/Post-Install/LE-Kexts/* /Library/Extensions/  
+sudo cp -r ./10.13/Post-Install/LE-Kexts/* /Library/Extensions/  
 sudo mv /System/Library/Extensions/AppleACPIPS2Nub.kext /System/Library/Extensions/AppleACPIPS2Nub.bak 2> /dev/null  
 sudo mv /System/Library/Extensions/ApplePS2Controller.kext /System/Library/Extensions/ApplePS2Controller.bak 2> /dev/null
-sudo ./10.12/Post-Install/AD-Kexts/VoodooPS2Daemon/_install.command
+sudo ./10.13/Post-Install/AD-Kexts/VoodooPS2Daemon/_install.command
 ``` 
 Now you'll have to replace the config.plist. Because you'll install modified kexts you'll HAVE TO replace the config.plist in your installation. Otherwise your PC will not boot anymore.
 `diskutil mount EFI`
-replace `EFI/CLOVER/config.plist` with `./10.12/Post-Install/CLOVER/config.plist`. Again: if your PC has a Core i5 processor, search the config.plist for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
+replace `EFI/CLOVER/config.plist` with `./10.13/Post-Install/CLOVER/config.plist`. Again: if your PC has a Core i5 processor, search the config.plist for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
   
-If you've a NVM SSD Drive which is incompatible with the 4k fix, you need to install NVMe-Hackr with SSDT Spoofing (enables easier system upgrading from appstore). Dont do this if you use the HDD version of the Dell or you use your M.2 port for something different than a SSD (for ex. a UMTS modem). Use the correct KEXT for you. Hynix SSDs require a different KEXT (HackrNVMeFamilySpoof-10_12_2_HYNIX.kext instad of HackrNVMeFamilySpoof-10_12_2.kext
-```
-sudo cp ./10.12/Post-Install/AD-Kexts/HackrNVMe/SSDT-Hackr.aml /Volumes/EFI/EFI/CLOVER/ACPI/patched/  
-sudo cp -r ./10.12/Post-Install/AD-Kexts/HackrNVMe/HackrNVMeFamilySpoof-10_12_2.kext /Library/Extensions/
-```
-  
-I suggest moving some of the kext from EFI/CLOVER/kexts/10.12 to /Library/Extensions.
+I suggest moving some of the kext from EFI/CLOVER/kexts/10.13 to /Library/Extensions.
   
 If your notebook is equipped with the UHD touch monitor, you'll have to copy the UHD enabling kexts to your clover directory:
 ```
-sudo cp -R ./10.12/Post-Install/AD-Kexts/UHD-Kexts/* /Volumes/EFI/EFI/CLOVER/kexts/10.12/
+sudo cp -R ./10.13/Post-Install/AD-Kexts/UHD-Kexts/* /Volumes/EFI/EFI/CLOVER/kexts/10.13/
 ```
   
 Finalize the kext-copy by recreating the kernel cache:
@@ -107,7 +99,7 @@ OSX 10.12.2 removed the posibility to load unsigned code. You can enable this by
 `sudo spctl --master-disable `  
   
 To prevent getting in hibernation (which can and will corrupt your data if you're not using the 4k switch).
-`sudo pmset -a hibernatemode 0` or run the script in `./10.12/Post-Install/AD-Kexts/Hibernation/disablehibernate.sh`  
+`sudo pmset -a hibernatemode 0` or run the script in `./10.13/Post-Install/AD-Kexts/Hibernation/disablehibernate.sh`  
   
 
 ## Step 5: iServices (AppStore, iMessages etc.)
@@ -115,13 +107,13 @@ WARNING! DONT USE YOUR MAIN APPLE ACCOUNT FOR TESTING! It's pretty common that a
 If you want to use the iServices, you'll have to do some advanced steps, which are not completly explained in this tutorial. First you need to switch the faked network device already created by step 4 to be on en0. Goto your network settings and remove every network interface, then `sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist` and reboot. Go back in the network configuration and add the network interfaces (LAN) before Wifi.  
 You also need to modify your SMBIOS in the config.plist of Clover in your EFI partition with valid informations about your "fake" mac. There exist [multiple tutorials](http://www.fitzweekly.com/2016/02/hackintosh-imessage-tutorial.html) which explain how to do it.   
 It's possible you have to call the apple hotline to get your fake serial whitelisted by telling a good story why apple forgot to add your serial number in their system. (aka: dont do it if you dont own a real mac). I personally suggest using real data from an old (broken) macbook.
-## Step 6: Upgrading to macOS 10.12.3 or higher / installing security updates
+## Step 6: Upgrading to macOS 10.13.2 or higher / installing security updates
 Each upgrade will possibly break your system!  
 (Update: after the latest updates in the tutorial the system should be relative update-proof)  
 
 ## Step 7: Fixes / Enhancements / Alternative Solutions / Bugs
 If you have any problems, please read this section first. It contains some fixes to known problems and ideas.  
-I moved this part to its own file. Please click [here](Tutorial_10.12_Step7.md)  
+I moved this part to its own file. Please click [here](Tutorial_10.13_Step7.md)  
 
 ## Afterword
 as i said before: this is not a tutorial for absolute beginners, albeit it's much easier then most other tutorials, because most is preconfigured in the supplied config.plist. Some Dells have components included, which are not supported by these preconfigured files. Then i can only suggest using Gymnaes tutorial which explains most of the DSDT patching, config.plist editing and kexts used in detail and use the supplied files here as templates.  
@@ -131,6 +123,7 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
    
 
 ## Tutorial Updates
+* on 4. Nov 2017: Update to OSX 10.13.1
 * on 13. May 2017: APTIOv2 for Dell Firmware 1.2.25 and up
 * on 4. April 2017: Updated Tutorial and added Step 7
 * on 27. March 2017: UHD Kexts added, replaces perl command  
@@ -143,6 +136,6 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
 * on 28. December 2016: NVMe SSDT Spoof precreated, FakeID already preset in installation config.plist. VoodooHDA added as alternative to SSDT-ALC298 patch as well as color coding in tutorial  
 * on 22. December 2016: FakeSMBios added  
 ## Appendix 1: Accessories
-The official [Dell adaptor DA200](http://accessories.euro.dell.com/sna/productdetail.aspx?c=at&l=de&s=dhs&cs=atdhs1&sku=470-abry) works completly on Sierra 10.12.2. You can use the Network, USB, HDMI and VGA. Everything is full hot-pluggable  
+The official [Dell adaptor DA200](http://accessories.euro.dell.com/sna/productdetail.aspx?c=at&l=de&s=dhs&cs=atdhs1&sku=470-abry) works completly on Sierra 10.13.2. You can use the Network, USB, HDMI and VGA. Everything is full hot-pluggable  
 a cheap 3rd party noname USB-C -> VGA adaptor didnt work  
 you can charge the Dell with a generic USB-C Power Adaptor, but USB-C has only a maximum power of 100W, so it's either charging OR usage, not both. Dont forget you need a special USB-C cable (Power Delivery 3.0) for charging  
