@@ -5,6 +5,6 @@ THIS IS A WORK IN PROGRESS.
   
 Setup compatible with Toshiba 512GB SSD, 16GB RAM and 4K Display.
 
-You can follow my guide if you want to install Sierra on your own dell: [guide][1]
+You can follow my guide if you want to install High Sierra on your own dell: [guide][1]
 
-[1]:  Tutorial_10.12.md
+[1]:  Tutorial_10.13.md
