@@ -38,6 +38,21 @@ Inside the terminal. Mac OS will automatically mount the EFI partition of the US
   
 Overwrite everything in the CLOVER folder of the partition EFI with the content of ./10.13/CLOVER.  
 If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
+If your PC is equipped with a HYNIX/Plextor/LiteOn SSD - you have to add the following patch to the config.plist:  
+```
+<dict>
+				<key>Comment</key>
+				<string>IONVMeFamily Preferred Block Size 0x10 -&gt; 0x02, credit RehabMan based on 10.12 patch, (c) Pike R. Alpha </string>
+				<key>MatchOS</key>
+				<string>10.13.x</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IONVMeFamily</string>
+				<key>Find</key>
+				<data>9sEQD4VBAQAA</data>
+				<key>Replace</key>
+				<data>9sECD4VBAQAA</data>
+</dict>
+```  
   
 Go into the EFI Configuration (BIOS) of your Dell XPS 15:   
 ```

@@ -14,13 +14,16 @@ You can use the Mac OSX Calculator in `Programmers Mode`. You can switch this by
 
 ## Step 3: Add the number of pages till first suitable block
 Look at the column #Pages (`N Pages`) for a bigger hexadecimal number than the one in your error message. The column `Type` has to be set to `Available`. Then apply the following formula for your calculation:  
+### OLD CALCULATION (older CLOVER)
 `(START - 100000) / 200000`  
 Each integer in slide will move the pointer 200000. It begins at 100000.  
+### NEW CALCULATION
+`(START / 200000) + 1`
   
    
 Look in your memmap for the first `Available` block with enough pages. The slide parameter doesn't work with high numbers, so you should look for the one with the smallest `Start` value.  
   
-Example with memmap from Step 1:
+Example with memmap from Step 1 and the old calculation:
 ```
 Error: Error allocation 19322 pages  
 Optimal START = 0x6B78000 with 0x1DA8F pages available  
