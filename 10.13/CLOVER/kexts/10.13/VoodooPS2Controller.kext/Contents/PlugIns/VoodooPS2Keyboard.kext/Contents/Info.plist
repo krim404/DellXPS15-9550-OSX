@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>16G29</string>
+	<string>16E195</string>
 	<key>CFBundleExecutable</key>
 	<string>VoodooPS2Keyboard</string>
 	<key>CFBundleGetInfoString</key>
@@ -29,7 +29,7 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>8E3004b</string>
+	<string>8E162</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -37,9 +37,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.12</string>
 	<key>DTXcode</key>
-	<string>0833</string>
+	<string>0830</string>
 	<key>DTXcodeBuild</key>
-	<string>8E3004b</string>
+	<string>8E162</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ApplePS2Keyboard</key>
@@ -292,11 +292,11 @@
 					<key>ActionSwipeDown</key>
 					<string>3b d, 37 d, 7d d, 7d u, 37 u, 3b u</string>
 					<key>ActionSwipeLeft</key>
-					<string>37 d, 21 d, 21 u, 37 u</string>
+					<string>37 d, 7b d, 7b u, 37 u</string>
 					<key>ActionSwipeLeftFromEdge</key>
 					<string>3b d, 37 d, 1d d, 1d u, 37 u, 3b u</string>
 					<key>ActionSwipeRight</key>
-					<string>37 d, 1e d, 1e u, 37 u</string>
+					<string>37 d, 7c d, 7c u, 37 u</string>
 					<key>ActionSwipeRightFromEdge</key>
 					<string>3b d, 37 d, 19 d, 19 u, 37 u, 3b u</string>
 					<key>ActionSwipeUp</key>

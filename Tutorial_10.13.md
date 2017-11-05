@@ -76,9 +76,6 @@ sudo mv /System/Library/Extensions/AppleACPIPS2Nub.kext /System/Library/Extensio
 sudo mv /System/Library/Extensions/ApplePS2Controller.kext /System/Library/Extensions/ApplePS2Controller.bak 2> /dev/null
 sudo ./10.13/Post-Install/AD-Kexts/VoodooPS2Daemon/_install.command
 ``` 
-Now you'll have to replace the config.plist. Because you'll install modified kexts you'll HAVE TO replace the config.plist in your installation. Otherwise your PC will not boot anymore.
-`diskutil mount EFI`
-replace `EFI/CLOVER/config.plist` with `./10.13/Post-Install/CLOVER/config.plist`. Again: if your PC has a Core i5 processor, search the config.plist for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
   
 I suggest moving some of the kext from EFI/CLOVER/kexts/10.13 to /Library/Extensions.
   
@@ -86,7 +83,15 @@ If your notebook is equipped with the UHD touch monitor, you'll have to copy the
 ```
 sudo cp -R ./10.13/Post-Install/AD-Kexts/UHD-Kexts/* /Volumes/EFI/EFI/CLOVER/kexts/10.13/
 ```
-  
+To enable GPU acceleration: Edit your clover config file again and remove the following block from it:  
+```
+<key>FakeID</key>
+		<dict>
+		   <key>IntelGFX</key>
+		   <string>0x12345678</string>
+		</dict>
+```
+   
 Finalize the kext-copy by recreating the kernel cache:
 ```
 sudo rm -rf /System/Library/Caches/com.apple.kext.caches/Startup/kernelcache  
