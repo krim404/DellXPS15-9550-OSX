@@ -4,12 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
-	<key>CFBundleExecutable</key>
-	<string>AppleBacklight</string>
 	<key>CFBundleGetInfoString</key>
 	<string>0.9.0, Copyright 2013 RehabMan Inc. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.rehabman.driver.AppleBacklightInjector</string>
+	<string>org.rehabman.injector.AppleBacklightInjector</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -32,9 +30,13 @@
 		<dict>
 			<key>ApplePanels</key>
 			<dict>
-				<key>F10T143e</key>
+				<key>F10Txxxx</key>
 				<data>ABEAAAAEAA4AHgA0AFIAcwCUAL4A+gE2AXIBxQIvArkDYAcQ</data>
-				<key>F10T1453</key>
+				<key>F14Txxxx</key>
+				<data>ABEAAAAEAA4AHgA0AFIAcwCUAL4A+gE2AXIBxQIvArkDYAcQ</data>
+				<key>F15Txxxx</key>
+				<data>ABEAAAAEAA4AHgA0AFIAcwCUAL4A+gE2AXIBxQIvArkDYAcQ</data>
+				<key>F16Txxxx</key>
 				<data>ABEAAAAEAA4AHgA0AFIAcwCUAL4A+gE2AXIBxQIvArkDYAcQ</data>
 			</dict>
 			<key>CFBundleIdentifier</key>
@@ -48,7 +50,7 @@
 					<key>max</key>
 					<integer>255</integer>
 					<key>min</key>
-					<integer>0</integer>
+					<integer>40</integer>
 				</dict>
 				<key>commit</key>
 				<dict>

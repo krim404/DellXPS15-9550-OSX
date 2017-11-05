@@ -849,6 +849,22 @@
 				VUiJ5THAXcNBVUFUU0iB7DgB
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>change F%uT%04x to F%uTxxxx in AppleBacklightInjector.kext (credit RehabMan)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				RiV1VCUwNHgA
+				</data>
+				<key>Name</key>
+				<string>com.apple.driver.AppleBacklight</string>
+				<key>Replace</key>
+				<data>
+				RiV1VHh4eHgA
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
