@@ -23,28 +23,10 @@ this normally only occurs on installation with firmware 1.2.25. If you have this
 ## clover doesnt boot OR Model Name Error 
 if you get "Model Name: Apple device" in "About this mac" or your mac cant boot without the USB stick - then you're not loading the cloverx64.efi from your EFI. Simply update your EFI configuration by adding it to the boot order by hand. See [Additional/Setup-Bootmanager.jpg](Additional/Setup-Bootmanager.jpg) how to configure to boot from it 
 
-## Alternative Power Management
-The whole power management is done by intels speed step technology (HWP), which is enabled in the clover config. If you want to let OSX manage the power management, you'll have to do these steps:  
-```
-sudo cp ./10.13/Post-Install/CLOVER/ACPI/optional/SSDT.aml /Volumes/EFI/EFI/CLOVER/ACPI/patched/
-```
-then open your installed config.plist from your EFI partition (EFI/CLOVER/config.plist) and change `<key>HWPEnable</key><true/>` to `<key>HWPEnable</key><false/>`.  
-This is not compatible with Skylake SMBIOS like MB9,1 or MBP13,1.
+## On installation: OSInstall.MPKG missing or corrupt
+a bug, which occurs if there are more than one possible targets. Delete `EmuVariableUEFI-64.efi` from the boot stick to continue the installation.  
 
 ## Audio Fixes
-in case you've audio problems: AppleHDA has some problems after Wake-Up. You'll have to plug in a headphone to get your speakers working again.  
-Because there is no clear "best way" in audio, there are multiple different solutions available.  
-In each case you have to remove the original HDA patch:  
-```
-sudo rm -r /Library/Extensions/CodecCommander.kext  
-sudo rm /EFI/EFI/CLOVER/ACPI/patched/SSDT-ALC298.aml
-```
-then remove in your config.plist (EFI/CLOVER/config.plist) from the key "KextsToPatch" the elements "AppleHDA#1" to "AppleHDA#7".
-
-### Audio Fix by using VoodooHDA
-You can use VoodooHDA instead, which makes the headphone jack useless most of the time (distorted sound from headphone jack), but makes the normal audio much more stable. 
-Just install the package: ./10.13/Post-Install/AD-Kexts/VoodooHDA-2.8.8.pkg  
-
 ### Audio Fix by using patched AppleHDA
 alternative to VoodooHDA and with better compatibility, but less stability. Requires replacing the AppleHDA Kext from Apple
 See [this Tutorial](/10.13/Post-Install/AD-Kexts/Audio/AppleHDA_sysCL/readme.md)  
