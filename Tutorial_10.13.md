@@ -43,8 +43,6 @@ If your PC is equipped with a HYNIX/Plextor/LiteOn SSD - you have to add the fol
 <dict>
 				<key>Comment</key>
 				<string>IONVMeFamily Preferred Block Size 0x10 -&gt; 0x02, credit RehabMan based on 10.12 patch, (c) Pike R. Alpha </string>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
 				<key>Name</key>
 				<string>com.apple.iokit.IONVMeFamily</string>
 				<key>Find</key>
