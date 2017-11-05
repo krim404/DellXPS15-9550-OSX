@@ -11,7 +11,7 @@ reboot
 If you have an old installation and recently upgraded your firmware: 1.2.25 and newer firmwares (BIOS) don't work with OSXAPTIO Version 1. This needs to be replaced with OSXAPTIOv2. Replace the EFI/CLOVER/drivers64UEFI with the content from this repository and add slide=168 to the boot arguments
 
 ## Error: couldn't allocate runtime area / unable to start installer / unable to boot at all
-Since OSXAptioV2 is a lil bit picky with memory maps, you'll have to change your slide= command (see question above) to a suitable number. See [this Tutorial](/Additional/slide_calc.md) for more informations. It is still possible you cant get it to boot because no memory section is big enough. This is happening on some machines especially on installation. Try to DOWNGRADE your BIOS (See [this Tutorial](/Additional/bios_upgrade.md)) with the files from the branch
+Since OSXAptio is a lil bit picky with memory maps, you have to swap to OSXAptioV2 and choose a different slide= command (see question above) to a suitable number. First delete the OsxAptioFixDrv-64.efi from your CLOVER/drivers64UEFI and replace it with OsxAptioFix2Drv-64.efi from the folder aptiov2 in drivers64uefi. Then change the slide param in the config.plist. See [this Tutorial](/Additional/slide_calc.md) for more informations. It is still possible you cant get it to boot because no memory section is big enough. This is happening on some machines especially on installation. Try to DOWNGRADE your BIOS (See [this Tutorial](/Additional/bios_upgrade.md)) with the files from the branch if you cant get it to run with the slide values.
 ```
 git clone https://github.com/wmchris/DellXPS15-9550-OSX -b 10.13-BIOS1.2.21
 ```
