@@ -13,10 +13,8 @@ echo "Step 1: removing old content. 'Not found' errors are normal in this step"
 sudo rm /usr/bin/ALCPlugFix
 sudo rm /Library/LaunchAgents/good.win.ALCPlugFix.plist
 sudo rm -r /Library/Extensions/CodecCommander.kext
-sudo rm -Rf /Volumes/EFI/EFI/CLOVER/kexts/10.13/AppleALC.kext
 
 echo "Step 2: Adding files to your Library and EFI"
-sudo cp -R AppleALC.kext /Library/Extensions/
 sudo cp -R VerbStub.kext /Library/Extensions/
 
 echo "Step 3: Updating Kext Caches"
