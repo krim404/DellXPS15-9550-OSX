@@ -8,12 +8,12 @@ Replace the attribute Config2 with none
 reboot 
 
 ## OSX doesn't boot anymore after Firmware upgrade to 1.2.25 or higher
-If you have an old installation and recently upgraded your firmware: 1.2.25 and newer firmwares (BIOS) don't work with OSXAPTIO Version 1. This needs to be replaced with OSXAPTIOv2. Replace the EFI/CLOVER/drivers64UEFI with the content from this repository and add slide=168 to the boot arguments
+If you have an old installation and recently upgraded your firmware: 1.2.25 and newer firmwares (BIOS) don't work with OSXAPTIO Version 1. This needs to be replaced with OSXAPTIOv2. Copy the kernel extension from the folder drivers64uefi/aptiov2 to the EFI/CLOVER/drivers64UEFI. Then add - for example - slide=168 to the boot arguments. See "Error: couldn't allocate runtime area" in this document.
 
 ## Error: couldn't allocate runtime area / unable to start installer / unable to boot at all
-Since OSXAptio is a lil bit picky with memory maps, you have to swap to OSXAptioV2 and choose a different slide= command (see question above) to a suitable number. First delete the OsxAptioFixDrv-64.efi from your CLOVER/drivers64UEFI and replace it with OsxAptioFix2Drv-64.efi from the folder aptiov2 in drivers64uefi. Then change the slide param in the config.plist. See [this Tutorial](/Additional/slide_calc.md) for more informations. It is still possible you cant get it to boot because no memory section is big enough. This is happening on some machines especially on installation. Try to DOWNGRADE your BIOS (See [this Tutorial](/Additional/bios_upgrade.md)) with the files from the branch if you cant get it to run with the slide values.
+Since OSXAptio is a lil bit picky with memory maps, you have to swap to OSXAptioV2 and choose a different slide= command (see question above) to a suitable number. First delete the OsxAptioFixDrv-64.efi from your CLOVER/drivers64UEFI and replace it with OsxAptioFix2Drv-64.efi from the folder aptiov2 in drivers64uefi. Then change the slide param in the config.plist. See [this Tutorial](/Additional/slide_calc.md) for more informations. It is still possible you cant get it to boot because no memory section is big enough. This is happening on some machines especially on installation. Try to DOWNGRADE your BIOS (See [this Tutorial](/Additional/bios_upgrade.md)) with the files from the branch 10.12-BIOS1.2.21 if you cant get it to run with the slide values.
 ```
-git clone https://github.com/wmchris/DellXPS15-9550-OSX -b 10.13-BIOS1.2.21
+git clone https://github.com/wmchris/DellXPS15-9550-OSX -b 10.12-BIOS1.2.21
 ```
 (the 1.2.21 BIOS version is inside this branch in Additional/BIOS). Then install OSX normally, upgrade BIOS and recalculate your slide.
 
@@ -27,15 +27,15 @@ if you get "Model Name: Apple device" in "About this mac" or your mac cant boot 
 a bug, which occurs if there are more than one possible targets. Delete `EmuVariableUEFI-64.efi` from the boot stick to continue the installation.  
 
 ## Audio Fixes
-### Audio Fix by using patched AppleHDA
-alternative to VoodooHDA and with better compatibility, but less stability. Requires replacing the AppleHDA Kext from Apple
-See [this Tutorial](/10.13/Post-Install/AD-Kexts/Audio/AppleHDA_sysCL/readme.md)  
-folder: ./10.13/Post-Install/AD-Kexts/Audio/AppleHDA_sysCL
-
 ### Audio Fix by using ported hdaverb
 this is the newest fix by KNNSpeed - engineered for the Dell 9560, but works on the 9550, too. This has a dependency on Lilu.kext, which is known to randomly generate kernel panics on boot.
 See [this Tutorial](/10.13/Post-Install/AD-Kexts/Audio/VerbStub_knnspeed/README.md)  
 folder: ./10.13/Post-Install/AD-Kexts/Audio/VerbStub_knnspeed
+
+### Audio Fix by using patched AppleHDA - DEPRECATED
+alternative to VoodooHDA and with better compatibility, but less stability. Requires replacing the AppleHDA Kext from Apple
+See [this Tutorial](/10.13/Post-Install/AD-Kexts/Audio/AppleHDA_sysCL/readme.md)  
+folder: ./10.13/Post-Install/AD-Kexts/Audio/AppleHDA_sysCL
 
 ## Display Backlight Control not working
 the supplied AppleBacklightInjector contains an id for the display. It is possible that this id is different on your machine (especially if you use the non touch display). In this case just follow [this tutorial](Additional/PatchAppleBacklight_v2/readme.md)
