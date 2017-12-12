@@ -482,6 +482,20 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>vusun123 - Realtek ALC235 for Lenovo Legion Y520</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>ASccQAEnHQABJx6gAScfsAFHHBABRx0AAUceFwFHH5ABRwwCAZccMAGXHRABlx6BAZcfAAIXHGACFx0QAhceIQIXHwA=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>28</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC236</string>
 					<key>CodecID</key>
 					<integer>283902518</integer>
@@ -885,6 +899,20 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>16</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Hypereitan - ALC269VC for Thinkpad X230 i7</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>ASccEAEnHQEBJx6gAScfkAFHHEABRx0BAUceEAFHH5ABVxxQAVcdEAFXHiEBVx8BAYcccAGHHRABhx6hAYcfAQFHDAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
 				</dict>
 				<dict>
 					<key>Codec</key>
@@ -1474,6 +1502,20 @@
 					<key>CodecID</key>
 					<integer>283902610</integer>
 					<key>Comment</key>
+					<string>vanquybn - ALC 292 for Dell M4800</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHQABRx4XAUcfkAGHHCABhx2QAYcegQGHHwEBJxwwAScdAAEnHqYBJx+QAVccQAFXHUABVx4hAVcfAQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902610</integer>
+					<key>Comment</key>
 					<string>vusun123 - ALC 292 for Lenovo T440</string>
 					<key>ConfigData</key>
 					<data>ASccMAEnHQABJx6gAScfkAFHHEABRx0AAUceFwFHH5ABRwwCAVccUAFXHRABVx4hAVcfAAGnHCABpx0QAacegQGnHwA=</data>
@@ -1570,6 +1612,20 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Rockjesus - Realtek ALC298 for Alienware 17 ALC3266</string>
+					<key>CodecID</key>
+					<integer>283902616</integer>
+					<key>ConfigData</key>
+					<data>ASccQAEnHQEBJx6mAScftwF3HBABdx0BAXceFwF3H5ABpxwwAacdEAGnHqEBpx8DAhccIAIXHRACFx4hAhcfAw==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC298</string>
 					<key>CodecID</key>
 					<integer>283902616</integer>
@@ -1593,6 +1649,20 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>28</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>vusun123 - Realtek ALC298 for Lenovo X270</string>
+					<key>CodecID</key>
+					<integer>283902616</integer>
+					<key>ConfigData</key>
+					<data>AEcc8ABHHQAARx4AAEcfAABXHPAAVx0AAFceAABXHwAAdxzwAHcdAAB3HgAAdx8AAOcc8ADnHQAA5x4AAOcfAAD3HPAA9x0AAPceAAD3HwABBxzwAQcdAAEHHgABBx8AASccQAEnHQEBJx6gAScfkAE3HPABNx0AATceAAE3HwABRxwQAUcdAQFHHhcBRx+QAUcMAgFXHPABVx0AAVceAAFXHwABZxzwAWcdAAFnHgABZx8AAXcc8AF3HQABdx4AAXcfAAGHHDABhx0QAYcegQGHHwMBlxzwAZcdAAGXHgABlx8AAacc8AGnHQABpx4AAacfAAG3HPABtx0AAbceAAG3HwABxxzwAccdAAHHHgABxx8AAdcc8AHXHQAB1x4AAdcfAAHnHPAB5x0AAeceAAHnHwAB9xzwAfcdAAH3HgAB9x8AAgcc8AIHHQACBx4AAgcfAA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>29</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -2460,6 +2530,20 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC898 for CLEVO P65xRS(-G) by datasone</string>
+					<key>CodecID</key>
+					<integer>283904153</integer>
+					<key>ConfigData</key>
+					<data>ARcc8AEXHQABFx4AARcfQAEnHFABJx0BAScepgEnH5ABRxwQAUcdAQFHHhcBRx+QAXccIAF3HRABdx4BAXcfAQGHHEABhx0QAYcegQGHHwEB1xzwAdcdAAHXHgAB1x9AAeccMAHnHREB5x5EAecfAQFHDAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>65</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Realtek ALC898 for MSI GP62-6QG Leopard Pro</string>
 					<key>CodecID</key>
 					<integer>283904153</integer>
@@ -2974,6 +3058,20 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>InsanelyDeepak - IDT92HD87B1/3</string>
+					<key>CodecID</key>
+					<integer>287143633</integer>
+					<key>ConfigData</key>
+					<data>ANccAADXHQAA1x4XANcfmQEXHCABFx0AARceoAEXH5kAtxwwALcdQAC3HiEAtx8BAMccQADHHRAAxx6AAMcfAQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Custom IDT92HD87B2/4 by RehabMan</string>
 					<key>CodecID</key>
 					<integer>287143641</integer>
@@ -3357,6 +3455,20 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>7</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>SonicBSV - VIA VT2020/2021</string>
+					<key>CodecID</key>
+					<integer>285606977</integer>
+					<key>ConfigData</key>
+					<data>Ihcc8CIXHQAiFx4AIhcfQCJHHBAiRx1AIkceESJHHwEiRwwCIlcc8CJXHQAiVx4AIlcfQCJnHPAiZx0AImceACJnH0AidxzwIncdACJ3HgAidx9AIoccICKHHUAihx4hIocfASKXHEAilx2QIpceoCKXH5AilwchIqccgCKnHTAipx6BIqcfASK3HPAitx0AIrceACK3H0AixxzwIscdACLHHgAixx9AItcc8CLXHQAi1x4AItcfQCLnHJAi5x1hIuceSyLnHwEi9xzwIvcdACL3HgAi9x9A</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>9</integer>
 				</dict>
 			</array>
 			<key>IOClass</key>
