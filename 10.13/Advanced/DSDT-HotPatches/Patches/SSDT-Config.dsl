@@ -68,6 +68,9 @@ DefinitionBlock("", "SSDT", 2, "hack", "RMCF", 0)
         // 1: Ivy/Sandy
         // 2: Haswell/Broadwell/Skylake/KabyLake
         Name(FBTP, 0)
+        
+        // Screen Flicker Bugfix
+        Name(IGPI, 0x19160000)
     }
 }
 //EOF
