@@ -540,8 +540,16 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
+		<key>C4</key>
+		<true/>
+		<key>C6</key>
+		<true/>
 		<key>UseARTFrequency</key>
 		<false/>
+		<key>HWPEnable</key>
+		<true/>
+		<key>HWPValue</key>
+		<string>0x94002301</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
