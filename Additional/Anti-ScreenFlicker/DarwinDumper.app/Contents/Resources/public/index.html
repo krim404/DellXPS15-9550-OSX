@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>DarwinDumper</title>
+        <meta name="description" content="A user interface or DarwinDumper" />
+        <meta name="author" content="Blackosx" />
+        <meta name="copyright" content="Copyright 2013-2016 org.black.DarwinDumper. All rights reserved.">
+        <link rel="stylesheet" href="styles/ui/jquery-ui.min.css" />
+        <link rel="stylesheet" href="styles/common/jquery-ui.structure.min.css" />
+        <link rel="stylesheet" href="styles/ui/jquery-ui.theme.min.css" />
+        <link rel="stylesheet" href="styles/darwindumper_ui.css" />   
+        <script src="scripts/jquery-3.1.0.min.js"></script>
+        <script src="scripts/jquery-ui.min.js"></script>
+        <script src="scripts/darwindumper.js"></script>     
+        
+  <style type="text/css" media="screen">
+    html, body {
+      height: 100%;
+      width: 100%;
+      background: #FFF;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      -webkit-user-select: none;
+    }
+
+    h1 {
+      color: #E0E0E0;
+      margin: 18% 0;
+      text-align: center;
+      font-family: helvetica;
+    }
+  </style>
+  
+    </head>
+    <body>
+
+        <div id="Container">
+
+            <div id="infoWindow">
+              <div id="infoFileContents"></div>
+              <input type="button" id="infoWindowCloseButton" class="button_close_page" value="Close"/>
+            </div>  <!-- End infoWindow -->
+
+            <div class="overlay"><p class="message">Initialising...</p></div>
+            <div class="overlayPreventUserInteraction"><p class="message"></p></div>
+            
+            <div id="SaveRegion">
+            
+              <div class="SavePathStaticText">
+                <p class="SaveText">Save Path:<p>
+              </div> <!-- End SavePathStaticText -->
+
+              <div id="OpenButton">
+                <button type="button" id="openPathButton" class="saveButtons">Open</button>
+              </div> <!-- End OpenButton -->
+              
+              <div id="ChangeButton">
+                <button type="button" id="changePathButton" class="saveButtons">Choose</button>
+              </div> <!-- End OpenButton -->
+              
+              <div id="ResetButton">
+                <button type="button" id="resetPathButton" class="saveButtons">Reset</button>
+              </div> <!-- End OpenButton -->
+              
+              <div class="SavePathBox">
+                <input type="text" id="globSaveDirectory">
+              </div> <!-- End SavePathBox -->
+              
+            </div> <!-- End SaveRegion -->
+    
+            <form action="" id="myForm" name="User_Options" method="GET" onsubmit="return processSelections(this);">
+                
+                <div id="leftSideBox">
+                    <div><a href="https://bitbucket.org/blackosx/darwindumper" target="_blank"><input type="button" class="button_mainLogo" id="leftSideLogoBox"/></a></div>
+                    <div id="leftSideVersionBox"></div>
+                    <div class="menu">
+                        <ul>
+                            <li><input type="button" class="button_showpage" id="info_credits" value="Credits"/></li>
+                            <li><input type="button" class="button_showpage" id="info_help" value="Help"/></li>
+                            <li><input type="button" class="button_showpage" id="info_symlink" name=" " value="Symlink"/></li>
+                            <!-- <li><input type="button" class="button_showpage" id="info_saveDirectory" value="Save Path"/></li> -->
+                        </ul>
+                        <hr/>
+                        <ul>
+                            <li><input type="button" class="button2" id="DeselectAll" value="Deselect All Dumps"/></li>
+                            <li><input type="button" class="button4" id="SelectAll" value="Select All Dumps" /></li>
+                        </ul>
+                        <hr/>
+                        <ul>
+                            <li><input type="button" class="button3" id="Run" name="Run" value="Run" onclick="formButtonPressed(this.form,'run');" /></li>
+                            <!-- <hr/>
+                            <li><input type="button" class="button1" id="Quit" name="Quit" value="Quit" onclick="formButtonPressed(this.form,'quit');" /></li> -->
+                        </ul>
+                    </div>
+                    
+                </div> <!-- End leftSideBox -->
+                
+                <div id="leftSideBoxRightEdge"></div>
+
+                <div id="topHeaderBox">
+                    <table width="469" border="0">
+                        <tr>
+                            <td valign="top" width="12"><input type="checkbox" class="groupSelectButtonTop" name="selectTop" value="checkbox" id="selectTopOptions" /></td>
+                            <td valign="top" width="1">&nbsp;</td>
+                            <td valign="top" width="380" class="topbarHeadingText">DUMPS REQUIRING ROOT PRIVILEGES</td>
+                            <td valign="top" width="32" class="topbarHeadingText">STATUS</td>
+                        </tr>
+                    </table>
+                </div> <!-- End topHeaderBox -->
+                
+                <div id="topMiddleOptionsContainer">
+                    <div id="topMiddleOptions">
+                        <div class="checkboxes">
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_codecid"/><label><input type="checkbox" class="dump_option" name="codecid" value="checkbox" id="codecid" /><label>Audio Codec ID/Info</label></label><input type="button" class="warning_triangle_none" id="warn_codecid"/><span class="status" id="status_codecid"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_biosSystem"/><label><input type="checkbox" class="dump_option" name="biosSystem" value="checkbox" id="biosSystem" /><label>BIOS - System</label></label><input type="button" class="warning_triangle_none" id="warn_biosSystem"/><span class="status" id="status_biosSystem"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_biosVideo"/><label><input type="checkbox" class="dump_option" name="biosVideo" value="checkbox" id="biosVideo" /><label>BIOS - Video</label></label><input type="button" class="warning_triangle_none" id="warn_biosVideo"/><span class="status" id="status_biosVideo"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_bootLoaderBootSectors"/><label><input type="checkbox" class="dump_option" name="bootLoaderBootSectors" value="checkbox" id="bootLoaderBootSectors" /><label>Bootloader Detect &amp Boot Sectors</label></label><span class="status" id="status_bootLoaderBootSectors"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_cpuinfo"/><label><input type="checkbox" class="dump_option" name="cpuinfo" value="checkbox" id="cpuinfo" /><label>CPU Information</label></label><input type="button" class="warning_triangle_none" id="warn_cpuinfo"/><span class="status" id="status_cpuinfo"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_diskLoaderConfigs"/><label><input type="checkbox" class="dump_option" name="diskLoaderConfigs" value="checkbox" id="diskLoaderConfigs" /><label>Bootloader Config Files &amp; Drivers</label></label><span class="status" id="status_diskLoaderConfigs"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_diskPartitionInfo"/><label><input type="checkbox" class="dump_option" name="diskPartitionInfo" value="checkbox" id="diskPartitionInfo" /><label>Disk Partitions &amp; Unique IDs</label></label><span class="status" id="status_diskPartitionInfo"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_firmmemmap"/><label><input type="checkbox" class="dump_option" name="firmmemmap" value="checkbox" id="firmmemmap" /><label>Firmware Memory Map</label></label><input type="button" class="warning_triangle_none" id="warn_firmmemmap"/><span class="status" id="status_firmmemmap"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_lspci"/><label><input type="checkbox" class="dump_option" name="lspci" value="checkbox" id="lspci" /><label>LSPCI</label></label><input type="button" class="warning_triangle_none" id="warn_lspci"/><span class="status" id="status_lspci"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_memory"/><label><input type="checkbox" class="dump_option" name="memory" value="checkbox" id="memory" /><label>Memory</label></label><span class="status" id="status_memory"></span></div>
+                        </div> <!-- End class Checkboxes -->
+                    </div> <!-- End topMiddleOptions -->
+                </div><!-- End topMiddleOptionsContainer -->
+
+                <div id="middleHeaderBox">
+                    <table width="469" border="0">
+                        <tr>
+                            <td valign="top" width="12"><input type="checkbox" class="groupSelectButtonMiddle" name="selectMiddle" value="checkbox" id="selectMiddleOptions" /></td>
+                            <td valign="top" width="1">&nbsp;</td>
+                            <td valign="top" width="380" valign="top" class="middleBarHeadingText">DUMPS NOT REQUIRING ROOT PRIVILEGES</td>
+                            <td valign="top" width="32" valign="top" class="middleBarHeadingText">STATUS</td>
+                        </tr>
+                    </table>
+                </div> <!-- End middleHeaderBox -->
+
+                <div id="MiddleOptionsContainer">
+                    <div id="MiddleOptions">
+                        <div class="checkboxes">
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_acpi"/><label><input type="checkbox" class="dump_option" name="acpi" value="checkbox" id="acpi" /><label>ACPI Tables</label></label><span class="status" id="status_acpi"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_bootlogF"/><label><input type="checkbox" class="dump_option" name="bootlogF" value="checkbox" id="bootlogF" /><label>Boot Log (firmware log)</label></label><span class="status" id="status_bootlogF"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_bootlogK"/><label><input type="checkbox" class="dump_option" name="bootlogK" value="checkbox" id="bootlogK" /><label>Boot Log (kernel buffer messages)</label></label><span class="status" id="status_bootlogK"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_devprop"/><label><input type="checkbox" class="dump_option" name="devprop" value="checkbox" id="devprop" /><label>Device Properties</label></label><span class="status" id="status_devprop"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_dmi"/><label><input type="checkbox" class="dump_option" name="dmi" value="checkbox" id="dmi" /><label>DMI Tables (SMBIOS)</label></label><span class="status" id="status_dmi"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_edid"/><label><input type="checkbox" class="dump_option" name="edid" value="checkbox" id="edid" /><label>EDID</label></label><span class="status" id="status_edid"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_ioreg"/><label><input type="checkbox" class="dump_option" name="ioreg" value="checkbox" id="ioreg" /><label>I/O Kit Registry</label></label><span class="status" id="status_ioreg"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_kernelinfo"/><label><input type="checkbox" class="dump_option" name="kernelinfo" value="checkbox" id="kernelinfo" /><label>Kernel Information</label></label><span class="status" id="status_kernelinfo"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_kexts"/><label><input type="checkbox" class="dump_option" name="kexts" value="checkbox" id="kexts" /><label>Kexts</label></label><span class="status" id="status_kexts"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_nvram"/><label><input type="checkbox" class="dump_option" name="Checkboxes_Dump_Options" value="checkbox" id="nvram" /><label>NVRAM</label></label><span class="status" id="status_nvram"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_opencl"/><label><input type="checkbox" class="dump_option" name="Checkboxes_Dump_Options" value="checkbox" id="opencl" /><label>OpenCL</label></label><span class="status" id="status_opencl"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_power"/><label><input type="checkbox" class="dump_option" name="power" value="checkbox" id="power" /><label>Power Settings (Sleep/Hibernate)</label></label><span class="status" id="status_power"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_rcscripts"/><label><input type="checkbox" class="dump_option" name="Checkboxes_Dump_Options" value="checkbox" id="rcscripts" /><label>RC Scripts</label></label><span class="status" id="status_rcscripts"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_rtc"/><label><input type="checkbox" class="dump_option" name="Checkboxes_Dump_Options" value="checkbox" id="rtc" /><label>RTC</label></label><span class="status" id="status_rtc"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_sip"/><label><input type="checkbox" class="dump_option" name="sip" value="checkbox" id="sip" /><label>System Integrity Protection (SIP)</label></label><span class="status" id="status_sip"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_smc"/><label><input type="checkbox" class="dump_option" name="Checkboxes_Dump_Options" value="checkbox" id="smc" /><label>SMC Keys</label></label><span class="status" id="status_smc"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_sysprof"/><label><input type="checkbox" class="dump_option" name="Checkboxes_Dump_Options" value="checkbox" id="sysprof" /><label>System Profiler</label></label><span class="status" id="status_sysprof"></span></div>
+                        </div> <!-- End class Checkboxes -->
+                    </div> <!-- End MiddleOptions -->
+                </div> <!-- End MiddleOptionsContainer -->
+
+                <div id="secondHeaderBox">
+                    <table width="469" border="0">
+                        <tr>
+                            <td width="30">&nbsp;</td>
+                            <td valign="top" width="380" class="secondBarHeadingText">EXTRA OPTIONS</td>
+                            <td valign="top" width="32" class="secondBarHeadingText">STATUS</td>
+                        </tr>
+                    </table>
+                </div> <!-- End splitHeaderBox -->
+                
+                <div id="secondMiddleOptionsContainer">
+                    <div id="secondMiddleOptions">
+                        <div class="checkboxes">
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_privacy"/><label><input type="checkbox" name="Radio_Privacy" value="checkbox" id="privacy" /><label>Make Dumps Private</label></label><span class="status" id="status_privacy"></span></div>
+                            <div class="OptionLine"><input type="button" class="button_info" id="info_Report"/><label><input type="checkbox" name="Checkboxes_HTML_Report" value="checkbox" id="Report" /><label>HTML Report</label></label><span class="status" id="status_Report"></span></div>
+                        </div> <!-- End class Checkboxes -->
+
+                        <div class="OptionLine"><input type="button" class="button_info" id="info_archive"/><label class="archiveDropDown">
+                            <select name="archiveOptions" id="archive">
+                                <option value="ArchiveNone">Don't Archive</option>
+                                <div class="OptionLine"><option value="ArchiveZip">Archive as .zip</option>
+                                <div class="OptionLine"><option value="ArchiveLzma">Archive as .lzma</option>
+                            </select>
+                        </label><span class="status" id="status_archive"></span></div>
+                    </div> <!-- End secondMiddleOptions -->
+                </div><!-- End secondMiddleOptionsContainer -->
+
+            </form>
+
+<!--        <div id="dialogFixed" title="Solved: Reports Folder">
+                <p>The ownership/permissions for the DarwinDumperReports folder have been fixed.</p>
+            </div>
+            
+            <div id="dialogFixing" title="Solving: Reports Folder">
+                <p>Fixing ownership/permissions for the DarwinDumperReports folder.....</p>
+            </div>
+
+            <div id="dialog-OwnPerm" title="Issue: Reports Folder">
+                <p>The ownership/permissions for the DarwinDumperReports folder prohibit writing. Would you like to fix this issue ? If not, then DarwinDumper will quit as it can't continue.</p>
+            </div>
+-->
+            <div id="dialogWaitingAuth" title="Waiting: User Authentication">
+                <p>Please enter the admin password in to the separate dialog box that's been shown. (If you can't see the dialog box then check it's not behind another window).<br /></br />This process cannot continue until the admin password has been entered.</p>
+            </div>
+            
+<!--        <div id="dialogWaitingAction" title="Waiting: User Action">
+                <p>Please choose your save destination.<p>
+            </div>
+-->
+            <div id="tmpSaveStore">
+                <form action="">
+                    <input type="text" name="globAppPath" class="saveDirBox">
+                </form>
+            </div>
+
+             
+        </div> <!-- End Container -->
+    </body>
+</html>

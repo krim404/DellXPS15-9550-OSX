@@ -1,0 +1,52 @@
+/* Override default body style */
+body { font-family: Lucida Grande, Lucida Sans Unicode, Tahoma; font-size: 11px; background-color: #666; }
+
+/* Box which houses everything */
+#container { width: auto; /* 1000px */  position: absolute; top: 10px; bottom: 10px; left: 20px; right: 20px; background-color: #555; margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto; padding-top: 20px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px;}
+
+/* Space at the head of the page */
+#header { height:60px; background-image: url(../assets/ioregwebviewertitle.png); background-repeat: no-repeat; background-position: right top; }
+
+/* Plane selector - drop down menu */
+.user_drop_down_choice select { background-color: #666; width: 300px; margin-left: 0px; margin-top: 5px; font-size: 12px; height: 20px; border: 0; color: #FFF;  }
+
+/* Text for showing class, debug information, busy state & retain count info */
+#class_placeholder { margin-left: 0px; margin-top: 10px; font-weight: bold; }
+.class_info { color: #FFF; }
+
+/* Left Tree Header box*/
+#leftPaneTreeHeader { position:absolute; top:80px; left:40px; width:300px; height: 30px; background:#76a24b; }
+
+/* Left Tree Header - textfield, search and clear boxes */
+#user_select_search { position:absolute; top:0; left:10px;}
+input { height: 16px; width: 150px; background-color: #666; font-size:12px; margin-left: 0px; margin-top: 4px; margin-right: 4px; border: 1px; border: 1px solid #CCC; color: #FFF; }
+.user_search_button { background-color: #7a8d68; color: #FFF; } 
+.user_clear_button { background-color: #7a8d68; color: #FFF; } 
+
+/* Left Tree*/
+#leftPaneTree { position:absolute; top:110px; bottom:40px; left:40px; width:300px; background:#F1F1F1; overflow:auto; }
+
+/* Right Tree Header box*/
+#rightPaneTreeHeader { position:absolute; top:80px; bottom:0; left:350px; right:40px; height: 30px; background:#76a24b; }
+#titleProperty { float: left; margin-left:19px; margin-top:10px; }
+#titleType { float: left; margin-left:185px; margin-top:10px; }
+#titleValue { float: left; margin-left:60px; margin-top:10px; }
+/* #titles li { float: left; list-style-type: none; margin-right:110px; } */
+.titleText { color: #FFF; font-size: 10px; font-weight: bold; }
+
+/* Right Tree*/
+#rightPaneTree { position:absolute; top:110px; bottom:40px; left:350px; right:40px; background:#F1F1F1; overflow:auto; border: 1px solid #CCC;  }
+
+/* Footer */
+#footer { position: absolute; bottom: 0px; left: 0px; right: 0px; height: 30px; background-color: #333; }
+.footer_style {	font-family: Lucida Grande, Lucida Sans Unicode, Tahoma; font-size: 10px; text-align: center; color: #CCC; height: 20px; }
+
+a:active { color: #FFF; }
+a:link { color: #76a24b; }
+a:hover { color: #FFF; }
+a:visited { color: #76a24b; }
+
+/* Modal Dialag Box */
+#dialog { font-family: Lucida Grande, Lucida Sans Unicode, Tahoma; font-size: 10px; }
+.bodyNormal { font-weight: normal; }
+.bodyBold { font-weight: bold; }

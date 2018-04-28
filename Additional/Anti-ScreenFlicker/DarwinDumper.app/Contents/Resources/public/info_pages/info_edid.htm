@@ -1,0 +1,11 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">Information: EDID</label></div>
+<p class="dropDownBody">The EDID data structure can describe information about your monitor such as the size and supported resolutions.</p> 
+<p class="dropDownBody">This option extracts the IODisplayEDID data from the I/O Kit Registry and saves it to a file named EDID.bin in the latest dump/EDID folder.</p> 
+<p class="dropDownBody">The edid-decode tool, originally by Adam Jackson but since updated by Andy Vandijck, is then run to decode the binary file to a text file named EDID.txt which is saved in the latest dump/EDID folder.</p> 
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Source</td>
+        <td width="325" class="dropDownTableBody"><a href="http://bit.ly/VgojLe" target="_blank">http://cgit.freedesktop.org</a></td>
+    </tr>
+</table>
+<p class="dropDownBody">Finally, the binary file is also converted back to hex and saved as EDID.hex in the latest dump/EDID folder. This can be useful for using with Andy Vandijck's <a href="http://www.insanelymac.com/forum/topic/290130-fixedid-v232-application-to-generate-overrides-automatically-for-apple-displays/" target="_blank">FixEDID app</a>.</p> 

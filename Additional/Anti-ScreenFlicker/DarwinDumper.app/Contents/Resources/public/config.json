@@ -1,0 +1,30 @@
+{
+    "main": "public/index.html",
+    "name": "MacGap",
+    "description": "",
+    "version": "2.0.0",
+    "plugins" : {
+                "Dock":"Dock",
+                "Dialog":"Dialog",
+                "Fonts" : "Fonts",
+                "Clipboard":"Clipboard",
+                "StatusItem":"StatusItem",
+                "Task" : "Task",
+                "Sound" : "Sound",
+                "Defaults" : "Defaults",
+                "File" : "File"
+                 },
+    "window" : {
+        "title" : "DarwinDumper",
+        "width" : 664,
+        "height" : 714,
+        "position": "center",
+        "min_width": 664,
+        "min_height": 714,
+        "max_width": 664,
+        "max_height": 714,
+        "opaque": 1,
+        "alpha": 1
+    }
+  
+}

@@ -87,14 +87,14 @@ Because all DSDT/SSDT changes are already in the config.plist, you dont need to 
 sudo cp -r ./10.13/Post-Install/LE-Kexts/* /Library/Extensions/  
 sudo mv /System/Library/Extensions/AppleACPIPS2Nub.kext /System/Library/Extensions/AppleACPIPS2Nub.bak 2> /dev/null  
 sudo mv /System/Library/Extensions/ApplePS2Controller.kext /System/Library/Extensions/ApplePS2Controller.bak 2> /dev/null
-sudo ./10.13/Post-Install/AD-Kexts/VoodooPS2Daemon/_install.command
+sudo ./10.13/Post-Install/Additional\ Steps/VoodooPS2Daemon/_install.command
 ``` 
   
 I suggest moving some of the kext from EFI/CLOVER/kexts/10.13 to /Library/Extensions.
   
 If your notebook is equipped with the UHD touch monitor, you'll have to copy the UHD enabling kexts to your clover directory:
 ```
-sudo cp -R ./10.13/Post-Install/AD-Kexts/UHD-Kexts/* /Volumes/EFI/EFI/CLOVER/kexts/10.13/
+sudo cp -R ./10.13/Post-Install/Additional\ Steps/UHD-Kexts/* /Volumes/EFI/EFI/CLOVER/kexts/10.13/
 ```
 To enable GPU acceleration: Edit your clover config file again and remove the following block from it:  
 ```
@@ -117,14 +117,17 @@ OSX 10.12.2 removed the posibility to load unsigned code. You can enable this by
 `sudo spctl --master-disable `  
   
 To prevent getting in hibernation (which can and will corrupt your data if you're not using the 4k switch).
-`sudo pmset -a hibernatemode 0` or run the script in `./10.13/Post-Install/AD-Kexts/Hibernation/disablehibernate.sh`  
+`sudo pmset -a hibernatemode 0` or run the script in `./10.13/Post-Install/Additional\ Steps/Hibernation/disablehibernate.sh`  
   
-
+## Step 4.5: 
+Take a look in the folder `/10.13/Post-Install/Additional\ Steps/`. There are multiple fixes for various bugs or problems. Use the supplied tools only when needed. These folders always contain a seperate readme file to explain their requirement and usage.  
+  
 ## Step 5: iServices (AppStore, iMessages etc.)
 WARNING! DONT USE YOUR MAIN APPLE ACCOUNT FOR TESTING! It's pretty common that apple BANS your apple-id from iMessage and other services if you've logged in on not well configured hackintoshs!  
 If you want to use the iServices, you'll have to do some advanced steps, which are not completly explained in this tutorial. First you need to switch the faked network device already created by step 4 to be on en0. Goto your network settings and remove every network interface, then `sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist` and reboot. Go back in the network configuration and add the network interfaces (LAN) before Wifi.  
 You also need to modify your SMBIOS in the config.plist of Clover in your EFI partition with valid informations about your "fake" mac. There exist [multiple tutorials](http://www.fitzweekly.com/2016/02/hackintosh-imessage-tutorial.html) which explain how to do it.   
-It's possible you have to call the apple hotline to get your fake serial whitelisted by telling a good story why apple forgot to add your serial number in their system. (aka: dont do it if you dont own a real mac). I personally suggest using real data from an old (broken) macbook.
+It's possible you have to call the apple hotline to get your fake serial whitelisted by telling a good story why apple forgot to add your serial number in their system. (aka: dont do it if you dont own a real mac). I personally suggest using real data from an old (broken) macbook.  
+  
 ## Step 6: Upgrading to macOS 10.13.2 or higher / installing security updates
 Each upgrade will possibly break your system!  
 (Update: after the latest updates in the tutorial the system should be relative update-proof)  

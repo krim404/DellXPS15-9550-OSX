@@ -1,0 +1,26 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">Information: ACPI Tables (from ioreg)</label></div>
+<p class="dropDownBody">This runs the dumpAPCI program to generate a binary property list of all ACPI tables.</p>
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Source</td>
+        <td width="325" class="dropDownTableBody"><a href="https://bitbucket.org/blackosx/dumpacpi" target="_blank">Projectosx Forum Topic</a></td>
+    </tr>
+</table>
+<p class="dropDownBody"> A shell script then extracts the ACPI tables from the plist, before each table is decompiled using Intel's iasl tool.</p>
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Source</td>
+        <td width="325" class="dropDownTableBody"><a href="http://bit.ly/Zf0UKY" target="_blank">Projectosx Forum Topic</a></td>
+    </tr>
+</table>
+<p class="dropDownBody">Both the dumped compiled and decompiled files are added in their own respective folders and saved in the latest dump/ACPI Tables folder.</p>
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Note: </td>
+        <td width="325" class="dropDownTableBody">These tables will be influenced by the bootloader and will NOT be the native tables from your motherboard.</td>
+    </tr>
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Note2: </td>
+        <td width="325" class="dropDownTableBody">The tables dumped are only the ones that exist in the I/O Kit Registry. There may be other tables in your BIOS which can be dumped by another OS such as Linux, or pressing F4 from Clover's GUI.</td>
+    </tr>
+</table>

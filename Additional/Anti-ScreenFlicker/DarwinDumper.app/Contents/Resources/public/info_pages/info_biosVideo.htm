@@ -1,0 +1,27 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">Information: BIOS Video Dump</label></div>
+<p class="dropDownBody">The option runs the following routines to find and save vbios ROM's.</p>
+<p class="dropDownBody">First, legacy ROM's are searched for in shadow ROM addr 0xC0000 thanks to Andy Vandijck's updated version of dong's RadeonPCI.kext and RadeonDump tool. ATI, NVidia and Intel chipsets can be dumped. Second, any legacy ATY,bin_image ROM's found in IORegistry are saved. Third, a VFCT ACPI table is searched for and scanned for a UEFI GOP BIOS.</p>
+<p class="dropDownBody">The ROM files are saved to dump/BIOS/Video folder with the filename notation beginning with VendorID.DeviceID. If this vendor matches 1002 (ATI/AMD) then Andy Vandijck's radeon_bios_decode tool is run to decode the BIOS dump file.</p>
+<p class="dropDownBody">Lastly, the atomdis binary is run against any ATI ROM files in the hope of disassembling them. And the AnalyseVBIOS tools is run against any Nvidia ROM's to find the address of any VESA tables.</p>
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Source</td>
+        <td width="325" class="dropDownTableBody"><a href="http://bit.ly/hTxytX" target="_blank">Dong's Original at Project OSX</a></td>
+    </tr>
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Source</td>
+        <td width="325" class="dropDownTableBody"><a href="http://bit.ly/15YTV9f" target="_blank">Andy Vandijck's Tools InsanelyMac Forum</a></td>
+    </tr>
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Source</td>
+        <td width="325" class="dropDownTableBody"><a href="http://www.insanelymac.com/forum/topic/297187-amd-video-bios-disassembler/" target="_blank">atomdis  at InsanelyMac Forum</a></td>
+    </tr>
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Source</td>
+        <td width="325" class="dropDownTableBody"><a href="http://www.insanelymac.com/forum/topic/211294-information-on-vesa-modes-in-atinvidia-bios/" target="_blank">AnalyseVBIOS at InsanelyMac Forum</a></td>
+    </tr>
+    <tr>
+        <th width="50" class="dropDownTableBodyBoldNote">Note</td>
+        <td width="325" class="dropDownTableBodyNote">Root privileges are required to load the RadeonPCI.kext and run the RadeonDump tool.</td>
+    </tr>
+</table>

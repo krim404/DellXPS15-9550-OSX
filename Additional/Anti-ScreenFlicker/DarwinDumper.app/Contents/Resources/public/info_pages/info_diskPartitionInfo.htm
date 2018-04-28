@@ -1,0 +1,19 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">Information: Disk Partitions & Unique IDs</label></div>
+<p class="dropDownBody">This option runs a script, three tools and reads ioreg.</p>
+<p class="dropDownBody">First, /usr/sbin/gpt, is run to read the current partitioning of each device. Second, fdisk440 (Chameleon's modded version of Apple's fdisk), is run against each device.</p>
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Source</td>
+        <td width="325" class="dropDownTableBody"><a href="http://bit.ly/12lSoe7" target="_blank">Voodooprojects Forge</a></td>
+    </tr>
+</table>
+<p class="dropDownBody">The results from both these tools are appended to a file named diskX-PartitionTableInfo.txt where X is the number of the disk read and saved in the latest dump/Disks/Partition Info folder. Note: These files are not included in the html report, but serve a purpose for cross checking blackosx's bdisk script in the case of any erratum.</p>
+<p class="dropDownBody">Third, blackosx's bdisk script reads and interprets the disk sectors saving the result to the latest dump/Disks/Partition Info/Partition bdisk Scan folder. This script also prepares a temporary file which is later parsed for creating the visual disk partition tables in the html report.</p>
+<p class="dropDownBody">Finally, for devices using a GPT, diskutil is used to read the available VolumeUUID's and then ioreg is used to read the Unique partition GUID's from the IODeviceTree. These results are saved to a UIDs.txt file in the latest dump/Disks folder.</p>
+
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBoldNote">Note</td>
+        <td width="325" class="dropDownTableBodyNote">This scan requires root privileges.</td>
+    </tr>
+</table>

@@ -1,0 +1,260 @@
+The DarwinDumper scripts and files are intended to be open source and in the public domain. 
+However, after reading http://opensource.org/faq it’s clear this is not ideal and it’s
+recommended to apply an approved Open Source License. Because of this DarwinDumper
+now attempts to come under the GNU General Public License, version 3.0 (GPLv3).
+
+DarwinDumper includes many executable binary files to be able perform it’s function, each
+of which have their own respective owners, copyrights and licenses. From reading the
+masses of, often confusing, information on the internet about licensing I have come to
+the understanding that Open Source licenses cover the source code and should be supplied
+with that source code.
+
+DarwinDumper does not contain the source code for any of the precompiled executable
+binaries but for the sake of full transparency I have compiled a list below stating
+the creator, copyright notice, license (where applicable) and link to source code,
+of each executable binary. 
+
+Errors and omissions excepted (E&OE).
+
+If anybody has different information relevant to this then please report it.
+
+Blackosx <darwindumper@yahoo.com>
+
+============================================================================
+
+AnalyseVBIOS
+Copyright: Not Known.
+License: Not known
+Source: http://www.insanelymac.com/forum/topic/211294-information-on-vesa-modes-in-atinvidia-bios/
+
+============================================================================
+
+atomdis
+Copyright: Michael Larabel @ Phoronix.com
+License: GPL Version 2
+Source: http://www.phoronix.com/scan.php?page=article&item=amd_atombios_dumper
+
+============================================================================
+
+bgrep
+Copyright 2009 Felix Domke <tmbinc@elitedvb.net>. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:
+
+   1. Redistributions of source code must retain the above copyright notice, this list of
+      conditions and the following disclaimer.
+
+   2. Redistributions in binary form must reproduce the above copyright notice, this list
+      of conditions and the following disclaimer in the documentation and/or other materials
+      provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER ``AS IS'' AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The views and conclusions contained in the software and documentation are those of the
+authors and should not be interpreted as representing official policies, either expressed
+or implied, of the copyright holder.
+
+Source: https://github.com/tmbinc/bgrep
+
+============================================================================
+
+bdmesg
+Copyright 2010 by Islam M. Ahmed Zaid. All rights reserved.
+License: GPL Version 2
+Source: http://forge.voodooprojects.org/p/chameleon/source/tree/HEAD/trunk/i386/util/bdmesg.c
+
+============================================================================
+
+cmosDumperForOsx
+Created by rafirafi, revised extensively by STLVNUB
+License: Information not available
+Source: http://www.projectosx.com/forum/index.php?showtopic=2432&st=0&p=21522&#entry21522
+(H)
+
+============================================================================
+
+csrstat
+Created by Piker-Alpha
+License: Information not available
+Source: https://github.com/Piker-Alpha/csrstat
+
+============================================================================
+
+dmidecode
+http://www.nongnu.org/dmidecode/
+License: GPL Version 2
+Source: http://www.projectosx.com/forum/index.php?showtopic=2488
+(H)
+
+============================================================================
+
+dumpACPI
+Created by blackosx. Idea taken from PHPdev32's MacIASL.
+Source: https://bitbucket.org/blackosx/dumpacpi
+
+============================================================================
+
+edid-decode
+Created by Adam Jackson, revised by Andy Vandijck
+License: Copyright 2006-2012 Red Hat, Inc.
+Original Source: http://cgit.freedesktop.org/xorg/app/edid-decode
+Revised Source: http://bit.ly/1qAzqxb
+(H)
+
+============================================================================
+
+fdisk440
+Apple Computer, Inc.
+License: APSL v2.0
+Source: http://forge.voodooprojects.org/p/chameleonApplications/source/tree/HEAD/trunk/fdisk.tproj
+
+============================================================================
+
+FirmwareMemoryMap script
+Amit Singh (showbootermemorymap)
+License: Information not available
+Source: https://bitbucket.org/blackosx/darwindumper/src/2643d5f51195dcca4f6960b58f933308e9ad5555/Resources/Tools/FirmwareMemoryMap?at=master&fileviewer=file-view-default
+
+============================================================================
+
+flashrom
+http://flashrom.org/Flashrom
+License: GPL Version 2
+Source: http://www.projectosx.com/forum/index.php?s=&showtopic=2485&view=findpost&p=40285
+
+============================================================================
+
+getcodecid
+Copyright (c) 2012 AnV Software. All rights reserved.
+License: Information not available
+Source: http://www.insanelymac.com/forum/topic/285277-getcodecid-command-line-tool-to-detect-codec-id/
+
+============================================================================
+
+getdump
+Created by fassl?, modifications by Slice and AutumnRain?
+License: Information not available
+Source: https://svn.code.sf.net/p/voodoohda/code/tranc/getdump.c
+
+============================================================================
+
+gfxutil
+Copyright 2008 mcmatrix. All rights reserved.
+License: Information not available
+http://forum.netkas.org/index.php?PHPSESSID=q2isd338ihjjpcgbng7tne08pdv7tr4f&topic=64.0
+Source: https://dl.dropbox.com/u/222155/gfxutil_source.zip
+
+============================================================================
+
+iasl
+Copyright © 2000 – 2014 Intel Corporation.
+License: Information not available
+Source: https://github.com/acpica/acpica
+
+============================================================================
+
+ioregwv
+Apple Computer, Inc.
+License: APSL v2.0
+Source: https://bitbucket.org/blackosx/ioregwv
+
+============================================================================
+
+lzma
+Copyright (C) 2013 Igor Pavlov.
+License: GNU Lesser General Public License
+Source: http://www.7-zip.org/sdk.html
+
+============================================================================
+
+MacGap2
+Created by Tim Debo. All rights reserved.
+License: MIT
+Source: http://bitbucket.org/blackosx/macgap
+
+============================================================================
+
+nvram
+Apple Computer, Inc.
+License: APSL v2.0
+Source: https://bitbucket.org/blackosx/nvram
+
+============================================================================
+
+oclinfo
+Copyright (C) 2009 cmf
+License: GPL Version 2
+Source: http://www.insanelymac.com/forum/topic/170796-opencl-info/
+
+============================================================================
+
+pciutils driver (DirectHW.kext)
+DirectHW is Copyright © 2008-2010 coresystems GmbH
+License: GPL Version 2
+Source: http://www.projectosx.com/forum/index.php?showtopic=2480
+
+============================================================================
+
+pciutils lspci
+Copyright (c) 1997--2008 Martin Mares
+License: GPL Version 2
+Source Code: https://kernel.googlesource.com/pub/scm/utils/pciutils/pciutils.git/+/master
+
+============================================================================
+
+Macpmem driver (Macpmem.kext)
+Copyright (C) 2007-2011 Volatile Systems. Copyright 2013-2014 Google Inc. All Rights Reserved.
+License: GPL Version 2
+Source Code: https://github.com/google/rekall/tree/master/tools/osx/MacPmem
+
+============================================================================
+
+RadeonDump
+Created by Dong Luo. Copyright 2008. All rights reserved. Modified by Andy Vandijck
+License: Information not available
+Source: http://www.insanelymac.com/forum/topic/282794-darwindumper/page__st__120#entry1920068
+
+============================================================================
+
+radeon_bios_decode
+Created by Dong Luo. Copyright 2008. All rights reserved.
+License: Information not available
+Source: http://www.insanelymac.com/forum/topic/282794-darwindumper/page__st__120#entry1920068
+
+============================================================================
+
+smbios-reader
+http://www.nongnu.org/dmidecode/
+License: GPL Version 2
+Source: http://www.projectosx.com/forum/index.php?showtopic=2208
+
+============================================================================
+
+SMC_util3
+Copyright (C) 2006 devnull 
+License: GPL Version 2
+Source: http://www.projectosx.com/forum/index.php?s=&showtopic=2447&view=findpost&p=23230
+
+============================================================================
+
+VoodooHDA.kext
+Created by fassl?, modifications by Slice and AutumnRain?
+License: https://sourceforge.net/p/voodoohda/code/HEAD/tree/tranc/License.h
+Source: https://sourceforge.net/p/voodoohda/code/HEAD/tree/
+
+============================================================================
+
+x86info
+Written to succeed CPUID by Phil Karn (KA9Q). Contributed to by various people. OS X compatability by Slice
+License: GPL Version 2
+Original Source: https://github.com/kernelslacker/x86info
+Revised Source: http://www.projectosx.com/forum/index.php?s=&showtopic=2447&view=findpost&p=41134

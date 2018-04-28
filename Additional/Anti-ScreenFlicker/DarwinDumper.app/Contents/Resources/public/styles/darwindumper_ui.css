@@ -1,0 +1,197 @@
+/* DarwinDumper UI css */
+/* Blackosx - Feb 2013 -> September 2016 */
+
+html, body { padding: 0; margin: 0; overflow: auto;	/* -webkit-user-select: none; */ }
+hr { width:113px; height: 3px; border: none; background-image: url(../assets/sidebar_horizontal_rule.png); background-repeat:no-repeat; }
+
+a:link {color:#e3c539;}
+a:visited {color:#00FF00;}
+a:hover {color:#efa728;}
+a:active {color:#ffffff;}
+
+.overlay { position: absolute; top: 0; left: 0; background: rgba(32, 32, 32, 0.9); width: 100%; height: 100%; z-index: 2; }
+.overlayPreventUserInteraction { position: absolute; top: 0; left: 0; background: rgba(32, 32, 32, 0); width: 100%; height: 100%; z-index: 2; display: none; }
+.message { font-family: KozGoPr6N-ExtraLight, AppleGothic; font-size: 48px; color: rgba(255, 255, 255, 0.5); text-align: center; padding-top: 220px; }
+
+#Container { height: auto; background-color: #181a1e; -webkit-user-select: none; }
+
+#SaveRegion { height: 27px; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; position: relative; z-index: 1; }
+.SavePathStaticText { color: white; vertical-align: middle; border: 0px; background: #333; text-align: left; margin: 0px; height: 25px; width: 76px; float: left; }
+.SaveText { margin: 0; padding: 6px 10px 0px 10px; white-space: nowrap; overflow: hidden; }
+
+.SavePathBox { color: white; vertical-align: middle; border: 0px; /*background: #608c4e;*/ text-align: left; margin: 0px; height: 25px; width: 428px; float: right; }
+
+input[type=text], select {
+    width: 100%;
+    height: 25px;
+    margin: 0;
+    padding: 0px 0px 0px 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #608c4e;
+    color: #FFF;
+    border: none;
+    /*-webkit-user-select: none;*/
+}
+
+input:focus {
+    outline: none;
+}
+
+#OpenButton { width: 55px; margin: 0; float: right; }
+#ChangeButton { width: 55px; margin: 0; float: right; }
+#ResetButton { width: 50px; margin: 0; float: right; }
+.saveButtons { background: #333; background: #333; color: #ffffff; border: 0px; height: 25px; width: 100%; border-left: 1px solid #000; }
+.saveButtons:hover { background: #666; background: #666; }
+
+#leftSideBox { width: 166px; height: 664px; background-color: #333; float: left; z-index: 1; }
+#leftSideLogoBox { margin-left:28px; margin-top:32px; width:115px; height: 140px; background-image: url(../assets/logo_darwinDumper.png); background-repeat: no-repeat; }
+#leftSideLogoBox:hover { margin-left:28px; margin-top:32px; width:115px; height: 140px; background-image: url(../assets/logo_darwinDumper_hover.png); background-repeat: no-repeat; }
+#leftSideVersionBox { margin-top: 3px; width: 170px; font-family: Tahoma, Geneva, sans-serif; font-size: 10px; color: #FFF; text-align: center; }
+#leftSideUpdateBox { margin-top: 5px; width: 170px; font-family: Tahoma, Geneva, sans-serif; font-size: 10px; color: #4ab631; text-align: center; }
+.updateText a:link { color:#4ab631; text-decoration: none; }
+.updateText a:hover { color:#e3c539; text-decoration: none; }
+#leftSideSymlinkInfo { margin-top: 32px; width: 170px; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: #FFF; text-align: center; }
+
+.menu{ margin-top:28px; width: auto; background-color: #333; text-align: center; }
+.menu ul{ margin:0; padding:0; list-style-type: none; }
+
+/* Drop down save menu */
+.saveDropDown select { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; background-color: #000; width: 140px; margin-top: 1px; height: 20px; border: 0px; color: #666; }
+
+#leftSideBoxRightEdge { width: 4px; height: 616px; float: left; background-image: url(../assets/left_sidebar_right_edge.png); background-repeat: repeat-y; }
+
+#topHeaderBox { width: 500px; margin-left: 170px; height: 18px; background-color: #d1b324; }
+.topbarHeadingText { font-family: Tahoma, Geneva, sans-serif; font-size: 10px; color: #000; }
+.groupSelectButtonTop { margin-top: 0px; margin-left: 4px; position:absolute; }
+
+#topMiddleOptionsContainer { width: 500px; margin-left: 170px; }
+#topMiddleOptions { margin-top: 2px; margin-left: 0px; }
+
+#topRightSideContent { height: 192px; margin-left: 420px; width: auto; }
+#topRightSideStatusBars { padding-top: 2px; }
+
+#middleHeaderBox { width: 500px; margin-left: 170px; margin-top: 3px; height: 18px; background-color: #d1b324; }
+.middleBarHeadingText { font-family: Tahoma, Geneva, sans-serif; font-size: 10px; color: #000; }
+.groupSelectButtonMiddle { margin-top: 0px; margin-left: 4px; position:absolute; }
+
+#MiddleOptionsContainer { width: 500px; margin-left: 170px; }
+#MiddleOptions { margin-top: 2px; margin-left: 0px; }
+#rightSideContent { margin-left: 420px; width: auto; }
+#rightSideStatusBars { padding-top: 2px; }
+
+#secondHeaderBox { width: 500px; margin-left: 170px; margin-top: 3px; height: 18px; background-color: #d1b324; }
+.secondBarHeadingText { font-family: Tahoma, Geneva, sans-serif; font-size: 10px; color: #000; }
+
+#secondMiddleOptionsContainer { width: 500px; margin-left: 170px; }
+#secondMiddleOptions { margin-top: 2px; margin-left: 0px; }
+#secondRightSideContent { height: 62px; margin-left: 420px; width: auto; }
+#secondRightSideStatusBars { padding-top: 2px; }
+
+.OptionLine { width: 490px; background-color: #222; border-top: 1px solid #000; padding-left: 6px; }
+.OptionLineWaiting { width: 490px; border-top: 1px solid #000; padding-left: 6px; background: -webkit-linear-gradient(left, #222222 0%,#444444 100%); }
+.OptionLineRunning { width: 490px; border-top: 1px solid #000; padding-left: 6px; background: -webkit-linear-gradient(left, #222222 0%,#CE7C19 100%); }
+.OptionLineCompleted { width: 490px; border-top: 1px solid #000; padding-left: 6px; background: -webkit-linear-gradient(left, #222222 0%,#628b50 100%); }
+.status { font-family: Tahoma, Geneva, sans-serif; font-size: 10px; font-weight: bold; color: #CCC; float: right; margin-right: 20px; padding-top: 4px; }
+
+/* Modal Dialog Box */
+#dialogWaitingAuth { font-family: Lucida Grande, Lucida Sans Unicode, Tahoma; font-size: 12px; }
+.ui-dialog-titlebar { height: 14px; font-size: 12px; }
+.ui-button-text { font-size: 10px; padding: 1px 1px 1px 1px; }
+.no-close .ui-dialog-titlebar-close { display: none } /* Remove the close box */
+
+/* Checkbox labels */
+.checkboxes label { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: #666; }
+.checkboxes label:hover { color: #a1a1a1; }
+/*.checkboxes label:active { color: #5cce34; }*/
+input[type=checkbox]:checked + label { color: #FFF; } /* 68CF44 96cfdf */
+input[type=checkbox]:checked + label:hover { color: #a1a1a1; }
+/*input[type=checkbox]:checked + label:active { color: #cf2c2c; }*/
+
+/* Main window sidebar buttons */
+/* Used for the Quit button */
+.button_mainLogo { border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; cursor: pointer; }
+
+.button1 { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: middle; border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; }
+.button1:hover { background: #FF0000; width:100%; }
+.button1:active { background: #ff9696; border:0px; }
+
+/* Used for the Deselect-All, credits and help buttons */
+.button2 { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: middle; border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; }
+.button2:hover { background: #999999; width:100%; }
+.button2:active { background: #DDD; border:0px; }
+
+/* Same as button2 except this class is selected in the jQuery script to load an associated info page */
+.button_showpage { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: middle; border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; }
+.button_showpage:hover { background: #999999; width:100%; padding:0; }
+.button_showpage:active { background: #DDD; border:0px; }
+
+/* Used for the Run and Run as Root buttons */
+.button3 { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: middle; border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; }
+.button3:hover { background: #0eb041; width:100%; }
+.button3:active { background: #17e157; border:0px; }
+
+/* Used for the Select-All button */
+.button4 { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: middle; border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; }
+.button4:hover { background: #84c0f8; width:100%; }
+.button4:active { background: #bedffe; border:0px; }
+
+/* Used when disabling the control buttons */
+.ghosted { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: #777; vertical-align: middle; border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; }
+
+/* small 'info' buttons beside checkboxes */
+.button_info { border: 0px; height: 13px; width: 13px; display:table-cell; vertical-align: middle; margin-left: 1px; margin-right: 4px; background-image: url(../assets/small_info_button_normal.gif); background-repeat: no-repeat; }
+.button_info:hover { background-image: url(../assets/small_info_button_hover.gif); background-repeat: no-repeat; }
+.button_info:active { background-image: url(../assets/small_info_button_active.gif); background-repeat: no-repeat; }
+
+/* small 'warning' triangle buttons */
+.warning_triangle_none { border: 0px; height: 13px; width: 14px; margin-left:6px; margin-bottom:3px; display:table-cell; vertical-align: middle; margin-right:4px; background-color: Transparent; background-image: none; background-repeat: no-repeat; }
+.warning_triangle_info { border: 0px; height: 13px; width: 14px; margin-left:6px; margin-bottom:3px; display:table-cell; vertical-align: middle; margin-right:4px; background-color: Transparent; background-image: url(../assets/warning_triangle_normal.gif); background-repeat: no-repeat; }
+.warning_triangle_info:hover { background-color: Transparent; background-image: url(../assets/warning_triangle_hover.gif); background-repeat: no-repeat; }
+.warning_triangle_info:active { background-color: Transparent; background-image: url(../assets/warning_triangle_active.gif); background-repeat: no-repeat; }
+
+/* Drop down archive menu */
+.archiveDropDown select, .htmlReportDropDown select { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; background-color: #000; width: 210px; margin-top: 1px; height: 16px; border: 0px; color: #666; }
+
+/* Info Window items*/
+#infoWindow { margin-left: 15%; width: 67%; height: auto; position: absolute; border: 1px solid #000000; background: #424141; opacity: .975; box-shadow: 0 15px 20px rgba(0, 0, 0, 0.75); z-index: 2; }
+#infoWindow p { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: bottom; }
+#infoWindow table { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; margin-left: 10px;  }
+#infoWindowCloseButton { margin: 15px 3% 10px 3%; }
+#helpTitleBar { width: auto; height: 24px; background: -webkit-linear-gradient(top, #616161 0%,#292929 100%); text-align: center; color: #FFF; }
+
+/* info page close button */
+.button_close_page { border: 0px; border-radius: 3px; height: 24px; width: 94%; display:table-cell; vertical-align: middle; background: -webkit-linear-gradient(top, #FFFFFF 0%,#BBBBBB 100%); }
+.button_close_page:hover { border: 0px; border-radius: 3px; height: 24px; width: 94%; display:table-cell; vertical-align: middle; background: -webkit-linear-gradient(top, #999999 0%,#555555 100%); }
+
+/*Drop Down Window Text & Table Styles*/
+.dropDownTitleText { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: bottom; }
+.dropDownBody { margin-left: 10px; margin-right; 10px; color: #FFF; padding: 5px 10px 5px 5px; } 
+.dropDownBodyRed { line-height: 5px; color: #CC0000; } 
+.dropDownBodyBold { text-align:left; vertical-align: text-top; margin-left: 10px; margin-right; 10px; color: #FFF; padding: 5px 10px 5px 5px; font-weight:bold;} 
+.dropDownTableBody { background-color:#545e54; color:white; margin-left: 10px; margin-right; 10px; color: #FFF; padding: 5px 10px 5px 5px; border-style:solid; border-width:1px; border-color: #363836; } 
+.dropDownTableBodyBold { background-color:#6b786b; color:white; text-align:left; vertical-align: text-top; margin-left: 10px; margin-right; 10px; color: #FFF; padding: 5px 10px 5px 5px; font-weight:bold; border-style:solid; border-width:1px; border-color: #363836; } 
+.dropDownTableBodyNote { background-color:#77322e; color:white; margin-left: 10px; margin-right; 10px; color: #FFF; padding: 5px 10px 5px 5px; border-style:solid; border-width:1px; border-color: #62201c; } 
+.dropDownTableBodyBoldNote { background-color:#a7312e; color:white; text-align:left; vertical-align: text-top; margin-left: 10px; margin-right; 10px; color: #FFF; padding: 5px 10px 5px 5px; font-weight:bold; border-style:solid; border-width:1px; border-color: #7b2421; }
+
+/* Remove webkit's blue ring around the dropdown menus */
+select { outline:none; }
+
+/* Set width for saveDirectory page path text box */
+.saveDirBox { width: 97% }
+
+/* Style to make class flash */
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    width:160px;
+    padding:0;
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}

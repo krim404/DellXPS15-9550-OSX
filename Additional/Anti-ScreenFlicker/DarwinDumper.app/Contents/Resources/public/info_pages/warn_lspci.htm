@@ -1,0 +1,11 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">Information: SIP notice</label></div>
+<p class="dropDownBody">OS X System Integrity Protection is Enabled for unsigned kexts.</p>
+<p class="dropDownBody">This means the DirectHW.kext cannot be loaded and lspci will therefore not work.</p>
+
+<p class="dropDownBody">If you wish to run this dump then you can do one of the following:<br />
+1 - Disable security by booting in to the Recovery HD and using the Security Configuration utility.<br />
+2 - Change bootloader csr-active-config settings to enable CSR_ALLOW_UNTRUSTED_KEXTS bit.<br />
+3 - Boot in to an OS X version before 10.10.4 and change the nvram variable csr-active-config.</p>
+
+<p class="dropDownBody">You can then boot back in to this OS X system and run the dump.</p>
+<p class="dropDownBody">* Don't forget to reverse this change after performing the dump.</p>

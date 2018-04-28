@@ -1,0 +1,25 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">Information: Memory</label></div>
+
+<p class="dropDownBody">The <a href="https://github.com/google/rekall/tree/master/tools/osx/MacPmem" target="_blank">MacPmem</a> driver is loaded in to the system to enable access to physical memory. Once loaded, the following Intel Graphics MMIO Registers are read and saved to file:</p>
+<p class="dropDownBody">0x00000 - 0x00FFF&nbsp;&nbsp;&nbsp;&nbsp;VGA and VGA Extended Registers<br>
+0x02000 - 0x02FFF&nbsp;&nbsp;&nbsp;&nbsp;Primary CS Instruction and Interrupt Control Registers<br>
+0x03000 - 0x031FF&nbsp;&nbsp;&nbsp;&nbsp;FENCE & Per-Process GTT Control Registers<br>
+0x03200 - 0x03FFF&nbsp;&nbsp;&nbsp;&nbsp;Frame Buffer Compression Registers<br>
+0x05000 - 0x05FFF&nbsp;&nbsp;&nbsp;&nbsp;VSC Registers<br>
+0x06000 - 0x06FFF&nbsp;&nbsp;&nbsp;&nbsp;Clock Control and Power Management Registers<br>
+0x07000 - 0x07FFF&nbsp;&nbsp;&nbsp;&nbsp;Reserved Registers (3D internal debug)<br>
+0x07400 - 0x088FF&nbsp;&nbsp;&nbsp;&nbsp;Reserved Registers (GPE debug)<br>
+0x0A000 - 0x0AFFF&nbsp;&nbsp;&nbsp;&nbsp;Display Palette Registers<br>
+0x10000 - 0x13FFF&nbsp;&nbsp;&nbsp;&nbsp;GFX MMIO – MCHBAR Aperture<br>
+0x30000 - 0x3FFFF&nbsp;&nbsp;&nbsp;&nbsp;Overlay Registers<br>
+0x60000 - 0x6FFFF&nbsp;&nbsp;&nbsp;&nbsp;Display Engine Pipeline Registers<br>
+0x70000 - 0x72FFF&nbsp;&nbsp;&nbsp;&nbsp;Display and Cursor Control Registers<br>
+0x73000 - 0x73FFF&nbsp;&nbsp;&nbsp;&nbsp;Performance Counters</p>
+<p class="dropDownBody">Then, other information, for example EFI ranges and the kernel slide value, is gathered from memory and saved to a pmem_info.txt file.<br>
+
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBoldNote">Note</td>
+        <td width="325" class="dropDownTableBodyNote">Root privileges are required to load MacPmem.kext.</td>
+    </tr>
+</table>
