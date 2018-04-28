@@ -1,5 +1,5 @@
 ## Anti Screen Flicker Fix by injecting EDID
-This fix should remove random flickers whenever the GPU is in use. 
+This fix should remove random flickers whenever the GPU is in use. Reported to be working (cant trigger the flickers on my own machine). Can result in black screen on boot if not done correctly.  
 
 ### Step 1: Darwindumper
 ![IMG1](images/DarwinDumper.jpg "IMG1")
