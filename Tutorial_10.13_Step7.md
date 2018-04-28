@@ -41,7 +41,7 @@ folder: ./10.13/Post-Install/Additional\ Steps/Audio/AppleHDA_sysCL
 the supplied AppleBacklightInjector contains an id for the display. It is possible that this id is different on your machine (especially if you use the non touch display). In this case just follow [this tutorial](Additional/PatchAppleBacklight_v2/readme.md)
 
 ## Display Flickers randomly
-See tutorial in Additional/Anti-ScreenFlicker for possible fix.  
+See tutorial in Additional/EDID-Injector for possible fix.  
 
 ## Display ICC Calibration
 ICC profile for 4k screen calibrated with Spyder4Pro colorimeter and DisplayCAL is available in Additional/Profiles.   
