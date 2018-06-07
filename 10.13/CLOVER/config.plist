@@ -750,6 +750,8 @@
 	<dict>
 		<key>AppleRTC</key>
 		<true/>
+		<key>DellSMBIOSPatch</key>
+		<true/>
 		<key>AsusAICPUPM</key>
 		<true/>
 		<key>ForceKextsToLoad</key>
