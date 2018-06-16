@@ -11,12 +11,8 @@ reboot
 If you have an old installation and recently upgraded your firmware: 1.2.25 and newer firmwares (BIOS) don't work with OSXAPTIO Version 1. This needs to be replaced with OSXAPTIOv2. Copy the kernel extension from the folder drivers64uefi/aptiov2 to the EFI/CLOVER/drivers64UEFI. Then add - for example - slide=168 to the boot arguments. See "Error: couldn't allocate runtime area" in this document.
 
 ## Error: couldn't allocate runtime area / unable to start installer / unable to boot at all
-Since OSXAptio is a lil bit picky with memory maps, you have to swap to OSXAptioV2 and choose a different slide= command (see question above) to a suitable number. First delete the OsxAptioFixDrv-64.efi from your CLOVER/drivers64UEFI and replace it with OsxAptioFix2Drv-64.efi from the folder aptiov2 in drivers64uefi. Then change the slide param in the config.plist. See [this Tutorial](/Additional/slide_calc.md) for more informations. It is still possible you cant get it to boot because no memory section is big enough. This is happening on some machines especially on installation. Try to DOWNGRADE your BIOS (See [this Tutorial](/Additional/bios_upgrade.md)) with the files from the branch 10.12-BIOS1.2.21 if you cant get it to run with the slide values.
-```
-git clone https://github.com/wmchris/DellXPS15-9550-OSX -b 10.12-BIOS1.2.21
-```
-(the 1.2.21 BIOS version is inside this branch in Additional/BIOS). Then install OSX normally, upgrade BIOS and recalculate your slide.
-
+Since OSXAptio is a lil bit picky with memory maps, you have to swap to OSXAptioV2 and choose a different slide= command (see question above) to a suitable number. First delete the OsxAptioFixDrv-64.efi from your CLOVER/drivers64UEFI and replace it with OsxAptioFix2Drv-64.efi from the folder aptiov2 in drivers64uefi. Then change the slide param in the config.plist. See [this Tutorial](/Additional/slide_calc.md) for more informations. It is still possible you cant get it to boot because no memory section is big enough. There are multiple different options available, but each of them has to be considered experimental or buggy. [More details](/10.13/CLOVER/drivers64UEFI/other/readme.md)
+  
 ## Error: same as above, but additionally mentiones "unable to load kernel cache"
 this normally only occurs on installation with firmware 1.2.25. If you have this message as well as the couldn't allocate runtime area, then there is a high posibility you can boot the installation with `OsxAptioFix2Drv-free2000.efi` instead of `OsxAptioFix2Drv-64.efi`. You can find the free2000 version in ./10.13/CLOVER/drivers64UEFI/Other. Replace them and install normally. Free2000 is not very stable and sometimes crash on start, so switch back to the normal version after installation. Sometimes you still need the slide parameter from above, sometimes you dont.
 
