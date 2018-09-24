@@ -144,18 +144,8 @@ as i said before: this is not a tutorial for absolute beginners, albeit it's muc
    
 
 ## Tutorial Updates
-* on 4. Nov 2017: Update to OSX 10.13.1
-* on 13. May 2017: APTIOv2 for Dell Firmware 1.2.25 and up
-* on 4. April 2017: Updated Tutorial and added Step 7
-* on 27. March 2017: UHD Kexts added, replaces perl command  
-* on 23. March 2017: 4k sector tutorial against NVMe corruption added  
-* on 7. March 2017: Suggestion to disable the SD Card Reader for reduced power consumption  
-* on 4. February 2017: Dell SMBIOS Truncation workaround added  
-* on 23. January 2017: Hynix SSD fix added  
-* on 15. January 2017: updated tutorial regarding power management  
-* on 31. December 2016: USB-C Hotplug Fix and USB InjectAll Removed  
-* on 28. December 2016: NVMe SSDT Spoof precreated, FakeID already preset in installation config.plist. VoodooHDA added as alternative to SSDT-ALC298 patch as well as color coding in tutorial  
-* on 22. December 2016: FakeSMBios added  
+See GitHub Commit History  
+  
 ## Appendix 1: Accessories
 The official [Dell adaptor DA200](http://accessories.euro.dell.com/sna/productdetail.aspx?c=at&l=de&s=dhs&cs=atdhs1&sku=470-abry) works completly on Sierra 10.13.2. You can use the Network, USB, HDMI and VGA. Everything is full hot-pluggable  
 a cheap 3rd party noname USB-C -> VGA adaptor didnt work  
