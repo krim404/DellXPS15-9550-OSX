@@ -4,14 +4,6 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
-		<key>HaltEnabler</key>
-		<false/>
-		<key>ResetAddress</key>	
-		<string>0x0CF9</string>	
-		<key>ResetValue</key>	
-		<string>0x06</string>
-		<key>FixHeaders</key>
-		<true/>
 		<key>DSDT</key>
 		<dict>
 			<key>Fixes</key>
@@ -26,6 +18,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>rename HPET to XPET,  pair with SSDT-HPET.aml</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					SFBFVA==
@@ -38,6 +32,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>Rename _DSM to XDSM</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X0RTTQ==
@@ -64,6 +60,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>Device AC rename to ADP1  pair with SSDT-ADP1 - credit syscl</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					QUNfXw==
@@ -94,6 +92,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>Remove _STA method for PNP0C04 to load - credit syscl</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					AQEiACB5ABQYX1NUQQA=
@@ -106,6 +106,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>Device SBTN rename to SLPB pair with SSDT-SLPB - credit syscl</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					U0JUTg==
@@ -118,6 +120,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>Device ALSD rename to ALS0 - credit syscl</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					QUxTRAhfSEk=
@@ -144,6 +148,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					R0ZYMA==
@@ -156,6 +162,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change HDAS to HDEF, optionally pair with SSDT-HDEF.aml</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					SERBUw==
@@ -168,6 +176,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change OSID to OSSD, that because of the _OSI rename patch may cause problem</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					T1NJRA==
@@ -180,6 +190,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X09TSQ==
@@ -192,6 +204,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					TFBDXw==
@@ -204,6 +218,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change SAT0 to SATA, optionally pair with SSDT-SATA.aml</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					U0FUMA==
@@ -244,6 +260,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change HECI to IMEI, optionally pair with SSDT-IMEI.aml</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					SEVDSQ==
@@ -256,6 +274,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1BUUwE=
@@ -268,6 +288,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(_PTS,1,S) to ZPTS, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1BUUwk=
@@ -280,6 +302,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1dBSwE=
@@ -292,6 +316,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1dBSwk=
@@ -304,6 +330,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(XWAK,0,N) to ZWAK, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					WFdBSwA=
@@ -316,6 +344,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(XWAK,0,S) to ZWAK, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					WFdBSwg=
@@ -370,8 +400,14 @@
 				<string>xh_rvp11</string>
 			</dict>
 		</array>
+		<key>FixHeaders</key>
+		<true/>
 		<key>HaltEnabler</key>
 		<false/>
+		<key>ResetAddress</key>
+		<string>0x0CF9</string>
+		<key>ResetValue</key>
+		<string>0x06</string>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -390,7 +426,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>agdpmod=vit9696 slide=0 kext-dev-mode=1 dart=0 nv_disable=1 -lilubetaall brcmfx-country=#a -v darkwake=no</string>
+		<string>dart=0 nv_disable=1 agdpmod=vit9696 -v brcmfx-country=#a darkwake=no -lilubetaall kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Log</key>
@@ -404,15 +440,6 @@
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
-	<key>CPU</key>
-	<dict>
-		<key>UseARTFrequency</key>
-		<false/>
-		<key>HWPEnable</key>
-		<true/>
-		<key>HWPValue</key>
-		<string>0x94002301</string>
-	</dict>
 	<key>BootGraphics</key>
 	<dict>
 		<key>EFILoginHiDPI</key>
@@ -420,12 +447,21 @@
 		<key>UIScale</key>
 		<integer>1</integer>
 	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>HWPEnable</key>
+		<true/>
+		<key>HWPValue</key>
+		<string>0x94002301</string>
+		<key>UseARTFrequency</key>
+		<false/>
+	</dict>
 	<key>Devices</key>
 	<dict>
 		<key>FakeID</key>
 		<dict>
-		   <key>IntelGFX</key>
-		   <string>0x12345678</string>
+			<key>IntelGFX</key>
+			<string>0x12345678</string>
 		</dict>
 		<key>Properties</key>
 		<dict>
@@ -491,10 +527,16 @@
 			<key>Entries</key>
 			<array>
 				<dict>
+					<key>Disabled</key>
+					<false/>
 					<key>FullTitle</key>
 					<string>UEFI internal</string>
 					<key>Hidden</key>
 					<string>Always</string>
+					<key>Ignore</key>
+					<false/>
+					<key>NoCaches</key>
+					<false/>
 					<key>Type</key>
 					<string>Other</string>
 				</dict>
@@ -525,6 +567,11 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
+		<key>EDID</key>
+		<dict>
+			<key>Inject</key>
+			<false/>
+		</dict>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -534,18 +581,16 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
-		<key>InjectEDID</key>
-		<false/>
 		<key>ig-platform-id</key>
 		<string>0x19160000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
+		<key>AppleIntelCPUPM</key>
+		<true/>
 		<key>AppleRTC</key>
 		<true/>
 		<key>DellSMBIOSPatch</key>
-		<true/>
-		<key>AsusAICPUPM</key>
 		<true/>
 		<key>ForceKextsToLoad</key>
 		<array>
@@ -599,6 +644,8 @@
 				<data>
 				AEFQUExFIFNTRAA=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
@@ -651,6 +698,8 @@
 				<data>
 				RiV1VCUwNHgA
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleBacklight</string>
 				<key>Replace</key>
@@ -674,37 +723,47 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>04/11/2016</string>
+		<string>06/26/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM171.88Z.0105.B08.1604111319</string>
+		<string>MBP133.88Z.0247.B00.1806261159</string>
 		<key>Board-ID</key>
-		<string>Mac-B809C3757DA9BB8D</string>
+		<string>Mac-A5C67F76ED83108C</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02QLPM3H2YQABCD1</string>
+		<string>C02625207J9F503UE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>iMac-Aluminum</string>
+		<string>MacBook-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>13</string>
+		<string>0x09</string>
 		<key>Family</key>
-		<string>iMac</string>
+		<string>MacBook Pro</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE13F</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
-		<key>ProductName</key>
-		<string>iMac17,1</string>
-		<key>SerialNumber</key>
-		<string>C02QLPM3H2YQ</string>
-		<key>SmUUID</key>
-		<string>E0BA6AA9-283A-44D9-AC8A-6D8A38BBED1E</string>
-		<key>Trust</key>
+		<key>Mobile</key>
 		<true/>
+		<key>PlatformFeature</key>
+		<string>0x1A</string>
+		<key>ProductName</key>
+		<string>MacBookPro13,3</string>
+		<key>SerialNumber</key>
+		<string>C02RWFYTGTFN</string>
+		<key>SmUUID</key>
+		<string>D628293C-C497-4B63-8812-CF7C76152485</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
