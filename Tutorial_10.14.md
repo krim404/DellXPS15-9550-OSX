@@ -30,9 +30,18 @@ and much more. I try to give credit whenever possible in the corresponding readm
 * EFI Partition with its folder EFI. This is a hidden partition on your HDD. After mounting it's normally available at /Volumes/EFI/EFI/. I refer to it by EFI/ in the whole tutorial.  
 
 ## Step 1: Prepare Installation
-If your Firmware is below 1.2.25, upgrade your EFI to at least 1.2.25 (1.5.1 or higher is recommended) by using the Firmware Update XPS_9550_1.2.25.exe (See this repository Additional/BIOS). Click [here for a Step by Step Tutorial](Additional/bios_upgrade.md)  
-Optional: check if your SSD can be switched to 4k sector size. This prevents NVMe corruption. See [this Tutorial](4k_sector.md)  
-Use the existing Mac to download the Sierra installer from the App Store and create a bootable USB stick with CLOVER. You can do this with the App "Pandora's Box" of insanelymac (use google for download link), which is pretty easy to use.  
+If your Firmware is below 1.2.25, upgrade your EFI to at least 1.8  by using the Firmware Update (See this repository Additional/BIOS). Click [here for a Step by Step Tutorial](Additional/bios_upgrade.md)  
+Optional: check if your SSD can be switched to 4k sector size. See [this Tutorial](4k_sector.md)  
+Use the existing Mac to download the Mojave installer from the App Store and create a bootable USB stick with CLOVER. Open Terminal and enter `diskutil list` and search for the deviceid of the USB stick (ex. disk2). Then reformat it by entering  
+```
+diskutil partitionDisk /dev/disk2 GPT JHFS+ Mojave 0b
+```   
+copy the Mojave installation files to the stick by entering  
+```
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave --nointeraction
+```
+then install clover on the usb stick (use the pkg in Additional) and select to install it in the ESP by clicking on advanced when possible.  
+Check twice that you really selected the USB stick as target, installing clover on the internal HDD/SSD can break your system!  
   
 Mount the hidden EFI partition of the USB Stick by entering
 `diskutil mount EFI` 

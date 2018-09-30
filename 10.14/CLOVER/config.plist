@@ -7,25 +7,19 @@
 		<key>HaltEnabler</key>
 		<false/>
 		<key>ResetAddress</key>	
-		<string>0xB2</string>	
+		<string>0x0CF9</string>	
 		<key>ResetValue</key>	
-		<string>0x73</string>
+		<string>0x06</string>
+		<key>FixHeaders</key>
+		<true/>
 		<key>DSDT</key>
 		<dict>
 			<key>Fixes</key>
 			<dict>
-				<key>FIX_RTC_20000</key>
-				<true/>
-				<key>FIX_TMR_40000</key>
-				<true/>
-				<key>FixHPET_0010</key>
+				<key>AddHDMI</key>
 				<false/>
-				<key>FixIPIC_0040</key>
-				<true/>
-				<key>NewWay_80000000</key>
-				<true/>
-				<key>FixHeaders_20000000</key>
-				<true/>
+				<key>AddPNLF</key>
+				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -39,30 +33,6 @@
 					<key>Replace</key>
 					<data>
 					WFBFVA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>fix Return(SDSM) problem (not the perfect way)</string>
-					<key>Find</key>
-					<data>
-					U00ApFNEU01oaWprpABbgg==
-					</data>
-					<key>Replace</key>
-					<data>
-					U00AoAgKEaRTRFNNpABbgg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>fix Method ADBG problem (not the perfect way)</string>
-					<key>Find</key>
-					<data>
-					RwmgDlsSTURCRwCkTURCR2ikAA==
-					</data>
-					<key>Replace</key>
-					<data>
-					RwmgBQoRpACgBQoRpACgBAGkAA==
 					</data>
 				</dict>
 				<dict>
@@ -93,18 +63,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change H_EC to EC</string>
-					<key>Find</key>
-					<data>
-					SF9FQw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUNfXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Device AC rename to ADP1  pair with SSDT-ADP1 - credit syscl</string>
 					<key>Find</key>
 					<data>
@@ -113,6 +71,24 @@
 					<key>Replace</key>
 					<data>
 					QURQMQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _CRS to XCRS in Device TPD1</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X0NSUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WENSUw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBEMQ==
 					</data>
 				</dict>
 				<dict>
@@ -153,30 +129,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Rename Method GPRW,02 to Method XPRW,02 and need add-on  SSDT-PRW.aml</string>
-					<key>Find</key>
-					<data>
-					R1BSVwJwaA==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFBSVwJwaA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename HS12 -&gt; HS92 to avoid the patchmatic error, pair with SSDT-TB.aml</string>
-					<key>Find</key>
-					<data>
-					SFMxMg==
-					</data>
-					<key>Replace</key>
-					<data>
-					SFM5Mg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Rename  Method BRT6,2 to BRTX,2, and need add-on  SSDT-BRT6.aml</string>
 					<key>Disabled</key>
 					<false/>
@@ -191,7 +143,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml</string>
+					<string>change GFX0 to IGPU</string>
 					<key>Find</key>
 					<data>
 					R0ZYMA==
@@ -259,6 +211,34 @@
 					<key>Replace</key>
 					<data>
 					U0FUQQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					FBJVUFJXAHA=
+					</data>
+					<key>Replace</key>
+					<data>
+					FBJYUFJXAHA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename method GPRW to YPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					FEAGR1BSVwI=
+					</data>
+					<key>Replace</key>
+					<data>
+					FEAGWVBSVwI=
 					</data>
 				</dict>
 				<dict>
@@ -347,133 +327,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change Method(GPRW,2,N) to XPRW, pair with SSDT-PRW.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R1BSVwI=
-					</data>
-					<key>Replace</key>
-					<data>
-					WFBSVwI=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(UPRW,2,..) to Method(XPRW,2,..), pair with SSDT-PRW.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					VVBSVwpwEg==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFBSVwpwEg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change LANC Method(_PRW,0,S) to Method(XPRW,0,..), pair with SSDT-LANC_PRW.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					AAAZABQfX1BSVwg=
-					</data>
-					<key>Replace</key>
-					<data>
-					AAAZABQfWFBSVwg=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Mutex SMIX,01 to SMIX,00</string>
-					<key>Find</key>
-					<data>
-					WwFTTUlYAQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WwFTTUlYAA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Mutex WMIX,01 to WMIX,00</string>
-					<key>Find</key>
-					<data>
-					WwFXTUlYAQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WwFXTUlYAA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Mutex ECMX,01 to ECMX,00</string>
-					<key>Find</key>
-					<data>
-					WwFFQ01YAQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WwFFQ01YAA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Mutex ECSX,01 to ECSX,00</string>
-					<key>Find</key>
-					<data>
-					WwFFQ1NYAQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WwFFQ1NYAA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Mutex ECM1,01 to ECM1,00</string>
-					<key>Find</key>
-					<data>
-					WwFFQ00xAQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WwFFQ00xAA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Mutex QSEV,01 to QSEV,00</string>
-					<key>Find</key>
-					<data>
-					WwFRU0VWAQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WwFRU0VWAA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Mutex ECAX,01 to ECAX,00</string>
-					<key>Find</key>
-					<data>
-					WwFFQ0FYAQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WwFFQ0FYAA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>rename _RMV to XRMV</string>
+					<string>rename _RMV to XRMV, pair with SSDT-TYPC.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -485,23 +339,35 @@
 					WFJNVg==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename XTBT to YTBT, pair with SSDT-YTBT.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					pABYVEJUVEJTRUNQR04=
+					</data>
+					<key>Replace</key>
+					<data>
+					pABZVEJUVEJTRUNQR04=
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
 		<array>
 			<dict>
 				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>BGRP</string>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>PtidDevc</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>xh_rvp10</string>
+				<string>xh_rvp11</string>
 			</dict>
 		</array>
 		<key>HaltEnabler</key>
@@ -512,21 +378,21 @@
 			<false/>
 			<key>Generate</key>
 			<dict>
-				<key>CStates</key>
-				<false/>
-				<key>PStates</key>
-				<false/>
+				<key>PluginType</key>
+				<true/>
 			</dict>
 			<key>PluginType</key>
 			<integer>1</integer>
+			<key>UseSystemIO</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>slide=0 kext-dev-mode=1 dart=0 nv_disable=1 brcmfx-country=#a abm_firstpolldelay=16000 -v</string>
+		<string>agdpmod=vit9696 slide=0 kext-dev-mode=1 dart=0 nv_disable=1 -lilubetaall brcmfx-country=#a -v darkwake=no</string>
 		<key>DefaultVolume</key>
-		<string>OSX</string>
+		<string>LastBootedVolume</string>
 		<key>Log</key>
 		<false/>
 		<key>NeverHibernate</key>
@@ -540,16 +406,19 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
-		<key>C4</key>
-		<true/>
-		<key>C6</key>
-		<true/>
 		<key>UseARTFrequency</key>
 		<false/>
 		<key>HWPEnable</key>
 		<true/>
 		<key>HWPValue</key>
 		<string>0x94002301</string>
+	</dict>
+	<key>BootGraphics</key>
+	<dict>
+		<key>EFILoginHiDPI</key>
+		<integer>1</integer>
+		<key>UIScale</key>
+		<integer>1</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -558,123 +427,47 @@
 		   <key>IntelGFX</key>
 		   <string>0x12345678</string>
 		</dict>
-		<key>AddProperties</key>
-		<array>
-				<dict>
-				<key>Comment</key>
-				<string>Inject "name" as (data)"#display" to disable graphics drivers on NVidia</string>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Key</key>
-				<string>name</string>
-				<key>Value</key>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>layout-id</key>
 				<data>
-				I2Rpc3BsYXkA
+				SAAAAA==
 				</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>Comment</key>
-				<string>Inject "IOName" as "#display" to disable graphics drivers on NVidia</string>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Key</key>
-				<string>IOName</string>
-				<key>Value</key>
-				<string>#display</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Inject bogus class-code to prevent graphics drivers loading for NVidia</string>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Key</key>
-				<string>class-code</string>
-				<key>Value</key>
+				<key>AAPL,ig-platform-id</key>
 				<data>
-				/////w==
+				BgAbGQ==
 				</data>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>IntelGFX</string>
-				<key>Key</key>
-				<string>AAPL00,PanelPowerUp</string>
-				<key>Value</key>
-				<data>
-				MAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>IntelGFX</string>
-				<key>Key</key>
-				<string>AAPL,Gfx324</string>
-				<key>Value</key>
+				<key>disable-external-gpu</key>
 				<data>
 				AQAAAA==
 				</data>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>IntelGFX</string>
-				<key>Key</key>
-				<string>AAPL00,PanelPowerDown</string>
-				<key>Value</key>
-				<data>
-				PAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>IntelGFX</string>
-				<key>Key</key>
-				<string>AAPL00,PanelPowerOff</string>
-				<key>Value</key>
-				<data>
-				EQAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>IntelGFX</string>
-				<key>Key</key>
-				<string>AAPL00,PanelCycleDelay</string>
-				<key>Value</key>
-				<data>
-				+gAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>IntelGFX</string>
-				<key>Key</key>
-				<string>AAPL00,PanelPowerOn</string>
-				<key>Value</key>
-				<data>
-				GQEAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>IntelGFX</string>
-				<key>Key</key>
-				<string>device-colors</string>
-				<key>Value</key>
-				<data>
-				AAIAAKCdnQAAAAAAAAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Device</key>
-				<string>IntelGFX</string>
-				<key>Key</key>
-				<string>AAPL,GfxYTile</string>
-				<key>Value</key>
+				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
 				</data>
+				<key>framebuffer-fbmem</key>
+				<data>
+				AAAAAA==
+				</data>
+				<key>framebuffer-patch-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-stolenmem</key>
+				<data>
+				AABgAg==
+				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAgA==
+				</data>
 			</dict>
-		</array>
+		</dict>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
@@ -682,7 +475,7 @@
 			<key>FixOwnership</key>
 			<true/>
 			<key>Inject</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>DisableDrivers</key>
@@ -737,7 +530,7 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
@@ -759,7 +552,7 @@
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
 		</array>
 		<key>KernelLapic</key>
-		<true/>
+		<false/>
 		<key>KernelPm</key>
 		<true/>
 		<key>KernelToPatch</key>
@@ -778,23 +571,25 @@
 				ILniAAAAkJA=
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable panic kext logging on 10.14 release kernel (credit Vandroiy)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				igKEwHRC
+				</data>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Replace</key>
+				<data>
+				igKEwOtC
+				</data>
+			</dict>
 		</array>
 		<key>KextsToPatch</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>Boot graphics glitch, 10.13 beta (based on denskop patch)</string>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.iokit.IOGraphicsFamily</string>
-				<key>Find</key>
-				<data>AQAAdSI=</data>
-				<key>Replace</key>
-				<data>AQAA6yI=</data>
-			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Enable TRIM for SSD</string>
@@ -813,50 +608,38 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>eDP, port 0000, 0x191e0000, 0x19160000, 0x19260000, 0x19270000, 0x191b0000, 0x19160002, 0x19260002, 0x191e0003, 0x19260004, 0x19270004, 0x193b0005 credit syscl</string>
+				<string>USB Port limit patch 10.14 (credits FredWst)</string>
 				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AAAIAAIAAACYAAAAAQUJAAAEAAA=
-				</data>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelSKLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				AAAIAAAEAACYAAAAAQUJAAAEAAA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.12.2 fudge USB 3.1 device ID</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<string>30783135623638303836</string>
-				<key>InfoPlistPatch</key>
 				<true/>
+				<key>Find</key>
+				<data>
+				g/sPD4MDBQAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
-				<string>AppleUSBXHCIPCI</string>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<string>30783135623538303836</string>
+				<data>
+				g/sPkJCQkJCQ
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Bypass ThunderBolt3 SkipEnumeration credit kid2010 implemented by syscl</string>
+				<string>Enable BT4LE-Handoff-Hotspot</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				VUiJ5UFXQVZBVUFUU0iB7DgB
+				SIX/dEdIiwc=
 				</data>
-				<key>MatchOS</key>
-				<string>10.12.x</string>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
-				<string>IOThunderboltFamily</string>
+				<string>IOBluetoothFamily</string>
 				<key>Replace</key>
 				<data>
-				VUiJ5THAXcNBVUFUU0iB7DgB
+				Qb4PAAAA60Q=
 				</data>
 			</dict>
 			<dict>
@@ -883,6 +666,10 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>ROM</key>
+		<data>
+		OodAS518
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>

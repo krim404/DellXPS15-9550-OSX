@@ -1,19 +1,29 @@
 // For solving instant wake by hooking GPRW or UPRW
 
-DefinitionBlock("", "SSDT", 2, "hack", "UPRW", 0)
+DefinitionBlock ("", "SSDT", 2, "hack", "UPRW", 0x00000000)
 {
-    External(XPRW, MethodObj)
+    External (YPRW, MethodObj)    // 2 Arguments (from opcode)
 
-    // In DSDT, native UPRW is renamed to XPRW with Clover binpatch.
-    // As a result, calls to UPRW land here.
-    // The purpose of this implementation is to avoid "instant wake"
-    // by returning 0 in the second position (sleep state supported)
-    // of the return package.
-    Method(UPRW, 2)
+    Scope (\)
     {
-        If (0x6d == Arg0) { Return (Package() { 0x6d, 0, }) }
-        If (0x0d == Arg0) { Return (Package() { 0x0d, 0, }) }
-        Return (XPRW(Arg0, Arg1))
+        Method (GPRW, 2, NotSerialized)
+        {
+            If (LEqual (0x6D, Arg0))
+            {
+                Return (Package (0x02)
+                {
+                    0x6D, 
+                    Zero
+                })
+            }
+
+            Return (\YPRW (Arg0, Arg1))
+        }
+
+        Method (UPRW, 0, NotSerialized)
+        {
+            Return (Zero)
+        }
     }
 }
-//EOF
+

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>16F73</string>
+	<string>17E199</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.rehabman.injector.FakePCIID-Intel-HDMI-Audio</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -13,17 +13,17 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.3.9</string>
+	<string>1.3.12</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.3.9</string>
+	<string>1.3.12</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>8E2002</string>
+	<string>9E145</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -31,9 +31,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.6</string>
 	<key>DTXcode</key>
-	<string>0832</string>
+	<string>0930</string>
 	<key>DTXcodeBuild</key>
-	<string>8E2002</string>
+	<string>9E145</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Intel HDMI Audio - 100-series 0x9d70</key>
@@ -73,6 +73,26 @@
 			<string>FakePCIID</string>
 			<key>IOPCIPrimaryMatch</key>
 			<string>0x9d718086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Intel HDMI Audio - 100-series 0x9d74</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.rehabman.driver.FakePCIID</string>
+			<key>FakeProperties</key>
+			<dict>
+				<key>RM,device-id</key>
+				<data>
+				cKEAAA==
+				</data>
+			</dict>
+			<key>IOClass</key>
+			<string>FakePCIID</string>
+			<key>IOMatchCategory</key>
+			<string>FakePCIID</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x9d748086</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 		</dict>
@@ -133,6 +153,26 @@
 			<string>FakePCIID</string>
 			<key>IOPCIPrimaryMatch</key>
 			<string>0xa2f08086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Intel HDMI Audio - 300-series 0xa348</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.rehabman.driver.FakePCIID</string>
+			<key>FakeProperties</key>
+			<dict>
+				<key>RM,device-id</key>
+				<data>
+				cKEAAA==
+				</data>
+			</dict>
+			<key>IOClass</key>
+			<string>FakePCIID</string>
+			<key>IOMatchCategory</key>
+			<string>FakePCIID</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0xa3488086</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 		</dict>

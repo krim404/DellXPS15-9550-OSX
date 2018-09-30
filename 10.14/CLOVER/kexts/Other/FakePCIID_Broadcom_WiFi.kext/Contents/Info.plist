@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>16C67</string>
+	<string>17E199</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.rehabman.injector.FakePCIID-Broadcom-WiFi</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -13,17 +13,17 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.3.6</string>
+	<string>1.3.12</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.3.6</string>
+	<string>1.3.12</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>8C1002</string>
+	<string>9E145</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -31,9 +31,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.6</string>
 	<key>DTXcode</key>
-	<string>0821</string>
+	<string>0930</string>
 	<key>DTXcodeBuild</key>
-	<string>8C1002</string>
+	<string>9E145</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Airport_Brcm4360</key>

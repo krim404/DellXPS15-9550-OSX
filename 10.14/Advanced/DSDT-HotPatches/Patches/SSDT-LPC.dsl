@@ -1,4 +1,13 @@
-// To fix unsupported 8-series LPC devices
+//
+// SSDT-LPC.dsl
+//
+// Dell XPS 15 9550
+//
+// This SSDT adds proper LPC support. (LPCx means it has to do with the Low Pin Count Bus.)
+// 
+// Would not have been possible without the work of RehabMan.
+// https://github.com/RehabMan/OS-X-Clover-Laptop-Config
+//
 
 DefinitionBlock("", "SSDT", 2, "hack", "LPC", 0)
 {
@@ -23,14 +32,16 @@ DefinitionBlock("", "SSDT", 2, "hack", "LPC", 0)
             // list of 8-series LPC device-ids not natively supported
             // inject 0x8c4b for unsupported LPC device-id
             0x8c46, 0x8c49, 0x8c4a, 0x8c4c, 0x8c4e, 0x8c4f,
-            0x8c50, 0x8c52, 0x8c54, 0x8c56, 0x8c5c, 0,
+            0x8c50, 0x8c52, 0x8c54, 0x8c56, 0x8c5c, 0x8cc3, 0,
             Package()
             {
                 "device-id", Buffer() { 0x4b, 0x8c, 0, 0 },
                 "compatible", Buffer() { "pci8086,8c4b" },
             },
             // list of 100-series LPC device-ids not natively supported (partial list)
-            0x9d48, 0xa14e, 0,
+            0x9d48, 0x9d58, 0xa14e, 0xa152,
+            // and 200-series...
+            0xa2c5, 0,
             Package()
             {
                 "device-id", Buffer() { 0xc1, 0x9c, 0, 0 },
