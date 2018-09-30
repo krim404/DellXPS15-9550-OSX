@@ -90,20 +90,8 @@ sudo mv /System/Library/Extensions/ApplePS2Controller.kext /System/Library/Exten
 sudo ./10.14/Post-Install/Additional\ Steps/VoodooPS2Daemon/_install.command
 ``` 
   
-I suggest moving some of the kext from EFI/CLOVER/kexts/10.14 to /Library/Extensions.
+I suggest moving some of the kext from EFI/CLOVER/kexts/10.14 to /Library/Extensions, but this is optional.
   
-If your notebook is equipped with the UHD touch monitor, you'll have to copy the UHD enabling kexts to your clover directory:
-```
-sudo cp -R ./10.14/Post-Install/Additional\ Steps/UHD-Kexts/* /Volumes/EFI/EFI/CLOVER/kexts/10.14/
-```
-To enable GPU acceleration: Edit your clover config file again and remove the following block from it:  
-```
-<key>FakeID</key>
-		<dict>
-		   <key>IntelGFX</key>
-		   <string>0x12345678</string>
-		</dict>
-```
    
 Finalize the kext-copy by recreating the kernel cache:
 ```
