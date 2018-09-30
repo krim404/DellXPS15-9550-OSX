@@ -4,8 +4,8 @@ this installation includes real time DSDT/SSDT patching from within clover. This
 English is not my mother-tongue and i'm writing this without proof reading, so please forgive my bad spelling 
 
 If you've questions: please read the whole document before reporting an issue to prevent multiple questions. Also check [Step7](Tutorial_10.14_Step7.md) and do a google search.  
-## THIS IS A TESTING BRANCH FOR THE DEVELOPER PREVIEW OF MOJAVE
-Installation is not stable, bugs may occur and your Dell will most likely be not amused. You have been warned.  
+
+As always: bugs may occur and your Dell will most likely be not amused. You have been warned.  
   
   
 ## Credits:
