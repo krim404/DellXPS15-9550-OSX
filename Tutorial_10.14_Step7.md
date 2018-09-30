@@ -1,14 +1,11 @@
 # Step 7: Fixes / Enhancements / Alternative Solutions / Bugs
 
-## HDMI/VGA Video-Out Fix for iMac7,1 or MBP13,3
+## HDMI/VGA Video-Out Fix for MBP13,3
 Open /System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist  
 Find the Board-ID which used in your config.plist, default in this tutorial is "Mac-B809C3757DA9BB8D". Differs when using different smbios.  
 Replace the attribute Config2 with none  
 `sudo kextcache -system-prelinked-kernel && sudo kextcache -system-caches`  
 reboot 
-
-## OSX doesn't boot anymore after Firmware upgrade to 1.2.25 or higher
-If you have an old installation and recently upgraded your firmware: 1.2.25 and newer firmwares (BIOS) don't work with OSXAPTIO Version 1. This needs to be replaced with OSXAPTIOv2. Copy the kernel extension from the folder drivers64uefi/aptiov2 to the EFI/CLOVER/drivers64UEFI. Then add - for example - slide=168 to the boot arguments. See "Error: couldn't allocate runtime area" in this document.
 
 ## Error: couldn't allocate runtime area / unable to start installer / unable to boot at all
 Since OSXAptio is a lil bit picky with memory maps, you have to swap to OSXAptioV2 and choose a different slide= command (see question above) to a suitable number. First delete the OsxAptioFixDrv-64.efi from your CLOVER/drivers64UEFI and replace it with OsxAptioFix2Drv-64.efi from the folder aptiov2 in drivers64uefi. Then change the slide param in the config.plist. See [this Tutorial](/Additional/slide_calc.md) for more informations. It is still possible you cant get it to boot because no memory section is big enough. There are multiple different options available, but each of them has to be considered experimental or buggy. [More details](/10.14/CLOVER/drivers64UEFI/other/readme.md)
@@ -48,20 +45,6 @@ You don't have to decompile the DSDT/SSDT files by yourself. The source dsl file
 
 ## NVRAM Emulation / Saving Sound and Brightness settings after reboot
 the native nvram installed in the Dell is not usable right now because of the Aptiofix. Clover can emulate this storage. Just install clover normally, but select "Advanced" when asked for the location of the installation. Now select "Install all RC Scripts on the target partition". You can find the installation files for clover in ./Additional/Clover_v2.4k_r4003.pkg - but i suggest downloading the newest from [Sourceforge](https://sourceforge.net/projects/cloverefiboot/)
-
-## Some Multitouch Gestures don't work
-Most multitouch gestures are hardcoded in the VoodooPS2 driver and result in keyboard commands. The options in the Control Panel->Touchpad are mostly useless.  
-The currently enabled multitouch commands are:  
-* swipe 3 fingers left/right => Mapped to CMD + LEFT ARROW / RIGHT ARROW (defaults previous and next page)
-* swipe 2 fingers from right side in => Mapped to CTRL+CMD+0
-* swipe 2 fingers from left side in => Mapped to CTRL+CMD+9
-* swipe 3 fingers up => CTRL + UP ARROW (defaults mission control)
-* swipe 3 fingers down => CTRL + CMD + DOWN ARROW 
-* swipe 4 fingers up => F11 (defaults show desktop)
-* swipe 4 fingers down => CMD + M (defaults minimize)
-* swipe 4 fingers left/right => CTRL+RIGHT ARROW / LEFT ARROW (inverse)
-    
-you can modify which commands should be triggered by each gesture from controlpanel -> Keyboard -> Shortcuts. For example set "Notification Bar" to CTRL+CMD+0 to show the bar on swiping left in
 
 ## Sleep results in reboot
 This is only in case sleep worked in the past. If you have sleep issues from the beginning and you strictly followed this tutorial (check at least twice!), you need additional assistance (easiest way is asking in a forum).  
