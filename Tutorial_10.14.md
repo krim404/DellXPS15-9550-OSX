@@ -16,7 +16,7 @@ and much more. I try to give credit whenever possible in the corresponding readm
 * Hibernation  
 * SD-Card reader  
 * Killer 1535 Wifi (rarely used in the 9550, need replace)  
-* nVidia Graphics card (Intel works)  
+* nVidia Graphics card
 * FileVault2  
 ## Requirements:
 * one working MAC OS X Enviroment  
@@ -29,7 +29,7 @@ and much more. I try to give credit whenever possible in the corresponding readm
 * [this repository](https://github.com/wmchris/DellXPS15-9550-OSX/archive/10.14.zip). Unzip this file to a folder of your choice. I'll refer to this folder by "./" in the whole tutorial.  
 * EFI Partition with its folder EFI. This is a hidden partition on your HDD. After mounting it's normally available at /Volumes/EFI/EFI/. I refer to it by EFI/ in the whole tutorial.  
 
-## Step 1: Prepare Installation
+## Step 0: Prepare Installation
 If your Firmware is below 1.2.25, upgrade your EFI to at least 1.8  by using the Firmware Update (See this repository Additional/BIOS). Click [here for a Step by Step Tutorial](Additional/bios_upgrade.md)  
 Optional: check if your SSD can be switched to 4k sector size. See [this Tutorial](4k_sector.md)  
 Use the existing Mac to download the Mojave installer from the App Store and create a bootable USB stick with CLOVER. Open Terminal and enter `diskutil list` and search for the deviceid of the USB stick (ex. disk2). Then reformat it by entering  
@@ -49,20 +49,9 @@ Inside the terminal. Mac OS will automatically mount the EFI partition of the US
   
 Overwrite everything in the CLOVER folder of the partition EFI with the content of ./10.14/CLOVER.  
 If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
-If your PC is equipped with a HYNIX/Plextor/LiteOn SSD - you have to add the following patch to the config.plist:  
-```
-<dict>
-				<key>Comment</key>
-				<string>IONVMeFamily Preferred Block Size 0x10 -&gt; 0x02, credit RehabMan based on 10.12 patch, (c) Pike R. Alpha </string>
-				<key>Name</key>
-				<string>com.apple.iokit.IONVMeFamily</string>
-				<key>Find</key>
-				<data>9sEQD4VBAQAA</data>
-				<key>Replace</key>
-				<data>9sECD4VBAQAA</data>
-</dict>
-```  
+If your PC is equipped with a HYNIX/Plextor/LiteOn SSD - you have to change the config.plist and enable the IONVMeFamily Preferred Block Size patch.    
   
+## Step 1: Configure your Notebook
 Go into the EFI Configuration (BIOS) of your Dell XPS 15:   
 ```
 gymnae said: 

@@ -6,13 +6,6 @@
 	<dict>
 		<key>DSDT</key>
 		<dict>
-			<key>Fixes</key>
-			<dict>
-				<key>AddHDMI</key>
-				<false/>
-				<key>AddPNLF</key>
-				<false/>
-			</dict>
 			<key>Patches</key>
 			<array>
 				<dict>
@@ -478,11 +471,6 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
-		<key>FakeID</key>
-		<dict>
-			<key>IntelGFX</key>
-			<string>0x12345678</string>
-		</dict>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
@@ -726,6 +714,18 @@
 				<data>
 				RiV1VHh4eHgA
 				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>IONVMeFamily Preferred Block Size 0x10 -&gt; 0x02, credit RehabMan based on 10.12 patch, (c) Pike R. Alpha </string>
+				<key>Disabled</key>
+				<true/>
+				<key>Name</key>
+				<string>com.apple.iokit.IONVMeFamily</string>
+				<key>Find</key>
+				<data>9sEQD4VBAQAA</data>
+				<key>Replace</key>
+				<data>9sECD4VBAQAA</data>
 			</dict>
 		</array>
 	</dict>
