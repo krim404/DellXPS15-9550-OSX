@@ -1,0 +1,26 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">DarwinDumperReports Directory</label></div>
+<p class="dropDownBody">All dumps are written inside a directory named <span style="color:#32CD32">DarwinDumperReports</span>.<br>
+If this directory does not exist then by default it will be created at the same<br>
+level as the DarwinDumper.app.<br><br>
+If you would like to use a separate path then set it here.</p>
+<p class="dropDownBody">The current save path is:</p>
+<table width="425" border="0" id="table_save_directory">
+<form action="">
+    <tr>
+        <td width="100"><input type="text" name="saveDirectory" class="saveDirBox"></td>
+    </tr>
+</table>
+<table width="425" border="0" id="table_save_directory" align="center">
+    <tr>
+        <td width="120" align="center"><button type="button" id="saveDirectory_page_clear_button" onclick="saveDirectoryPageClearButtonPressed();">Reset to Default</button></td>
+        <td width="120" align="center"><button type="button" id="saveDirectory_page_open_button" onclick="saveDirectoryPageOpenButtonPressed();">Open in Finder</button></td>
+        <td width="120" align="center"><button type="button" id="saveDirectory_page_browse_button" onclick="saveDirectoryPageBrowseButtonPressed();">Browse/Choose New</button></td>
+    </tr>
+</form>
+</table>
+
+<br>
+
+<p class="dropDownBody">To keep multiple dumps separate, each dump is saved in it’s own<br>
+DarwinDumperReports sub directory named with a 3-digit, sequentially<br>
+indexed number, date, time and MacModel identifer.</p>

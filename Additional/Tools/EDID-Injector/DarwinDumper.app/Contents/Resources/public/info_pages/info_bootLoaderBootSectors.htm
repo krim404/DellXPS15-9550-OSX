@@ -1,0 +1,10 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">Information: Boot Loader Detect & Boot Sectors</label></div>
+<p class="dropDownBody">This runs a shell script to get an overview of the structure of the local disks and partitions using the system tool diskutil.</p>
+<p class="dropDownBody">The boot sector of each disk and each partition are read and an attempt is made to identify what is there. All non-blank boot sectors are written to a file named with the disk number, Manufactuer/model and size and saved in the latest dump/Disk/Boot Sectors folder.</p>
+<p class="dropDownBody">Bootloader Stage 2 and UEFI boot files are searched for and an attempt is made to identify them, before being listed in Bootloaders.txt and saved in the latest dump/Boot Loaders folder.</p>
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBoldNote">Note</td>
+        <td width="325" class="dropDownTableBodyNote">This scan requires root privileges.</td>
+    </tr>
+</table>

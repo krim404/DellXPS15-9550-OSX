@@ -1,0 +1,106 @@
+#! /usr/sbin/dtrace -s
+
+/*
+ * showbootermemorymap - DTrace script that prints out the physical memory
+ *                       map from EFI. Mimics the output format of the
+ *                       kernel debugging macro of the same name.
+ *
+ * Amit Singh
+ * http://osxbook.com
+ */
+/*
+ * Changes:
+ * 12/9/2011, B.C. <bcc24x7@gmail.com> (bcc9@insanelymac.com).  
+ * Added x86_64 support, 
+ * 18/4/2012, dmazar.  
+ * BootArgs print, full MemMap, voffset check with boot_args->efiMode
+ * 18/7/2012, dmazar.  
+ * 32/64bit offset check with sizeof(void*)
+ */
+
+#pragma D option quiet
+
+BEGIN
+{
+    self->inited = 1;
+    self->kgm_boot_args = ((struct boot_args*)(`PE_state).bootArgs);
+    
+	/*
+    #self->kgm_mtype = ((unsigned int *)&`_mh_execute_header)[1];
+    #self->kgm_mtype_i386     = 0x00000007;
+    #self->kgm_mtype_x86_64   = 0x01000007;
+	*/
+	/*
+    printf("sizeof(size_t) = 0x%x\n", sizeof(size_t));
+    printf("sizeof(void*) = 0x%x\n", sizeof(void*));
+    printf("sizeof(unsigned long) = 0x%x\n", sizeof(unsigned long));
+    printf("kgm_boot_args > 0xffffff8000000000: %d\n", (unsigned long)(self->kgm_boot_args) > 0xffffff8000000000);
+	*/
+
+    self->kgm_msize = self->kgm_boot_args->MemoryMapDescriptorSize;
+    self->kgm_mcount = self->kgm_boot_args->MemoryMapSize / self->kgm_msize;
+
+    printf("BootArgs: Version=%d, Revision=%d, at 0x%p\n",
+        self->kgm_boot_args->Version, self->kgm_boot_args->Revision, self->kgm_boot_args);
+    printf("CommandLine: %s\n", self->kgm_boot_args->CommandLine);
+    printf("Video: baseAddr=0x%x, display=%d, rowBytes=%d, width=%d, height=%d, depth=%d\n",
+        self->kgm_boot_args->Video.v_baseAddr, self->kgm_boot_args->Video.v_display,
+        self->kgm_boot_args->Video.v_rowBytes,
+        self->kgm_boot_args->Video.v_width, self->kgm_boot_args->Video.v_height,
+        self->kgm_boot_args->Video.v_depth);
+    printf("DevTree: addr=0x%x, length=0x%x\n",
+        self->kgm_boot_args->deviceTreeP, self->kgm_boot_args->deviceTreeLength);
+    printf("Kernel image: kaddr=0x%x, ksize=0x%x\n",
+        self->kgm_boot_args->kaddr, self->kgm_boot_args->ksize);
+    printf("EFI Runtime: Mode=%d, PageStart=0x%x (0x%x), PageCount=0x%x, SystemTable=0x%x\n",
+        self->kgm_boot_args->efiMode,
+        self->kgm_boot_args->efiRuntimeServicesPageStart, self->kgm_boot_args->efiRuntimeServicesPageStart * 0x1000,
+        self->kgm_boot_args->efiRuntimeServicesPageCount, self->kgm_boot_args->efiSystemTable);
+    /*printf("PhysicalMemorySize: %d (%d GB)\n", self->kgm_boot_args->PhysicalMemorySize, self->kgm_boot_args->PhysicalMemorySize / (1024 * 1024));*/
+    /*printf("FSBFrequency: %d (%d MHz)\n", self->kgm_boot_args->FSBFrequency, self->kgm_boot_args->FSBFrequency / 1000000);*/
+    printf("MemoryMap: Size=0x%x, DescriptorSize=%d, DescriptorVersion=%d\n",
+        self->kgm_boot_args->MemoryMapSize, self->kgm_boot_args->MemoryMapDescriptorSize,
+        self->kgm_boot_args->MemoryMapDescriptorVersion);
+    printf("Type       Physical Start   - Physical End     Number of Pages  Virtual Start    Attribute\n");
+
+
+    self->kgm_i = 0;
+    self->kgm_voffset =	(sizeof(void*) == 8) ? 0xFFFFFF8000000000ULL : 0;
+}
+
+fbt:::entry
+/self->inited && self->kgm_i < self->kgm_mcount/
+{
+    this->kgm_mptr = (struct EfiMemoryRange*)
+    ((unsigned long)self->kgm_boot_args->MemoryMap +
+                    self->kgm_voffset +
+                    self->kgm_i * self->kgm_msize);
+
+    self->kgm_i++;
+
+    printf("%s", (this->kgm_mptr->Type == 0)  ? "reserved  " :
+                 (this->kgm_mptr->Type == 1)  ? "LoaderCode" :
+                 (this->kgm_mptr->Type == 2)  ? "LoaderData" :
+                 (this->kgm_mptr->Type == 3)  ? "BS_code   " :
+                 (this->kgm_mptr->Type == 4)  ? "BS_data   " :
+                 (this->kgm_mptr->Type == 5)  ? "RT_code   " :
+                 (this->kgm_mptr->Type == 6)  ? "RT_data   " :
+                 (this->kgm_mptr->Type == 7)  ? "available " :
+                 (this->kgm_mptr->Type == 8)  ? "Unusable  " :
+                 (this->kgm_mptr->Type == 9)  ? "ACPI_recl " :
+                 (this->kgm_mptr->Type == 10) ? "ACPI_NVS  " :
+                 (this->kgm_mptr->Type == 11) ? "MemMapIO  " :
+                 (this->kgm_mptr->Type == 12) ? "MemPortIO " :
+                 (this->kgm_mptr->Type == 13) ? "PAL_code  " :
+                                                "UNKNOWN   ");
+    printf(" %016llx - %016llx %016llx %016llx %016llx\n",
+           this->kgm_mptr->PhysicalStart, this->kgm_mptr->PhysicalStart + this->kgm_mptr->NumberOfPages * 0x1000 - 1,
+           this->kgm_mptr->NumberOfPages, this->kgm_mptr->VirtualStart, this->kgm_mptr->Attribute);
+}
+
+fbt:::return
+/self->inited && self->kgm_i >= self->kgm_mcount/
+{
+    exit(0);
+}
+

@@ -1,0 +1,14 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">Information: Boot Loader Config Files & Drivers</label></div>
+<p class="dropDownBody">This runs a shell script to scan each volume for your bootloader configuration files. This can be handy when troubleshooting.</p>
+<p class="dropDownBody">The files that are found are copied to subfolders (named with the disk/slice ID where they were found), inside the latest dump/Boot Loaders/Configuration Files folder.</p>
+<p class="dropDownBody">The script also scans each volume for Clover boot loader drivers found in the drivers32, drivers64 and drivers64UEFI folders from the following paths:</p>
+<p class="dropDownBody">/Volumes/xx/EFI/<br>
+/Volumes/xx/EFI/Clover/</p>
+<p class="dropDownBody">Where files are found, the directory contents are listed and saved to a Clover Drivers List.txt file and saved inside the latest dump/Boot Loaders/Drivers folder.</p>
+<p class="dropDownBody">Finally, Slice's /usr/local/bin/clover-genconfig tool (installed to the local system by the Clover installer) is searched for and run to grab Clover's config that was used for the current boot (if booting with Clover and with rev1672 or newer). This is useful if the user has made changes at the GUI.</p>
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBoldNote">Note</td>
+        <td width="325" class="dropDownTableBodyNote">This scan requires root privileges.</td>
+    </tr>
+</table>

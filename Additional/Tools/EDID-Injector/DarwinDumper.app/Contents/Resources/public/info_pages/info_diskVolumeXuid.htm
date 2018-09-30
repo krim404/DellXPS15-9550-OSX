@@ -1,0 +1,11 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">Information: Disk Volume GUID and UUID</label></div>
+<p class="dropDownBody">These take the format of: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</p>
+<p class="dropDownBody">This dump option runs a shell script which uses the system diskutil tool to read the Volume UUID of each mounted partition. This UUID is the only accurate way to refer to a device as OS X does not guarantee to assign the same device id to the same disk at each boot. This value can be used, for example, in a kernel flag when booting your system: rd=uuid boot-uuid=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</p>
+<p class="dropDownBody">The script also extracts the unique partition GUID property for each disk identifer (for example, disk1s3) from the IORegistry. These will only be present on a disk using a GUID partition table. This value can be used, for example, for hiding volumes in Clover's config.plist.</p>
+<p class="dropDownBody">The information from this dump option is saved to a file named UIDs.txt in the latest dump/BootSectDump folder.</p>
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBoldNote">Note</td>
+        <td width="325" class="dropDownTableBodyNote">This scan will run without root privileges but the unique partition GUID of the EFI system partition will not be read as it won't be mounted. Only running with root privileges will the EFI system partition be mounted.</td>
+    </tr>
+</table>

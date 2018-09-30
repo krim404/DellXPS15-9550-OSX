@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>IORegistry Web Viewer v1.2 for DarwinDumper</title>
+<meta name="description" content="A template for viewing OS X's IORegistry data files converted to HTML & JSON formats." />
+<meta name="author" content="Blackosx" />
+<meta name="copyright" content="Copyright 2012-2013 org.black.IORegWebViewerBuilder. All rights reserved.">
+<meta charset="UTF-8" />
+<script src="Resources/scripts/jquery-1.9.1.min.js"></script>
+<script src="Resources/scripts/jquery.jstree.js"></script>
+<script src="Resources/scripts/jstreegrid.js"></script>
+<script src="Resources/scripts/jquery.hotkeys.js"></script>
+<script src="Resources/scripts/ioregviewer.js"></script>
+<script src="Resources/scripts/jquery-ui-1.10.0.custom.min.js"></script>
+<link rel="stylesheet" href="Resources/jquery_ui_themes/smoothness/jquery-ui-1.10.0.custom.css" />
+<link rel="stylesheet" href="Resources/styles/ioregviewer.css" />
+</head>
+<body bgcolor="#666" onload="Initiate('IOService')">
+
+<div id="dialog" title="Inspector"></div>
+
+<div id="container">
+
+ <div id="header">
+        
+        <div id="user_select_drop_down">
+            <form name="form" id="form">
+            <label class="user_drop_down_choice">
+                <select name="plane_select_menu" onchange="RefreshLeftTree(this.form.plane_select_menu)">
+                    <option>IOService</option>
+                    <option>IOACPIPlane</option>
+                    <option>IODeviceTree</option>
+                    <option>IOPower</option>
+                    <option>IOUSB</option>
+                </select>
+            </label>
+            </form>
+        </div>
+
+        <div class="class_info" id="class_placeholder"></div>
+
+</div> <!-- End header -->
+
+
+    <div id="leftPaneTreeHeader">
+
+        <div id="user_select_search">
+            <input type="text" id="user_search_string"/>  <button class="user_search_button">Search</button>  <button class="user_clear_button">Clear</button>  
+        </div>
+    
+    </div> <!-- End leftPaneTreeHeader -->
+    
+    <div id="leftPaneTree"></div>
+    <div id="rightPaneTreeHeader">
+      <div id="titleProperty" class="titleText">Property</div><div id="titleType" class="titleText">Type</div><div id="titleValue" class="titleText">Value</div>
+    </div> <!-- End rightPaneTreeHeader -->
+    <div id="rightPaneTree"></div>
+  
+  <div id="footer">
+    <p class="footer_style"><a href="http://www.projectosx.com/forum/index.php?showtopic=2549" target="_blank">IORegistry Web Viewer</a> is made possible by the following libraries: <a href="http://jquery.com" target="_blank">jQuery</a> | <a href="http://www.jstree.com" target="_blank">jsTree</a> | <a href="https://github.com/deitch/jstree-grid" target="_blank">jstree-grid</a> | <a href="https://github.com/jeresig/jquery.hotkeys/" target="_blank">jsquery.hotkeys</a>| <a href="http://jqueryui.com" target="_blank">jQuery UI</a></p>
+</div> <!-- End footer -->
+  
+</div> <!-- End container -->
+
+
+</body>
+</html>

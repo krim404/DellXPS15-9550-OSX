@@ -1,0 +1,12 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">Information: NVRAM</label></div>
+<p class="dropDownBody">This option dumps as many NVRAM variables as it can from the current system using an amended version of Apple's nvram tool.<p>
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Source</td>
+        <td width="325" class="dropDownTableBody"><a href="https://bitbucket.org/blackosx/nvram" target="_blank">Bitbucket Repository</a></td>
+    </tr>
+</table>
+<p class="dropDownBody">First, all the Apple specific boot variables associated with the Apple GUID 7C436110-AB2A-4BBB-A880-FE41995C9F82 are dumped. These are saved in an nvram.plist file to the latest dump/NVRAM folder.</p>
+<p class="dropDownBody">Second, the same Apple specific boot variables are dumped again but this time saved as a hex dump to a nvram_hexdump.txt file to the latest dump/NVRAM folder.</p>
+<p class="dropDownBody">Third, are the UEFI firmware variables which will only be available if UEFI booting. The nvram tool has a hardcoded list of known variables, and calls each in turn in the hope of receiving a reply. Any data is saved as a hex dump to a uefi_firmware_vars.txt file to the latest dump/NVRAM folder </p>
+<p class="dropDownBody">The UEFI firmware variable list can easily be added to. If you have further EFI GUID's and associated variables you want added then please submit a request to the main <a href="http://bit.ly/15fjEdS" target="_blank">development thread</a> at projectosx.com</p>

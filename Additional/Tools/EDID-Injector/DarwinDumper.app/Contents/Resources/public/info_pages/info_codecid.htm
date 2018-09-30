@@ -1,0 +1,29 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">Information: Audio Codec/Info</label></div>
+<p class="dropDownBody">A check is made to see if either the AppleHDA of VoodooHDA drivers are loaded.</p>
+<p class="dropDownBody">If the VoodooHDA driver is not loaded then an attempt is made to load it. If successful, VoodooHDA's getdump tool is run to save audio information to a file named VoodooHDAGetdump.txt in the latest dump/Audio folder.</p>
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Source</td>
+        <td width="325" class="dropDownTableBody"><a href="https://sourceforge.net/projects/voodoohda/" target="_blank">voodoohda Sourceforge repository</a></td>
+    </tr>
+    <tr>
+        <th width="50" class="dropDownTableBodyBoldNote">Note</td>
+        <td width="325" class="dropDownTableBodyNote">Root privileges are required to load VoodooHDA.kext.</td>
+    </tr>
+</table>
+
+<p class="dropDownBody">Next, Andy Vandijck's getcodecid tool is run which detects and prints any codec ID(s) and controller device id's. The result is saved to a file named AudioCodecID.txt in the latest dump/Audio folder.</p>
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Source</td>
+        <td width="325" class="dropDownTableBody"><a href="http://bit.ly/X9XAeb" target="_blank">InsanelyMac Forum Topic</a></td>
+    </tr>
+</table>
+
+<p class="dropDownBody">Note: DarwinDumper tries to load VoodooHDA even if the AppleHDA driver is loaded. However this can fail and for best results it's recommended to load VoodooHDA.kext without the AppleHDA driver being loaded. The simplest way to do this is to add AppleHDADisabler.kext to your system, rebuild caches and reboot.</p>
+<table width="425" border="0">
+    <tr>
+        <th width="50" class="dropDownTableBodyBold">Link</td>
+        <td width="325" class="dropDownTableBody"><a href="http://bit.ly/109JVo7" target="_blank">AppleHDADisabler InsanelyMac Forum Topic</a></td>
+    </tr>
+</table>

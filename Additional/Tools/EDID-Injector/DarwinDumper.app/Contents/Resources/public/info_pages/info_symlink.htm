@@ -1,0 +1,26 @@
+<div id="helpTitleBar"><label class="dropDownTitleText">DarwinDumper Symlink</label></div>
+<p class="dropDownBody">DarwinDumper can be run from the command line. To do this you would need to load Terminal and type the command including the full path to the script.</p>
+<p class="dropDownBody">However, it's not always easy to remember an exact path as it can be quite long and sometimes you may have a newer version of DarwinDumper in a different location to where you had it previously.</p>
+<p class="dropDownBody">This is where symbolic links come in handy - a special file that points to another file, just as an alias would in the Finder. Here we can create one to point to this version of DarwinDumper so if you want to run it from the Terminal, all you need to type is <b>darwindumper</b>.</p>
+<table width="425" border="0" id="table_symlink_status">
+    <tr>
+        <th width="100" class="dropDownTableBodyBold">Symlink</td>
+        <td width="325" class="dropDownTableBody">/usr/local/bin/darwindumper</td>
+    </tr>
+    <tr>
+        <th width="100" class="dropDownTableBodyBold">Status</td>
+        <td width="325" class="dropDownTableBody">checking...</td>
+    </tr>
+    <tr>
+        <th width="100" class="dropDownTableBodyBold">Option</td>
+        <!-- The Value of the following button is set by getSymlinkStatus() in darwindumper.js -->
+        <td width="325" class="dropDownTableBody"><input type="button" id="symlink_page_button" onclick="var me = $(this); symlinkPageButtonPressed(me.val());"/></td>
+    </tr>
+</table>
+<p></p>
+<table width="425" border="0">
+    <tr>
+        <th width="100" class="dropDownTableBodyBoldNote">Note</td>
+        <td width="325" class="dropDownTableBodyNote">Root privileges are required to run this.</td>
+    </tr>
+</table>
