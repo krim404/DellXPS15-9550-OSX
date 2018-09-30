@@ -126,11 +126,10 @@ I moved this part to its own file. Please click [here](Tutorial_10.14_Step7.md)
 ## Afterword
 as i said before: this is not a tutorial for absolute beginners, albeit it's much easier then most other tutorials, because most is preconfigured in the supplied config.plist. Some Dells have components included, which are not supported by these preconfigured files. Then i can only suggest using Gymnaes tutorial which explains most of the DSDT patching, config.plist editing and kexts used in detail and use the supplied files here as templates.  
 *	Warning: Some people have reported multiple data losses on this machine. I suggest using time-machine whenever possible!  
-*	4K Touchscreen only: Multitouch can be achieved with the driver from touch-base.com, but it's not open source - costs > 100 $   
 *	Not a bug: if you REALLY want to use the 4K Display natively and disable the Retina Mode (max 1920x1080), google it or see [this tutorial](http://www.everymac.com/systems/apple/macbook_pro/macbook-pro-retina-display-faq/macbook-pro-retina-display-hack-to-run-native-resolution.html)
    
 
 ## Appendix 1: Accessories
-The official [Dell adaptor DA200](http://accessories.euro.dell.com/sna/productdetail.aspx?c=at&l=de&s=dhs&cs=atdhs1&sku=470-abry) works completly on Sierra 10.14.2. You can use the Network, USB, HDMI and VGA. Everything is full hot-pluggable  
+The official [Dell adaptor DA200](http://accessories.euro.dell.com/sna/productdetail.aspx?c=at&l=de&s=dhs&cs=atdhs1&sku=470-abry) works on Mojave. You can use the Network, USB, HDMI and VGA. Everything is full hot-pluggable  
 a cheap 3rd party noname USB-C -> VGA adaptor didnt work  
-you can charge the Dell with a generic USB-C Power Adaptor, but USB-C has only a maximum power of 100W, so it's either charging OR usage, not both. Dont forget you need a special USB-C cable (Power Delivery 3.0) for charging  
+you can charge the Dell with a generic USB-C Power Adaptor, but USB-C has only a maximum power of 100W, so it's either charging OR usage, not both. Dont forget you need a special USB-C cable (Power Delivery 3.0) for charging. Charging with the Apple USB-C Charger works, but will be limited to ~60W (and therefore throttle the whole system)  
