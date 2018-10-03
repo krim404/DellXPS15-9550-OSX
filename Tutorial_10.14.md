@@ -48,7 +48,7 @@ Mount the hidden EFI partition of the USB Stick by entering
 Inside the terminal. Mac OS will automatically mount the EFI partition of the USB stick and not the local machine, but just in case: make sure it really is to prevent damage to the host machine  
   
 Overwrite everything in the CLOVER folder of the partition EFI with the content of ./10.14/CLOVER.  
-If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0000 and replace it with 0x19160000.  
+If your PC has a Core i5 processor, you'll have to modify your config.plist in EFI/CLOVER/: search for the Key ig-platform-id: 0x191b0006 and replace it with 0x19160000. Also search for AAPL,ig-platform-id: `BgAbGQ==` and change it to `AAAWGQ==` 
 If your PC is equipped with a HYNIX/Plextor/LiteOn SSD - you have to change the config.plist and enable the IONVMeFamily Preferred Block Size patch.    
   
 ## Step 1: Configure your Notebook
