@@ -3,6 +3,8 @@
 sudo pmset -a autopoweroff 0
 sudo pmset -a standby 0
 sudo pmset -a hibernatemode 0
+sudo pmset -a disksleep 0
+sudo pmset -b tcpkeepalive 0 
 
 echo
 echo "Hibernatemode, standby, and autopoweroff set to 0..."
