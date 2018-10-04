@@ -85,8 +85,6 @@ install ./Additional/Clover_v2.4k_r4061. Make sure to select "Install Clover in 
 Because all DSDT/SSDT changes are already in the config.plist, you dont need to recompile your DSDT (albeit i suggest doing it anyway to make your system a lil bit more failsafe, see gymnaes El-Capitan tutorial for more informations). So we can skip this part and go directly to the installation of the required kexts. Open a terminal and goto the GIT folder.
 ```
 sudo cp -r ./10.14/Post-Install/LE-Kexts/* /Library/Extensions/  
-sudo mv /System/Library/Extensions/AppleACPIPS2Nub.kext /System/Library/Extensions/AppleACPIPS2Nub.bak 2> /dev/null  
-sudo mv /System/Library/Extensions/ApplePS2Controller.kext /System/Library/Extensions/ApplePS2Controller.bak 2> /dev/null
 sudo ./10.14/Post-Install/Additional\ Steps/VoodooPS2Daemon/_install.command
 ``` 
   
