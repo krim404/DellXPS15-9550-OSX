@@ -30,8 +30,13 @@ and much more. I try to give credit whenever possible in the corresponding readm
 * EFI Partition with its folder EFI. This is a hidden partition on your HDD. After mounting it's normally available at /Volumes/EFI/EFI/. I refer to it by EFI/ in the whole tutorial.  
 
 ## Step 0: Prepare Installation
+### Firmware Update
 If your Firmware is below 1.2.25, upgrade your EFI to at least 1.8  by using the Firmware Update (See this repository Additional/BIOS). Click [here for a Step by Step Tutorial](Additional/bios_upgrade.md)  
+### SSD Sector Size (optional)
 Optional: check if your SSD can be switched to 4k sector size. See [this Tutorial](4k_sector.md)  
+### Remove all Hacks from your Installation (Only on Update / Recovery from TimeMachine)
+if you upgrade from an old version of OSX and you want to skip Step 2 from this tutorial - make sure to remove ALL old kexts / hacks / tools before you continue. Remnants will most likely break your installation. If you use TimeMachine: create the backup after removing everything, otherwise timemachine can/will restore the old hacks.  
+### Create Boot Media
 Use the existing Mac to download the Mojave installer from the App Store and create a bootable USB stick with CLOVER. Open Terminal and enter `diskutil list` and search for the deviceid of the USB stick (ex. disk2). Then reformat it by entering  
 ```
 diskutil partitionDisk /dev/disk2 GPT JHFS+ Mojave 0b
@@ -68,18 +73,18 @@ In my case I left VT-d and Fastboot as they were. Also, update your 9550 to the 
 Don't forget to set mode to "AHCI" in the sub-menu "SATA Operation" of "System Configuration". It's mandatory.
 ```
 
-Also disable the SD-Card Reader to reduce the power consumption drastically. Insert the stick on the Dell XPS 15 and boot it up holding the F12 key to get in the boot-menu and start by selecting your USB-Stick (if you've done it correctly it's named "Clover: Install macOS Sierra", otherwise it's just the brandname of your USB-Drive). You should get to the MacOS Installation like on a real mac. If you're asked to log-in with your apple-id: select not now! Reason: see Step 5.
-## Step 2: Partition and Installation
+Also disable the SD-Card Reader to reduce the power consumption drastically. Insert the stick on the Dell XPS 15 and boot it up holding the F12 key to get in the boot-menu and start by selecting your USB-Stick (if you've done it correctly it's named "Install macOS Mojave", otherwise it's just the brandname of your USB-Drive). You should get to the MacOS Installation like on a real mac. If you're asked to log-in with your apple-id: select not now! Reason: see Step 5.
+## Step 2: Partition
 INFORMATION: after this step your computer will loose ALL data! So if you haven't created a backup, yet: QUIT NOW!  
   
 Dont install macOS yet. Select the Diskutil and delete the old partitions. Create a new HFS partition and name it "OSX". If you want to multiboot with Windows 10, then you'll have to create a second partition, too (also HFS! Dont use FAT or it will not boot! You have to reformat it when installing Windows). Make sure to select GUID as partition sheme.
-Close the Diskutil and install OSX normally. You'll have to reboot multiple times, make sure to always boot using the attached USB stick. So dont forget to press F12. After the first reboot you should see a new boot option inside clover, which is highlighted by default. Just press enter. If you only see one, then something went wrong.  
+Close the Diskutil. 
 
-## Step 3: Make it bootable
-After a few reboots you should be inside your new macOS enviroment. You can always boot into it using the USB stick. Remove the USB drive after successful bootup. Enter 
+## Step 3: Install and make it bootable
+Install OSX like on a real mac. You'll have to reboot multiple times - make sure to always boot using the attached USB stick => don't forget to press F12 if you didn't set the USB stick as your primary boot device. After the first reboot you should see a new boot option inside clover called like "Install macOS Mojave from OSX", which is highlighted by default. Just press enter. If you only see one boot device, then something went wrong and you should retry the installation.  After a few reboots you should be inside your new macOS enviroment. You can always boot into it using the USB stick. Remove the USB drive after successful bootup. To make it bootable, enter 
 `diskutil mount EFI`
 in your terminal, which should mount the EFI partition of your local installation.  
-install ./Additional/Clover_v2.4k_r4061. Make sure to select "Install Clover in ESP". Also select to install the RC-Scripts. This should install the Clover Boot System. Now copy everything from ./10.14/CLOVER to EFI/CLOVER like you did before by creating the usb stick. (if you had to modify the config.plist in step 1, do it here, too). Your system should be bootable by itself. Reboot and check if your system can boot by itself.  
+install ./Additional/Clover_v2.4k_rXXXX. Make sure to select "Install Clover in ESP" in the advanced install options. Also select to install the RC-Scripts. This should setup Clover on your internal hard drive. Now copy everything from ./10.14/CLOVER to EFI/CLOVER like you did before by creating the usb stick. (if you had to modify the config.plist in step 1, do it here, too). Your system should now be bootable by itself. Reboot to verify.  
 
 ## Step 4: Post Installation
 Because all DSDT/SSDT changes are already in the config.plist, you dont need to recompile your DSDT (albeit i suggest doing it anyway to make your system a lil bit more failsafe, see gymnaes El-Capitan tutorial for more informations). So we can skip this part and go directly to the installation of the required kexts. Open a terminal and goto the GIT folder.
@@ -105,8 +110,7 @@ OSX 10.12.2 removed the posibility to load unsigned code. You can enable this by
 To prevent getting in hibernation (which can and will corrupt your data if you're not using the 4k switch).
 `sudo pmset -a hibernatemode 0` or run the script in `./10.14/Post-Install/Additional\ Steps/Hibernation/disablehibernate.sh`  
   
-## Step 4.5: 
-Take a look in the folder `/10.14/Post-Install/Additional\ Steps/`. There are multiple fixes for various bugs or problems. Use the supplied tools only when needed. These folders always contain a seperate readme file to explain their requirement and usage.  
+Take a look in the folder `/10.14/Post-Install/Additional\ Steps/`. There are multiple fixes for various bugs or problems. Use the supplied tools only when needed. These folders always contain a seperate readme file to explain their functionality, requirements and general usage.  
   
 ## Step 5: iServices (AppStore, iMessages etc.)
 WARNING! DONT USE YOUR MAIN APPLE ACCOUNT FOR TESTING! It's pretty common that apple BANS your apple-id from iMessage and other services if you've logged in on not well configured hackintoshs!  
