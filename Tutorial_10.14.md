@@ -117,7 +117,13 @@ You also need to modify your SMBIOS in the config.plist of Clover in your EFI pa
 It's possible you may need to call the apple hotline to get your fake serial whitelisted by telling a good story why apple forgot to add your serial number in their system. (aka: dont do it if you dont own a real mac). I personally suggest using real data from an old (broken) macbook.  
   
 ## Step 6: Upgrading to macOS 10.14.1 or higher / installing security updates
-Each upgrade will possibly break your system!  
+Each upgrade will possibly break your system! 
+After each upgrade if you have kexts in your /Library/Extensions folder you will have to recreate the kernel cache by running these:
+```
+sudo rm -rf /System/Library/Caches/com.apple.kext.caches/Startup/kernelcache  
+sudo rm -rf /System/Library/PrelinkedKernels/prelinkedkernel  
+sudo touch /System/Library/Extensions && sudo kextcache -u /
+```
   
 ## Step 7: Fixes / Enhancements / Alternative Solutions / Bugs
 If you have any problems, please read this section first. It contains some fixes to known problems and ideas.  
