@@ -22,7 +22,7 @@ and many others. I try to give credit whenever possible in the corresponding rea
 * 16GB USB Stick (a larger drive may not bootable and/or require advanced partitioning)  
 * MacOS Sierra 10.14 installation file from the app store (redownload, just in case)  
 * Knowledge of editing PLIST files
-* USB drive for backup - you'll loose all data on your computer! 
+* USB drive for backup - you'll lose all data on your computer! 
 
 ## Locations and required Files 
 * [This repository](https://github.com/wmchris/DellXPS15-9550-OSX/archive/10.14.zip). Unzip this to a folder of your choice, I'll refer to this folder as "./" throughout the rest of the tutorial.  
