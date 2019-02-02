@@ -89,7 +89,6 @@ Install ./Additional/Clover_v2.4k_rXXXX. Make sure to select "Install Clover in 
 Because all DSDT/SSDT changes are already in the config.plist, you dont need to recompile your DSDT (though I suggest doing it anyway to make your system more reliable, see gymnaes El-Capitan tutorial for more information). For now we can skip this part and go directly to the installation of the required kexts. Open a terminal and go to the GIT folder.
 ```
 sudo cp -r ./10.14/Post-Install/LE-Kexts/* /Library/Extensions/  
-sudo ./10.14/Post-Install/Additional\ Steps/VoodooPS2Daemon/_install.command
 ``` 
   
 I suggest moving some of the kext from EFI/CLOVER/kexts/10.14 to /Library/Extensions, but this is optional.
