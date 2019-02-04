@@ -22,7 +22,7 @@ and many others. I try to give credit whenever possible in the corresponding rea
 * 16GB USB Stick (a larger drive may not bootable and/or require advanced partitioning)  
 * MacOS Sierra 10.14 installation file from the app store (redownload, just in case)  
 * Knowledge of editing PLIST files
-* USB drive for backup - you'll loose all data on your computer! 
+* USB drive for backup - you'll lose all data on your computer! 
 
 ## Locations and required Files 
 * [This repository](https://github.com/wmchris/DellXPS15-9550-OSX/archive/10.14.zip). Unzip this to a folder of your choice, I'll refer to this folder as "./" throughout the rest of the tutorial.  
@@ -86,10 +86,10 @@ in your terminal, which should mount the EFI partition of your local installatio
 Install ./Additional/Clover_v2.4k_rXXXX. Make sure to select "Install Clover in ESP" in the advanced install options. Also select to install the RC-Scripts. This should setup Clover on your internal HD/SSD. Now copy everything from ./10.14/CLOVER to EFI/CLOVER like you did before when creating the USB stick. Note: If you had to modify the config.plist in step 1, do it here too. Your system should now be bootable by itself. Reboot to verify.  
 
 ## Step 4: Post Installation
-Because all DSDT/SSDT changes are already in the config.plist, you dont need to recompile your DSDT (though I suggest doing it anyway to make your system more reliable, see gymnaes El-Capitan tutorial for more information). For now we can skip this part and go directly to the installation of the required kexts. Open a terminal and go to the GIT folder.
+Because all DSDT/SSDT changes are already in the config.plist, you dont need to recompile your DSDT (though I suggest doing it anyway to make your system more reliable, see gymnaes El-Capitan tutorial for more information). For now we can skip this part. Open a terminal and go to the GIT folder. This step is optional as it only contains NullEthernet.kext. If you are using the stock Broadcom wireless card you can use the Wi-Fi as en0. 
+
 ```
 sudo cp -r ./10.14/Post-Install/LE-Kexts/* /Library/Extensions/  
-sudo ./10.14/Post-Install/Additional\ Steps/VoodooPS2Daemon/_install.command
 ``` 
   
 I suggest moving some of the kext from EFI/CLOVER/kexts/10.14 to /Library/Extensions, but this is optional.
@@ -101,7 +101,7 @@ sudo rm -rf /System/Library/Caches/com.apple.kext.caches/Startup/kernelcache
 sudo rm -rf /System/Library/PrelinkedKernels/prelinkedkernel  
 sudo touch /System/Library/Extensions && sudo kextcache -u /
 ```
-sometimes you'll have to redo the last command if your system shows "Lock acquired". 
+Sometimes you'll have to redo the last command if your system shows "Lock acquired". 
    
 OSX 10.12.2 removed the posibility to load unsigned code. You can enable this by entering 
 `sudo spctl --master-disable `  
@@ -113,12 +113,19 @@ Take a look in the folder `/10.14/Post-Install/Additional\ Steps/`. There are mu
   
 ## Step 5: iServices (AppStore, iMessages etc.)
 WARNING: DONT USE YOUR MAIN APPLE ACCOUNT FOR TESTING! It's pretty common that apple BANS your apple-id from iMessage and other services if you've logged in on poorly configured hackintosh machines!  
-If you want to use the iServices, you'll have to do some advanced steps, which are not completly explained in this tutorial. First you need to switch the faked network device already created by step 4 to be on en0. Goto your network settings and remove every network interface, then `sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist` and reboot. Go back in the network configuration and add the network interfaces (LAN) before Wifi.  
+If you want to use the iServices, you'll have to do some advanced steps, which are not completly explained in this tutorial. If you are using NullEthernet.kext from step 4 or your Wi-Fi card is not en0. Go to your network settings and remove every network interface, then `sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist` and reboot. Go back in the network configuration and add the network interfaces (LAN) before Wi-Fi if you are using NullEthernet.kext or add Wi-Fi. If you are using Wi-Fi with no NullEthernet.kext make sure it is en0 before continuing.
 You also need to modify your SMBIOS in the config.plist of Clover in your EFI partition with valid information about your "fake" mac. There are [multiple tutorials](http://www.fitzweekly.com/2016/02/hackintosh-imessage-tutorial.html) which explain how to do it.   
 It's possible you may need to call the apple hotline to get your fake serial whitelisted by telling a good story why apple forgot to add your serial number in their system. (aka: dont do it if you dont own a real mac). I personally suggest using real data from an old (broken) macbook.  
   
 ## Step 6: Upgrading to macOS 10.14.1 or higher / installing security updates
-Each upgrade will possibly break your system!  
+Each upgrade will possibly break your system! 
+After each upgrade if you have kexts in your /Library/Extensions folder you will have to recreate the kernel cache by running these:
+```
+sudo rm -rf /System/Library/Caches/com.apple.kext.caches/Startup/kernelcache  
+sudo rm -rf /System/Library/PrelinkedKernels/prelinkedkernel  
+sudo touch /System/Library/Extensions && sudo kextcache -u /
+```
+Sometimes you'll have to redo the last command if your system shows "Lock acquired". 
   
 ## Step 7: Fixes / Enhancements / Alternative Solutions / Bugs
 If you have any problems, please read this section first. It contains some fixes to known problems and ideas.  
