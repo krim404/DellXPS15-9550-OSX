@@ -578,17 +578,17 @@
 				<data>g/sPkJCQkJCQ</data>
 			</dict>
 			<dict>
-				<key>Comment</key>
-				<string>IONVMeFamily Preferred Block Size 0x10 -&gt; 0x02, credit RehabMan based on 10.12 patch, (c) Pike R. Alpha </string>
-				<key>Disabled</key>
-				<true/>
-				<key>Name</key>
-				<string>com.apple.iokit.IONVMeFamily</string>
-				<key>Find</key>
-				<data>9sEQD4VBAQAA</data>
-				<key>Replace</key>
-				<data>9sECD4VBAQAA</data>
-			</dict>
+		        <key>Comment</key>
+		        <string>IONVMeFamily: Ignore FLBAS bit:4 being set - for Plextor/LiteOn/Hynix</string>
+		        <key>Disabled</key>
+		        <true/>
+		        <key>Name</key>
+		        <string>IONVMeFamily</string>
+		        <key>Find</key>
+		        <data>SBr2wRAPhQ==</data>
+		        <key>Replace</key>
+		        <data>SBr2wQAPhQ==</data>
+		    </dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
