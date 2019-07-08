@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>14A389</string>
+	<string>16C67</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>NullEthernet</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.0.3, Copyright © 2014 RehabMan. All rights reserved.</string>
+	<string>1.0.6, Copyright © 2014 RehabMan. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.rehabman.driver.NullEthernet</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,15 +19,19 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.3</string>
+	<string>1.0.6</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.3</string>
+	<string>1.0.6</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>6A1046a</string>
+	<string>8C1002</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -35,9 +39,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.6</string>
 	<key>DTXcode</key>
-	<string>0610</string>
+	<string>0821</string>
 	<key>DTXcodeBuild</key>
-	<string>6A1046a</string>
+	<string>8C1002</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>NullEthernet</key>
@@ -52,10 +56,6 @@
 			<string>IOACPIPlatformDevice</string>
 			<key>Model</key>
 			<string>NullEthernet</string>
-			<key>RM,Build</key>
-			<string>Release-RehabMan</string>
-			<key>RM,Version</key>
-			<string>NullEthernet 1.0.3</string>
 			<key>Vendor</key>
 			<string>RehabMan</string>
 		</dict>
