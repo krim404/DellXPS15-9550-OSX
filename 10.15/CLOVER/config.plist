@@ -565,30 +565,44 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB Port limit patch 10.14 (credits FredWst)</string>
+				<string>USB Port limit patch #1/2 10.15.x (credit DalianSky)</string>
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>g/sPD4MDBQAA</data>
-				<key>InfoPlistPatch</key>
-				<false/>
+				<data>g/sPDw==</data>
+				<key>MatchOS</key>
+				<string>10.15.x</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>g/s/Dw==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port limit patch #2/2 10.15.x (credit DalianSky)</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>g/kPDw==</data>
+				<key>MatchOS</key>
+				<string>10.15.x</string>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<data>g/sPkJCQkJCQ</data>
+				<data>g/k/Dw==</data>
 			</dict>
 			<dict>
-		        <key>Comment</key>
-		        <string>IONVMeFamily: Ignore FLBAS bit:4 being set - for Plextor/LiteOn/Hynix</string>
-		        <key>Disabled</key>
-		        <true/>
-		        <key>Name</key>
-		        <string>IONVMeFamily</string>
-		        <key>Find</key>
-		        <data>SBr2wRAPhQ==</data>
-		        <key>Replace</key>
-		        <data>SBr2wQAPhQ==</data>
-		    </dict>
+				<key>Comment</key>
+				<string>IONVMeFamily: Ignore FLBAS bit:4 being set - for Plextor/LiteOn/Hynix</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Name</key>
+				<string>IONVMeFamily</string>
+				<key>Find</key>
+				<data>SBr2wRAPhQ==</data>
+				<key>Replace</key>
+				<data>SBr2wQAPhQ==</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
