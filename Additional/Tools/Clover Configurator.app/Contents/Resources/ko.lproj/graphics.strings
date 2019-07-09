@@ -1,0 +1,475 @@
+/* Start of Additional Translation by ZISQO */
+
+
+/* Class = "NSBox"; title = "Custom EDID [HEX]"; ObjectID = "Yle-1C-wIg"; */
+"Yle-1C-wIg.title" = "EDID 사용자 정의 [HEX] | DarwinDumper 3.0.1로 추출한 16진수로 구성된 EDID를 기재해 주세요";
+
+/* Class = "NSButtonCell"; title = "Inject EDID"; ObjectID = "dCc-Ws-R6K"; */
+"dCc-Ws-R6K.title" = "EDID 인젝션";
+
+/* Class = "NSTextFieldCell"; title = "VendorID"; ObjectID = "UAQ-Jt-Em7"; */
+"UAQ-Jt-Em7.title" = "장치 ID";
+
+/* Class = "NSTextFieldCell"; title = "ProductID"; ObjectID = "3p4-vG-tT7"; */
+"3p4-vG-tT7.title" = "공급자 ID";
+
+/* Class = "NSTableColumn"; headerCell.title = "IOPCIPrimaryMatch"; ObjectID = "tyQ-WL-gQa"; */
+"tyQ-WL-gQa.headerCell.title" = "장치 ID";
+
+/* Class = "NSTableColumn"; headerCell.title = "IOPCISubDevId"; ObjectID = "G5P-e4-lQn"; */
+"G5P-e4-lQn.headerCell.title" = "기기 ID";
+
+/* Class = "NSMenuItem"; title = "AMD3800 Controller:"; ObjectID = "0IR-4Y-Yda"; */
+"0IR-4Y-Yda.title" = "AMD3800 컨트롤러";
+
+/* Class = "NSTextFieldCell"; title = "HorizontalSync\nPulseWidth"; ObjectID = "xjJ-kN-bpt"; */
+"xjJ-kN-bpt.title" = "수평 동기화\n신호 폭";
+
+/* Class = "NSTextFieldCell"; title = "VideoInputSignal"; ObjectID = "hab-XY-5Kd"; */
+"hab-XY-5Kd.title" = "비디오 입력 신호";
+
+/* Class = "NSTextFieldCell"; title = "Dual Link"; ObjectID = "ESj-Ip-vqI"; */
+"ESj-Ip-vqI.title" = "듀얼 링크";
+
+/* Class = "NSTextFieldCell"; title = "FB Name"; ObjectID = "oow-qe-zgk"; */
+"oow-qe-zgk.title" = "FB 이름";
+
+/* Class = "NSTextFieldCell"; title = "Video Ports"; ObjectID = "SP1-WM-7bJ"; */
+"SP1-WM-7bJ.title" = "비디오 포트";
+
+/* Class = "NSTextFieldCell"; title = "Display-cfg"; ObjectID = "m0Z-0x-ds5"; */
+"m0Z-0x-ds5.title" = "디스플레이설정";
+
+/* Class = "NSTextFieldCell"; title = "ig-platform-id"; ObjectID = "dCW-1q-qLG"; */
+"dCW-1q-qLG.title" = "내장GPU플랫폼ID";
+
+/* Class = "NSTextFieldCell"; title = "BootDisplay"; ObjectID = "myC-cS-tvp"; */
+"myC-cS-tvp.title" = "부팅 디스플레이";
+
+/* Class = "NSTextFieldCell"; title = "VRAM"; ObjectID = "XuG-aC-IxA"; */
+"XuG-aC-IxA.title" = "VRAM";
+
+/* Class = "NSButtonCell"; title = "Load VBios"; ObjectID = "gnq-h7-b8g"; */
+"gnq-h7-b8g.title" = "VBios 로드";
+
+/* Class = "NSButtonCell"; title = "Patch VBios"; ObjectID = "XgX-Jz-Fiz"; */
+"XgX-Jz-Fiz.title" = "VBios 패치";
+
+/* Class = "NSButtonCell"; title = "Inject Intel"; ObjectID = "zO0-H0-wzL"; */
+"zO0-H0-wzL.title" = "iGPU 인젝션";
+
+/* Class = "NSButtonCell"; title = "Inject ATI"; ObjectID = "xHW-vO-ZWg"; */
+"xHW-vO-ZWg.title" = "ATI 인젝션";
+
+/* Class = "NSButtonCell"; title = "Inject NVidia"; ObjectID = "6U0-ce-YRL"; */
+"6U0-ce-YRL.title" = "Nvidia인젝션";
+
+/* Class = "NSButtonCell"; title = "NvidiaGeneric"; ObjectID = "BgG-Eu-Y6R"; */
+"BgG-Eu-Y6R.title" = "일반|Nvidia";
+
+/* Class = "NSButtonCell"; title = "NvidiaSingle"; ObjectID = "lf3-pM-5zH"; */
+"lf3-pM-5zH.title" = "단일|Nvidia";
+
+/* Class = "NSButtonCell"; title = "NvidiaNoEFI"; ObjectID = "fvj-gz-fFb"; */
+"fvj-gz-fFb.title" = "논EFI|Nvidia";
+
+/* Class = "NSButtonCell"; title = "RadeonDeInit"; ObjectID = "ytd-YO-bYX"; */
+"ytd-YO-bYX.title" = "라데온 리셋안함";
+
+/* Class = "NSBox"; title = "PatchVBios"; ObjectID = "8O6-lT-HAq"; */
+"8O6-lT-HAq.title" = "비디오 바이오스 패치 | 패치 방법이 어려울 경우 식스플로우에 질문을 남겨 주세요";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find* [HEX]"; ObjectID = "aJc-cD-qIz"; */
+"aJc-cD-qIz.headerCell.title" = "찾을 주소* [HEX]";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace* [HEX]"; ObjectID = "ZqR-YD-VUX"; */
+"ZqR-YD-VUX.headerCell.title" = "변경할 주소* [HEX]";
+
+/* Class = "NSBox"; title = "NVIDIA"; ObjectID = "RWV-gV-PWA"; */
+"RWV-gV-PWA.title" = "엔비디아";
+
+/* Class = "NSBox"; title = "ATI"; ObjectID = "xQv-pV-Y0b"; */
+"xQv-pV-Y0b.title" = "라데온";
+
+/* Class = "NSTableColumn"; headerCell.title = "Model"; ObjectID = "3yk-pP-O2b"; */
+"3yk-pP-O2b.headerCell.title" = "모델";
+
+/* Class = "NSTableColumn"; headerCell.title = "Model"; ObjectID = "no0-fu-M1Y"; */
+"no0-fu-M1Y.headerCell.title" = "모델";
+
+/* Class = "NSTableColumn"; headerCell.title = "IOPCIPrimaryMatch"; ObjectID = "9Qj-KQ-elN"; */
+"9Qj-KQ-elN.headerCell.title" = "공급업체 ID";
+
+/* Class = "NSTableColumn"; headerCell.title = "IOPCISubDevId"; ObjectID = "ycu-IU-5bG"; */
+"ycu-IU-5bG.headerCell.title" = "기기 ID";
+
+/* Class = "NSTableColumn"; headerCell.title = "VRAM"; ObjectID = "GdW-mg-f1W"; */
+"GdW-mg-f1W.headerCell.title" = "램";
+
+/* Class = "NSTableColumn"; headerCell.title = "VRAM"; ObjectID = "S4P-y7-KUo"; */
+"S4P-y7-KUo.headerCell.title" = "램";
+
+/* Class = "NSTextFieldCell"; title = "VRAM"; ObjectID = "XuG-aC-IxA"; */
+"XuG-aC-IxA.title" = "램";
+
+/* Class = "NSTableColumn"; headerCell.title = "VideoPorts"; ObjectID = "NjL-84-2Lh"; */
+"NjL-84-2Lh.headerCell.title" = "비디오포트";
+
+/* Class = "NSTableColumn"; headerCell.title = "VideoPorts"; ObjectID = "uqj-6E-WFJ"; */
+"uqj-6E-WFJ.headerCell.title" = "비디오포트";
+
+/* Class = "NSTableColumn"; headerCell.title = "LoadVBios"; ObjectID = "m80-IH-kcC"; */
+"m80-IH-kcC.headerCell.title" = "바이오스로드";
+
+/* Class = "NSTableColumn"; headerCell.title = "LoadVBios"; ObjectID = "a1h-h1-T2g"; */
+"a1h-h1-T2g.headerCell.title" = "바이오스로드";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>ATI</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10021234</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>AMD very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\nMore than one AMD video cards? Add info under Graphics->ATI as an array of dictionaries:\n\n- IOPCIPrimaryMatch, device id\n- IOPCISubDevId, sub vendor id of your card\n- LoadVBios, load video bios\n- Model, name to be displayed\n- VRAM, the amount of video RAM, cosmetic only\n- VideoPorts, the ports available for this card"; ObjectID = "2E4-Ux-C7E"; */
+"2E4-Ux-C7E.ibShadowedToolTip" = "<key>ATI</key>
+<array>
+	<dict>
+	<key>IOPCIPrimaryMatch</key>
+	<string>0x10021234</string>
+	<key>IOPCISubDevId</key>
+	<string>0x106b</string>
+	<key>LoadVBios</key>
+	<true/>
+	<key>Model</key>
+	<string>AMD very cool card</string>
+	<key>VRAM</key>
+	<integer>8192</integer>
+	<key>VideoPorts</key>
+	<integer>4</integer>
+	</dict>
+</array>
+
+
+하나 이상의 AMD 비디오 카드라면? 그래픽스> ATI 정보를 사전의 배열로 추가해 주세요
+
+- IOPCIPrimaryMatch, 기기 ID
+- IOPCISubDevId, 카드의 서브 공급 업체 ID
+- LoadVBios, 비디오 바이오스 로드
+- Model, 표시 할 이름
+- VRAM, 비디오 RAM의 수량(코스메틱용)
+- VideoPorts,이 카드에 사용할 수있는 비디오 포트";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable/Disable Clover's injection for NVidia's GPUs"; ObjectID = "5lf-Yf-tCI"; */
+"5lf-Yf-tCI.ibShadowedToolTip" = "Nvidia의 GPU에 클로버의 인젝션 활성화/비활성화";
+
+/* Class = "NSMenuItem"; title = "AMD6000 Controller:"; ObjectID = "8LD-ry-5ah"; */
+"8LD-ry-5ah.title" = "AMD6000 컨트롤러:";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "HEX value"; ObjectID = "9Pk-hp-bb6"; */
+"9Pk-hp-bb6.ibShadowedIsNilPlaceholder" = "16진수 값";
+
+/* Class = "NSMenuItem"; title = "AMD9300 Controller:"; ObjectID = "24N-oy-78j"; */
+"24N-oy-78j.title" = "AMD9300 컨트롤러:";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "number"; ObjectID = "25N-fC-6b4"; */
+"25N-fC-6b4.ibShadowedIsNilPlaceholder" = "수량";
+
+/* Class = "NSMenuItem"; title = "Cannonlake (desktop):"; ObjectID = "37H-Rx-Zg5"; */
+"37H-Rx-Zg5.title" = "캐논레이크 (데스크탑):";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaGeneric</key>\n<true/>\n\nIf this true then generic name for Videocard will be used. For example instead of\nGigabyte Geforce 7300LE \nYou will see\nNVIDIA Geforce 7300LE"; ObjectID = "A8W-lA-vZO"; */
+"A8W-lA-vZO.ibShadowedToolTip" = "<key>NvidiaGeneric</key>
+<true/>
+
+리얼맥에서 사용되는 Videocard의 장치 이름으로 표시할 때 사용합니다 예를 들자면
+Gigabyte Geforce 7300LE를
+NVIDIA Geforce 7300LE로 보여지게 할 수 있습니다";
+
+/* Class = "NSMenuItem"; title = "AMD8000 Controller:"; ObjectID = "ANX-FT-7iO"; */
+"ANX-FT-7iO.title" = "AMD8000 컨트롤러:";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>FBName</key>\n<string>Macaque</string>\nThis parameter is specific to AMD Radeon cards, which have a bunch of different framebuffers without any specific pattern. For a wide range of common video cards Clover will automatically choose a suiting framebuffer name. Feel free to set your own if you want. If you do not know what to write here, delete this parameter completely.\n\nDo not use Macaque! It is solely used for absurdity. But no - people still use it in their configurations!\n\nSmall guidance table:\n\nSeries v / Type >|Mobile|Desktop :---|:---|:--- HD 5000|Alouatta|Baboon HD 6000|Cttail|Ipomoea HD 7000|Pondweed|Futomaki"; ObjectID = "b8m-kf-9cV"; */
+"b8m-kf-9cV.ibShadowedToolTip" = "<key>FBName</key>
+<string>Macaque</string>
+이 매개 변수는 특정 패턴이없는 여러 프레임 버퍼가있는 AMD 라데온 카드에만 적용됩니다 광범위한 범용 비디오 카드의 경우 클로버는 적합한 프레임 버퍼 이름을 자동으로 선택합니다 원하는 경우 자유롭게 설정하십시오 여기에 쓸 내용을 모르는 경우이 매개 변수를 완전히 삭제하십시오
+
+Macaque를 사용하지 마세요! 그것은 단지 운빨에 맡기는 겁니다. 대다수의 사람들이 이 것을 사용하는 사람이 없어서 다행입니다
+
+테이블 일부 내용 안내:
+Series v / Type >|Mobile|Desktop :—|:—|:— HD 5000|Alouatta|Baboon HD 6000|Cttail|Ipomoea HD 7000|Pondweed|Futomaki";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>NVCAP</key>\n<string>04000000000003000C0000000000000A00000000</string>\nThis parameter is only useful for Nvidia video cards and configures types and usage of video ports. The example line contains 40 capitalised hexadecimal digits. Theory is missing in this case and praxis shows controversial results.\n\nYou can also find other methods on calculating a correct value for this line.\n\nClover will try to generate one according to the video bios."; ObjectID = "bf1-cI-er9"; */
+"bf1-cI-er9.ibShadowedToolTip" = "<key>NVCAP</key>
+<string>04000000000003000C0000000000000A00000000</string>
+이 매개 변수는 엔비디아 비디오 카드 및 유형 및 비디오 포트 사용에 적합합니다 예제에는 40 개의 대문자로 된 16 진수가 들어 있습니다만 이 경우 논란의 여지가 있으니 유의 하세요
+
+이 행에 대해 올바른 값을 계산하는 다른 방법을 찾을 수도 있습니다
+
+클로버는 비디오 바이오스에 따라 클로버를 생성하려고 할 것 입니다";
+
+/* Class = "NSMenuItem"; title = "AMD9520 Controller:"; ObjectID = "Bj4-yD-beB"; */
+"Bj4-yD-beB.title" = "AMD9520 컨트롤러:";
+
+/* Class = "NSMenuItem"; title = "Haswell (mobile):"; ObjectID = "c55-ZL-CnZ"; */
+"c55-ZL-CnZ.title" = "하스웰 (모바일):";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Inject</key>\n<true/>\n\nInject, if true, your EDID->Custom"; ObjectID = "cr7-K5-nzi"; */
+"cr7-K5-nzi.ibShadowedToolTip" = "<key>Inject</key>
+<true/>
+
+이 값이 true라면 EDID를 사용자화에 인젝션 합니다";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable/Disable Clover's injection for AMD/ATI GPUs/APUs"; ObjectID = "cu0-HH-4QS"; */
+"cu0-HH-4QS.ibShadowedToolTip" = "AMD|ATI GPU|APU를위한 클로버 인젝션 활성화/비활성화";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "number"; ObjectID = "Cxs-xM-Pp3"; */
+"Cxs-xM-Pp3.ibShadowedIsNilPlaceholder" = "숫자";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>PatchVBios</key>\n<true/>\nClover applies corrections to the shadow ROM at address 0xC0000 to allow support of the highest monitor resolution. For instance, a monitor's EDID contains the mode 1920x1080 but the video bios does not. Clover will apply it as the first mode to be used. In case the monitor does not produce an EDID, it can be injected manually.\n\nIn case ScreenResolution in section GUI is set, it will be used for this patch.\n\nShould the automatic patch fail, then you can specify a manual one."; ObjectID = "DJ3-O6-phs"; */
+"DJ3-O6-phs.ibShadowedToolTip" = "<key>PatchVBios</key>
+<true/>
+클로버는 최대 모니터 해상도를 지원하기 위해 주소 0xC0000의 셰도우 롬에 수정 사항을 적용합니다 예를 들자면 모니터의 EDID에는 1920x1080 모드가 포함되어 있지만 비디오 바이오스는 포함되어 있지 않습니다 클로버는 이를 사용할 첫 번째 모드로 적용합니다.모니터가 EDID를 생성하지 않으면 수동으로 주입 할 수 있습니다
+
+GUI의 스크린 해상도가 설정되어 있는 경우 이 패치에 사용합니다
+
+자동 패치가 실패하면 수동으로 지정할 수 있습니다";
+
+/* Class = "NSMenuItem"; title = "Coffeelake (mobile):"; ObjectID = "dwQ-0C-wRz"; */
+"dwQ-0C-wRz.title" = "커피레이크 (모바일):";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>PatchVBiosBytes</key>\n<array>\n    <dict>\n        <key>Find</key>\n        <data>gAeoAqAF</data>\n        <key>Replace</key>\n        <data>gAeoAjgE</data>\n    </dict>\n</array>\n\nThis example applied to an AMD Radeon HD 6670 video bios, resulting in a replacement of mode 1920x1440 with mode 1920x1080. \nIt is advised to choose a mode with the same horizontal resolution.\n\nIt is possible to apply multiple patches. An Nvidia video bios, for instance, was successfully modified with four patches."; ObjectID = "eeh-6p-NEB"; */
+"eeh-6p-NEB.ibShadowedToolTip" = "<key>PatchVBiosBytes</key>
+<array>
+    <dict>
+        <key>Find</key>
+        <data>gAeoAqAF</data>
+        <key>Replace</key>
+        <data>gAeoAjgE</data>
+    </dict>
+</array>
+
+이 예제는 AMD 라데온 HD 6670 비디오 바이오스에 적용되어 1920x1440 모드를 1920x1080 모드로 대체합니다
+수평 해상도가 동일한 모드를 선택하는 것이 좋습니다
+
+여러 패치를 적용 할 수 있습니다 이를테면 엔비디아 비디오 바이오스는 4개의 패치로 성공적으로 교정 되었습니다";
+
+/* Class = "NSMenuItem"; title = "AMD9515 Controller:"; ObjectID = "f1u-CV-pQ0"; */
+"f1u-CV-pQ0.title" = "AMD9515 컨트롤러:";
+
+/* Class = "NSMenuItem"; title = "Skylake (mobile):"; ObjectID = "GdN-hS-ZSb"; */
+"GdN-hS-ZSb.title" = "스카이레이크 (모바일):";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VideoPorts</key>\n<integer>2</integer>\nThe amount of ports on a video card, including TVO and/or HDMI. The chosen Apple framebuffer may not correspond to our real video card."; ObjectID = "HtU-h4-2EC"; */
+"HtU-h4-2EC.ibShadowedToolTip" = "<key>VideoPorts</key>
+<integer>2</integer>
+TVO 및 HDMI를 포함하여 비디오 카드의 포트 크기입니다 선택한 Apple 프레임 버퍼가 실제 비디오 카드와 일치하지 않을 수 있습니다";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VendorID</key>\n<string>0x11BF</string>\n\nOverrides and inject your Display Vendor id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info."; ObjectID = "iB3-Ov-vXN"; */
+"iB3-Ov-vXN.ibShadowedToolTip" = "<key>VendorID</key>
+<string>0x11BF</string>
+
+디스플레이 공급 업체 ID를 무시하고 인젝션 합니다
+디스플레이의 EEPROM이 불확실하고 OEM 제조사가 저가형 제조사일 경우 설치합니다
+좋은 결과를 얻으려면 OS가 EEPROM에있는 내용을 무시하고 정확한 EDID 데이터로 사용자 정의해야 합니다
+따라서 EEPROM이 손상됐다고 판단 된다면 올바른 정보를 인젝션 해줘야 하는 것 입니다";
+
+/* Class = "NSMenuItem"; title = "Coffeelake (desktop):"; ObjectID = "Ijx-3T-O4D"; */
+"Ijx-3T-O4D.title" = "커피레이크 (데스크탑):";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ig-platform-id</key>\n<string>0x01620005</string>\nThis parameter is used to enable the internal Intel HD 4000 video card. Until now no common rule for selecting a value was found, so either let Clover handle this parameter or use another one if it does not work.\n\nHere is a table with possible values:\n\nValue|Type|Ports :---|:---|:--- 0x01660000|Mobile|4 ports: 1 LVDS, 3 DP 0x01660001|Mobile|4 ports: 1 LVDS, 1 HDMI, 2 DP 0x01660002|Mobile|1 port: LVDS 0x01660003|Mobile|4 ports: 1 LVDS, 1 HDMI e 2 DP 0x01660004|Mobile|1 port: LVDS 0x01620005|Desktop|3 ports: DP 0x01620006|Desktop|0 ports 0x01620007|Desktop|0 ports 0x01660008|Mobile|3 ports: 1 LVDS, 2 DP 0x01660009|Mobile|3 ports: 1 LVDS, 2 DP 0x0166000a|Mobile|3 ports: 2 DP, 1 HDMI 0x0166000b|Mobile|3 ports: 2 DP, 1 HDMI"; ObjectID = "IRG-f1-fId"; */
+"IRG-f1-fId.ibShadowedToolTip" = "<key>ig-platform-id</key>
+<string>0x01620005</string>
+
+이 매개 변수는 내부 Intel HD 4000 비디오 카드를 활성화하는 데 사용됩니다 지금까지는 값을 선택하는 공통 규칙이 없으므로 클로버가 이 매개 변수를 처리하게하거나 작동하지 않으면 다른 매개 변수를 사용하게 해주세요
+
+다음은 가능한 값을 가진 테이블입니다
+Value|Type|Ports :—|:—|:— 0x01660000|Mobile|4 ports: 1 LVDS, 3 DP 0x01660001|Mobile|4 ports: 1 LVDS, 1 HDMI, 2 DP 0x01660002|Mobile|1 port: LVDS 0x01660003|Mobile|4 ports: 1 LVDS, 1 HDMI e 2 DP 0x01660004|Mobile|1 port: LVDS 0x01620005|Desktop|3 ports: DP 0x01620006|Desktop|0 ports 0x01620007|Desktop|0 ports 0x01660008|Mobile|3 ports: 1 LVDS, 2 DP 0x01660009|Mobile|3 ports: 1 LVDS, 2 DP 0x0166000a|Mobile|3 ports: 2 DP, 1 HDMI 0x0166000b|Mobile|3 ports: 2 DP, 1 HDMI";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ProductID</key>\n<string>0x06DE</string>\n\nOverrides and inject your Display product id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info.<string>0x11BF</string>\n\nOverrides and inject your Display Vendor id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info."; ObjectID = "j0a-hX-BLv"; */
+"j0a-hX-BLv.ibShadowedToolTip" = "<key>ProductID</key>
+<string>0x06DE</string>
+
+디스플레이 제품 ID를 무시하고 인젝션 합니다
+디스플레이의 EEPROM이 불확실하고 OEM 제조사가 저가형 제조사일 경우 설치합니다
+좋은 결과를 얻으려면 OS가 EEPROM에있는 내용을 무시하고 정확한 EDID 데이터로 사용자 정의해야 합니다
+따라서 EEPROM이 손상됐다고 판단 된다면 올바른 정보를 인젝션 해줘야 하는 것 입니다. <string> 0x11BF </ string>";
+
+/* Class = "NSMenuItem"; title = "Ivy Bridge HD4000 (mobile):"; ObjectID = "JuO-57-0kg"; */
+"JuO-57-0kg.title" = "아이비브릿지 HD4000 (모바일):";
+
+/* Class = "NSMenuItem"; title = "AMD9510 Controller:"; ObjectID = "KaM-2f-15R"; */
+"KaM-2f-15R.title" = "AMD9510 컨트롤러:";
+
+/* Class = "NSMenuItem"; title = "Kabylake (desktop):"; ObjectID = "kS0-gp-mxi"; */
+"kS0-gp-mxi.title" = "카비레이크 (데스크탑):";
+
+/* Class = "NSMenuItem"; title = "AMD4600 Controller:"; ObjectID = "LGz-Cs-q86"; */
+"LGz-Cs-q86.title" = "AMD4600 컨트롤러:";
+
+/* Class = "NSMenuItem"; title = "AMD7000 Controller:"; ObjectID = "lUL-rE-jeZ"; */
+"lUL-rE-jeZ.title" = "AMD7000 컨트롤러:";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "<key>DualLink</key>\n<integer>0</integer>\nDefault is 1.\n\nSome systems show a quartered screen. Use 0 to solve this problem, as showed in the example above."; ObjectID = "m64-hn-3cg"; */
+"m64-hn-3cg.ibShadowedToolTip" = "<key>DualLink</key>
+<integer>0</integer>
+기본 값은 1입니다
+
+일부 시스템에서는 4 등분 화면이 표시 됩니다 위의 예와 같이 0을 사용하여이 문제를 해결해 주세요";
+
+/* Class = "NSMenuItem"; title = "Haswell (desktop):"; ObjectID = "MtX-4n-ZO4"; */
+"MtX-4n-ZO4.title" = "하스웰 (데스크탑):";
+
+/* Class = "NSMenuItem"; title = "Ivy Bridge HD4000 (desktop):"; ObjectID = "Ncf-SM-J6X"; */
+"Ncf-SM-J6X.title" = "아이비브릿지 HD4000 (데스크탑):";
+
+/* Class = "NSMenuItem"; title = "BroadWell:"; ObjectID = "NEb-YT-nAn"; */
+"NEb-YT-nAn.title" = "브로드웰:";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>HorizontalSyncPulseWidth</key>\n<integer>100</integer>\n\nHorizontalSyncPulseWidth - this patch helps to resolve garbled screen at boot with Intel graphics. Known problem of 8 apples.\nI see that the patch is still needed\n\n<dict>\n<key>Comment</key>\n<string>Patch 8 apples</string>\n<key>Disabled</key>\n<false/>\n<key>Find</key>\n<data>AQAAdRc=</data>\n<key>MatchOS</key>\n<string>10.11</string>\n<key>Name</key>\n<string>IOGraphicsFamily</string>\n<key>Replace</key>\n<data>AQAA6xc=</data>\n</dict>\n\nbut this patch alone is not full solution. The apple is broken for a several seconds and then restored.\nWith new Clover setting HorizontalSyncPulseWidth = 100 there is a full solution. The image is good and not jumped."; ObjectID = "o0y-Gr-iUz"; */
+"o0y-Gr-iUz.ibShadowedToolTip" = "<key>HorizontalSyncPulseWidth</key>
+<integer>100</integer>
+
+가로 주사 신호폭 패치는 부팅시 인텔 그래픽으로 깨진 화면을 해결하는 데 도움이됩니다 8 애플의 알려진 문제
+나는 패치가 여전히 필요하다는 것을 알고 있습니다 (macie100 주)";
+
+/* Class = "NSMenuItem"; title = "Cannonlake (mobile):"; ObjectID = "p4w-eQ-IYE"; */
+"p4w-eQ-IYE.title" = "캐논레이크 (모바일):";
+
+/* Class = "NSMenuItem"; title = "AMD5000 Controller:"; ObjectID = "pa6-L5-DJh"; */
+"pa6-L5-DJh.title" = "AMD5000 컨트롤러:";
+
+/* Class = "NSMenuItem"; title = "Old ATI Controller:"; ObjectID = "pUt-Uh-yfc"; */
+"pUt-Uh-yfc.title" = "구형 ATI 컨트롤러:";
+
+/* Class = "NSMenuItem"; title = "AMD9000 Controller:"; ObjectID = "PzC-3O-TKX"; */
+"PzC-3O-TKX.title" = "AMD9000 컨트롤러:";
+
+/* Class = "NSMenuItem"; title = "AMD2600 Controller:"; ObjectID = "q45-CE-7pX"; */
+"q45-CE-7pX.title" = "AMD2600 컨트롤러:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaSingle</key>\n<true/>\n\nImplemented NvidiaSingle\nIf you have two cards Nvidia and wants to inject only first one:\nthen you can set this parameter."; ObjectID = "qbi-hO-FhU"; */
+"qbi-hO-FhU.ibShadowedToolTip" = "<key>NvidiaSingle</key>
+<true/>
+
+단일 엔비디아 카드를 구현합니다
+엔비디아 카드가 두 장 있고 첫 번째 카드만 사용하고 싶다면:
+이 매개 변수를 이용해 설정할 수 있습니다";
+
+/* Class = "NSMenuItem"; title = "AMD9500 Controller:"; ObjectID = "qrP-2S-fn2"; */
+"qrP-2S-fn2.title" = "AMD9500 컨트롤러:";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "parameter is for providing custom EDID when it's missing. The main requirement is to have a correct maximal resolution.\n\nAnother possibility is to use ViewSonic EDID Editor v3.1.5 that can easily be ported to Mac, if needed.\n\nAn EDID from a Dell Inspiron will be used in the sample configuration file with a matrix of 1440x900.\n\nA custom EDID will also be used for automatic video bios patching. Look above.\n\nYou can override VendorID and ProductID in EDID."; ObjectID = "qrY-PP-Osn"; */
+"qrY-PP-Osn.ibShadowedToolTip" = "매개 변수가없는 경우 사용자 정의 EDID를 제공하기위한 것 입니다 주된 요구 사항은 올바른 최대 해상도를 갖는 것입니다
+
+또 다른 가능성은 필요한 경우 맥으로 쉽게 이식 할 수 있는 뷰소닉 EDID 편집기 v3.1.5를 사용하는 것입니다
+
+Dell 인스파이런의 EDID는 1440x900 매트릭스와 함께 샘플 구성 파일에 사용 됩니다
+
+또한 사용자 정의 EDID는 비디오 바이오스 자동 패치에 사용됩니다 위의 내용을 보세요
+
+EDID에서 공급업체 ID 및 제품 ID를 재정의 할 수 있습니다";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VRAM</key>\n<integer>1024</integer>\nAmount of video memory in MB. It is determined automatically but no one will be harmed if you write a correct value. However, changing it has not helped anyone yet."; ObjectID = "qtF-e6-lNk"; */
+"qtF-e6-lNk.ibShadowedToolTip" = "<key>VRAM</key>
+<integer>1024</integer>
+비디오 메모리의 크기 (MB) 자동으로 설정 되지만 올바른 값을 쓸 때 더더욱 안정적으로 동작한다 하지만 이 것을 변경한 다음 아무 변화가 없습니다";
+
+/* Class = "NSMenuItem"; title = "AMD2400 Controller:"; ObjectID = "qyq-um-vWq"; */
+"qyq-um-vWq.title" = "AMD2400 컨트롤러:";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "HEX value"; ObjectID = "s4T-rc-I13"; */
+"s4T-rc-I13.ibShadowedIsNilPlaceholder" = "16진수 값";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VideoInputSignal</key>\n<string>0xA0</string>\n\nVideoInputSignal - this is additional patch for the same problem but I found no inluence.\nDefinition of the value is follow\nBit 7=1\nDigital input. If set, the following bit definitions apply:\n\nBits 6–4 Bit depth: 000=undefined, 001=6, 010=8, 011=10, 100=12, 101=14, 110=16 bits per color, 111=reserved Bits 3–0 Video interface: 0000=undefined, 0001=HDMIa, 0010=HDMIb, 0100=MDDI, 0101=DisplayPort\n\nMy default values for desktop 0x80 (Digital, all undefined), for laptop 0x90 -6bits per color?! - not good.\nIt seems value 0xA0 will be better if used.\nAnd I don't know interface for intenal screen."; ObjectID = "SMy-mc-QWc"; */
+"SMy-mc-QWc.ibShadowedToolTip" = "<key>VideoInputSignal</key>
+<string>0xA0</string>
+비디오 입력 신호는 가끔 발생하는 문제에 대한 추가 패치입니다만 어떤 영향을 미치는지 아직 발견하지 못했습니다
+이 값의 정의는 다음과 같습니다
+비트 7 = 1
+디지털 입력과 이 값이 설정된 경우 다음 비트 정의가 적용됩니다
+
+비트 = 6, 비트 = 000 = 미정의, 001 = 6, 010 = 8, 011 = 10, 100 = 12, 101 = 14, 110 = 컬러 당 16 비트, 111 = 예비 비트 3-0 비디오 인터페이스 : 0000 = 정의되지 않음, 0001 = HDMIa, 0010 = HDMIb, 0100 = MDDI, 0101 = DisplayPort
+
+데스크톱 0x80 (디지털, 모두 정의되지 않음)에 대한 내 기본 값, 노트북 당 0x90 -6bits per color ?! - 안좋다.
+0xA0 값을 사용하면 더 좋습니다
+그리고 Mackie100은 내장 스크린 표시를 위한 인터페이스를 모른다고 합니다";
+
+/* Class = "NSMenuItem"; title = "Kabylake (mobile):"; ObjectID = "tdP-7s-wAa"; */
+"tdP-7s-wAa.title" = "카비레이크 (모바일):";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable/Disable Clover's injection for Intel's iGPUs"; ObjectID = "Tj9-VD-Udo"; */
+"Tj9-VD-Udo.ibShadowedToolTip" = "인텔의 내장 그래픽 정보를 클로버를 통해 인젝션을 활성화/비활성화 합니다";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>display-cfg</key>\n<string>03010300FFFF0001</string>\nThis parameter is also just for Nvidia cards. However the listed examples are controversial. Apparently it is best to just let Clover handle this value. Leave it out completely and let Clover do the calculation."; ObjectID = "uFv-WW-DKn"; */
+"uFv-WW-DKn.ibShadowedToolTip" = "<key>display-cfg</key>
+<string>03010300FFFF0001</string>
+이 매개 변수는 엔비디아 카드 전용입니다 그러나 나열된 예제는 논란의 여지가 많습니다 클로버가 이 값을 처리하도록하는 것이 가장 좋은데요 기존 값을 완전히 버리고 클로버가 설정하도록 해주세요";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>RadeonDeInit</key>\n<true/>\n\nRev 4296\nA possibility to de-init Radeon cards.\nIt was very old problem since ElCapitan that AMD Radeon HD6xxx and up will not wake after sleep if used as first card.\nIf the card is secondary and CSM enabled then the card works fine. So the differences is initialisation.\nThe solution was found by vit9696 and used in private WhateverGreen.kext. Then Mieze proposed the solution as ACPI patch.\nNow I included this into Clover.\nYou have to set in config.plist"; ObjectID = "UTZ-9I-Mss"; */
+"UTZ-9I-Mss.ibShadowedToolTip" = "<key>RadeonDeInit</key>
+<true/>
+
+리비전 4296
+라데온 카드의 초기화를 취소 할 수 있습니다
+엘 캐피탄 이후 AMD 라데온 HD6xxx 이상 장치가 첫 번째 카드로 사용되면 잠자기 후 깨어나지 않는 것은 매우 오래된 문제였습니다
+설정하려는 카드가 두 번 째 슬롯에 있고 CSM이 활성화 된 경우 카드가 올바르게 작동합니다 차이점은 초기화 문제로 인해 발생됐던 것입니다
+이 솔루션은 vit9696이 발견하였으며 WhateverGreen.kext에서 사용 되었습니다 그리고 Mieze는 솔루션을 ACPI 패치로 제안 했습니다
+따라서 이제 이것을 클로버에 포함 시켜놓았습니다
+config.plist에서 설정해야합니다
+한국의 어떤 사이트에서 설명한 것처럼 EFI/GOP 바이오스를 삭제하는 것은 블랙 스크린을 발생시키므로 무모한 셋팅은 큰 도움이 안됩니다";
+
+/* Class = "NSMenuItem"; title = "Sandy Bridge HD3000:"; ObjectID = "V8p-Nb-5t0"; */
+"V8p-Nb-5t0.title" = "샌디브릿지 HD3000:";
+
+/* Class = "NSMenuItem"; title = "AMD4800 Controller:"; ObjectID = "vr8-X9-g6h"; */
+"vr8-X9-g6h.title" = "AMD4800 컨트롤러:";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "framebuffer"; ObjectID = "vUX-ax-DYA"; */
+"vUX-ax-DYA.ibShadowedIsNilPlaceholder" = "프레임버퍼";
+
+/* Class = "NSMenuItem"; title = "Skylake (desktop):"; ObjectID = "vyD-G1-PJu"; */
+"vyD-G1-PJu.title" = "스카이레이크 (데스크탑):";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>NVIDIA</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10de5665</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>NVidia very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\nMore than one NVidia video cards? Add info under Graphics->NVIDIA as an array of dictionaries:\n\n- IOPCIPrimaryMatch, device id\n- IOPCISubDevId, sub vendor id of your card\n- LoadVBios, load video bios\n- Model, name to be displayed\n- VRAM, the amount of video RAM, cosmetic only\n- VideoPorts, the ports available for this card"; ObjectID = "wQc-iv-n48"; */
+"wQc-iv-n48.ibShadowedToolTip" = "<key>NVIDIA</key>
+<array>
+	<dict>
+	<key>IOPCIPrimaryMatch</key>
+	<string>0x10de5665</string>
+	<key>IOPCISubDevId</key>
+	<string>0x106b</string>
+	<key>LoadVBios</key>
+	<true/>
+	<key>Model</key>
+	<string>NVidia very cool card</string>
+	<key>VRAM</key>
+	<integer>8192</integer>
+	<key>VideoPorts</key>
+	<integer>4</integer>
+	</dict>
+</array>
+
+하나 이상의 엔비디아 그래픽 카드라면 아래 정보를 사전 배열로 추가해 주세요 :
+
+- IOPCIPrimaryMatch, 기기 ID
+- IOPCISubDevId, 카드의 서브 공급 업체 ID
+- LoadVBios, 비디오 바이오스 로드
+- Model, 표시 할 이름
+- VRAM, 비디오 RAM의 수량(코스메틱용)
+- VideoPorts,이 카드에 사용할 수있는 비디오 포트";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>LoadVBios</key>\n<true/>\nLoads a video bios from a file, which needs to be stored at the directory EFI/CLOVER/OEM/[model]/ROM or EFI/CLOVER/ROM with the name [vendor]_[device].rom, for instance 1002_68d8.rom. Sometimes it makes sense to load video bios manually, for example when you need a patched version or when the video card does not show it to the system - like mobile Radeon cards. In this case it is enough to set this parameter to Yes without providing any file. Clover will read the video bios from legacy memory at 0xC0000, where it is present most of the times, and enable functionality.\nApparently the video bios written to the card's ROM does not match the one stored at address 0xC0000 - the shadow ROM. In short:\n\n<true/> - Use for mobile Radeon cards without any external file.\nCan also be used to supply a legacy video bios to cards, which only contain a UEFI video bios.\n<false/> - For all other variants"; ObjectID = "xyg-JY-TIM"; */
+"xyg-JY-TIM.ibShadowedToolTip" = "<key>LoadVBios</key>
+<true/>
+파일에서 비디오 바이오스를 로드합니다 EFI/CLOVER/OEM/[model]/ROM 또는 EFI/CLOVER/ROM 디렉토리에 [vendor]_ device].rom, 예를 들어 1002_68d8과 같은 이름으로 저장해야 합니다 때로는 패치 된 버전이 필요할 때나 비디오 카드가 모바일 라데온 카드와 같이 시스템에 표시되지 않는 경우와 같이 수동으로 비디오 바이오스를 로드하는 것이 좋습니다 이 경우 파일을 제공하지 않고이 매개 변수를 Yes로 설정하면 충분합니다 클로버는 레거시 메모리에서 0xC0000의 비디오 바이오스를 읽습니다 0xC0000은 대부분의 시간 동안 제공되며 기능을 활성화 합니다
+분명히 카드의 롬에 쓰여진 비디오 바이오스는 0xC0000 - 셰도우 램에 저장된 것과 일치하지 않습니다 간단히 말하자면 :
+<true /> - 외부 파일없이 모바일 라데온 카드에 사용합니다
+UEFI 비디오 BIOS 만 포함된 레거시 비디오 바이오스를 카드에 공급하는 데에도 사용할 수 있습니다
+<false /> - 다른 모든 변형의 경우";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaNoEFI</key>\n<true/>\n\nIf your card have a bad EFI bios just don't use it:\n\n\t\"NVDA,noEFI\", \n\tBuffer (0x05)\n\t{\n           \"true\"\n\t},"; ObjectID = "zd9-VZ-weX"; */
+"zd9-VZ-weX.ibShadowedToolTip" = "<key>NvidiaNoEFI</key>
+<true/>
+
+여러분의 엔비디아 그래픽 카드의  EFI 바이오스가 불량이라면 사용하지 말아 주세요
+
+	”NVDA,noEFI”,
+	Buffer (0x05)
+	{
+           “true”
+	},";
+

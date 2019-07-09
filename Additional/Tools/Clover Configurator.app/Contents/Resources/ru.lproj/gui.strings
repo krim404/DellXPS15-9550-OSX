@@ -1,0 +1,132 @@
+/* Class = "NSTextField"; ibShadowedToolTip = "Volume - A volume name or GUID to be used when scanning for loader."; ObjectID = "0qX-lt-njN"; */
+"0qX-lt-njN.ibShadowedToolTip" = "Том – Имя тома или UUID для сканирования для загрузки.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Image - Path to a custom image file. Search path is root directory of entry volume, theme directory, clover directory, clover volume root directory, and finally os icon names."; ObjectID = "1Cq-u6-Uz6"; */
+"1Cq-u6-Uz6.ibShadowedToolTip" = "Путь к образу диска, если требуется загрузиться с него";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Arguments - Arguments that are to be passed to the loader. Overides the default boot arguments in Boot / Arguments."; ObjectID = "3q2-xi-dUv"; */
+"3q2-xi-dUv.ibShadowedToolTip" = "Параметры загрузки, переопределяют параметры по умолчанию.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "NoCaches - Skip caches. For OSX, OSXInstaller and OSXRecovery type entries."; ObjectID = "4fw-qB-P0O"; */
+"4fw-qB-P0O.ibShadowedToolTip" = "NoCaches – Пропустить кэш ядра (для OSX* разделов)";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "CustomLogo - Defines the boot screen logo style. For further information read Boot / CustomLogo"; ObjectID = "4Ll-i2-Jnh"; */
+"4Ll-i2-Jnh.ibShadowedToolTip" = "Выборочный экран загрузки системы (Подробнее в Boot -> CustomLogo).";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "VolumeType - The type of volume you want your custom entry to match. Can be a string with one type or an array with multiple types. \n             Valid volume types are Internal, External, Optical and FireWire."; ObjectID = "5qd-Vb-BZc"; */
+"5qd-Vb-BZc.ibShadowedToolTip" = "Тип тома (внутренний, внешний, оптический, FireWire)";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>TextOnly</key>\n<false/>\n\nText-only menu mode for a minimal GUI and faster loading times."; ObjectID = "5tY-Is-CuG"; */
+"5tY-Is-CuG.ibShadowedToolTip" = "Оболчка будет содержать только текст (ускоренное время загрузки)";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>CustomIcons</key>\n<true/>\n\nEnabling this key will load the icon from the partition itself. \nYou may assign your own icons to each volume, and you can use different icons for different volumes,\neven when they have the same OS."; ObjectID = "9tH-LL-2Fx"; */
+"9tH-LL-2Fx.ibShadowedToolTip" = "Свои иконки для разделов, загружаются из корня.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Scan</key>\n<dict>\n  <key>Tool</key>\n  <true/>\n</dict>\nEnable or disable the automatic UEFI tool scan."; ObjectID = "31b-eE-tBc"; */
+"31b-eE-tBc.ibShadowedToolTip" = "Включить автоматическое сканирование разделов с UEFI-инструментами.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Scan</key>\n<dict>\n  <key>Kernel</key>\n  <string>All/Newest/Oldest/First/Last/MostRecent/Earliest/None</string>\n</dict>\nEnable or disable automatic Linux kernel scan. Additionally you may choose between several options:\n\nAll - all found kernels (default)\nNewest - newest file modification date\nOldest - oldest file modification date\nFirst - first matching\nLast - last matching\nMostRecent - most recent version\nEarliest - earliest version\nNone - no kernel scan"; ObjectID = "44V-tv-ajz"; */
+"44V-tv-ajz.ibShadowedToolTip" = "Сканирование Linux-ядер (новые, старые, первые, последние, наиболее используемые, ранние)";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "RGBA string"; ObjectID = "ANH-DA-QgF"; */
+"ANH-DA-QgF.ibShadowedIsNilPlaceholder" = "RGBA строка";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Avoid scan for Linux if Linux isn't installed. Clover is Faster."; ObjectID = "azD-v1-xjg"; */
+"azD-v1-xjg.ibShadowedToolTip" = "Не сканировать на наличие Linux, ускоряет запуск Clover.";
+
+/* Class = "NSMenuItem"; title = "get UUID disk"; ObjectID = "BSO-kM-je8"; */
+"BSO-kM-je8.title" = "получить UUID диска";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "DriveImage - Path to a custom drive image file. Search path is root directory of entry volume, \n\t     theme directory, clover directory, clover volume root directory, and finally os icon names."; ObjectID = "do1-vv-GsU"; */
+"do1-vv-GsU.ibShadowedToolTip" = "Выборочный образ диска, для загрузки с него.";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Type - The type of OS that is being scanned for. \n       Valid types are OSX, OSXInstaller, OSXRecovery, Windows, Linux, LinuxKernel. \n       If Type is not one of these it will be treated as all types."; ObjectID = "dS1-wz-3gQ"; */
+"dS1-wz-3gQ.ibShadowedToolTip" = "Тип раздела, OSX*, Windows, Linux";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "different config file name"; ObjectID = "eg0-xd-hl3"; */
+"eg0-xd-hl3.ibShadowedIsNilPlaceholder" = "другое имя config.plist";
+
+/* Class = "NSSegmentedControl"; ibShadowedToolTip = "Enable or disable all automatic scans."; ObjectID = "eIP-dU-U5E"; */
+"eIP-dU-U5E.ibShadowedToolTip" = "Включить или выключить все автомотическое сканирование";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "BootBgColor - Specifies the boot screen's background color. For OSX, OSXInstaller and OSXRecovery type entries."; ObjectID = "EWi-hF-dQQ"; */
+"EWi-hF-dQQ.ibShadowedToolTip" = "BootBgColor – указывает цвет фона экрана загрузки для OS X, установщика OS X и OS X Recovery разделов.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Scan</key>\n<dict>\n  <key>Legacy</key>\n  <string>Last</string>\n</dict>\nEnable or disable automatic legacy scan. Also choose from First to list in the beginning, Last to list it in the end."; ObjectID = "F2m-kh-Sxc"; */
+"F2m-kh-Sxc.ibShadowedToolTip" = "Сканирование Legacy-разделов";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>Legacy</key>\n<array>\n  <dict>\n    <key>Volume</key>\n    <string>Volume name or GUID</string>\n    <key>Title</key>\n    <string>Display title</string>\n    <key>Hidden</key>\n    <false/>\n    <key>Disabled</key>\n    <false/>\n    <key>Ignore</key>\n    <true/>\n    <key>Type</key>\n    <string>Windows/Linux</string>\n  </dict>\n  ...\n</array>\nVolume - A volume name or GUID to be used when scanning for loader.\nTitle - Changes the display title. Uses the format \"Boot <Title> from <VolumeName>\"\nHidden - Hides the entry but can be shown by pressing F3.\nDisabled - Disables the entry so that is never shown.\nIgnore - Entry will be ignored, or not used, so it will not affect anything.\nType - The type of OS that is being scanned for. Valid types are OSX, OSXInstaller, OSXRecovery, Windows, Linux, LinuxKernel. If Type is not one of these it will be treated as all types."; ObjectID = "g2H-X3-h7A"; */
+"g2H-X3-h7A.ibShadowedToolTip" = "Настройка разделов с Legacy загрузкой.";
+
+/* Class = "NSTextFieldCell"; placeholderString = "RGBA string"; ObjectID = "GsF-AW-aux"; */
+"GsF-AW-aux.placeholderString" = "RGBA строка";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Path - Location to scan for the efi loader."; ObjectID = "Gy2-Z3-GZx"; */
+"Gy2-Z3-GZx.ibShadowedToolTip" = "Path – путь для сканирования загрузчика *.efi";
+
+/* Class = "NSCollectionView"; ibShadowedToolTip = "If the automatically scan entries are not enough you can add your own custom boot entries."; ObjectID = "k1f-lh-HGh"; */
+"k1f-lh-HGh.ibShadowedToolTip" = "Если автоматического поиска разделов недостаточно, вы можете добавить свои разделы для загрузки";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "Set resolution of console mode"; ObjectID = "KCB-wM-PyG"; */
+"KCB-wM-PyG.ibShadowedToolTip" = "Установить разрешение для консольного режима";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Title - Changes the display title. Uses the format \"Boot <Title> from <VolumeName>\"\n\nFullTitle - Sets the display title to only \"<FullTitle>\" without any format."; ObjectID = "kzI-pm-cpr"; */
+"kzI-pm-cpr.ibShadowedToolTip" = "Title – Изменяет отображаемый заголовокю Использует формат \"Boot<Title>from<VolumeName>\"\n\nFullTitle – Изменяет заголовок только на \"<FullTitle>\" без каких-либо других надписей.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Disabled - Disables the entry so it is not taken into account."; ObjectID = "l7R-cy-enn"; */
+"l7R-cy-enn.ibShadowedToolTip" = "Выключает раздел, и он больше не появится в GUI";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>Hide</key>\n<array>\n  <string>WindowsHDD</string>\n  <string>HD(1,GPT,E223FF7F-F2DA-4DBB-B765- 756F2D95B0FE)</string>\n</array>\nHide a partition with given name or GUID."; ObjectID = "mfp-id-Dny"; */
+"mfp-id-Dny.ibShadowedToolTip" = "Скрвает ненужные разделы из оболочки.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>KbdPrevLang</key>\n<true/>\n\nAdded prelang kbd option if want to keep language when updating macOS with native NVRAM."; ObjectID = "mFQ-E7-pUH"; */
+"mFQ-E7-pUH.ibShadowedToolTip" = "Возможность сохранять раскладку клавиатуры при обновлении системы даже после перезагрузок.";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "InjectKexts - Inject kexts. Valid options are Yes, No or Detect. \n              Use Detect to inject kexts only if FakeSMC is not present in KernelCache or /S/L/E. \n              For OSX, OSXInstaller and OSXRecovery type entries."; ObjectID = "p6D-at-O0Q"; */
+"p6D-at-O0Q.ibShadowedToolTip" = "Информация по ключу во вкладке SystemParametrs";
+
+/* Class = "NSTableColumn"; headerCell.title = "Type*"; ObjectID = "quU-uS-ASm"; */
+"quU-uS-ASm.headerCell.title" = "Тип*";
+
+/* Class = "NSTextFieldCell"; title = "Required field (*)"; ObjectID = "qZF-jN-ZQp"; */
+"qZF-jN-ZQp.title" = "Обязатеьное поле (*)";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>ShowOptimus</key>\n<true/>\n\nSome bioses can turn off/on NVidia Optimus cards.\nTurning it on you will notice that in GUI at boot time."; ObjectID = "rRi-4x-lO8"; */
+"rRi-4x-lO8.ibShadowedToolTip" = "Если Оптимус включится, вы увидите это во время загрузки.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>Theme</key>\n<string>metal</string>\n\nAdditionally you can set the theme in the preference panel. \nThis setting overrides the one in the configuration file. \nIn case an invalid theme name is used here (no theme.plist exists at the given path), \nthen the configuration file setting is used again. \nIf even here the theme name is invalid, \nthen you will be greeted with an ugly fallback theme that will still be operational."; ObjectID = "rXR-5C-JUo"; */
+"rXR-5C-JUo.ibShadowedToolTip" = "Тема (устанавливается в EFI/CLOVER/themes/)";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "<key>Language</key>\n<string>en:0</string>\n\nSets language of Clover's help menu, that can be accessed with shortcut F1. \nFurthermore, this setting is passed to the OS and can have an influence on the language."; ObjectID = "SYV-Up-yMI"; */
+"SYV-Up-yMI.ibShadowedToolTip" = "<key>Language</key><string>en:0</string>Устанавливает язык меню помощи Clover, в которое можно попасть по F1. Более того, эта настройка передается в систему и может влиять на ее язык.";
+
+/* Class = "NSButtonCell"; title = "Multiple selection"; ObjectID = "T4G-Bd-iF3"; */
+"T4G-Bd-iF3.title" = "Множественное выделение";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "<key>ScreenResolution</key>\n<string>1024x768</string>\n\nYou can set the desired screen resolution if it is supported by the video card and the monitor. \nClover will try to set the highest available resolution, however it might fail. \nYou can check the list of supported resolutions in the boot log. \nIn case PatchVBios=Yes is used in the Graphics section,\nyou will get the highest resolution supported by the monitor.\nIn that case this parameter may be obsolete. \nThe default value is 1024x768."; ObjectID = "Thd-sP-BKO"; */
+"Thd-sP-BKO.ibShadowedToolTip" = "Разрешение экрана (работает только если в видеобиосе есть такой режим!)";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "AddArguments - Adds to the default boot arguments. For a SubEntry it adds to the arguments of the main entry."; ObjectID = "Uk1-wV-CPW"; */
+"Uk1-wV-CPW.ibShadowedToolTip" = "Добавить параметры загрузки";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Scan</key>\n<dict>\n  <key>Entries</key>\n  <true/>\n</dict>\nEnable or disable the automatic UEFI entries scan."; ObjectID = "Vci-XX-vTI"; */
+"Vci-XX-vTI.ibShadowedToolTip" = "Сканирование UEFI-разделов.";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "Daylight support in Clover GUI (like in Mojave).\nYou should choose\n\t<key>GUI</key>\n\t<dict>\n\t\t<key>Timezone</key>\n\t\t<integer>3</integer>\n\t\t<key>Theme</key>\n\t\t<string>embedded</string>\n\t\t<key>EmbeddedThemeType</key>\n\t\t<string>Daytime</string>\n \nRev 4774\nClovy SVG theme has os_moja_night icon and Background_night to choose depending on daylight."; ObjectID = "voz-Mb-dhN"; */
+"voz-Mb-dhN.ibShadowedToolTip" = "Смена дневной и ночной темы в Clover, как в Mojave.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Sync and Async sound play.\n\nSync play - sound play before enter Clover GUI. Clover GUI started after the sound is finished.\n\nAsync play - sound started to play before Clover GUI started and continue playing when GUI is ready.\n\nTo switch edit config.plist\n\n\t<key>GUI</key>\n\t<dict>\n\t\t<key>PlayAsync</key>\n\t\t<false/>"; ObjectID = "vWG-oJ-ht5"; */
+"vWG-oJ-ht5.ibShadowedToolTip" = "Sync - звук воспроизводится перед входом в оболочку, после окончания звука начнется загрузка оболочки.  Async - оболочка грузится сама, звук воспроизводится сам, независимо друг от друга.";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>Tool</key>\n<array>\n  <dict>\n    <key>Volume</key>\n    <string>Volume name or GUID</string>\n    <key>Path</key>\n    <string>Loader path</string>\n    <key>Arguments</key>\n    <string>Load options</string>\n    <key>Hotkey</key>\n    <string>G</string>\n    <key>Title</key>\n    <string>Display title</string>\n    <key>FullTitle</key>\n    <string>Full Display title</string>\n    <key>Hidden</key>\n    <false/>\n    <key>Disabled</key>\n    <false/>\n    <key>Ignore</key>\n    <true/>\n  </dict>\n  ...\n</array>"; ObjectID = "WzW-Qr-yVn"; */
+"WzW-Qr-yVn.ibShadowedToolTip" = "<key>Tool</key><array><dict><key>Volume</key><string>Volume name or GUID</string><key>Path</key><string>Loader path</string><key>Arguments</key><string>Load options</string><key>Hotkey</key><string>G</string><key>Title</key><string>Display title</string><key>FullTitle</key><string>Full Display title</string><key>Hidden</key><false/><key>Disabled</key><false/><key>Ignore</key><true/></dict>...</array>";
+
+/* Class = "NSBox"; ibShadowedToolTip = "<key>Mouse</key>\n<dict>\n    <key>Enabled</key>\n    <true/>\n    <key>Speed</key>\n    <integer>2</integer>\n    <key>Mirror</key>\n    <false/>\n    <key>DoubleClick</key>\n    <integer>500</integer>\n</dict>\nEnabled - The mouse may not work or even cause the whole GUI to lock up. Turn it off if this is the case.\nSpeed - Mouse movement speed. Reasonable values range from 2-8. Some mice may need a negative speed to reverse the movement. 0 turns off the mouse.\nMirror - Negative movement speed on a single axis\nDoubleClick - Pause for double click detection in milliseconds. Until now 500 has been a good value for everyone."; ObjectID = "xCY-ps-sxi"; */
+"xCY-ps-sxi.ibShadowedToolTip" = "Включение мыши, реконмендуемые скорости – 2-8, Mirror – отражение движения мыши, DoubleClick – задержка для двойного нажатия.";
+
+/* Class = "NSButtonCell"; title = "Detachable Popover"; ObjectID = "yfN-qa-rjZ"; */
+"yfN-qa-rjZ.title" = "Откреплять подсказки";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>GUI</key>\n\t<dict>\n\t\t<key>Timezone</key>\n\t\t<integer>3</integer>\n\t\t<key>Theme</key>\n\t\t<string>embedded</string>\n\t\t<key>EmbeddedThemeType</key>\n\t\t<string>Daytime</string>\nThen BIOS time + Timezone will be compared to 8:00 of morning and 20:00 of evening and set light type or dark."; ObjectID = "zuK-n2-fdn"; */
+"zuK-n2-fdn.ibShadowedToolTip" = "Часовой пояс для работы смены темы Clover в течение дня (введенная цифра + время в BIOS сравнивается с 8:00 и 20:00)";
+

@@ -1,0 +1,30 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Open Folder"; ObjectID = "7QX-Pe-fgh"; */
+"7QX-Pe-fgh.ibShadowedToolTip" = "Открыть папку";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reload Data"; ObjectID = "A92-iC-w4v"; */
+"A92-iC-w4v.ibShadowedToolTip" = "Обновить данные";
+
+/* Class = "NSTextFieldCell"; title = "Target:"; ObjectID = "dst-NO-nNB"; */
+"dst-NO-nNB.title" = "Цель:";
+
+/* Class = "NSTableColumn"; headerCell.title = "Excluded files"; ObjectID = "FHC-L9-Bku"; */
+"FHC-L9-Bku.headerCell.title" = "Исключенные файлы";
+
+/* Class = "NSTableColumn"; headerCell.title = "Unselect the file or folder you want to exclude"; ObjectID = "JLr-kU-ySL"; */
+"JLr-kU-ySL.headerCell.title" = "Снимите выделение с тех файлов, которые хотите исключить";
+
+/* Class = "NSTextFieldCell"; title = "Source:"; ObjectID = "md5-c1-lDd"; */
+"md5-c1-lDd.title" = "Источник:";
+
+/* Class = "NSButtonCell"; title = "Clone"; ObjectID = "oVK-Pj-WIi"; */
+"oVK-Pj-WIi.title" = "Клонировать";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Folder"; ObjectID = "Rim-Fo-YcI"; */
+"Rim-Fo-YcI.ibShadowedToolTip" = "Открыть папку";
+
+/* Class = "NSTextFieldCell"; title = "Disk Identifier:"; ObjectID = "shp-h0-Ykg"; */
+"shp-h0-Ykg.title" = "ID диска:";
+
+/* Class = "NSTextFieldCell"; title = "Disk Identifier:"; ObjectID = "zvN-uh-UXk"; */
+"zvN-uh-UXk.title" = "ID диска:";
+

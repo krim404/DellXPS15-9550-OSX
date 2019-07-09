@@ -1,0 +1,60 @@
+/* Class = "NSBox"; title = "Partition Scheme"; ObjectID = "aj4-GW-6kB"; */
+"aj4-GW-6kB.title" = "파티션 구성표";
+
+/* Class = "NSButtonCell"; title = "Mount EFI Patition"; ObjectID = "bau-pn-pC9"; */
+"bau-pn-pC9.title" = "EFI 파티션 마운트";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Update Partitions"; ObjectID = "c21-UJ-tm9"; */
+"c21-UJ-tm9.ibShadowedToolTip" = "업데이트 파티션";
+
+/* Class = "NSTextFieldCell"; title = "Size:"; ObjectID = "cON-h5-vOX"; */
+"cON-h5-vOX.title" = "크기:";
+
+/* Class = "NSTextFieldCell"; title = "Device BSD Name"; ObjectID = "ja2-AA-pAd"; */
+"ja2-AA-pAd.title" = "장치 BSD 이름";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Update Partitions"; ObjectID = "Kdb-ed-xpl"; */
+"Kdb-ed-xpl.ibShadowedToolTip" = "파티션 목록을 다시 검출합니다";
+
+/* Class = "NSTextFieldCell"; title = "N/A"; ObjectID = "ldt-Fp-0e0"; */
+"ldt-Fp-0e0.title" = "마운트 안됨";
+
+/* Class = "NSButtonCell"; title = "Update Partitions"; ObjectID = "qcX-Pt-zEL"; */
+"qcX-Pt-zEL.title" = "파티션 목록 새로고침";
+
+/* Class = "NSBox"; title = "Efi Partitions"; ObjectID = "R3W-HU-gjm"; */
+"R3W-HU-gjm.title" = "EFI 파티션";
+
+/* Class = "NSButtonCell"; title = "Open EFI Patition"; ObjectID = "r8d-kJ-eha"; */
+"r8d-kJ-eha.title" = "EFI 파티션 열기";
+
+/* Class = "NSTextFieldCell"; title = "Volume UUID"; ObjectID = "ryn-C4-hvX"; */
+"ryn-C4-hvX.title" = "볼륨 UUID";
+
+/* Class = "NSTextFieldCell"; title = "Volume Name"; ObjectID = "UTH-Gu-XSO"; */
+"UTH-Gu-XSO.title" = "볼륨 이름";
+
+/* Class = "NSTextFieldCell"; title = "EFI partition"; ObjectID = "w9y-ac-TF2"; */
+"w9y-ac-TF2.title" = "EFI 파티션";
+
+/* Class = "NSBox"; title = "Partition Scheme"; ObjectID = "WMg-0X-tKT"; */
+"WMg-0X-tKT.title" = "파티션 구성표";
+
+/* Class = "NSTextFieldCell"; title = "Mount Point"; ObjectID = "wMs-xC-ejv"; */
+"wMs-xC-ejv.title" = "마운트 경로";
+
+/* Class = "NSSegmentedCell"; xhz-iZ-TBE.ibShadowedLabels[0] = "Open Partition"; ObjectID = "xhz-iZ-TBE"; */
+"xhz-iZ-TBE.ibShadowedLabels[0]" = "파티션 열기";
+
+/* Class = "NSSegmentedCell"; xhz-iZ-TBE.ibShadowedLabels[1] = "Mount Partition"; ObjectID = "xhz-iZ-TBE"; */
+"xhz-iZ-TBE.ibShadowedLabels[1]" = "파티션 마운트";
+
+/* Class = "NSTextFieldCell"; title = "Disk UUID"; ObjectID = "XxG-gW-RBV"; */
+"XxG-gW-RBV.title" = "디스크 UUID";
+
+/* Class = "NSButtonCell"; title = "unMount partition"; ObjectID = "ZTm-48-oGJ"; */
+"ZTm-48-oGJ.title" = "파티션 마운트 해제";
+
+/* Class = "NSTextFieldCell"; title = "Disk Type"; ObjectID = "zZ9-8F-7dd"; */
+"zZ9-8F-7dd.title" = "디스크 유형";
+

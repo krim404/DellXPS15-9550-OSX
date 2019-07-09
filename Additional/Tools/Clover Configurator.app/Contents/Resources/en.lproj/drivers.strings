@@ -1,0 +1,111 @@
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "0sj-ud-Ysm"; */
+"0sj-ud-Ysm.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "DRIVERS BIOS 64 BIT"; ObjectID = "2ry-aY-UEZ"; */
+"2ry-aY-UEZ.title" = "DRIVERS BIOS 64 BIT";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "4BL-d6-Lnb"; */
+"4BL-d6-Lnb.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "6e9-wD-80N"; */
+"6e9-wD-80N.title" = "Table View Cell";
+
+/* Class = "NSButtonCell"; title = "Backup driver"; ObjectID = "6md-z5-SFB"; */
+"6md-z5-SFB.title" = "Backup driver";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "72b-Cz-nf2"; */
+"72b-Cz-nf2.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Source from:"; ObjectID = "7hx-jG-2PR"; */
+"7hx-jG-2PR.title" = "Source from:";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "8NZ-LM-4zy"; */
+"8NZ-LM-4zy.title" = "Box";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "B0n-e1-Dtl"; */
+"B0n-e1-Dtl.title" = "Item 3";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "BeS-c8-mkK"; */
+"BeS-c8-mkK.title" = "Text Cell";
+
+/* Class = "NSButton"; ibShadowedToolTip = "open partition"; ObjectID = "GIf-I3-W2e"; */
+"GIf-I3-W2e.ibShadowedToolTip" = "open partition";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "GOA-2F-tSz"; */
+"GOA-2F-tSz.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "HIr-OU-0De"; */
+"HIr-OU-0De.title" = "Item 1";
+
+/* Class = "NSTableColumn"; headerCell.title = "Delete"; ObjectID = "JNz-6c-SYZ"; */
+"JNz-6c-SYZ.headerCell.title" = "Delete";
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "LxY-U9-fBY"; */
+"LxY-U9-fBY.headerCell.title" = "Description";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "NUT-Vu-NPF"; */
+"NUT-Vu-NPF.title" = "Status";
+
+/* Class = "NSButton"; ibShadowedToolTip = "reload data"; ObjectID = "NhD-l1-Uc1"; */
+"NhD-l1-Uc1.ibShadowedToolTip" = "reload data";
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "NyC-yN-nrL"; */
+"NyC-yN-nrL.headerCell.title" = "Description";
+
+/* Class = "NSButtonCell"; title = "Check"; ObjectID = "OQy-oF-KNv"; */
+"OQy-oF-KNv.title" = "Check";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "RHa-8N-uxm"; */
+"RHa-8N-uxm.title" = "Item 2";
+
+/* Class = "NSTextFieldCell"; title = "DRIVERS UEFI 64 BIT"; ObjectID = "U1f-of-5fs"; */
+"U1f-of-5fs.title" = "DRIVERS UEFI 64 BIT";
+
+/* Class = "NSTextFieldCell"; title = "Driver Installed"; ObjectID = "Ut9-XO-1M0"; */
+"Ut9-XO-1M0.title" = "Driver Installed";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "XYf-Z8-1Ov"; */
+"XYf-Z8-1Ov.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Xht-bs-Nhh"; */
+"Xht-bs-Nhh.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "c8G-aG-JTM"; */
+"c8G-aG-JTM.title" = "Download";
+
+/* Class = "NSTextFieldCell"; title = "Driver Not Installed"; ObjectID = "cP9-9b-JRb"; */
+"cP9-9b-JRb.title" = "Driver Not Installed";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "dPy-hp-GT9"; */
+"dPy-hp-GT9.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "dYD-Cb-IuP"; */
+"dYD-Cb-IuP.headerCell.title" = "Name";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "fZa-KN-qGa"; */
+"fZa-KN-qGa.title" = "Table View Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "fdI-aN-BLf"; */
+"fdI-aN-BLf.headerCell.title" = "Name";
+
+/* Class = "NSButtonCell"; title = "Check"; ObjectID = "foV-aE-D0d"; */
+"foV-aE-D0d.title" = "Check";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "gQ0-2K-VwO"; */
+"gQ0-2K-VwO.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "target partition"; ObjectID = "ip5-UB-jBM"; */
+"ip5-UB-jBM.title" = "target partition";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "li9-JD-Fxg"; */
+"li9-JD-Fxg.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Delete"; ObjectID = "tQ0-fb-yNb"; */
+"tQ0-fb-yNb.headerCell.title" = "Delete";
+
+/* Class = "NSTableColumn"; headerCell.title = "Installed"; ObjectID = "tix-Pb-64r"; */
+"tix-Pb-64r.headerCell.title" = "Installed";
+
+/* Class = "NSTableColumn"; headerCell.title = "Installed"; ObjectID = "x48-UQ-jdF"; */
+"x48-UQ-jdF.headerCell.title" = "Installed";

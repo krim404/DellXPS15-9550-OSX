@@ -1,0 +1,48 @@
+/* Class = "NSTextFieldCell"; title = "Revision to install:"; ObjectID = "4Fo-9O-iBk"; */
+"4Fo-9O-iBk.title" = "Ревизия для установки:";
+
+/* Class = "NSTextFieldCell"; title = "Current booted revision:"; ObjectID = "biW-b1-vEV"; */
+"biW-b1-vEV.title" = "Текущая загруженная версия:";
+
+/* Class = "NSTextFieldCell"; title = "Remote available revision:"; ObjectID = "Hf1-JQ-oTo"; */
+"Hf1-JQ-oTo.title" = "Доступная версия на сервере:";
+
+/* Class = "NSBox"; title = "Stable"; ObjectID = "Hqf-3H-iDA"; */
+"Hqf-3H-iDA.title" = "Стабильный";
+
+/* Class = "NSButtonCell"; title = "Save to desktop"; ObjectID = "jLk-88-BgO"; */
+"jLk-88-BgO.title" = "Сохранить на рабочий стол";
+
+/* Class = "NSButtonCell"; title = "Package"; ObjectID = "jps-lE-Xyw"; */
+"jps-lE-Xyw.title" = "Пакет";
+
+/* Class = "NSButtonCell"; title = "Check Now"; ObjectID = "K5M-rd-XgE"; */
+"K5M-rd-XgE.title" = "Проверить сейчас";
+
+/* Class = "NSTextFieldCell"; title = "Installed revision:"; ObjectID = "MKq-Hh-HaU"; */
+"MKq-Hh-HaU.title" = "Установленная ревизия:";
+
+/* Class = "NSButtonCell"; title = "CLOVERX64.efi"; ObjectID = "mZY-x4-Dgm"; */
+"mZY-x4-Dgm.title" = "CLOVERX64.efi";
+
+/* Class = "NSTextFieldCell"; title = "(*) You need to reboot for changes to take effect after install"; ObjectID = "RsJ-mA-tkY"; */
+"RsJ-mA-tkY.title" = "(*) Требуется перезагрузка для применения изменений после установки";
+
+/* Class = "NSTextFieldCell"; title = "Location:"; ObjectID = "sM3-cP-0cH"; */
+"sM3-cP-0cH.title" = "Местонахождение:";
+
+/* Class = "NSBox"; title = "Beta"; ObjectID = "Tyh-TA-m0s"; */
+"Tyh-TA-m0s.title" = "Бета";
+
+/* Class = "NSSegmentedCell"; U0d-UK-E3n.ibShadowedLabels[0] = "Stable"; ObjectID = "U0d-UK-E3n"; */
+"U0d-UK-E3n.ibShadowedLabels[0]" = "Стабильный";
+
+/* Class = "NSSegmentedCell"; U0d-UK-E3n.ibShadowedLabels[1] = "Beta"; ObjectID = "U0d-UK-E3n"; */
+"U0d-UK-E3n.ibShadowedLabels[1]" = "Бета";
+
+/* Class = "NSButtonCell"; title = "Backup file"; ObjectID = "ycf-6k-J1F"; */
+"ycf-6k-J1F.title" = "Файл резервной копии";
+
+/* Class = "NSTextFieldCell"; title = "Remote available revision:"; ObjectID = "zkx-MF-wiA"; */
+"zkx-MF-wiA.title" = "Доступная версия на сервере:";
+

@@ -1,0 +1,15 @@
+
+/* Class = "NSButtonCell"; title = "Generate log"; ObjectID = "KJn-Sv-9bx"; */
+"KJn-Sv-9bx.title" = "生成日志";
+
+/* Class = "NSTextFieldCell"; title = "Search (⌘F)"; ObjectID = "PZO-2W-scV"; */
+"PZO-2W-scV.title" = "搜索 (⌘F)";
+
+/* Class = "NSButtonCell"; title = "Copy to Clipboard"; ObjectID = "X48-g6-BcO"; */
+"X48-g6-BcO.title" = "复制到剪贴板";
+
+/* Class = "NSBox"; title = "Bdmesg"; ObjectID = "bJY-ks-P4r"; */
+"bJY-ks-P4r.title" = "Bdmesg";
+
+/* Class = "NSButtonCell"; title = "Save boot.log to desktop"; ObjectID = "qnw-UB-WIQ"; */
+"qnw-UB-WIQ.title" = "将boot.log保存到桌面";

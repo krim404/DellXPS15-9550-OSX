@@ -1,0 +1,48 @@
+/* Class = "NSTextFieldCell"; title = "Revision to install:"; ObjectID = "4Fo-9O-iBk"; */
+"4Fo-9O-iBk.title" = "Revision zum installieren:";
+
+/* Class = "NSTextFieldCell"; title = "Current booted revision:"; ObjectID = "biW-b1-vEV"; */
+"biW-b1-vEV.title" = "Aktuell gebootete Revision:";
+
+/* Class = "NSTextFieldCell"; title = "Remote available revision:"; ObjectID = "Hf1-JQ-oTo"; */
+"Hf1-JQ-oTo.title" = "Verfügbare Remote-Revision:";
+
+/* Class = "NSBox"; title = "Stable"; ObjectID = "Hqf-3H-iDA"; */
+"Hqf-3H-iDA.title" = "Stabil";
+
+/* Class = "NSButtonCell"; title = "Save to desktop"; ObjectID = "jLk-88-BgO"; */
+"jLk-88-BgO.title" = "Auf Schreibtisch speichern";
+
+/* Class = "NSButtonCell"; title = "Package"; ObjectID = "jps-lE-Xyw"; */
+"jps-lE-Xyw.title" = "Paket";
+
+/* Class = "NSButtonCell"; title = "Check Now"; ObjectID = "K5M-rd-XgE"; */
+"K5M-rd-XgE.title" = "Jetzt prüfen";
+
+/* Class = "NSTextFieldCell"; title = "Installed revision:"; ObjectID = "MKq-Hh-HaU"; */
+"MKq-Hh-HaU.title" = "Installierte Revision:";
+
+/* Class = "NSButtonCell"; title = "CLOVERX64.efi"; ObjectID = "mZY-x4-Dgm"; */
+"mZY-x4-Dgm.title" = "CLOVERX64.efi";
+
+/* Class = "NSTextFieldCell"; title = "(*) You need to reboot for changes to take effect after install"; ObjectID = "RsJ-mA-tkY"; */
+"RsJ-mA-tkY.title" = "(*) Sie müssen ihr System neu starten, damit die Änderungen nach der Installation wirksam werden";
+
+/* Class = "NSTextFieldCell"; title = "Location:"; ObjectID = "sM3-cP-0cH"; */
+"sM3-cP-0cH.title" = "Ort:";
+
+/* Class = "NSBox"; title = "Beta"; ObjectID = "Tyh-TA-m0s"; */
+"Tyh-TA-m0s.title" = "Beta";
+
+/* Class = "NSSegmentedCell"; U0d-UK-E3n.ibShadowedLabels[0] = "Stable"; ObjectID = "U0d-UK-E3n"; */
+"U0d-UK-E3n.ibShadowedLabels[0]" = "Stabil";
+
+/* Class = "NSSegmentedCell"; U0d-UK-E3n.ibShadowedLabels[1] = "Beta"; ObjectID = "U0d-UK-E3n"; */
+"U0d-UK-E3n.ibShadowedLabels[1]" = "Beta";
+
+/* Class = "NSButtonCell"; title = "Backup file"; ObjectID = "ycf-6k-J1F"; */
+"ycf-6k-J1F.title" = "Datei-Backup erstellen";
+
+/* Class = "NSTextFieldCell"; title = "Remote available revision:"; ObjectID = "zkx-MF-wiA"; */
+"zkx-MF-wiA.title" = "Verfügbare Remote-Revision:";
+

@@ -1,0 +1,9 @@
+/* Class = "NSTableColumn"; headerCell.title = "Drivers Name"; ObjectID = "7IZ-Ik-dch"; */
+"7IZ-Ik-dch.headerCell.title" = "Treiber Name";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>DisableDrivers</key>\n<array>\n    <string>CsmVideoDxe</string>\n    <string>VBoxExt4</string>\n</array>\nThe purpose of this parameter is to have multiple configurations in the OEM folder. Only one driver folder exists, though, and it may be necessary to disable specific drivers for different configurations. One may need OsxAptioFixDxe, another one EmuVariableDxe."; ObjectID = "kIa-hw-7fZ"; */
+"kIa-hw-7fZ.ibShadowedToolTip" = "<key>DisableDrivers</key><array><string>CsmVideoDxe</string><string>VBoxExt4</string></array>Mit diesem Parameter werden mehrere Konfigurationen im OEM-Ordner erstellt. Es ist jedoch nur ein Treiberordner vorhanden, und es ist möglicherweise erforderlich, bestimmte Treiber für verschiedene Konfigurationen zu deaktivieren. Man benötigt möglicherweise OsxAptioFixDxe, ein anderer EmuVariableDxe.";
+
+/* Class = "NSBox"; title = "Disable Drivers"; ObjectID = "QMN-5M-i3s"; */
+"QMN-5M-i3s.title" = "Deaktiviere Treiber";
+

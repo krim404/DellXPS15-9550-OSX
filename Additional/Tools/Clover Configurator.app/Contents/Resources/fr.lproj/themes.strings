@@ -1,0 +1,309 @@
+
+/* Class = "NSButtonCell"; title = "ChangeNonSelectedGrey"; ObjectID = "0rK-1J-iyd"; */
+"0rK-1J-iyd.title" = "ChangeNonSelectedGrey";
+
+/* Class = "NSTextFieldCell"; title = "ScreenEdgeX"; ObjectID = "1CM-mH-OVe"; */
+"1CM-mH-OVe.title" = "ScreenEdgeX";
+
+/* Class = "NSMenuItem"; title = "Scale"; ObjectID = "1ZQ-1F-ccp"; */
+"1ZQ-1F-ccp.title" = "Scale";
+
+/* Class = "NSTextFieldCell"; title = "TileXSpace"; ObjectID = "25g-IE-MHM"; */
+"25g-IE-MHM.title" = "TileXSpace";
+
+/* Class = "NSTextFieldCell"; title = "ScrollHeight"; ObjectID = "3AB-29-dxS"; */
+"3AB-29-dxS.title" = "ScrollHeight";
+
+/* Class = "NSButtonCell"; title = "Save Theme"; ObjectID = "3VQ-MU-24B"; */
+"3VQ-MU-24B.title" = "Save Theme";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "3lt-aO-JPg"; */
+"3lt-aO-JPg.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "OffsetY"; ObjectID = "3qb-DM-3Gj"; */
+"3qb-DM-3Gj.title" = "OffsetY";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path"; ObjectID = "55N-MG-3mo"; */
+"55N-MG-3mo.headerCell.title" = "Path";
+
+/* Class = "NSTextFieldCell"; title = "DistanceFromScreenEdgeY"; ObjectID = "5Xc-GX-3MK"; */
+"5Xc-GX-3MK.title" = "DistanceFromScreenEdgeY";
+
+/* Class = "NSButtonCell"; title = "OnTop"; ObjectID = "62u-5J-gC2"; */
+"62u-5J-gC2.title" = "OnTop";
+
+/* Class = "NSTableColumn"; headerCell.title = "DistanceFromScreenEdgeX"; ObjectID = "64p-Jy-bp6"; */
+"64p-Jy-bp6.headerCell.title" = "DistanceFromScreenEdgeX";
+
+/* Class = "NSTextFieldCell"; title = "CharWidth"; ObjectID = "67G-HQ-2y4"; */
+"67G-HQ-2y4.title" = "CharWidth";
+
+/* Class = "NSBox"; title = "Origination"; ObjectID = "68z-QE-SMw"; */
+"68z-QE-SMw.title" = "Origination";
+
+/* Class = "NSTableColumn"; headerCell.title = "DistanceFromScreenEdgeY"; ObjectID = "6az-IX-SPA"; */
+"6az-IX-SPA.headerCell.title" = "DistanceFromScreenEdgeY";
+
+/* Class = "NSTableColumn"; headerCell.title = "ID"; ObjectID = "9Pw-GJ-z9b"; */
+"9Pw-GJ-z9b.headerCell.title" = "ID";
+
+/* Class = "NSBox"; title = "Background"; ObjectID = "9ye-3h-NRT"; */
+"9ye-3h-NRT.title" = "Background";
+
+/* Class = "NSButtonCell"; title = "Show"; ObjectID = "AHy-TJ-dX0"; */
+"AHy-TJ-dX0.title" = "Show";
+
+/* Class = "NSButtonCell"; title = "MenuTitle"; ObjectID = "BQL-MT-3hL"; */
+"BQL-MT-3hL.title" = "MenuTitle";
+
+/* Class = "NSButtonCell"; title = "Proportional"; ObjectID = "CpF-wg-mAf"; */
+"CpF-wg-mAf.title" = "Proportional";
+
+/* Class = "NSTextFieldCell"; title = "Sharp"; ObjectID = "DTa-vL-Jpt"; */
+"DTa-vL-Jpt.title" = "Sharp";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "E8Z-mV-LYh"; */
+"E8Z-mV-LYh.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "SelectionSmallWidth"; ObjectID = "EAX-cV-YhQ"; */
+"EAX-cV-YhQ.title" = "SelectionSmallWidth";
+
+/* Class = "NSMenuItem"; title = "Load"; ObjectID = "Ev2-I2-beu"; */
+"Ev2-I2-beu.title" = "Load";
+
+/* Class = "NSMenuItem"; title = "left"; ObjectID = "Hb9-Dp-bzw"; */
+"Hb9-Dp-bzw.title" = "left";
+
+/* Class = "NSTextFieldCell"; title = "Scale"; ObjectID = "HrL-09-KBY"; */
+"HrL-09-KBY.title" = "Scale";
+
+/* Class = "NSTextFieldCell"; title = "TileYSpace"; ObjectID = "ImK-ar-vUN"; */
+"ImK-ar-vUN.title" = "TileYSpace";
+
+/* Class = "NSBox"; title = "Font"; ObjectID = "J3S-ql-pZq"; */
+"J3S-ql-pZq.title" = "Font";
+
+/* Class = "NSTextFieldCell"; title = "DistanceFromScreenEdgeX"; ObjectID = "J9E-qI-wDH"; */
+"J9E-qI-wDH.title" = "DistanceFromScreenEdgeX";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "JJ3-W4-GpI"; */
+"JJ3-W4-GpI.title" = "Text Cell";
+
+/* Class = "NSBox"; title = "Anime"; ObjectID = "JTH-QL-XmF"; */
+"JTH-QL-XmF.title" = "Anime";
+
+/* Class = "NSMenuItem"; title = "Gray"; ObjectID = "Jgi-hR-PdH"; */
+"Jgi-hR-PdH.title" = "Gray";
+
+/* Class = "NSTextFieldCell"; title = "Height"; ObjectID = "KjY-OH-lww"; */
+"KjY-OH-lww.title" = "Height";
+
+/* Class = "NSTableColumn"; headerCell.title = "ScreenEdgeX"; ObjectID = "KzK-jb-No9"; */
+"KzK-jb-No9.headerCell.title" = "ScreenEdgeX";
+
+/* Class = "NSBox"; title = "Selection"; ObjectID = "L2a-CW-8xB"; */
+"L2a-CW-8xB.title" = "Selection";
+
+/* Class = "NSTableColumn"; headerCell.title = "FrameTime"; ObjectID = "LyG-lr-Xq3"; */
+"LyG-lr-Xq3.headerCell.title" = "FrameTime";
+
+/* Class = "NSButtonCell"; title = "BootCampStyle"; ObjectID = "MO3-Gx-W7a"; */
+"MO3-Gx-W7a.title" = "BootCampStyle";
+
+/* Class = "NSTextFieldCell"; title = "Author:"; ObjectID = "MSp-Gq-hj6"; */
+"MSp-Gq-hj6.title" = "Author:";
+
+/* Class = "NSTextFieldCell"; title = "Other themes in folder"; ObjectID = "Nmj-VK-8s8"; */
+"Nmj-VK-8s8.title" = "Other themes in folder";
+
+/* Class = "NSButtonCell"; title = "Swap"; ObjectID = "NxV-os-tEF"; */
+"NxV-os-tEF.title" = "Swap";
+
+/* Class = "NSButtonCell"; title = "Inline"; ObjectID = "Q1r-aj-M9K"; */
+"Q1r-aj-M9K.title" = "Inline";
+
+/* Class = "NSTextFieldCell"; title = "Indicator"; ObjectID = "QSK-zf-3p4"; */
+"QSK-zf-3p4.title" = "Indicator";
+
+/* Class = "NSBox"; title = "Info"; ObjectID = "Qm6-cj-Tmb"; */
+"Qm6-cj-Tmb.title" = "Info";
+
+/* Class = "NSTextFieldCell"; title = "OffsetX"; ObjectID = "Te6-BG-SYX"; */
+"Te6-BG-SYX.title" = "OffsetX";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "VGF-AR-hbe"; */
+"VGF-AR-hbe.title" = "Path";
+
+/* Class = "NSTextFieldCell"; title = "MainEntriesSize"; ObjectID = "VlG-0k-Y8z"; */
+"VlG-0k-Y8z.title" = "MainEntriesSize";
+
+/* Class = "NSTextFieldCell"; title = "SelectionBigWidth"; ObjectID = "VuQ-1l-Dw5"; */
+"VuQ-1l-Dw5.title" = "SelectionBigWidth";
+
+/* Class = "NSTableColumn"; headerCell.title = "Frames"; ObjectID = "WHl-4a-f5m"; */
+"WHl-4a-f5m.headerCell.title" = "Frames";
+
+/* Class = "NSButtonCell"; title = "Revision"; ObjectID = "Wnb-hA-hw0"; */
+"Wnb-hA-hw0.title" = "Revision";
+
+/* Class = "NSTextFieldCell"; title = "AnimAdjustForMenuX"; ObjectID = "WoA-jI-P0C"; */
+"WoA-jI-P0C.title" = "AnimAdjustForMenuX";
+
+/* Class = "NSBox"; title = "Badges"; ObjectID = "XbB-3O-sM5"; */
+"XbB-3O-sM5.title" = "Badges";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "Y6b-Zp-j45"; */
+"Y6b-Zp-j45.title" = "Path";
+
+/* Class = "NSTableColumn"; headerCell.title = "ScreenEdgeY"; ObjectID = "ZVx-Tw-44l"; */
+"ZVx-Tw-44l.headerCell.title" = "ScreenEdgeY";
+
+/* Class = "NSTextFieldCell"; title = "NudgeY"; ObjectID = "ZXv-b8-wbH"; */
+"ZXv-b8-wbH.title" = "NudgeY";
+
+/* Class = "NSButtonCell"; title = "Dark"; ObjectID = "b5q-Q8-kWr"; */
+"b5q-Q8-kWr.title" = "Dark";
+
+/* Class = "NSButtonCell"; title = "MenuTitleImage"; ObjectID = "bDh-GB-qgg"; */
+"bDh-GB-qgg.title" = "MenuTitleImage";
+
+/* Class = "NSBox"; title = "Target Partition"; ObjectID = "cCw-Ly-mbU"; */
+"cCw-Ly-mbU.title" = "Target Partition";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "cSJ-S6-xJP"; */
+"cSJ-S6-xJP.title" = "Text Cell";
+
+/* Class = "NSBox"; title = "Layout"; ObjectID = "ddr-sA-r4b"; */
+"ddr-sA-r4b.title" = "Layout";
+
+/* Class = "NSButtonCell"; title = "Label"; ObjectID = "dkH-lY-Pl2"; */
+"dkH-lY-Pl2.title" = "Label";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "eCZ-bk-ZUp"; */
+"eCZ-bk-ZUp.title" = "Type";
+
+/* Class = "NSButtonCell"; title = "Themes Folder"; ObjectID = "ef1-TT-gJ9"; */
+"ef1-TT-gJ9.title" = "Themes Folder";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "elK-sV-faA"; */
+"elK-sV-faA.title" = "Path";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "epY-tK-wcO"; */
+"epY-tK-wcO.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "ScreenEdgeY"; ObjectID = "eq9-cB-uDN"; */
+"eq9-cB-uDN.title" = "ScreenEdgeY";
+
+/* Class = "NSTableColumn"; headerCell.title = "NudgeX"; ObjectID = "ey4-SJ-m5I"; */
+"ey4-SJ-m5I.headerCell.title" = "NudgeX";
+
+/* Class = "NSButtonCell"; title = "Help"; ObjectID = "ffy-wu-DgR"; */
+"ffy-wu-DgR.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "right"; ObjectID = "g7E-Ne-LKa"; */
+"g7E-Ne-LKa.title" = "right";
+
+/* Class = "NSTableColumn"; headerCell.title = "Once"; ObjectID = "gdZ-VP-yMw"; */
+"gdZ-VP-yMw.headerCell.title" = "Once";
+
+/* Class = "NSTextFieldCell"; title = "DesignHeight"; ObjectID = "giN-Qg-VhU"; */
+"giN-Qg-VhU.title" = "DesignHeight";
+
+/* Class = "NSTextFieldCell"; title = "Width"; ObjectID = "hR8-XP-Sbe"; */
+"hR8-XP-Sbe.title" = "Width";
+
+/* Class = "NSBox"; title = "Components"; ObjectID = "haY-Pq-JZU"; */
+"haY-Pq-JZU.title" = "Components";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "hkq-Tx-miG"; */
+"hkq-Tx-miG.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "huU-p8-NNM"; */
+"huU-p8-NNM.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "BarHeight"; ObjectID = "k4a-uF-ugc"; */
+"k4a-uF-ugc.title" = "BarHeight";
+
+/* Class = "NSMenuItem"; title = "Alfa"; ObjectID = "kK7-St-iDY"; */
+"kK7-St-iDY.title" = "Alfa";
+
+/* Class = "NSTableColumn"; headerCell.title = "NudgeY"; ObjectID = "lBA-7E-Zct"; */
+"lBA-7E-Zct.headerCell.title" = "NudgeY";
+
+/* Class = "NSBox"; title = "Scroll"; ObjectID = "mFu-tq-vW7"; */
+"mFu-tq-vW7.title" = "Scroll";
+
+/* Class = "NSMenuItem"; title = "Tile"; ObjectID = "n8v-qG-b2F"; */
+"n8v-qG-b2F.title" = "Tile";
+
+/* Class = "NSTextFieldCell"; title = "DesignWidth"; ObjectID = "nE2-We-ovk"; */
+"nE2-We-ovk.title" = "DesignWidth";
+
+/* Class = "NSTextFieldCell"; title = "BannerOffset"; ObjectID = "no4-gj-P8N"; */
+"no4-gj-P8N.title" = "BannerOffset";
+
+/* Class = "NSButtonCell"; title = "Functions"; ObjectID = "ooZ-yq-puo"; */
+"ooZ-yq-puo.title" = "Functions";
+
+/* Class = "NSComboBoxCell"; pn5-FS-ZAC.ibShadowedObjectValues[1] = "top"; ObjectID = "pn5-FS-ZAC"; */
+"pn5-FS-ZAC.ibShadowedObjectValues[1]" = "top";
+
+/* Class = "NSComboBoxCell"; pn5-FS-ZAC.ibShadowedObjectValues[2] = "bottom"; ObjectID = "pn5-FS-ZAC"; */
+"pn5-FS-ZAC.ibShadowedObjectValues[2]" = "bottom";
+
+/* Class = "NSButtonCell"; title = "Load Themes / Partitions"; ObjectID = "q25-pB-uhX"; */
+"q25-pB-uhX.title" = "Load Themes / Partitions";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "qJJ-CC-NBb"; */
+"qJJ-CC-NBb.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Small"; ObjectID = "qpA-xs-f9k"; */
+"qpA-xs-f9k.title" = "Small";
+
+/* Class = "NSTextFieldCell"; title = "Big"; ObjectID = "s8T-cz-b5m"; */
+"s8T-cz-b5m.title" = "Big";
+
+/* Class = "NSTextFieldCell"; title = "NudgeX"; ObjectID = "sNx-Oi-zeP"; */
+"sNx-Oi-zeP.title" = "NudgeX";
+
+/* Class = "NSButtonCell"; title = "Banner"; ObjectID = "tBZ-nb-JlC"; */
+"tBZ-nb-JlC.title" = "Banner";
+
+/* Class = "NSMenuItem"; title = "bottom"; ObjectID = "tia-Km-gGY"; */
+"tia-Km-gGY.title" = "bottom";
+
+/* Class = "NSTextFieldCell"; title = "TextOffset"; ObjectID = "tkr-x1-LdZ"; */
+"tkr-x1-LdZ.title" = "TextOffset";
+
+/* Class = "NSMenuItem"; title = "top"; ObjectID = "uQ0-6T-IPH"; */
+"uQ0-6T-IPH.title" = "top";
+
+/* Class = "NSTextFieldCell"; title = "ButtonOffset"; ObjectID = "uWL-2Q-FUN"; */
+"uWL-2Q-FUN.title" = "ButtonOffset";
+
+/* Class = "NSTextFieldCell"; title = "Year:"; ObjectID = "vKB-Ls-d9J"; */
+"vKB-Ls-d9J.title" = "Year:";
+
+/* Class = "NSBox"; title = "Banner"; ObjectID = "vcp-AH-oaj"; */
+"vcp-AH-oaj.title" = "Banner";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "w9W-gy-Wwv"; */
+"w9W-gy-Wwv.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Vertical"; ObjectID = "xaA-4x-M1H"; */
+"xaA-4x-M1H.title" = "Vertical";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "yS1-ct-JR3"; */
+"yS1-ct-JR3.title" = "Type";
+
+/* Class = "NSComboBoxCell"; yXg-dW-9wb.ibShadowedObjectValues[1] = "left"; ObjectID = "yXg-dW-9wb"; */
+"yXg-dW-9wb.ibShadowedObjectValues[1]" = "left";
+
+/* Class = "NSComboBoxCell"; yXg-dW-9wb.ibShadowedObjectValues[2] = "right"; ObjectID = "yXg-dW-9wb"; */
+"yXg-dW-9wb.ibShadowedObjectValues[2]" = "right";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "yiE-kB-MI0"; */
+"yiE-kB-MI0.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Color"; ObjectID = "zKq-5d-EOd"; */
+"zKq-5d-EOd.title" = "Color";

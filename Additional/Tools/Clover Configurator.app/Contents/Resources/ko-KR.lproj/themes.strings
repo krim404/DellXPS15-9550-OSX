@@ -1,0 +1,235 @@
+/* Start of Additional Translation by ZISQO */
+/* Class = "NSButtonCell"; title = "Banner"; ObjectID = "tBZ-nb-JlC"; */
+"tBZ-nb-JlC.title" = "배너";
+
+/* Class = "NSBox"; title = "Banner"; ObjectID = "vcp-AH-oaj"; */
+"vcp-AH-oaj.title" = "배너";
+
+/* Class = "NSButtonCell"; title = "Label"; ObjectID = "dkH-lY-Pl2"; */
+"dkH-lY-Pl2.title" = "레이블";
+
+/* Class = "NSButtonCell"; title = "Help"; ObjectID = "ffy-wu-DgR"; */
+"ffy-wu-DgR.title" = "도움말";
+
+/* Class = "NSBox"; title = "Layout"; ObjectID = "ddr-sA-r4b"; */
+"ddr-sA-r4b.title" = "레이아웃";
+
+/* Class = "NSBox"; title = "Anime"; ObjectID = "JTH-QL-XmF"; */
+"JTH-QL-XmF.title" = "애니메이션";
+
+/* Class = "NSTextFieldCell"; title = "ScreenEdgeX"; ObjectID = "1CM-mH-OVe"; */
+"1CM-mH-OVe.title" = "가로 위치 X";
+
+/* Class = "NSTextFieldCell"; title = "ScreenEdgeY"; ObjectID = "eq9-cB-uDN"; */
+"eq9-cB-uDN.title" = "세로 위치 Y";
+
+/* Class = "NSTextFieldCell"; title = "DistanceFromScreenEdgeX"; ObjectID = "J9E-qI-wDH"; */
+"J9E-qI-wDH.title" = "가로 위치 X";
+
+/* Class = "NSTextFieldCell"; title = "DistanceFromScreenEdgeY"; ObjectID = "5Xc-GX-3MK"; */
+"5Xc-GX-3MK.title" = "세로 위치 Y";
+
+/* Class = "NSTableColumn"; headerCell.title = "DistanceFromScreenEdgeX"; ObjectID = "64p-Jy-bp6"; */
+"64p-Jy-bp6.headerCell.title" = "가로 위치 X";
+
+/* Class = "NSTableColumn"; headerCell.title = "ScreenEdgeX"; ObjectID = "KzK-jb-No9"; */
+"KzK-jb-No9.headerCell.title" = "가로 위치 X";
+
+/* Class = "NSTextFieldCell"; title = "ScreenEdgeY"; ObjectID = "eq9-cB-uDN"; */
+"ZVx-Tw-44l.headerCell.title" = "세로위치 Y";
+
+/* Class = "NSTableColumn"; headerCell.title = "DistanceFromScreenEdgeY"; ObjectID = "6az-IX-SPA"; */
+"6az-IX-SPA.headerCell.title" = "세로 위치 Y";
+
+/* Class = "NSTableColumn"; headerCell.title = "FrameTime"; ObjectID = "LyG-lr-Xq3"; */
+"LyG-lr-Xq3.headerCell.title" = "프레임 시간";
+
+/* Class = "NSTableColumn"; headerCell.title = "Frames"; ObjectID = "WHl-4a-f5m"; */
+"WHl-4a-f5m.headerCell.title" = "프레임";
+
+/* Class = "NSTableColumn"; headerCell.title = "NudgeY"; ObjectID = "lBA-7E-Zct"; */
+"lBA-7E-Zct.headerCell.title" = "넛지Y";
+
+/* Class = "NSTextFieldCell"; title = "NudgeY"; ObjectID = "ZXv-b8-wbH"; */
+"ZXv-b8-wbH.title" = "넛지Y";
+
+/* Class = "NSTextFieldCell"; title = "NudgeX"; ObjectID = "sNx-Oi-zeP"; */
+"sNx-Oi-zeP.title" = "넛지X";
+
+/* Class = "NSTableColumn"; headerCell.title = "NudgeX"; ObjectID = "ey4-SJ-m5I"; */
+"ey4-SJ-m5I.headerCell.title" = "넛지X";
+
+/* Class = "NSTableColumn"; headerCell.title = "Once"; ObjectID = "gdZ-VP-yMw"; */
+"gdZ-VP-yMw.headerCell.title" = "한번";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path"; ObjectID = "55N-MG-3mo"; */
+"55N-MG-3mo.headerCell.title" = "경로";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "VGF-AR-hbe"; */
+"VGF-AR-hbe.title" = "경로";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "Y6b-Zp-j45"; */
+"Y6b-Zp-j45.title" = "경로";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "elK-sV-faA"; */
+"elK-sV-faA.title" = "경로";
+
+/* Class = "NSButtonCell"; title = "Inline"; ObjectID = "Q1r-aj-M9K"; */
+"Q1r-aj-M9K.title" = "인라인";
+
+/* Class = "NSButtonCell"; title = "Show"; ObjectID = "AHy-TJ-dX0"; */
+"AHy-TJ-dX0.title" = "보기";
+
+/* Class = "NSButtonCell"; title = "Swap"; ObjectID = "NxV-os-tEF"; */
+"NxV-os-tEF.title" = "바꾸기";
+
+/* Class = "NSTextFieldCell"; title = "OffsetX"; ObjectID = "Te6-BG-SYX"; */
+"Te6-BG-SYX.title" = "오프셋X";
+
+/* Class = "NSTextFieldCell"; title = "OffsetY"; ObjectID = "3qb-DM-3Gj"; */
+"3qb-DM-3Gj.title" = "오프셋Y";
+
+/* Class = "NSTextFieldCell"; title = "Scale"; ObjectID = "HrL-09-KBY"; */
+"HrL-09-KBY.title" = "스케일";
+
+/* Class = "NSButtonCell"; title = "BootCampStyle"; ObjectID = "MO3-Gx-W7a"; */
+"MO3-Gx-W7a.title" = "부트 캠프 스타일";
+
+/* Class = "NSButtonCell"; title = "Functions"; ObjectID = "ooZ-yq-puo"; */
+"ooZ-yq-puo.title" = "기능";
+
+/* Class = "NSBox"; title = "Components"; ObjectID = "haY-Pq-JZU"; */
+"haY-Pq-JZU.title" = "구성 요소";
+
+/* Class = "NSButtonCell"; title = "Revision"; ObjectID = "Wnb-hA-hw0"; */
+"Wnb-hA-hw0.title" = "리비전";
+
+/* Class = "NSButtonCell"; title = "MenuTitle"; ObjectID = "BQL-MT-3hL"; */
+"BQL-MT-3hL.title" = "메뉴 제목";
+
+/* Class = "NSButtonCell"; title = "MenuTitleImage"; ObjectID = "bDh-GB-qgg"; */
+"bDh-GB-qgg.title" = "메뉴 제목 이미지";
+
+/* Class = "NSBox"; title = "Background"; ObjectID = "9ye-3h-NRT"; */
+"9ye-3h-NRT.title" = "배경";
+
+/* Class = "NSButtonCell"; title = "Dark"; ObjectID = "b5q-Q8-kWr"; */
+"b5q-Q8-kWr.title" = "어둡게";
+
+/* Class = "NSTextFieldCell"; title = "Sharp"; ObjectID = "DTa-vL-Jpt"; */
+"DTa-vL-Jpt.title" = "샤픈";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "eCZ-bk-ZUp"; */
+"eCZ-bk-ZUp.title" = "유형";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "yS1-ct-JR3"; */
+"yS1-ct-JR3.title" = "유형";
+
+/* Class = "NSTextFieldCell"; title = "BannerOffset"; ObjectID = "no4-gj-P8N"; */
+"no4-gj-P8N.title" = "배너 오프셋";
+
+/* Class = "NSTextFieldCell"; title = "ButtonOffset"; ObjectID = "uWL-2Q-FUN"; */
+"uWL-2Q-FUN.title" = "버튼 오프셋";
+
+/* Class = "NSTextFieldCell"; title = "TextOffset"; ObjectID = "tkr-x1-LdZ"; */
+"tkr-x1-LdZ.title" = "텍스트오프셋";
+
+/* Class = "NSTextFieldCell"; title = "AnimAdjustForMenuX"; ObjectID = "WoA-jI-P0C"; */
+"WoA-jI-P0C.title" = "메뉴 X위치 애니메이션조정";
+
+/* Class = "NSButtonCell"; title = "Vertical"; ObjectID = "xaA-4x-M1H"; */
+"xaA-4x-M1H.title" = "세로";
+
+/* Class = "NSTextFieldCell"; title = "MainEntriesSize"; ObjectID = "VlG-0k-Y8z"; */
+"VlG-0k-Y8z.title" = "주 목록 크기";
+
+/* Class = "NSTextFieldCell"; title = "TileXSpace"; ObjectID = "25g-IE-MHM"; */
+"25g-IE-MHM.title" = "타일X의 공간";
+
+/* Class = "NSTextFieldCell"; title = "TileYSpace"; ObjectID = "ImK-ar-vUN"; */
+"ImK-ar-vUN.title" = "타일Y의 공간";
+
+/* Class = "NSTextFieldCell"; title = "SelectionBigWidth"; ObjectID = "VuQ-1l-Dw5"; */
+"VuQ-1l-Dw5.title" = "큰 폭 선택";
+
+/* Class = "NSTextFieldCell"; title = "SelectionSmallWidth"; ObjectID = "EAX-cV-YhQ"; */
+"EAX-cV-YhQ.title" = "작은 폭 선택";
+
+/* Class = "NSBox"; title = "Font"; ObjectID = "J3S-ql-pZq"; */
+"J3S-ql-pZq.title" = "글꼴";
+
+/* Class = "NSButtonCell"; title = "Proportional"; ObjectID = "CpF-wg-mAf"; */
+"CpF-wg-mAf.title" = "글꼴 비율";
+
+/* Class = "NSTextFieldCell"; title = "CharWidth"; ObjectID = "67G-HQ-2y4"; */
+"67G-HQ-2y4.title" = "글꼴 가로폭";
+
+/* Class = "NSBox"; title = "Origination"; ObjectID = "68z-QE-SMw"; */
+"68z-QE-SMw.title" = "시작점";
+
+/* Class = "NSTextFieldCell"; title = "DesignWidth"; ObjectID = "nE2-We-ovk"; */
+"nE2-We-ovk.title" = "디자인 너비";
+
+/* Class = "NSTextFieldCell"; title = "DesignHeight"; ObjectID = "giN-Qg-VhU"; */
+"giN-Qg-VhU.title" = "디자인 높이";
+
+/* Class = "NSBox"; title = "Scroll"; ObjectID = "mFu-tq-vW7"; */
+"mFu-tq-vW7.title" = "스크롤";
+
+/* Class = "NSTextFieldCell"; title = "Width"; ObjectID = "hR8-XP-Sbe"; */
+"hR8-XP-Sbe.title" = "너비";
+
+/* Class = "NSTextFieldCell"; title = "Height"; ObjectID = "KjY-OH-lww"; */
+"KjY-OH-lww.title" = "높이";
+
+/* Class = "NSTextFieldCell"; title = "BarHeight"; ObjectID = "k4a-uF-ugc"; */
+"k4a-uF-ugc.title" = "바 높이";
+
+/* Class = "NSTextFieldCell"; title = "ScrollHeight"; ObjectID = "3AB-29-dxS"; */
+"3AB-29-dxS.title" = "스크롤 높이";
+
+/* Class = "NSBox"; title = "Selection"; ObjectID = "L2a-CW-8xB"; */
+"L2a-CW-8xB.title" = "선택영역";
+
+/* Class = "NSTextFieldCell"; title = "Color"; ObjectID = "zKq-5d-EOd"; */
+"zKq-5d-EOd.title" = "색상";
+
+/* Class = "NSTextFieldCell"; title = "Small"; ObjectID = "qpA-xs-f9k"; */
+"qpA-xs-f9k.title" = "小";
+
+/* Class = "NSTextFieldCell"; title = "Big"; ObjectID = "s8T-cz-b5m"; */
+"s8T-cz-b5m.title" = "大";
+
+/* Class = "NSButtonCell"; title = "OnTop"; ObjectID = "62u-5J-gC2"; */
+"62u-5J-gC2.title" = "맨위로";
+
+/* Class = "NSButtonCell"; title = "Save Theme"; ObjectID = "3VQ-MU-24B"; */
+"3VQ-MU-24B.title" = "테마 저장";
+
+/* Class = "NSButtonCell"; title = "ChangeNonSelectedGrey"; ObjectID = "0rK-1J-iyd"; */
+"0rK-1J-iyd.title" = "선택되지 않는 회색으로 변경";
+
+/* Class = "NSTextFieldCell"; title = "Indicator"; ObjectID = "QSK-zf-3p4"; */
+"QSK-zf-3p4.title" = "지시기";
+
+/* Class = "NSBox"; title = "Target Partition"; ObjectID = "cCw-Ly-mbU"; */
+"cCw-Ly-mbU.title" = "대상 파티션";
+
+/* Class = "NSButtonCell"; title = "Themes Folder"; ObjectID = "ef1-TT-gJ9"; */
+"ef1-TT-gJ9.title" = "테마 폴더";
+
+/* Class = "NSTextFieldCell"; title = "Author:"; ObjectID = "MSp-Gq-hj6"; */
+"MSp-Gq-hj6.title" = "제작자:";
+
+/* Class = "NSTextFieldCell"; title = "Other themes in folder"; ObjectID = "Nmj-VK-8s8"; */
+"Nmj-VK-8s8.title" = "폴더내 다른 테마";
+
+/* Class = "NSButtonCell"; title = "Load Themes / Partitions"; ObjectID = "q25-pB-uhX"; */
+"q25-pB-uhX.title" = "테마및 파티션 불러오기";
+
+/* Class = "NSBox"; title = "Info"; ObjectID = "Qm6-cj-Tmb"; */
+"Qm6-cj-Tmb.title" = "정보";
+
+/* Class = "NSTextFieldCell"; title = "Year:"; ObjectID = "vKB-Ls-d9J"; */
+"vKB-Ls-d9J.title" = "제작년도:";
+

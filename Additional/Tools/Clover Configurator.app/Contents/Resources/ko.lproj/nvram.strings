@@ -1,0 +1,66 @@
+/* Class = "NSTextFieldCell"; title = "Current Theme"; ObjectID = "a08-BV-1uP"; */
+"a08-BV-1uP.title" = "현재 사용중인 테마";
+
+/* Class = "NSButtonCell"; title = "Load Partitions / Themes"; ObjectID = "C3y-wo-bwW"; */
+"C3y-wo-bwW.title" = "파티션과 테마 로드하기";
+
+/* Class = "NSTextFieldCell"; title = "Maximum timestamp log files allowed:"; ObjectID = "CEg-Pz-Fbk"; */
+"CEg-Pz-Fbk.title" = "최대 타임스탬프 로그 파일 갯수:";
+
+/* Class = "NSTextFieldCell"; title = "Other themes in folder"; ObjectID = "cnT-gc-w2z"; */
+"cnT-gc-w2z.title" = "폴더에 속한 다른 테마";
+
+/* Class = "NSTextFieldCell"; title = "Target partition"; ObjectID = "Dg2-GY-1Dd"; */
+"Dg2-GY-1Dd.title" = "테마를 적용할 파티션";
+
+/* Class = "NSTextFieldCell"; title = "Year:"; ObjectID = "dZ4-ae-0Ab"; */
+"dZ4-ae-0Ab.title" = "연도:";
+
+/* Class = "NSTextFieldCell"; title = "EFI folder backups:"; ObjectID = "gVq-p0-q3Q"; */
+"gVq-p0-q3Q.title" = "EFI 폴더 백업:";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "JDE-1Q-ZqU"; */
+"JDE-1Q-ZqU.title" = "상태";
+
+/* Class = "NSTextFieldCell"; title = "Timestamp boot.log file:"; ObjectID = "kVa-7e-gG3"; */
+"kVa-7e-gG3.title" = "타임스탬프 boot.log 파일:";
+
+/* Class = "NSTextFieldCell"; title = "Author:"; ObjectID = "l2o-Gr-Hpi"; */
+"l2o-Gr-Hpi.title" = "제작자:";
+
+/* Class = "NSTextFieldCell"; title = "Number of EFI folder backups to keep:"; ObjectID = "LYh-1G-Zuh"; */
+"LYh-1G-Zuh.title" = "보관할 EFI 폴더의 백업 갯수:";
+
+/* Class = "NSButtonCell"; title = "Create new one on every boot"; ObjectID = "MLu-9d-dd0"; */
+"MLu-9d-dd0.title" = "매 부팅마다 새로 만들기";
+
+/* Class = "NSButtonCell"; title = "Themes Folder"; ObjectID = "OdU-Qx-n2e"; */
+"OdU-Qx-n2e.title" = "테마 폴더";
+
+/* Class = "NSTextFieldCell"; title = "Force mount selected ESP at startup:"; ObjectID = "P5m-IZ-wA7"; */
+"P5m-IZ-wA7.title" = "시작 시 선택한 ESP 강제 로드";
+
+/* Class = "NSTextFieldCell"; title = "NVRAM emulation:"; ObjectID = "PHh-DE-QGB"; */
+"PHh-DE-QGB.title" = "NVRAM 에뮬레이션:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Apply theme to NVRAM"; ObjectID = "Sv3-b7-xz5"; */
+"Sv3-b7-xz5.ibShadowedToolTip" = "NVRAM에 테마 적용";
+
+/* Class = "NSTextFieldCell"; title = "Kernel boot aguments:"; ObjectID = "UWa-yr-H98"; */
+"UWa-yr-H98.title" = "커널 부트 인수:";
+
+/* Class = "NSButtonCell"; title = "Force create on destination volume"; ObjectID = "vgU-k0-9Ad"; */
+"vgU-k0-9Ad.title" = "대상 볼륨에 강제로 만들기";
+
+/* Class = "NSBox"; title = "Clover.Theme"; ObjectID = "wjN-Iq-NNM"; */
+"wjN-Iq-NNM.title" = "클로버 테마";
+
+/* Class = "NSButtonCell"; title = "Store nvram.plist on system partition"; ObjectID = "XKl-ve-uGS"; */
+"XKl-ve-uGS.title" = "시스템 파티션에 NVRAM.plist 저장";
+
+/* Class = "NSTextFieldCell"; title = "Number of previous boot log lines to save:"; ObjectID = "y3O-Nq-dcp"; */
+"y3O-Nq-dcp.title" = "저장하려는 기존 부트로그 라인 넘버:";
+
+/* Class = "NSBox"; title = "Preferences"; ObjectID = "zR4-ZZ-wQp"; */
+"zR4-ZZ-wQp.title" = "환경 설정";
+

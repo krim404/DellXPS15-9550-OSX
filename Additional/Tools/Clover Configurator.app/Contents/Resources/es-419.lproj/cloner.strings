@@ -1,0 +1,48 @@
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "0V8-LY-GVY"; */
+"0V8-LY-GVY.title" = "Table View Cell";
+
+/* Class = "NSButtonCell"; title = "counter"; ObjectID = "3FM-kR-AOs"; */
+"3FM-kR-AOs.title" = "counter";
+
+/* Class = "NSTextFieldCell"; title = "diskX"; ObjectID = "4fc-YZ-HRL"; */
+"4fc-YZ-HRL.title" = "diskX";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Folder"; ObjectID = "7QX-Pe-fgh"; */
+"7QX-Pe-fgh.ibShadowedToolTip" = "Open Folder";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reload Data"; ObjectID = "A92-iC-w4v"; */
+"A92-iC-w4v.ibShadowedToolTip" = "Reload Data";
+
+/* Class = "NSTableColumn"; headerCell.title = "Excluded files"; ObjectID = "FHC-L9-Bku"; */
+"FHC-L9-Bku.headerCell.title" = "Excluded files";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "IPR-vW-orA"; */
+"IPR-vW-orA.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Unselect the file or folder you want to exclude"; ObjectID = "JLr-kU-ySL"; */
+"JLr-kU-ySL.headerCell.title" = "Unselect the file or folder you want to exclude";
+
+/* Class = "NSTextFieldCell"; title = "diskX"; ObjectID = "PiF-UR-GfJ"; */
+"PiF-UR-GfJ.title" = "diskX";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Folder"; ObjectID = "Rim-Fo-YcI"; */
+"Rim-Fo-YcI.ibShadowedToolTip" = "Open Folder";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "TyV-Y5-rsK"; */
+"TyV-Y5-rsK.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Target:"; ObjectID = "dst-NO-nNB"; */
+"dst-NO-nNB.title" = "Target:";
+
+/* Class = "NSTextFieldCell"; title = "Source:"; ObjectID = "md5-c1-lDd"; */
+"md5-c1-lDd.title" = "Source:";
+
+/* Class = "NSButtonCell"; title = "Clone"; ObjectID = "oVK-Pj-WIi"; */
+"oVK-Pj-WIi.title" = "Clone";
+
+/* Class = "NSTextFieldCell"; title = "Disk Identifier:"; ObjectID = "shp-h0-Ykg"; */
+"shp-h0-Ykg.title" = "Disk Identifier:";
+
+/* Class = "NSTextFieldCell"; title = "Disk Identifier:"; ObjectID = "zvN-uh-UXk"; */
+"zvN-uh-UXk.title" = "Disk Identifier:";

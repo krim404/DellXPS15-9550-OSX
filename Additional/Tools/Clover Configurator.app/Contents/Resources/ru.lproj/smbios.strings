@@ -1,0 +1,114 @@
+/* Class = "NSTextField"; ibShadowedToolTip = "Location in chassis, cosmetic only. \nIf not set Clover use \"Part Component\"."; ObjectID = "0AW-AB-6IT"; */
+"0AW-AB-6IT.ibShadowedToolTip" = "Положение в корпусе, Clover подставит сам.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Manufacturer, same as BiosVendor. \nClover knows what to do, no need to set this key."; ObjectID = "0rR-qR-wAX"; */
+"0rR-qR-wAX.ibShadowedToolTip" = "Производитель, Clover подставит сам.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "FirmwareFeaturesMask, appaear mandatory in High Sierra.\nClover knows what to do and there's no need to set this value\nunless Clover is not up to date."; ObjectID = "2I3-h7-8Vo"; */
+"2I3-h7-8Vo.ibShadowedToolTip" = "Clover подставит сам, не меняйте, если не знаете.";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "AAPL,slot-name"; ObjectID = "5fE-mV-qPw"; */
+"5fE-mV-qPw.ibShadowedIsNilPlaceholder" = "AAPL,slot-name";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>BoardSerialNumber</key>\n<string>C02032101R5DC771H</string>\nSMBIOS.table2->SerialNumber\n\nDon't mix it with system serial number. Clover will use one specific value here, which needs to be replaced by your own serial number. It is required for working iCloud and iMessage services (initialize MLB RtVariable if missing). The length must be 13-17 digits, consisting of letters from the Latin alphabet and numbers. The serial number used by Clover is most probably banned already."; ObjectID = "5Xj-7c-QmU"; */
+"5Xj-7c-QmU.ibShadowedToolTip" = "Должен совпадать с MLB, серийный номер материнской платы, требуется с реального Мака для работы FaceTime и iMessage.";
+
+/* Class = "NSTableColumn"; headerToolTip = "Please type a number that represents the number of memory modules actually installed."; ObjectID = "6cM-Hc-Zc2"; */
+"6cM-Hc-Zc2.headerToolTip" = "Количество планок памяти, установленных на данный момент.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>FirmwareFeatures</key>\n<string>0xC0001403</string>\nSMBIOS.table128->FirmwareFeatures\n\nThese digits exceed the standard SMBIOS and are part of Apple's specification. Different real Macs show different values and no description of the meaning exists."; ObjectID = "6SM-nV-h8N"; */
+"6SM-nV-h8N.ibShadowedToolTip" = "Не требуется, не вводите, если не знаете.";
+
+/* Class = "NSTextFieldCell"; title = "System"; ObjectID = "7b8-FQ-DYs"; */
+"7b8-FQ-DYs.title" = "Система";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Mobile</key>\n<true/>\n\nUsually Clover will automatically detect the mobility of a system, \ne.g. if is powered by a battery, needs energy saving, or not. \nChange it to trick the system into thinking that a battery is not available, or otherwise."; ObjectID = "8BJ-2b-1Ms"; */
+"8BJ-2b-1Ms.ibShadowedToolTip" = "Мобильность компьютера, true, если ноутбук.";
+
+/* Class = "NSButtonCell"; title = "Generate New"; ObjectID = "97S-Xi-8lq"; */
+"97S-Xi-8lq.title" = "Сгенерировать новый";
+
+/* Class = "NSButtonCell"; title = "Generate New"; ObjectID = "aFE-2j-YxC"; */
+"aFE-2j-YxC.title" = "Сгенерировать новый";
+
+/* Class = "NSTableColumn"; headerCell.title = "ID*"; ObjectID = "C6y-rY-cfs"; */
+"C6y-rY-cfs.headerCell.title" = "ID*";
+
+/* Class = "NSTextFieldCell"; title = "Chassis"; ObjectID = "CCm-K3-zms"; */
+"CCm-K3-zms.title" = "Корпус";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Board-ID, like \"Mac-6F01561E16C75D06\" for MacBookPro9,1.\n\nClover knows which to use based on ProductName and has no sense to set this key,\nunless Clover needs an update."; ObjectID = "clk-LC-67V"; */
+"clk-LC-67V.ibShadowedToolTip" = "ID материнской платы, Clover подставит сам.";
+
+/* Class = "NSSegmentedCell"; d4s-i4-nwM.ibShadowedLabels[0] = "Model Lookup"; ObjectID = "d4s-i4-nwM"; */
+"d4s-i4-nwM.ibShadowedLabels[0]" = "Подбор модели";
+
+/* Class = "NSSegmentedCell"; d4s-i4-nwM.ibShadowedLabels[1] = "Check Coverage"; ObjectID = "d4s-i4-nwM"; */
+"d4s-i4-nwM.ibShadowedLabels[1]" = "Проверка серийного номера";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>BoardType</key>\n<integer>10</integer>\n\nSMBIOS.table2->BoardType\n\nThis parameter was introduced for the MacPro, which uses 11 (ProcessorBoard) instead of 10 (Motherboard), \napparently for historical reasons. \nThe effect is not clear, however it can be seen in Profiler.\n\nClover knows which to use based on ProductName and has no sense to set this key,\nunles Clover is too old or ProductName isn't yet defined."; ObjectID = "d9W-yU-IOk"; */
+"d9W-yU-IOk.ibShadowedToolTip" = "Тип материнской платы, Clover подставит сам.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ProductName</key>\n<string>MacBook1,1</string>\n\nYou can set only this value and Clover will adjust the rest of the parameters automatically according to the model, \nso you can leave them out. Otherwise your custom values will be preferred."; ObjectID = "dee-Zv-ADD"; */
+"dee-Zv-ADD.ibShadowedToolTip" = "Имя устройства, например iMac10,1 MacBookPro7,1.";
+
+/* Class = "NSTextFieldCell"; title = "Bios"; ObjectID = "g4O-ZS-ZBz"; */
+"g4O-ZS-ZBz.title" = "BIOS";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Manufacturer, same as BiosVendor. \nClover knows what to do, no need to set this key."; ObjectID = "gGi-AR-CE7"; */
+"gGi-AR-CE7.ibShadowedToolTip" = "Производитель, Clover подставит сам.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Board Version, usually is equal to ProductName.\n\nClover knows which to use based on ProductName and has no sense to set this key."; ObjectID = "jay-Z0-iqn"; */
+"jay-Z0-iqn.ibShadowedToolTip" = "Версия материнской платы, Clover вычислит сам.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Trust</key>\n<true/>\n\nUsed to give priority to memory descriptor values found in SMBIOS or SPD. \nChange if your memory is described incorrectly in Mac. Default is <true/>"; ObjectID = "Jfa-jj-im4"; */
+"Jfa-jj-im4.ibShadowedToolTip" = "По умолчанию true, используется для определения приоритетных значений (SPD или SMBIOS).";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "Inject custom memory module tables into SMBIOS if original SPD and SMBIOS provide incorrect or incomplete information.\n\nModules - An array of INSTALLED modules, if your slot is empty don't include an entry for it.\n\nFor each module:\n\nSlot - Physical slot location in which the module is installed.\nSize - Size of the module in megabytes.\nFrequency - Speed of the module in megahertz.\nVendor - Memory manufacturer name\nPart - The part number identifier.\nSerial - The module's serial number.\nType - The memory module's type."; ObjectID = "Lpo-Kq-cwa"; */
+"Lpo-Kq-cwa.ibShadowedToolTip" = "Инжектирует параметры ОЗУ.";
+
+/* Class = "NSTextFieldCell"; title = "Board"; ObjectID = "md2-zo-6QE"; */
+"md2-zo-6QE.title" = "Плата";
+
+/* Class = "NSTextFieldCell"; title = "Product Model"; ObjectID = "o36-JS-hZG"; */
+"o36-JS-hZG.title" = "Модель продукта";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "AAPL,slot-name injector. It allows you to add devices into System Profiler's PCI Cards section. This is a property that is usually injected by DSDT or property strings but this is a wrong way to go.\n\nThe injection of this property requires Name (_SUN, 0x02) to be present in the device's DSDT section. You can set this to any one byte number but 0 and 1 because of compiler optimizations. If you don't use a custom DSDT you may instead set DSDT Mask Fix bits for those devices. Sample:\n\nDevice (GIGE)\n{\n    Name (_ADR, 0x00050000)  // _ADR: Address\n    Name (_SUN, 0x02)  // _SUN: Slot User Number\nDevice - For now it can only be one of these: ATI, NVidia, LAN, WIFI or Firewire.\nID - Must be the same number defined into your DSDT in _SUN.\nName - The string that you want to assign to AAPL,slot-name.\nType - Set to 0 for PCI, 1 for PCIe 1x, 2 for PCIe 2x, etc."; ObjectID = "Oz6-eQ-v70"; */
+"Oz6-eQ-v70.ibShadowedToolTip" = "Инжекция PCI усройств.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>SmUUID</key>\n<string>00000000-0000-1000-8000-010203040506</string>\nThis is the UUID, which is written into the SMBIOS table. Apparently it makes sense to fill the last pairs of digits with the MAC address of your ethernet card. This UUID will also be used in case CustomUUID is missing. It also be used to initialize ROM RtVariable (use by iMessage) in case ROM is missing."; ObjectID = "pCR-MR-RPX"; */
+"pCR-MR-RPX.ibShadowedToolTip" = "UUID, прописываемый в System Profiler, может использоваться для определения ROM и CustomUUID.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>BiosVersion</key>\n<string>MB11.YACC.0061.53PH.B03</string>\nWe see only the first, third and fifth groups in System Profiler, but really we should specify the full Boot ROM version in config."; ObjectID = "Pj2-K8-D5s"; */
+"Pj2-K8-D5s.ibShadowedToolTip" = "<key>BiosVersion</key><string>MB11.YACC.0061.53PH.B03</string>Мы видим только первую, третью и пятую часть в отчете о системе, но должны указывать полный Boot ROM.";
+
+/* Class = "NSTextFieldCell"; title = "Firmware"; ObjectID = "pXB-Hd-hHg"; */
+"pXB-Hd-hHg.title" = "Прошивка";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>SerialNumber</key>\n<string>W8000AAAAA</string>\nClover will use one specific value here per each model, which needs to be replaced by your own serial number. There are two formats of serial number, which one to use depends on the model. The serial number used by Clover is most probably banned already."; ObjectID = "REe-c1-EEN"; */
+"REe-c1-EEN.ibShadowedToolTip" = "Серийный номер, генерируется сам, но лучше указать свой, так как созданный Clover уже скорее всего забанен.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Chassis Type found in SMBIOS.table3->Type.\nUsed as an indirect indication for platform mobility.\nClover will use a value according to the set Mac model, like it is used in real Macs,\nso that you don't need to set this key.\nThe effect, except mobility settings, is unclear."; ObjectID = "RiP-da-mau"; */
+"RiP-da-mau.ibShadowedToolTip" = "Тип корпуса, Clover подставит сам.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "SlotCount - Total count of memory slots in your system. Max 24 (for now)."; ObjectID = "Vbh-ju-kDc"; */
+"Vbh-ju-kDc.ibShadowedToolTip" = "КОличество слотов под оперативную память.";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Channels - Number of hardware channels supported by your memory chipset, usually two."; ObjectID = "vdg-14-eGI"; */
+"vdg-14-eGI.ibShadowedToolTip" = "Количество каналов ОЗУ, обычно 2.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "ChassisAssetTag, usually found SMBIOS.table3->AssetTag.\n\nThis field is never used with real Macs. We can use it for our own purpose, for example in the HWSensors project."; ObjectID = "VGY-k7-enD"; */
+"VGY-k7-enD.ibShadowedToolTip" = "Не используется в настоящих Маках, нам требуется для HWSensors, не вводите, если не знаете, зачем он.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>Family</key>\n<string>MacBookAir</string>\n\nIt is equal to model without model number.\nClover will use a value according to the set Mac model, like it is used in real Macs,\nso that you don't need to set this key."; ObjectID = "W9H-Od-Bf1"; */
+"W9H-Od-Bf1.ibShadowedToolTip" = "Тип устройства (как и имя, но без х,х), Clover подставит сам.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>PlatformFeature</key>\n<string>0xFFFF</string>\n\nmemory tab disappearing/appearing. Above value makes it disappear.\nMemory tab should show up only if your RAM is not soldered to the motherboard.\nClover knows how this work for every Macs but you can customize it!Clover knows what to do, no need to set this key."; ObjectID = "wK9-vC-BPn"; */
+"wK9-vC-BPn.ibShadowedToolTip" = "Если оперативная память распаяна на плате, вкладки \"Память\", не должно быть, поставьте значение 0хFFFF, чтобы убрать ее.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Chassis Manufacturer like \"Apple Inc.\", \"Asus Inc\" etc.\nClover knows which to use based on ProductName and has no sense to set this key."; ObjectID = "XFi-v8-gNP"; */
+"XFi-v8-gNP.ibShadowedToolTip" = "Производитель корпуса, Clover подставит сам.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "EfiVersion, Clover will use a value according to the set Mac model, like it is used in real Macs,\nso that you don't need to set this key."; ObjectID = "ZZX-A9-hFF"; */
+"ZZX-A9-hFF.ibShadowedToolTip" = "Версия EFI, Clover подставит сам.";
+

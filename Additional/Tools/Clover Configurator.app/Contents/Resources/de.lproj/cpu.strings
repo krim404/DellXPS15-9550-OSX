@@ -1,0 +1,71 @@
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>Type</key>\n<string>0x0201</string>\nThis result of this value can only be found in Apple's specification and it is used in the window About this Mac, which is displaying the according processor name. Otherwise \"Unknown CPU\" will be displayed. An invocation of CPUID was not possible due to PowerPC and due to Apple's different view of the world SMBIOS table 4 is not used either. Clover knows most values but due to the fact that hardware development does not stand still, you can specify this value. Again, this is purely cosmetic."; ObjectID = "4Pm-s4-81X"; */
+"4Pm-s4-81X.ibShadowedToolTip" = "<key>Type</key><string>0x0201</string>Dieses Ergebnis dieses Werts ist nur in der Spezifikation von Apple zu finden und wird im Fenster About this Mac verwendet, in dem der entsprechende Prozessorname angezeigt wird. Andernfalls wird \"Unbekannte CPU\" angezeigt. Ein Aufruf von CPUID war aufgrund von PowerPC nicht möglich und aufgrund der unterschiedlichen Weltsicht von Apple wird SMBIOS-Tabelle 4 ebenfalls nicht verwendet. Clover kennt die meisten Werte, aber da die Hardwareentwicklung nicht stillsteht, können Sie diesen Wert angeben. Auch dies ist rein kosmetisch.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>SavingMode</key>\n<string>0x1B0</string>\n\nCPU feature which lets system software to set\nEnergy Performance Preference (IA32_ENERGY_PERF_BIAS MSR)."; ObjectID = "6pN-Sk-cjc"; */
+"6pN-Sk-cjc.ibShadowedToolTip" = "<key>SavingMode</key><string>0x1B0</string>CPU-Funktion, mit der Systemsoftware eingestellt werden kann
+Energieeinstellungspräferenz (IA32_ENERGY_PERF_BIAS MSR).";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable C6 state."; ObjectID = "cNv-tV-dVt"; */
+"cNv-tV-dVt.ibShadowedToolTip" = "Aktiviere C6 State";
+
+/* Class = "NSBox"; title = "Skylake settings"; ObjectID = "FVq-NB-BQM"; */
+"FVq-NB-BQM.title" = "Skylake Einstellungen";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>BusSpeedkHz</key>\n<string>133330</string>\nBus speed in kHz. Very important value for a stable system. It is passed from the boot loader to the kernel. If this value is not correct, the kernel will not start at all. If it is slightly incorrect, clock issues may arise and the system will behave in a strange way.\n\nAn automatic detection was introduced with revision 1060, which relies on the ACPI timer producing much more accurate values than the ones stored in DMI.\n\nDMI stores this value in MHz, which is not accurate in contrast to a value calculated from CPU frequency. You can choose a more accurate value, if needed. For example my DMI has a value of 100 MHz, however manually overriding it to a value of 99790 kHz produced better clocks.\nSome vendors use a different meaning for BusSpeed and FSBSpeed and use values four times bigger in the BIOS. You can distinguish them according to the scale: either it is from 100 MHz to 400 MHz or it matches the formula CPUFrequency=RailFrequency*CPUMultiplier.\nIf ASUS uses a rail frequency of 1600 MHz and a multiplier of 8, the formula does not work - a CPU with 12,8 GHz does not exist; a division into 4 is required.\n\nAttention: UEFI booting will produce an inaccurate value. It is recommended manually specify the value, which is calculated more accurately during a boot with Clover EFI."; ObjectID = "IaF-Qk-1r3"; */
+"IaF-Qk-1r3.ibShadowedToolTip" = "<key>BusSpeedkHz</key><string>133330</string>Busgeschwindigkeit in kHz. Sehr wichtiger Wert für ein stabiles System. Es wird vom Bootloader an den Kernel übergeben. Wenn dieser Wert nicht korrekt ist, startet der Kernel überhaupt nicht. Wenn es etwas falsch ist, können Tacktprobleme auftreten und das System verhält sich merkwürdig.
+
+Mit der Revision 1060 wurde eine automatische Erkennung eingeführt, bei der der ACPI-Timer wesentlich genauere Werte als die in DMI gespeicherten Werte erzeugt.
+
+DMI speichert diesen Wert in MHz, was im Gegensatz zu einem aus der CPU-Frequenz berechneten Wert nicht genau ist. Bei Bedarf können Sie einen genaueren Wert auswählen. Zum Beispiel hat mein DMI einen Wert von 100 MHz, durch manuelle Überschreibung auf einen Wert von 99790 kHz wurden jedoch bessere Takte erzeugt.
+Einige Hersteller verwenden eine andere Bedeutung für BusSpeed ​​und FSBSpeed ​​und verwenden im BIOS viermal so große Werte. Sie können sie anhand der Skala unterscheiden: Entweder reicht sie von 100 MHz bis 400 MHz oder sie entspricht der Formel CPUFrequency = RailFrequency * CPUMultiplier.
+Wenn ASUS eine Schienenfrequenz von 1600 MHz und einen Multiplikator von 8 verwendet, funktioniert die Formel nicht - eine CPU mit 12,8 GHz ist nicht vorhanden. eine Unterteilung in 4 ist erforderlich.
+
+Achtung: Das UEFI-Booten führt zu einem ungenauen Wert. Es wird empfohlen, den Wert manuell anzugeben, der beim Booten mit Clover EFI genauer berechnet wird.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>Latency</key>\n<string>0x03E9</string>\nThis parameter value represents the C3 entry latency issued when entering C3 state. The critical value is 0x3E8(1000). A lower value will allow SpeedStep, a higher one will not allow it. Real Macs always use 0x3E9, meaning SpeedStep is not turned on. Decide for yourself what you need.\nNotebook users should use 0x00FA to enable power management."; ObjectID = "Idz-qn-n5F"; */
+"Idz-qn-n5F.ibShadowedToolTip" = "<key>Latency</key><string>0x03E9</string>Dieser Parameterwert repräsentiert die C3-Eintrittslatenz, die beim Eintritt in den C3-Status ausgegeben wird. Der kritische Wert ist 0x3E8 (1000). Ein niedrigerer Wert lässt SpeedStep zu, ein höherer Wert lässt es nicht zu. Echte Macs verwenden immer 0x3E9, was bedeutet, dass SpeedStep nicht aktiviert ist. Entscheiden Sie selbst, was Sie brauchen.
+Benutzer von Notebooks sollten 0x00FA verwenden, um die Energieverwaltung zu aktivieren.";
+
+/* Class = "NSTextFieldCell"; placeholderString = "hex or number"; ObjectID = "KCy-ek-uRe"; */
+"KCy-ek-uRe.placeholderString" = "hex oder Nummer";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable C4 state."; ObjectID = "KXW-Lp-WEJ"; */
+"KXW-Lp-WEJ.ibShadowedToolTip" = "Aktiviere C4 State";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Disable Intel Turbo"; ObjectID = "QUJ-Ig-4Pe"; */
+"QUJ-Ig-4Pe.ibShadowedToolTip" = "Deaktiviere Intel Turbo";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>FrequencyMHz</key>\n<string>3200</string>\nCPU base frequency in MHz. Usually Clover will get it from DMI, however if it is not accurate, you can override it. A wrong value can cause system instability - synchronisation issues, slowness etc. It is recommended not use this parameter at all.\n\nMost probably this parameter will be excluded in coming revisions due to its dangerous and harmful nature."; ObjectID = "rMT-iB-J9F"; */
+"rMT-iB-J9F.ibShadowedToolTip" = "<key>FrequencyMHz</key><string>3200</string>CPU-Grundfrequenz in MHz. Normalerweise wird Clover es von DMI erhalten, aber wenn es nicht genau ist, können Sie es überschreiben. Ein falscher Wert kann zu einer Instabilität des Systems führen - Synchronisationsprobleme, Langsamkeit usw. Es wird empfohlen, diesen Parameter überhaupt nicht zu verwenden.
+
+Höchstwahrscheinlich wird dieser Parameter wegen seiner gefährlichen und schädlichen Natur in kommenden Revisionen ausgeschlossen.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "HARDWARE-CONTROLLED PERFORMANCE STATES (Skylake +). When HWP is enabled, the processor autonomously selects performance states as deemed appropriate for the applied workload and with consideration of constraining hints that are programmed by the OS. These OS-provided hints include minimum and maximum performance limits, preference towards energy efficiency or performance, and the specification of a relevant workload history observation time window. The means for the OS to override HWP's autonomous selection of performance state with a specific desired performance target is also provided, however, the effective frequency delivered is subject to the result of energy efficiency and performance optimizations"; ObjectID = "rYB-Nu-ozx"; */
+"rYB-Nu-ozx.ibShadowedToolTip" = "HARDWAREGESTEUERTE LEISTUNGSZUSTÄNDE (Skylake +). Wenn HWP aktiviert ist, wählt der Prozessor selbständig Leistungszustände aus, die für die angewendete Workload als angemessen erachtet werden, und berücksichtigt dabei vom Betriebssystem programmierte Einschränkungshinweise. Diese vom Betriebssystem bereitgestellten Hinweise enthalten Mindest- und Höchstleistungsgrenzen, Bevorzugung der Energieeffizienz oder Leistung und die Angabe eines Zeitfensters für die Überwachung des relevanten Workload-Verlaufs. Es ist auch vorgesehen, dass das Betriebssystem die autonome Auswahl des Leistungsstatus von HWP mit einem bestimmten gewünschten Leistungsziel überschreibt. Die effektive Frequenz hängt jedoch von Energieeffizienz- und Leistungsoptimierungen ab";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Set HWP configuration (take the form of: 0xXXXXXXXX). You can use the dedicated converter to set power management and min/max frequency. Any OC may be set in bios first."; ObjectID = "SLR-80-5iW"; */
+"SLR-80-5iW.ibShadowedToolTip" = "Legen Sie die HWP-Konfiguration fest (in der Form: 0xXXXXXXXX). Sie können den dedizierten Konverter verwenden, um die Energieverwaltung und die Min/Max-Frequenz einzustellen. Jeder OC kann zuerst im BIOS eingestellt werden.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable C2 state."; ObjectID = "TG2-vd-PlM"; */
+"TG2-vd-PlM.ibShadowedToolTip" = "Aktiviere C2 State";
+
+/* Class = "NSButton"; ibShadowedToolTip = "A possibility to not inject ARTFrequency introduced by rev 3356 if calculated value is not good somehow"; ObjectID = "VCy-7e-J2B"; */
+"VCy-7e-J2B.ibShadowedToolTip" = "Eine Möglichkeit, ARTFrequency nicht mit der Revision 3356 zu injizieren, wenn der berechnete Wert irgendwie nicht gut ist";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>QPI</key>\n<string>4800</string>\nSystem Profiler calls it Processor Bus Speed or Bus Speed. Chameleon has an algorithm for calculating this value for Nehalem CPUs (, which is however not correct). Clover has a corrected algorithm according to Intel data sheets. AppleSmbios sources describe two variants: either SMBIOS already contains this value as specified by the vendor, or it is calculated by the formulae BusSpeed*4. After a long argument this value was sourced into the configuration file - write what you want (in MHz). This is a purely cosmetic value. Apparently this value only makes sense for Nehalems, the rest should use the formula stated above - or nothing at all.\n\nNote: Real Mac’s report a hw.busfrequency = 100000000\n\nTo achieve that with Clover here’s what to do:\n1 - Drop SMBIOS table type 132 for Sandy Bridge and newer CPU’s. Clover does this if you set QPI to a string value of 0.\n2 - Set SMBIOS table type 4->ExternalClock to 0 (or 25Mhz as a real Mac). This currently has to be done in the source code and re-compile Clover.\n\nIf you don’t do step 2 then for Sandy Bridge and newer CPU’s, AppleSMBIOS.kext will multiply any non zero values reported by SMBIOS table type 4 -> External Clock by 4"; ObjectID = "Xgc-vE-b48"; */
+"Xgc-vE-b48.ibShadowedToolTip" = "<key>QPI</key><string>4800</string>System Profiler nennt das Prozessor-Bus-Geschwindigkeit oder Bus-Geschwindigkeit. Chameleon verfügt über einen Algorithmus zur Berechnung dieses Werts für Nehalem-CPUs (der jedoch nicht korrekt ist). Clover verfügt über einen korrigierten Algorithmus gemäß Intel-Datenblättern. AppleSmbios-Quellen beschreiben zwei Varianten: Entweder enthält SMBIOS diesen Wert bereits, wie vom Hersteller angegeben, oder er wird anhand der Formeln BusSpeed ​​* 4 berechnet. Nach einem langen Argument wurde dieser Wert in die Konfigurationsdatei übernommen - schreiben Sie, was Sie möchten (in MHz). Dies ist ein rein kosmetischer Wert. Anscheinend macht dieser Wert nur für Nehalems Sinn, der Rest sollte die oben angegebene Formel verwenden - oder gar nichts.
+
+Hinweis: Echte Macs melden eine hw.busfrequency = 100000000
+
+Um dies mit Clover zu erreichen, müssen Sie Folgendes tun:
+1 - Löschen Sie die SMBIOS-Tabelle Typ 132 für Sandy Bridge und neuere CPUs. Clover führt dies aus, wenn Sie QPI auf einen Zeichenfolgewert von 0 setzen.
+2 - Setzen Sie den SMBIOS-Tabellentyp 4-> ExternalClock auf 0 (oder 25 MHz als echter Mac). Dies muss derzeit im Quellcode erfolgen und Clover neu kompilieren.
+
+Wenn Sie Schritt 2 nicht ausführen, multipliziert AppleSMBIOS.kext für Sandy Bridge und neuere CPUs alle Nicht-Nullen";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>TDP</key>\n<integer>55</integer>\n\nThermal Design Power: indicate the designated power in Watt."; ObjectID = "Xqk-hd-kSF"; */
+"Xqk-hd-kSF.ibShadowedToolTip" = "<key>TDP</key><integer>55</integer>Thermal Design Power: Geben Sie die angegebene Leistung in Watt an.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable QEMU (Quick EMUlator)"; ObjectID = "zID-l3-npz"; */
+"zID-l3-npz.ibShadowedToolTip" = "Aktiviere QEMU (Quick EMUlator)";
+

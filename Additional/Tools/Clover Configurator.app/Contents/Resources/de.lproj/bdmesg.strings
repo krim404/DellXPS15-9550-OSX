@@ -1,0 +1,12 @@
+/* Class = "NSButtonCell"; title = "Generate log"; ObjectID = "KJn-Sv-9bx"; */
+"KJn-Sv-9bx.title" = "Genereiere Log";
+
+/* Class = "NSTextFieldCell"; title = "Search (⌘F)"; ObjectID = "PZO-2W-scV"; */
+"PZO-2W-scV.title" = "Suche (⌘F)";
+
+/* Class = "NSButtonCell"; title = "Save boot.log to desktop"; ObjectID = "qnw-UB-WIQ"; */
+"qnw-UB-WIQ.title" = "Speichere boot.log auf dem Schreibtisch";
+
+/* Class = "NSButtonCell"; title = "Copy to Clipboard"; ObjectID = "X48-g6-BcO"; */
+"X48-g6-BcO.title" = "Ins Clipboard Kopieren";
+

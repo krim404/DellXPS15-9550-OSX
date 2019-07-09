@@ -1,0 +1,165 @@
+/* Class = "NSMenuItem"; title = "List Of Patches"; ObjectID = "6OQ-Cx-38E"; */
+"6OQ-Cx-38E.title" = "Liste von Patches";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ATIConnectorsData</key>\n<string>000400000403000000010000210302040400000014020000000100000000 040310000000100000000001000000000001</string>\n\nInject ATI Connectors to the host controller."; ObjectID = "8Qv-nN-rmZ"; */
+"8Qv-nN-rmZ.ibShadowedToolTip" = "<key>ATIConnectorsData</key><string>000400000403000000010000210302040400000014020000000100000000 040310000000100000000001000000000001</string>Injiziert ATI-Connectors in den Host-Controller.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ATIConnectorsPatch</key>\n<string>040000001402000000010000000004040004000004030000000100001102 010500000000000000000000000000000000</string>\n\nPatch and Inject ATI Connectors to the host controller."; ObjectID = "bj3-FA-qqt"; */
+"bj3-FA-qqt.ibShadowedToolTip" = "<key>ATIConnectorsPatch</key><string>040000001402000000010000000004040004000004030000000100001102 010500000000000000000000000000000000</string>Korrigieren und Injizieren von ATI-Connectors zum Host-Controller.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>KernelCpu</key>\n<true/>\nEliminates kernel panics related to an unsupported CPU like Yonah, Atom or Haswell for old systems. However, the kernel has other algorithms which will not work correctly when using an unsupported CPU and this patch will not solve all problems. It is highly unlikely that this will work with a Pentium M, Pentium 4 or and AMD. The use of a special replacement kernel is advised in such cases."; ObjectID = "BuJ-7z-Om5"; */
+"BuJ-7z-Om5.ibShadowedToolTip" = "<key>KernelCpu</key><true/>Beseitigt Kernel-Panics im Zusammenhang mit einer nicht unterstützten CPU wie Yonah, Atom oder Haswell für alte Systeme. Der Kernel verfügt jedoch über andere Algorithmen, die bei Verwendung einer nicht unterstützten CPU nicht ordnungsgemäß funktionieren. Mit diesem Patch werden nicht alle Probleme gelöst. Es ist höchst unwahrscheinlich, dass dies mit einem Pentium M, Pentium 4 und/oder AMD funktioniert. In solchen Fällen wird die Verwendung eines speziellen Ersatz-Kernels empfohlen.";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "write a MS-DOS path (\"\\\") to a folder or a single kext"; ObjectID = "d5H-ev-FTW"; */
+"d5H-ev-FTW.ibShadowedIsNilPlaceholder" = "Schreiben Sie einen MS-DOS-Pfad (\"\\\") in einen Ordner oder einen einzelnen Kext";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "- Find: data to to be found inside the desired kext \n\n- Replace: data to be replaced with the contents of the Find key.\n\n- Comment: this remind you what this patch does. \n           In truth this key is optional, but it's a bad (bad) practice\n           to not use it. Remind that this comment show up in the GUI\n           so please use a short description or will be truncated.\n\nOptional keys:\n\n- Disabled: boolean key, if true this patch will be skipped by Clover..\n \n\n- MatchOS: string containings one or more os version separated by comma:\n\t   10.11 means that only if you boot into 10.11 the patch will be activated, but not for 10.11.1\n           10.11.x means that every revision of 10.11 will activate your patch, but not for 10.12\n           \n\t   10.11.6,10.12.x,10.13.x\n\n           the above string will activate your patch for all versions of Sierra and High Sierra, but\n           in El Capitan only if 10.11.6 is detected.\n\n- MatchBuild: Suppose that your patch only works in 10.11.6 with security update installed:\n\n              15G1004\n\n\t      by specifying the build number you can apply this patch only if the build 15G1004.\n       \t      As for MatchOS you can use more then one build string separated by comma."; ObjectID = "fwV-Ju-Xrc"; */
+"fwV-Ju-Xrc.ibShadowedToolTip" = "- Find: Daten, die im gewünschten Kext gefunden werden sollen
+
+- Replace: Daten, die durch den Inhalt des Find-Wortes ersetzt werden sollen.
+
+- Comment: Dies erinnert Sie daran, was dieser Patch macht.
+            In Wahrheit ist dieser Wert optional, aber es ist eine schlechte Idee ihn nicht zu benutzen. Erinnern Sie sich daran, dass dieser Kommentar in der GUI angezeigt wird
+            Verwenden Sie daher bitte eine kurze Beschreibung oder der Kommentar wird abgeschnitten dargestellt.
+
+Optionale Parameter:
+
+- Disabled: boolescher Wert, wenn auf true gesetzt, wird dieser Patch von Clover übersprungen.
+ 
+
+- MatchOS: Zeichenfolge, die eine oder mehrere durch Kommas getrennte OS-Version enthält:
+	   10.11 bedeutet, dass der Patch nur beim Booten in 10.11 aktiviert wird, nicht jedoch für 10.11.1
+            10.11.x bedeutet, dass jede Version von 10.11 Ihren Patch aktiviert, nicht jedoch für 10.12
+           
+10.11.6.10.12.x, 10.13.x
+
+           Die obige Zeichenfolge aktiviert Ihren Patch für alle Versionen von Sierra und High Sierra, aber
+            in El Capitan nur, wenn 10.11.6 erkannt wird.
+
+- MatchBuild: Angenommen, Ihr Patch funktioniert nur in Version 10.11.6, wenn ein Sicherheitsupdate installiert ist:
+
+              15G1004
+
+	      Durch die Angabe der Build-Nummer können Sie diesen Patch nur bei Build 15G1004 anwenden.
+        Für MatchOS können Sie mehr als einen durch Komma getrennten Build-String verwenden.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ATIConnectorsController</key>\n<string>6000</string>\nFor a fully working AMD video card injecting properties into the registry is not enough. Additionally a modification of the connectors in the according controller binary file is necessary. The example points to the 6000 series controller file:\n\n<key>ATIConnectorsData</key>\n<string>000400000403000000010000210302040400000014020000000100000000 040310000000100000000001000000000001</string>\n<key>ATIConnectorsPatch</key>\n<string>040000001402000000010000000004040004000004030000000100001102 010500000000000000000000000000000000</string>\nThis method works for systems using Mac OS X 10.7 or newer."; ObjectID = "Gho-ZW-2Ud"; */
+"Gho-ZW-2Ud.ibShadowedToolTip" = "<key>ATIConnectorsController</key><string>6000</string>Für eine voll funktionsfähige AMD-Grafikkarte reicht das Injizieren der Eigenschaften in die Registry nicht aus. Zusätzlich ist eine Änderung der Anschlüsse in der entsprechenden Controller-Binärdatei erforderlich. Das Beispiel zeigt die Controller-Datei einer 6000-Series Karte:<key>ATIConnectorsData</key><string>000400000403000000010000210302040400000014020000000100000000 040310000000100000000001000000000001</string><key>ATIConnectorsPatch</key><string>040000001402000000010000000004040004000004030000000100001102 010500000000000000000000000000000000</string>Diese Methode funktioniert für Systeme, die Mac OS X 10.7 oder neuer verwenden.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>KernelLapic</key>\n<false/>\nHP notebooks have lapic problems, which can be solved by using the boot parameter cpus=1 or by using this option."; ObjectID = "GrX-RG-9oN"; */
+"GrX-RG-9oN.ibShadowedToolTip" = "<key>KernelLapic</key><false/>HP Notebooks haben lapische Probleme, die mit dem Boot-Parameter cpus = 1 oder mit dieser Option behoben werden können.";
+
+/* Class = "NSTextFieldCell"; title = "(?) InfoPlistPatch available only with valid Find & Replace text string"; ObjectID = "hnL-Gj-XtT"; */
+"hnL-Gj-XtT.title" = "(?) InfoPlistPatch ist nur mit gültiger Find und Replace-Textzeichenfolge verfügbar";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>FakeCPUID</key>\n<string>0x010676</string>\nFake CPUID is intended to be a replacement for the Kernel CPU patch. It influences the kernel and AppleCPUPowerManagement as well.\n\nIf you want to install OSX with an unsupported CPU then you'll need to fake its ID to avoid kernel panics. Useful if you're trying to install OSX with an Atom CPU, or 10.7.2 with an IvyBridge CPU.\n\nFor these cases Clover allows you to set FakeCPUID in config.plist or even through the GUI, in the Binaries patching menu."; ObjectID = "psf-7V-53d"; */
+"psf-7V-53d.ibShadowedToolTip" = "<key>FakeCPUID</key><string>0x010676</string>Fake CPUID soll den Kernel-CPU-Patch ersetzen. Es beeinflusst auch den Kernel und das AppleCPUPowerManagement.
+
+Wenn Sie OSX mit einer nicht unterstützten CPU installieren möchten, müssen Sie seine ID fälschen, um Kernelpaniken zu vermeiden. Nützlich, wenn Sie versuchen, OSX mit einer Atom-CPU oder 10.7.2 mit einer IvyBridge-CPU zu installieren.
+
+In diesen Fällen können Sie mit Clover die FakeCPUID in config.plist oder sogar über die GUI im Patching-Menü für Binaries festlegen.";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "- Find: data to to be found inside the desired kext \n\n- Replace: data to be replaced with the contents of the Find key.\n\n- Comment: this remind you what this patch does. \n           In truth this key is optional, but it's a bad (bad) practice\n           to not use it. Remind that this comment show up in the GUI\n           so please use a short description or will be truncated.\n\nOptional keys:\n\n- Disabled: boolean key, if true this patch will be skipped by Clover..\n \n\n- MatchOS: string containings one or more os version separated by comma:\n\t   10.11 means that only if you boot into 10.11 the patch will be activated, but not for 10.11.1\n           10.11.x means that every revision of 10.11 will activate your patch, but not for 10.12\n           \n\t   10.11.6,10.12.x,10.13.x\n\n           the above string will activate your patch for all versions of Sierra and High Sierra, but\n           in El Capitan only if 10.11.6 is detected.\n\n- MatchBuild: Suppose that your patch only works in 10.11.6 with security update installed:\n\n              15G1004\n\n\t      by specifying the build number you can apply this patch only if the build 15G1004.\n       \t      As for MatchOS you can use more then one build string separated by comma."; ObjectID = "qvb-uI-e59"; */
+"qvb-uI-e59.ibShadowedToolTip" = "- Find: Daten, die im gewünschten Kext gefunden werden sollen
+
+- Replace: Daten, die durch den Inhalt des Find-Wortes ersetzt werden sollen.
+
+- Comment: Dies erinnert Sie daran, was dieser Patch macht.
+            In Wahrheit ist dieser Wert optional, aber es ist eine schlechte Idee ihn nicht zu benutzen. Erinnern Sie sich daran, dass dieser Kommentar in der GUI angezeigt wird
+            Verwenden Sie daher bitte eine kurze Beschreibung oder der Kommentar wird abgeschnitten dargestellt.
+
+Optionale Parameter:
+
+- Disabled: boolescher Wert, wenn auf true gesetzt, wird dieser Patch von Clover übersprungen.
+ 
+
+- MatchOS: Zeichenfolge, die eine oder mehrere durch Kommas getrennte OS-Version enthält:
+	   10.11 bedeutet, dass der Patch nur beim Booten in 10.11 aktiviert wird, nicht jedoch für 10.11.1
+            10.11.x bedeutet, dass jede Version von 10.11 Ihren Patch aktiviert, nicht jedoch für 10.12
+           
+10.11.6.10.12.x, 10.13.x
+
+           Die obige Zeichenfolge aktiviert Ihren Patch für alle Versionen von Sierra und High Sierra, aber
+            in El Capitan nur, wenn 10.11.6 erkannt wird.
+
+- MatchBuild: Angenommen, Ihr Patch funktioniert nur in Version 10.11.6, wenn ein Sicherheitsupdate installiert ist:
+
+              15G1004
+
+	      Durch die Angabe der Build-Nummer können Sie diesen Patch nur bei Build 15G1004 anwenden.
+        Für MatchOS können Sie mehr als einen durch Komma getrennten Build-String verwenden.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>DellSMBIOSPatch</key>\n<true/>\n\nDedicated patch for Dell where SMBIOS's product name get truncated."; ObjectID = "QwB-es-MsD"; */
+"QwB-es-MsD.ibShadowedToolTip" = "<key>DellSMBIOSPatch</key><true/>Spezieller Patch für Dell, bei dem der Produktname von SMBIOS abgeschnitten wird.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>AppleRTC</key>\n<true/>\nOS X has compatibility issues with a BIOS CMOS resulting in its reset on each wake after sleep and reboot, which is noticeable in a loss of BIOS settings. Mostly Gigabyte motherboards are affected. Usually it can be solved by patching Device(RTC) in the DSDT.\nIf this does not help, the kext itself can be patched, which is done here."; ObjectID = "sev-5V-SEO"; */
+"sev-5V-SEO.ibShadowedToolTip" = "<key>AppleRTC</key><true/>OS X hat Kompatibilitätsprobleme mit einem BIOS-CMOS, was dazu führt, dass es nach jedem Ruhezustand und Neustart nach jedem Neustart zurückgesetzt wird, was sich in einem Verlust der BIOS-Einstellungen bemerkbar macht. Meist sind Gigabyte-Motherboards betroffen. Normalerweise kann dies durch Patching von Device (RTC) im DSDT gelöst werden.
+Wenn dies nicht hilft, kann der Kext selbst gepatcht werden, was hier gemacht wird.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>AppleIntelCPUPM</key>\n<true/>\nAsusAICPUPM key was renamed to AppleIntelCPUPM.\n\nSome vendors, like ASUS, restrict the use of MSR register 0xE2 in their power management module to ReadOnly. On Sandy/Ivy Bridge systems the kext AppleIntelCpuPowerManagement will try to write to this register and cause a kernel panic. This patch will eliminate the kext's write operations."; ObjectID = "Tha-bt-y4P"; */
+"Tha-bt-y4P.ibShadowedToolTip" = "<key>AppleIntelCPUPM</key><true/>Der AsusAICPUPM-Parameter wurde in AppleIntelCPUPM umbenannt.
+
+Einige Anbieter wie ASUS beschränken die Verwendung des MSR-Registers 0xE2 in ihrem Energieverwaltungsmodul auf ReadOnly. Auf Sandy/Ivy Bridge-Systemen versucht der Kext AppleIntelCpuPowerManagement, in dieses Register zu schreiben und eine Kernel-Panik auszulösen. Dieser Patch beseitigt die Schreibvorgänge von kext.";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "- Name: kext executable name (i.e. without extension), \n        but You can, instead, use the CFBundleIdentifier.\n\n- Find: data to to be found inside the desired kext \n\n- Replace: data to be replaced with the contents of the Find key.\n\n- Comment: this remind you what this patch does. \n           In truth this key is optional, but it's a bad (bad) practice\n           to not use it. Remind that this comment show up in the GUI\n           so please use a short description or will be truncated.\n\nOptional keys:\n\n- InfoPlistPatch: boolean key, if true, data replacement wil be performed\n                  on the _PrelinkInfoDictionary (Info.plist inside prelinkedkernel) \n\t\t  instead of the executable.\n                  In older OSes this also happened on the real kexts\n                  loaded from the filesystem by boot.efi (now only prelinked\n                  kexts are taken into account) so be aware that what you see on the real\n\t\t  kext can be different due to some different tags used (IDREF).\n\n- Disabled: boolean key, if true this patch will be skipped by Clover.\n           Mind that you can use different configs callable at boot in GUI, so this\n           can be usefull on purpose.  \n           You can make your pattern (Find/Replace) unique by increasing the data length\n           and your patch will be only performed if a match exist, but this can be \n\t   problematic. AppleHDA need zeroing codec 1 (example) until 10.11, and codec 2 \n\t   in 10.12 ...but codec 1 must not be patched..otherwise no sound:\n\t   Consider to use MatchOS or MatchBuild to dinamically\n\t   load/skip variants of the same kind of patch in different OS versions.\n \n\n- MatchOS: string containings one or more os version separated by comma:\n\t   10.11 means that only if you boot into 10.11 the patch will be activated, but not for 10.11.1\n           10.11.x means that every revision of 10.11 will activate your patch, but not for 10.12\n           \n\t   10.11.6,10.12.x,10.13.x\n\n           the above string will activate your patch for all versions of Sierra and High Sierra, but\n           in El Capitan only if 10.11.6 is detected.\n\n- MatchBuild: Suppose that your patch only works in 10.11.6 with security update installed:\n\n              15G1004\n\n\t      by specifying the build number you can apply this patch only if the build 15G1004.\n       \t      As for MatchOS you can use more then one build string separated by comma."; ObjectID = "VEJ-gW-nUU"; */
+"VEJ-gW-nUU.ibShadowedToolTip" = "- Name: Ausführbarer kext-Name (d. h. ohne Erweiterung),
+         Sie können stattdessen jedoch den CFBundleIdentifier verwenden.
+
+- Find: Daten, die im gewünschten Kext gefunden werden sollen
+
+- Replace: Daten, die durch den Inhalt des Find-Werts ersetzt werden sollen.
+
+- Comment: Dies erinnert Sie daran, was dieser Patch macht.
+            In Wahrheit ist dieser Wert optional, aber es ist eine schlechte Idee ihn nicht zu benutzen. Erinnern Sie sich daran, dass dieser Kommentar in der GUI angezeigt wird
+            Verwenden Sie daher bitte eine kurze Beschreibung oder der Kommentar wird abgeschnitten dargestellt.
+
+Optionale Parameter:
+
+- InfoPlistPatch: boolescher Wert, wenn auf true gesetzt, werden Daten ersetzt
+                   auf dem _PrelinkInfoDictionary (Info.plist in Prelinkedkernel)
+anstelle der ausführbaren Datei.
+                   In älteren Betriebssystemen war dies auch in der Realität der Fall
+                   von boot.efi (jetzt nur vorverlinkt) aus dem Dateisystem geladen
+                   kexte werden berücksichtigt). Beachten Sie, dass das, was Sie auf dem realen Kext sehen, aufgrund verschiedener Tags (IDREF) unterschiedlich sein kann.
+
+- Disabled: boolescher key, wenn auf true gesetzt, wird dieser Patch von Clover übersprungen.
+            Beachten Sie, dass Sie verschiedene Konfigurationen verwenden können, die beim Booten in der GUI aufgerufen werden können, sodass dies manchmal nützlich sein kann.
+            Sie können Ihren Pattern (Find/Replace) eindeutig machen, indem Sie die Datenlänge erhöhen. Ihr Patch wird nur ausgeführt, wenn eine Übereinstimmung besteht. Dies kann jedoch problematisch sein. AAppleHDA benötigt den Zeroing-Codec 1 (Beispiel) bis 10.11 und den Codec 2 in 10.12 ..., aber Codec 1 muss nicht gepatcht werden. Andernfalls ist kein Ton zu hören:
+Verwenden Sie MatchOS oder MatchBuild, um Varianten derselben Art von Patch in verschiedenen Betriebssystemversionen dynamisch zu laden/zu überspringen.
+ 
+
+- MatchOS: Zeichenfolge, die eine oder mehrere durch Kommas getrennte OS-Version enthält:
+	   10.11 bedeutet, dass der Patch nur beim Booten in 10.11 aktiviert wird, nicht jedoch für 10.11.1
+            10.11.x bedeutet, dass jede Version von 10.11 Ihren Patch aktiviert, nicht jedoch für 10.12
+           
+10.11.6.10.12.x, 10.13.x
+
+           Die obige Zeichenfolge aktiviert Ihren Patch für alle Versionen von Sierra und High Sierra, aber
+            in El Capitan nur, wenn 10.11.6 erkannt wird.
+
+- MatchBuild: Angenommen, Ihr Patch funktioniert nur in Version 10.11.6, wenn ein Sicherheitsupdate installiert ist:
+
+              15G1004
+
+	      Durch die Angabe der Build-Nummer können Sie diesen Patch nur bei Build 15G1004 anwenden.
+        Für MatchOS können Sie mehr als einen durch Komma getrennten Build-String verwenden.";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "kext name"; ObjectID = "VMl-as-cIc"; */
+"VMl-as-cIc.ibShadowedIsNilPlaceholder" = "Kext Name";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>ForceKextsToLoad</key>\n<array>\n  <string>\\System\\Library\\Extensions\\AppleHDA.kext</string>\n  <string>\\Extra\\Extensions</string>\n</array>\nForce load kexts (and plugins) from booted volume so it can be patched. It also accepts directories to force load/inject every kext in the folder."; ObjectID = "wic-aG-JaM"; */
+"wic-aG-JaM.ibShadowedToolTip" = "<key>ForceKextsToLoad</key><array><string>\System\Library\Extensions\AppleHDA.kext</string><string>\Extra\Extensions</string></array>Erzwinge das Laden von Kexts (und Plugins) vom gebooteten Volume, damit es gepatcht werden kann. Es akzeptiert auch Verzeichnisse, um das Laden / Einfügen jedes Kextes in den Ordner zu erzwingen.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Debug</key>\n<true/>\n\nEnables logging of KernelAndKextPatches."; ObjectID = "x8t-Ge-ksy"; */
+"x8t-Ge-ksy.ibShadowedToolTip" = "<key>Debug</key><true/>Aktiviert die Protokollierung von KernelAndKextPatches.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>KernelXCPM</key>\n<true/>\n\nRev 4250\nXCPM patch will no more be unconditional.\nDefault value is <false/>. \nIt can arise some problems because old revision has default to true.\nBut many users can't boot at all because of this. Let it be conditional setting from config or from Clover GUI."; ObjectID = "YSu-h3-1N4"; */
+"YSu-h3-1N4.ibShadowedToolTip" = "<key>KernelXCPM</key><true/>Rev 4250
+XCPM-Patch ist nicht mehr unbedingt erforderlich.
+Der Standardwert ist<false/>.
+Es können einige Probleme auftreten, da die alte Version den Standardwert true hat.
+Viele Benutzer können aus diesem Grund überhaupt nicht booten. Sei es eine bedingte Einstellung von config oder von Clover GUI.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>KernelAndKextPatches</key>\n<dict>\n   <key>KernelPm</key>\n   <true/>\n</dict>\nKernel power management patch for Haswell with locked msrs. Works with 10.8.5 and 10.9 kernels."; ObjectID = "YYX-cr-aFn"; */
+"YYX-cr-aFn.ibShadowedToolTip" = "<key>KernelAndKextPatches</key><dict><key>KernelPm</key><true/></dict>Kernel-Energieverwaltungspatch für Haswell mit gesperrter msrs. Funktioniert mit 10.8.5 und 10.9 Kerneln.";
+

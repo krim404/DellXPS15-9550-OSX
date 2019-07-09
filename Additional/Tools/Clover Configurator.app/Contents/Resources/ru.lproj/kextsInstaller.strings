@@ -1,0 +1,60 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Delete"; ObjectID = "0kj-tk-Ra5"; */
+"0kj-tk-Ra5.ibShadowedToolTip" = "Удалить";
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "5cR-bY-mO3"; */
+"5cR-bY-mO3.headerCell.title" = "Описание";
+
+/* Class = "NSTextFieldCell"; title = "Location:"; ObjectID = "8aE-3t-oaj"; */
+"8aE-3t-oaj.title" = "Местонахождение:";
+
+/* Class = "NSTableColumn"; headerCell.title = "Version"; ObjectID = "47E-if-04p"; */
+"47E-if-04p.headerCell.title" = "Версия";
+
+/* Class = "NSTextFieldCell"; title = "Partition:"; ObjectID = "79o-aA-pLd"; */
+"79o-aA-pLd.title" = "Раздел:";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "595-HL-14W"; */
+"595-HL-14W.title" = "Загрузка";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "aFd-JL-zgE"; */
+"aFd-JL-zgE.headerCell.title" = "Имя";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reload Data"; ObjectID = "Ap6-xX-set"; */
+"Ap6-xX-set.ibShadowedToolTip" = "Обновить данные";
+
+/* Class = "NSButtonCell"; title = "Select"; ObjectID = "DeU-Fy-NFa"; */
+"DeU-Fy-NFa.title" = "Выбрать";
+
+/* Class = "NSWindow"; title = "VirtualSMC Detected"; ObjectID = "DZf-L0-Ccs"; */
+"DZf-L0-Ccs.title" = "Найден VirtualSMC";
+
+/* Class = "NSWindow"; title = "FakeSMC Detected"; ObjectID = "FGS-1E-nPl"; */
+"FGS-1E-nPl.title" = "Найден FakeSMC";
+
+/* Class = "NSWindow"; title = "NoVPAJpeg Selection"; ObjectID = "hc6-JT-NeL"; */
+"hc6-JT-NeL.title" = "NoVPAJpeg выбор";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Folder"; ObjectID = "hJo-dP-I6B"; */
+"hJo-dP-I6B.ibShadowedToolTip" = "Открыть папку";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "LJ1-X4-7ca"; */
+"LJ1-X4-7ca.title" = "Установить";
+
+/* Class = "NSTextFieldCell"; title = "[*]drag and drop to table for manual installation"; ObjectID = "Qh2-M3-dsa"; */
+"Qh2-M3-dsa.title" = "(*)Переместите сюда для ручной установки";
+
+/* Class = "NSTableColumn"; headerCell.title = "Author"; ObjectID = "rds-t0-l3t"; */
+"rds-t0-l3t.headerCell.title" = "Автор";
+
+/* Class = "NSButtonCell"; title = "Backup kext"; ObjectID = "uqS-yf-kgK"; */
+"uqS-yf-kgK.title" = "Создать резеврную копию расширения ядра";
+
+/* Class = "NSTextFieldCell"; title = "OS Version:"; ObjectID = "vmg-9C-ci7"; */
+"vmg-9C-ci7.title" = "Версия OS:";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "WDq-gw-UKY"; */
+"WDq-gw-UKY.title" = "Статус";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "ZT9-y1-tyY"; */
+"ZT9-y1-tyY.title" = "Установить";
+

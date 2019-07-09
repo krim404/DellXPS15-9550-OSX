@@ -1,0 +1,21 @@
+
+/* Class = "NSTextFieldCell"; title = "UIScale"; ObjectID = "3Hj-1V-Ezc"; */
+"3Hj-1V-Ezc.title" = "UI比例";
+
+/* Class = "NSTextFieldCell"; title = "EFILoginHiDPI"; ObjectID = "Db0-Q9-RZF"; */
+"Db0-Q9-RZF.title" = "登录画面缩放";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "Eu5-vh-xck"; */
+"Eu5-vh-xck.title" = "Box";
+
+/* Class = "NSTextFieldCell"; placeholderString = "0xF0F0F0"; ObjectID = "KCy-ek-uRe"; */
+"KCy-ek-uRe.placeholderString" = "0xF0F0F0";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0xF0F0F0"; ObjectID = "XA3-Up-bN7"; */
+"XA3-Up-bN7.ibShadowedIsNilPlaceholder" = "0xF0F0F0";
+
+/* Class = "NSTextFieldCell"; title = "DefaultBackroundColor"; ObjectID = "e1k-x9-XSj"; */
+"e1k-x9-XSj.title" = "默认背景颜色";
+
+/* Class = "NSTextFieldCell"; title = "flagstate"; ObjectID = "f1c-ud-01j"; */
+"f1c-ud-01j.title" = "变量状态";

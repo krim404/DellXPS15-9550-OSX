@@ -1,0 +1,681 @@
+
+/* Class = "NSButton"; ibShadowedToolTip = "Inserts plugin-type One to CpuPm SSDT"; ObjectID = "07p-TL-NPT"; */
+"07p-TL-NPT.ibShadowedToolTip" = "Inserts plugin-type One to CpuPm SSDT";
+
+/* Class = "NSButtonCell"; title = "FixACST"; ObjectID = "0uZ-nr-9Si"; */
+"0uZ-nr-9Si.title" = "FixACST";
+
+/* Class = "NSButtonCell"; title = "APSN"; ObjectID = "1EJ-vV-PDr"; */
+"1EJ-vV-PDr.title" = "APSN";
+
+/* Class = "NSBox"; title = "DisabledAML"; ObjectID = "1Ng-Ej-2yH"; */
+"1Ng-Ej-2yH.title" = "DisabledAML";
+
+/* Class = "NSButtonCell"; title = "SlpSmiAtWake"; ObjectID = "1r7-pm-d1F"; */
+"1r7-pm-d1F.title" = "SlpSmiAtWake";
+
+/* Class = "NSMenuItem"; title = "Items of list of Patches"; ObjectID = "1xT-qz-XZT"; */
+"1xT-qz-XZT.title" = "Items of list of Patches";
+
+/* Class = "NSTableColumn"; headerCell.title = "String[TableId]/Number[Length]"; ObjectID = "2TV-zh-dka"; */
+"2TV-zh-dka.headerCell.title" = "String[TableId]/Number[Length]";
+
+/* Class = "NSTableColumn"; headerToolTip = "String[TableId]/Number[Length]"; ObjectID = "2TV-zh-dka"; */
+"2TV-zh-dka.headerToolTip" = "String[TableId]/Number[Length]";
+
+/* Class = "NSButtonCell"; title = "NVidia"; ObjectID = "2ZH-yn-smO"; */
+"2ZH-yn-smO.title" = "NVidia";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x64"; ObjectID = "2tf-fK-zTd"; */
+"2tf-fK-zTd.ibShadowedIsNilPlaceholder" = "0x64";
+
+/* Class = "NSButtonCell"; title = "FixDarwin7"; ObjectID = "3IT-eS-A6f"; */
+"3IT-eS-A6f.title" = "FixDarwin7";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>DropOem</key>\n<true/>\nDrops all internal SSDT tables to avoid conflicts when generating an SSDT for your processor, which contains P- and C-States. Clover can do this automatically or you can specify an external file, which will be loaded from EFI/OEM/[model]/ACPI/patched."; ObjectID = "3OB-Qg-u2B"; */
+"3OB-Qg-u2B.ibShadowedToolTip" = "<key>DropOem</key>\n<true/>\nDrops all internal SSDT tables to avoid conflicts when generating an SSDT for your processor, which contains P- and C-States. Clover can do this automatically or you can specify an external file, which will be loaded from EFI/OEM/[model]/ACPI/patched.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Renames device AC0 to ADP1."; ObjectID = "4L0-lZ-ZbZ"; */
+"4L0-lZ-ZbZ.ibShadowedToolTip" = "Renames device AC0 to ADP1.";
+
+/* Class = "NSButtonCell"; title = "Halt Enabler"; ObjectID = "5X5-bX-Ybd"; */
+"5X5-bX-Ybd.title" = "Halt Enabler";
+
+/* Class = "NSButton"; ibShadowedToolTip = "This device is used for IntelHDxxxx graphics. \nThis is required when using the FakeID->IMEI bit. \nIt does nothing on Core 2 systems."; ObjectID = "5cK-Vm-6vG"; */
+"5cK-Vm-6vG.ibShadowedToolTip" = "This device is used for IntelHDxxxx graphics. \nThis is required when using the FakeID->IMEI bit. \nIt does nothing on Core 2 systems.";
+
+/* Class = "NSButtonCell"; title = "AddHDMI"; ObjectID = "5fL-Bc-gJ2"; */
+"5fL-Bc-gJ2.title" = "AddHDMI";
+
+/* Class = "NSBox"; title = "Patches"; ObjectID = "5z8-BU-67h"; */
+"5z8-BU-67h.title" = "Patches";
+
+/* Class = "NSButtonCell"; title = "FixDisplay"; ObjectID = "6ag-cf-Ooe"; */
+"6ag-cf-Ooe.title" = "FixDisplay";
+
+/* Class = "NSComboBoxCell"; 6jU-B0-7gl.ibShadowedObjectValues[1] = "0"; ObjectID = "6jU-B0-7gl"; */
+"6jU-B0-7gl.ibShadowedObjectValues[1]" = "0";
+
+/* Class = "NSComboBoxCell"; 6jU-B0-7gl.ibShadowedObjectValues[2] = "1"; ObjectID = "6jU-B0-7gl"; */
+"6jU-B0-7gl.ibShadowedObjectValues[2]" = "1";
+
+/* Class = "NSComboBoxCell"; 6jU-B0-7gl.ibShadowedObjectValues[3] = "2"; ObjectID = "6jU-B0-7gl"; */
+"6jU-B0-7gl.ibShadowedObjectValues[3]" = "2";
+
+/* Class = "NSComboBoxCell"; 6jU-B0-7gl.ibShadowedObjectValues[4] = "3"; ObjectID = "6jU-B0-7gl"; */
+"6jU-B0-7gl.ibShadowedObjectValues[4]" = "3";
+
+/* Class = "NSComboBoxCell"; 6jU-B0-7gl.ibShadowedObjectValues[5] = "4"; ObjectID = "6jU-B0-7gl"; */
+"6jU-B0-7gl.ibShadowedObjectValues[5]" = "4";
+
+/* Class = "NSComboBoxCell"; 6jU-B0-7gl.ibShadowedObjectValues[6] = "5"; ObjectID = "6jU-B0-7gl"; */
+"6jU-B0-7gl.ibShadowedObjectValues[6]" = "5";
+
+/* Class = "NSComboBoxCell"; 6jU-B0-7gl.ibShadowedObjectValues[7] = "6"; ObjectID = "6jU-B0-7gl"; */
+"6jU-B0-7gl.ibShadowedObjectValues[7]" = "6";
+
+/* Class = "NSComboBoxCell"; 6jU-B0-7gl.ibShadowedObjectValues[8] = "7"; ObjectID = "6jU-B0-7gl"; */
+"6jU-B0-7gl.ibShadowedObjectValues[8]" = "7";
+
+/* Class = "NSComboBoxCell"; 6jU-B0-7gl.ibShadowedObjectValues[9] = "8"; ObjectID = "6jU-B0-7gl"; */
+"6jU-B0-7gl.ibShadowedObjectValues[9]" = "8";
+
+/* Class = "NSComboBoxCell"; 6jU-B0-7gl.ibShadowedObjectValues[10] = "9"; ObjectID = "6jU-B0-7gl"; */
+"6jU-B0-7gl.ibShadowedObjectValues[10]" = "9";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>SlpSmiAtWake</key>\n<true>\nIt adds SLP_SMI_EN=0 at every wake. It may help solve sleep and shutdown issues on UEFI boot."; ObjectID = "7Md-lK-CZ9"; */
+"7Md-lK-CZ9.ibShadowedToolTip" = "<key>SlpSmiAtWake</key>\n<true>\nIt adds SLP_SMI_EN=0 at every wake. It may help solve sleep and shutdown issues on UEFI boot.";
+
+/* Class = "NSButtonCell"; title = "EnableC7"; ObjectID = "7Yt-FS-jCT"; */
+"7Yt-FS-jCT.title" = "EnableC7";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Provide a set of corrections to DSDT to make your system \"Darwin\"\nto be identified as \"Windows 2001\", like most ACPI systems. \nMore ACPI devices will work in this mode."; ObjectID = "7fD-EQ-f6e"; */
+"7fD-EQ-f6e.ibShadowedToolTip" = "Provide a set of corrections to DSDT to make your system \"Darwin\"\nto be identified as \"Windows 2001\", like most ACPI systems. \nMore ACPI devices will work in this mode.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>SuspendOverride</key>\n<true>\nInfluences the DSDT patch FixShutdown_0004 and extends the fix from state 5 to 3, 4 and 5 (sleep and suspend)."; ObjectID = "82W-UW-8aK"; */
+"82W-UW-8aK.ibShadowedToolTip" = "<key>SuspendOverride</key>\n<true>\nInfluences the DSDT patch FixShutdown_0004 and extends the fix from state 5 to 3, 4 and 5 (sleep and suspend).";
+
+/* Class = "NSButtonCell"; title = "ReuseFFFF"; ObjectID = "8EL-Rd-I5f"; */
+"8EL-Rd-I5f.title" = "ReuseFFFF";
+
+/* Class = "NSBox"; title = "acpiController"; ObjectID = "8Kh-GQ-Gqv"; */
+"8Kh-GQ-Gqv.title" = "acpiController";
+
+/* Class = "NSButtonCell"; title = "FixHPET"; ObjectID = "9Jw-7o-mBo"; */
+"9Jw-7o-mBo.title" = "FixHPET";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Name ACST is used differently by Apple and ASUS. \nFor ASUS it's the AC adapter state, but for Apple it's\n a replacement for _CST, c-states table. \nTo avoid conflict it is necessary to rename such function to something else."; ObjectID = "9LT-be-eqr"; */
+"9LT-be-eqr.ibShadowedToolTip" = "Name ACST is used differently by Apple and ASUS. \nFor ASUS it's the AC adapter state, but for Apple it's\n a replacement for _CST, c-states table. \nTo avoid conflict it is necessary to rename such function to something else.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Excludes IRQ(0) from RTC device."; ObjectID = "AOU-P1-GqP"; */
+"AOU-P1-GqP.ibShadowedToolTip" = "Excludes IRQ(0) from RTC device.";
+
+/* Class = "NSButtonCell"; title = "FixRTC"; ObjectID = "AiP-gw-0AY"; */
+"AiP-gw-0AY.title" = "FixRTC";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Injects device and properties for the WiFi controller. \nAlso made FakeID for some known substitutions."; ObjectID = "Aib-Xz-XYs"; */
+"Aib-Xz-XYs.ibShadowedToolTip" = "Injects device and properties for the WiFi controller. \nAlso made FakeID for some known substitutions.";
+
+/* Class = "NSButtonCell"; title = "DisableAPSNAPLF"; ObjectID = "AoS-Kt-KC2"; */
+"AoS-Kt-KC2.title" = "DisableAPSNAPLF";
+
+/* Class = "NSButtonCell"; title = "LPC"; ObjectID = "BH8-c5-OVM"; */
+"BH8-c5-OVM.title" = "LPC";
+
+/* Class = "NSButtonCell"; title = "FixSATA"; ObjectID = "CLK-hx-mMO"; */
+"CLK-hx-mMO.title" = "FixSATA";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "_SB.PCI0.POP2.PEGP"; ObjectID = "CVF-Sg-uk5"; */
+"CVF-Sg-uk5.ibShadowedIsNilPlaceholder" = "_SB.PCI0.POP2.PEGP";
+
+/* Class = "NSButtonCell"; title = "PluginType"; ObjectID = "Cbt-vU-tvP"; */
+"Cbt-vU-tvP.title" = "PluginType";
+
+/* Class = "NSButtonCell"; title = "Double First State"; ObjectID = "CcI-LL-4Ft"; */
+"CcI-LL-4Ft.title" = "Double First State";
+
+/* Class = "NSButtonCell"; title = "FixIDE"; ObjectID = "Cez-0a-7xH"; */
+"Cez-0a-7xH.title" = "FixIDE";
+
+/* Class = "NSButtonCell"; title = "Patch APIC"; ObjectID = "Dbm-e6-LxN"; */
+"Dbm-e6-LxN.title" = "Patch APIC";
+
+/* Class = "NSBox"; title = "Drop Tables"; ObjectID = "DiW-r5-aT4"; */
+"DiW-r5-aT4.title" = "Drop Tables";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace [HEX]"; ObjectID = "Ee9-YK-LxT"; */
+"Ee9-YK-LxT.headerCell.title" = "Replace [HEX]";
+
+/* Class = "NSButtonCell"; title = "LAN"; ObjectID = "Fan-bW-NtY"; */
+"Fan-bW-NtY.title" = "LAN";
+
+/* Class = "NSTextFieldCell"; title = "C3 Latency"; ObjectID = "GaS-Rq-uIm"; */
+"GaS-Rq-uIm.title" = "C3 Latency";
+
+/* Class = "NSButtonCell"; title = "HDA"; ObjectID = "H6L-JF-YCm"; */
+"H6L-JF-YCm.title" = "HDA";
+
+/* Class = "NSTabViewItem"; label = "RenameDevices"; ObjectID = "Ica-Db-Et9"; */
+"Ica-Db-Et9.label" = "RenameDevices";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Adds device MCHC to DSDT. For H61M this is obligatory, else KP."; ObjectID = "Jds-ye-0B2"; */
+"Jds-ye-0B2.ibShadowedToolTip" = "Adds device MCHC to DSDT. For H61M this is obligatory, else KP.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ResetAddress</key>\n<string>0x0CF9</string>\n\nand the below\n\n<key>ResetValue</key>\n<string>0x06</string>\n\n\nThese two parameters serve a very important purpose: to fix restart. \nThese values theoretically should be in the FADT table, but it is not always the case. \nFurthermore, FADT may be shorter than required and not contain them at all. \nDefault values are 0x64/0xFE, which means a restart through the PS2 controller.\nHowever, this does not work on every system and you can alternatively use 0x0CF9/0x06, \nwhich indicates a restart though the PCI rail. \nThis is the default value for real Macs but does not always work on a hackintosh. \nThe difference is clear: a hackintosh additionally has a PS2 controller, \nwhich may prevent rebooting, if not disabled.\nLast but not least you can set them to 0x0/0x0 to allow the use of default FACP values. \nIf not present, the default values states above will be used instead."; ObjectID = "Jga-JJ-yis"; */
+"Jga-JJ-yis.ibShadowedToolTip" = "<key>ResetAddress</key>\n<string>0x0CF9</string>\n\nand the below\n\n<key>ResetValue</key>\n<string>0x06</string>\n\n\nThese two parameters serve a very important purpose: to fix restart. \nThese values theoretically should be in the FADT table, but it is not always the case. \nFurthermore, FADT may be shorter than required and not contain them at all. \nDefault values are 0x64/0xFE, which means a restart through the PS2 controller.\nHowever, this does not work on every system and you can alternatively use 0x0CF9/0x06, \nwhich indicates a restart though the PCI rail. \nThis is the default value for real Macs but does not always work on a hackintosh. \nThe difference is clear: a hackintosh additionally has a PS2 controller, \nwhich may prevent rebooting, if not disabled.\nLast but not least you can set them to 0x0/0x0 to allow the use of default FACP values. \nIf not present, the default values states above will be used instead.";
+
+/* Class = "NSComboBoxCell"; Jjr-VM-oF1.ibShadowedObjectValues[0] = "SSDT"; ObjectID = "Jjr-VM-oF1"; */
+"Jjr-VM-oF1.ibShadowedObjectValues[0]" = "SSDT";
+
+/* Class = "NSComboBoxCell"; Jjr-VM-oF1.ibShadowedObjectValues[1] = "HPET"; ObjectID = "Jjr-VM-oF1"; */
+"Jjr-VM-oF1.ibShadowedObjectValues[1]" = "HPET";
+
+/* Class = "NSComboBoxCell"; Jjr-VM-oF1.ibShadowedObjectValues[2] = "ECDT"; ObjectID = "Jjr-VM-oF1"; */
+"Jjr-VM-oF1.ibShadowedObjectValues[2]" = "ECDT";
+
+/* Class = "NSComboBoxCell"; Jjr-VM-oF1.ibShadowedObjectValues[3] = "BGRT"; ObjectID = "Jjr-VM-oF1"; */
+"Jjr-VM-oF1.ibShadowedObjectValues[3]" = "BGRT";
+
+/* Class = "NSComboBoxCell"; Jjr-VM-oF1.ibShadowedObjectValues[4] = "MCFG"; ObjectID = "Jjr-VM-oF1"; */
+"Jjr-VM-oF1.ibShadowedObjectValues[4]" = "MCFG";
+
+/* Class = "NSComboBoxCell"; Jjr-VM-oF1.ibShadowedObjectValues[5] = "DMAR"; ObjectID = "Jjr-VM-oF1"; */
+"Jjr-VM-oF1.ibShadowedObjectValues[5]" = "DMAR";
+
+/* Class = "NSComboBoxCell"; Jjr-VM-oF1.ibShadowedObjectValues[6] = "APIC"; ObjectID = "Jjr-VM-oF1"; */
+"Jjr-VM-oF1.ibShadowedObjectValues[6]" = "APIC";
+
+/* Class = "NSComboBoxCell"; Jjr-VM-oF1.ibShadowedObjectValues[7] = "ASFT"; ObjectID = "Jjr-VM-oF1"; */
+"Jjr-VM-oF1.ibShadowedObjectValues[7]" = "ASFT";
+
+/* Class = "NSComboBoxCell"; Jjr-VM-oF1.ibShadowedObjectValues[8] = "SBST"; ObjectID = "Jjr-VM-oF1"; */
+"Jjr-VM-oF1.ibShadowedObjectValues[8]" = "SBST";
+
+/* Class = "NSComboBoxCell"; Jjr-VM-oF1.ibShadowedObjectValues[9] = "SLIC"; ObjectID = "Jjr-VM-oF1"; */
+"Jjr-VM-oF1.ibShadowedObjectValues[9]" = "SLIC";
+
+/* Class = "NSComboBoxCell"; Jjr-VM-oF1.ibShadowedObjectValues[10] = "MATS"; ObjectID = "Jjr-VM-oF1"; */
+"Jjr-VM-oF1.ibShadowedObjectValues[10]" = "MATS";
+
+/* Class = "NSButtonCell"; title = "FixHDA"; ObjectID = "K0m-Nc-0Q5"; */
+"K0m-Nc-0Q5.title" = "FixHDA";
+
+/* Class = "NSButtonCell"; title = "DeleteUnused"; ObjectID = "K2k-st-1cD"; */
+"K2k-st-1cD.title" = "DeleteUnused";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Adds Return(Package(0)) into method _WAK if absent. \nThis patch eliminates a warning, but we don't know if it \naffects anything else on a working system."; ObjectID = "KQC-r6-auD"; */
+"KQC-r6-auD.ibShadowedToolTip" = "Adds Return(Package(0)) into method _WAK if absent. \nThis patch eliminates a warning, but we don't know if it \naffects anything else on a working system.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Patch for the FATD table to fix restart problems."; ObjectID = "Klz-ag-dZN"; */
+"Klz-ag-dZN.ibShadowedToolTip" = "Patch for the FATD table to fix restart problems.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Injects device and properties for the LAN controller.\nAlso made FakeID for some known substitutions."; ObjectID = "KqL-hQ-cAE"; */
+"KqL-hQ-cAE.ibShadowedToolTip" = "Injects device and properties for the LAN controller.\nAlso made FakeID for some known substitutions.";
+
+/* Class = "NSButtonCell"; title = "Drop OEM _DSM"; ObjectID = "LLm-kK-2JJ"; */
+"LLm-kK-2JJ.title" = "Drop OEM _DSM";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "LNe-uu-G77"; */
+"LNe-uu-G77.title" = "Text Cell";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Adds SMBUS device into DSDT, with some sub-device. \nI don't know the reason for the patch but it's advised in many forums. \nNever seen any problem with this bit."; ObjectID = "LV7-fj-m5P"; */
+"LV7-fj-m5P.ibShadowedToolTip" = "Adds SMBUS device into DSDT, with some sub-device. \nI don't know the reason for the patch but it's advised in many forums. \nNever seen any problem with this bit.";
+
+/* Class = "NSButtonCell"; title = "DisableASPM"; ObjectID = "LWR-a7-poZ"; */
+"LWR-a7-poZ.title" = "DisableASPM";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Adds IRQ(0, 8, 11) to device HPET. Obligatory for OSX <= 10.8,\nMavericks can work without it."; ObjectID = "Lel-Vs-BsK"; */
+"Lel-Vs-BsK.ibShadowedToolTip" = "Adds IRQ(0, 8, 11) to device HPET. Obligatory for OSX <= 10.8,\nMavericks can work without it.";
+
+/* Class = "NSTextFieldCell"; title = "DSDT name"; ObjectID = "Lh2-ec-Lyf"; */
+"Lh2-ec-Lyf.title" = "DSDT name";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Inserts APLF to CpuPm SSDT"; ObjectID = "Ljr-1u-hzE"; */
+"Ljr-1u-hzE.ibShadowedToolTip" = "Inserts APLF to CpuPm SSDT";
+
+/* Class = "NSTextFieldCell"; title = "Plugin Type"; ObjectID = "M5c-k2-DPg"; */
+"M5c-k2-DPg.title" = "Plugin Type";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "<key>UnderVoltStep</key>\n<string>1</string>\nThis parameter lowers the CPU voltage and indirectly affects the temperature. Possible values are 0, 1, 2, etc. Clover will only allow sane values, meaning it is safe to increase this value until the CPU stops working correctly."; ObjectID = "MDY-R1-Hlx"; */
+"MDY-R1-Hlx.ibShadowedToolTip" = "<key>UnderVoltStep</key>\n<string>1</string>\nThis parameter lowers the CPU voltage and indirectly affects the temperature. Possible values are 0, 1, 2, etc. Clover will only allow sane values, meaning it is safe to increase this value until the CPU stops working correctly.";
+
+/* Class = "NSButtonCell"; title = "AddDTGP"; ObjectID = "Mcg-ae-VTp"; */
+"Mcg-ae-VTp.title" = "AddDTGP";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>DropOEM_DSM</key>\n<true/>\nSome OEM DSDT already contains Method(_DSM...) for some devices. It has another structure, another logic, and another results then we need. But we can't modify this method, and we can't create own method with the same name, so DropOEM_DSM was created to drop these OEM _DSM.\n\nDefault value is false if using a custom DSDT and true if using BIOS.aml.\n\nAlternatively if you only need to drop the _DSM for certain devices, you can select any of these individually:\n\n<key>DropOEM_DSM</key>\n<dict>\n\t<key>ATI</key>\n\t<true/>\n\t<key>Firewire</key>\n\t<true/>\n\t<key>HDA</key>\n\t<true/>\n\t<key>HDMI</key>\n\t<true/>\n\t<key>IDE</key>\n\t<true/>\n\t<key>IntelGFX</key>\n\t<true/>\n\t<key>LAN</key>\n\t<true/>\n\t<key>LPC</key>\n\t<true/>\n\t<key>NVidia</key>\n\t<true/>\n\t<key>SATA</key>\n\t<true/>\n\t<key>SmBUS</key>\n\t<true/>\n\t<key>USB</key>\n\t<true/>\n\t<key>WIFI</key>\n\t<true/>\n</dict>"; ObjectID = "N1p-Js-JqA"; */
+"N1p-Js-JqA.ibShadowedToolTip" = "<key>DropOEM_DSM</key>\n<true/>\nSome OEM DSDT already contains Method(_DSM...) for some devices. It has another structure, another logic, and another results then we need. But we can't modify this method, and we can't create own method with the same name, so DropOEM_DSM was created to drop these OEM _DSM.\n\nDefault value is false if using a custom DSDT and true if using BIOS.aml.\n\nAlternatively if you only need to drop the _DSM for certain devices, you can select any of these individually:\n\n<key>DropOEM_DSM</key>\n<dict>\n\t<key>ATI</key>\n\t<true/>\n\t<key>Firewire</key>\n\t<true/>\n\t<key>HDA</key>\n\t<true/>\n\t<key>HDMI</key>\n\t<true/>\n\t<key>IDE</key>\n\t<true/>\n\t<key>IntelGFX</key>\n\t<true/>\n\t<key>LAN</key>\n\t<true/>\n\t<key>LPC</key>\n\t<true/>\n\t<key>NVidia</key>\n\t<true/>\n\t<key>SATA</key>\n\t<true/>\n\t<key>SmBUS</key>\n\t<true/>\n\t<key>USB</key>\n\t<true/>\n\t<key>WIFI</key>\n\t<true/>\n</dict>";
+
+/* Class = "NSTextFieldCell"; title = "Min Multiplier"; ObjectID = "NM6-LI-oID"; */
+"NM6-LI-oID.title" = "Min Multiplier";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>C3Latency</key>\n<integer>250</integer>\n\nor also\n\n<key>C3Latency</key>\n<string>0xFA</string>\n\nC3 states latency. You know what to do.. value above is for example."; ObjectID = "NUp-0c-FOE"; */
+"NUp-0c-FOE.ibShadowedToolTip" = "<key>C3Latency</key>\n<integer>250</integer>\n\nor also\n\n<key>C3Latency</key>\n<string>0xFA</string>\n\nC3 states latency. You know what to do.. value above is for example.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ResetValue</key>\n<string>0x06</string>\n\nand the below\n\n<key>ResetAddress</key>\n<string>0x0CF9</string>\n\n\nThese two parameters serve a very important purpose: to fix restart. \nThese values theoretically should be in the FADT table, but it is not always the case. \nFurthermore, FADT may be shorter than required and not contain them at all. \nDefault values are 0x64/0xFE, which means a restart through the PS2 controller.\nHowever, this does not work on every system and you can alternatively use 0x0CF9/0x06, \nwhich indicates a restart though the PCI rail. \nThis is the default value for real Macs but does not always work on a hackintosh. \nThe difference is clear: a hackintosh additionally has a PS2 controller, \nwhich may prevent rebooting, if not disabled.\nLast but not least you can set them to 0x0/0x0 to allow the use of default FACP values. \nIf not present, the default values states above will be used instead."; ObjectID = "NVX-g4-ytQ"; */
+"NVX-g4-ytQ.ibShadowedToolTip" = "<key>ResetValue</key>\n<string>0x06</string>\n\nand the below\n\n<key>ResetAddress</key>\n<string>0x0CF9</string>\n\n\nThese two parameters serve a very important purpose: to fix restart. \nThese values theoretically should be in the FADT table, but it is not always the case. \nFurthermore, FADT may be shorter than required and not contain them at all. \nDefault values are 0x64/0xFE, which means a restart through the PS2 controller.\nHowever, this does not work on every system and you can alternatively use 0x0CF9/0x06, \nwhich indicates a restart though the PCI rail. \nThis is the default value for real Macs but does not always work on a hackintosh. \nThe difference is clear: a hackintosh additionally has a PS2 controller, \nwhich may prevent rebooting, if not disabled.\nLast but not least you can set them to 0x0/0x0 to allow the use of default FACP values. \nIf not present, the default values states above will be used instead.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>MinMultiplier</key>\n<integer>7</integer>\nMinimal CPU multiplier. Usually a value of 16 is ported, resulting in a frequency of 1600 MHz but you should use lower values when using SpeedStep, like 8 or even 7."; ObjectID = "O2a-KC-DUs"; */
+"O2a-KC-DUs.ibShadowedToolTip" = "<key>MinMultiplier</key>\n<integer>7</integer>\nMinimal CPU multiplier. Usually a value of 16 is ported, resulting in a frequency of 1600 MHz but you should use lower values when using SpeedStep, like 8 or even 7.";
+
+/* Class = "NSTextFieldCell"; title = "Reset Value"; ObjectID = "O4N-qR-1wV"; */
+"O4N-qR-1wV.title" = "Reset Value";
+
+/* Class = "NSButtonCell"; title = "Debug"; ObjectID = "O4o-Tg-c6b"; */
+"O4o-Tg-c6b.title" = "Debug";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>Name</key>\n<string>DSDT.aml</string>\n\nFile name of the binary DSDT file to load and inject."; ObjectID = "O7A-vf-aOw"; */
+"O7A-vf-aOw.ibShadowedToolTip" = "<key>Name</key>\n<string>DSDT.aml</string>\n\nFile name of the binary DSDT file to load and inject.";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>DropTables</key>\n<array>\n  <dict>\n    <key>Signature</key>\n    <string>SSDT</string>\n    <key>TableId</key>\n    <string>SataTabl</string>\n  </dict>\n  <dict>\n    <key>Signature</key>\n    <string>SSDT</string>\n    <key>TableId</key>\n    <string>SataAddr</string>\n  </dict>\n  <dict>\n    <key>Signature</key>\n    <string>BGRT</string>\n  </dict>\n  <dict>\n    <key>TableId</key>\n    <string>A M I</string> (WARNING: DO NOT DO THIS!!!!!!!)\n  </dict>\n  ...\n</array>\nDrop OEM ACPI tables by signature and/or table identifier.\n\nAdditionally, now you can drop tables by their length. Why? Because we found Acer laptop where all SSDT have the same TableID.\n\n<key>DropTables</key>\n<array>\n  <dict>\n    <key>Signature</key>\n    <string>SSDT</string>\n    <key>Length</key>\n    <integer>720</integer>\n  </dict>\n</array>"; ObjectID = "OLn-tS-JOF"; */
+"OLn-tS-JOF.ibShadowedToolTip" = "<key>DropTables</key>\n<array>\n  <dict>\n    <key>Signature</key>\n    <string>SSDT</string>\n    <key>TableId</key>\n    <string>SataTabl</string>\n  </dict>\n  <dict>\n    <key>Signature</key>\n    <string>SSDT</string>\n    <key>TableId</key>\n    <string>SataAddr</string>\n  </dict>\n  <dict>\n    <key>Signature</key>\n    <string>BGRT</string>\n  </dict>\n  <dict>\n    <key>TableId</key>\n    <string>A M I</string> (WARNING: DO NOT DO THIS!!!!!!!)\n  </dict>\n  ...\n</array>\nDrop OEM ACPI tables by signature and/or table identifier.\n\nAdditionally, now you can drop tables by their length. Why? Because we found Acer laptop where all SSDT have the same TableID.\n\n<key>DropTables</key>\n<array>\n  <dict>\n    <key>Signature</key>\n    <string>SSDT</string>\n    <key>Length</key>\n    <integer>720</integer>\n  </dict>\n</array>";
+
+/* Class = "NSButtonCell"; title = "SmBUS"; ObjectID = "OZP-o0-Vka"; */
+"OZP-o0-Vka.title" = "SmBUS";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "Oev-XU-G4D"; */
+"Oev-XU-G4D.title" = "Box";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "May you need to load your acpi tables in a certain order after\ndropping, load, disable.. some of it."; ObjectID = "OtX-jG-4Xq"; */
+"OtX-jG-4Xq.ibShadowedToolTip" = "May you need to load your acpi tables in a certain order after\ndropping, load, disable.. some of it.";
+
+/* Class = "NSComboBoxCell"; P9p-Fa-yZE.ibShadowedObjectValues[1] = "0"; ObjectID = "P9p-Fa-yZE"; */
+"P9p-Fa-yZE.ibShadowedObjectValues[1]" = "0";
+
+/* Class = "NSComboBoxCell"; P9p-Fa-yZE.ibShadowedObjectValues[2] = "1"; ObjectID = "P9p-Fa-yZE"; */
+"P9p-Fa-yZE.ibShadowedObjectValues[2]" = "1";
+
+/* Class = "NSComboBoxCell"; P9p-Fa-yZE.ibShadowedObjectValues[3] = "2"; ObjectID = "P9p-Fa-yZE"; */
+"P9p-Fa-yZE.ibShadowedObjectValues[3]" = "2";
+
+/* Class = "NSButtonCell"; title = "Generate CStates"; ObjectID = "PON-Sa-Dhn"; */
+"PON-Sa-Dhn.title" = "Generate CStates";
+
+/* Class = "NSButtonCell"; title = "FixSBUS"; ObjectID = "PSF-5x-LOu"; */
+"PSF-5x-LOu.title" = "FixSBUS";
+
+/* Class = "NSButtonCell"; title = "Generate PStates"; ObjectID = "PoP-kQ-kyl"; */
+"PoP-kQ-kyl.title" = "Generate PStates";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0xFE"; ObjectID = "QHE-QM-Jcg"; */
+"QHE-QM-Jcg.ibShadowedIsNilPlaceholder" = "0xFE";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "Disable the specified aml table."; ObjectID = "QNa-bM-Ygz"; */
+"QNa-bM-Ygz.ibShadowedToolTip" = "Disable the specified aml table.";
+
+/* Class = "NSBox"; ibShadowedToolTip = "<key>SSDT</key>\n<dict>\n...\n</dict>\nParameter group affecting SSDTs."; ObjectID = "RCR-Ih-qYY"; */
+"RCR-Ih-qYY.ibShadowedToolTip" = "<key>SSDT</key>\n<dict>\n...\n</dict>\nParameter group affecting SSDTs.";
+
+/* Class = "NSBox"; title = "SSDT"; ObjectID = "RCR-Ih-qYY"; */
+"RCR-Ih-qYY.title" = "SSDT";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Some systems can either be started using the kernel parameter cpus=1, \nor by using a patched kernel (Lapic NMI). \nIt turns out that in these case the table MADT is incomplete and missing the NMI section. \nEnabling this parameter will cause Clover to automatically correct this table. \nIf the table already is complete, then nothing will be changed."; ObjectID = "RTx-HB-nsm"; */
+"RTx-HB-nsm.ibShadowedToolTip" = "Some systems can either be started using the kernel parameter cpus=1, \nor by using a patched kernel (Lapic NMI). \nIt turns out that in these case the table MADT is incomplete and missing the NMI section. \nEnabling this parameter will cause Clover to automatically correct this table. \nIf the table already is complete, then nothing will be changed.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Adds device Firewire into DSDT if absent and if the device really present. \nSafe."; ObjectID = "Rc4-tj-8Rc"; */
+"Rc4-tj-8Rc.ibShadowedToolTip" = "Adds device Firewire into DSDT if absent and if the device really present. \nSafe.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>AddDTGP</key>\n<true/>\n\nInserts Method (DTGP) into DSDT. It is required for _DSM methods, \nso if you use some other DSDT fix to inject device properties \nthen you must enable this. \nNo sense to use this method without other fixes."; ObjectID = "RzO-D2-a3y"; */
+"RzO-D2-a3y.ibShadowedToolTip" = "<key>AddDTGP</key>\n<true/>\n\nInserts Method (DTGP) into DSDT. It is required for _DSM methods, \nso if you use some other DSDT fix to inject device properties \nthen you must enable this. \nNo sense to use this method without other fixes.";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "Changes the type of power management plugin your system will use. \nPossible values are: \n\n* 0 - ACPI_SMC_PlatformPlugin will be used \n* 1 - X86PlatformPlugin will be used. Select for Ivy Bridge +"; ObjectID = "Rzw-9e-3NX"; */
+"Rzw-9e-3NX.ibShadowedToolTip" = "Changes the type of power management plugin your system will use. \nPossible values are: \n\n* 0 - ACPI_SMC_PlatformPlugin will be used \n* 1 - X86PlatformPlugin will be used. Select for Ivy Bridge +";
+
+/* Class = "NSButtonCell"; title = "ATI"; ObjectID = "SAl-3H-26J"; */
+"SAl-3H-26J.title" = "ATI";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "STK-EO-8pL"; */
+"STK-EO-8pL.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "FixWAK"; ObjectID = "SlL-t7-6ce"; */
+"SlL-t7-6ce.title" = "FixWAK";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Excludes IRQ(8) from TMR device. \nThis is an ancient DOS device and is not needed in modern computers."; ObjectID = "SvT-dN-vk7"; */
+"SvT-dN-vk7.ibShadowedToolTip" = "Excludes IRQ(8) from TMR device. \nThis is an ancient DOS device and is not needed in modern computers.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Some OperationRegions in Bios DSDT are floating and values \nmay change in time due to changes in the BIOS. \nThe presence of floating regions makes it impossible \nto use a custom DSDT because this region may be shifted \nand will not correspond to the current state. \nThis patch is intended to find all such regions in BIOS and correct them in custom DSDT."; ObjectID = "TDb-hX-ayw"; */
+"TDb-hX-ayw.ibShadowedToolTip" = "Some OperationRegions in Bios DSDT are floating and values \nmay change in time due to changes in the BIOS. \nThe presence of floating regions makes it impossible \nto use a custom DSDT because this region may be shifted \nand will not correspond to the current state. \nThis patch is intended to find all such regions in BIOS and correct them in custom DSDT.";
+
+/* Class = "NSButtonCell"; title = "FixShutdown"; ObjectID = "TS7-DN-Al6"; */
+"TS7-DN-Al6.title" = "FixShutdown";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Adds If(arg=5){} to method _PTS. \nThis trick may repair shutdown problems for some systems (like ASUS)."; ObjectID = "Tui-lw-gUI"; */
+"Tui-lw-gUI.ibShadowedToolTip" = "Adds If(arg=5){} to method _PTS. \nThis trick may repair shutdown problems for some systems (like ASUS).";
+
+/* Class = "NSButton"; ibShadowedToolTip = "The ACPI runtime in macOS/OS X does not work correctly with Mutex objects with a non-zero SyncLevel, even when used in a valid scenario.\nSuch Mutex definions must be changed to use SyncLevel 0.\nThe FixMutex feature is an easy way to fix all of them in DSDT."; ObjectID = "TxV-JD-sjp"; */
+"TxV-JD-sjp.ibShadowedToolTip" = "The ACPI runtime in macOS/OS X does not work correctly with Mutex objects with a non-zero SyncLevel, even when used in a valid scenario.\nSuch Mutex definions must be changed to use SyncLevel 0.\nThe FixMutex feature is an easy way to fix all of them in DSDT.";
+
+/* Class = "NSBox"; ibShadowedToolTip = "Generate an SSDT with p-states and c-states."; ObjectID = "UWH-j3-WaF"; */
+"UWH-j3-WaF.ibShadowedToolTip" = "Generate an SSDT with p-states and c-states.";
+
+/* Class = "NSBox"; title = "Generate Options"; ObjectID = "UWH-j3-WaF"; */
+"UWH-j3-WaF.title" = "Generate Options";
+
+/* Class = "NSButton"; ibShadowedToolTip = "The device PNLF is necessary to have brightness control. \nThis patch is also a good influence for proper Sleep/Wake."; ObjectID = "UYl-1m-Lpa"; */
+"UYl-1m-Lpa.ibShadowedToolTip" = "The device PNLF is necessary to have brightness control. \nThis patch is also a good influence for proper Sleep/Wake.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Adds the HDAU device if absent, with some default properties."; ObjectID = "Ue7-vJ-xDA"; */
+"Ue7-vJ-xDA.ibShadowedToolTip" = "Adds the HDAU device if absent, with some default properties.";
+
+/* Class = "NSButtonCell"; title = "AddPNLF"; ObjectID = "Uw0-t0-9ap"; */
+"Uw0-t0-9ap.title" = "AddPNLF";
+
+/* Class = "NSButtonCell"; title = "USB"; ObjectID = "VhU-rz-zIH"; */
+"VhU-rz-zIH.title" = "USB";
+
+/* Class = "NSButtonCell"; title = "FixUSB"; ObjectID = "VnB-Ov-KXs"; */
+"VnB-Ov-KXs.title" = "FixUSB";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Deletes devices like Floppy drive, \nLPT port and others from the DSDT."; ObjectID = "VoS-Bu-03Y"; */
+"VoS-Bu-03Y.ibShadowedToolTip" = "Deletes devices like Floppy drive, \nLPT port and others from the DSDT.";
+
+/* Class = "NSTextFieldCell"; placeholderString = "hex or number"; ObjectID = "W3Q-9f-gWQ"; */
+"W3Q-9f-gWQ.placeholderString" = "hex or number";
+
+/* Class = "NSTableColumn"; headerCell.title = "Type/key"; ObjectID = "WtF-Ra-tyb"; */
+"WtF-Ra-tyb.headerCell.title" = "Type/key";
+
+/* Class = "NSTableColumn"; headerToolTip = "Type/key"; ObjectID = "WtF-Ra-tyb"; */
+"WtF-Ra-tyb.headerToolTip" = "Type/key";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>EnableC2</key>\n<true/>\nThis key allows you to enable the C2 states generator. Disabled by default."; ObjectID = "WzK-0m-RGZ"; */
+"WzK-0m-RGZ.ibShadowedToolTip" = "<key>EnableC2</key>\n<true/>\nThis key allows you to enable the C2 states generator. Disabled by default.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>EnableC7</key>\n<true/>\nThis key allows you to enable the C7 states generator. Disabled by default."; ObjectID = "XZZ-cF-eTb"; */
+"XZZ-cF-eTb.ibShadowedToolTip" = "<key>EnableC7</key>\n<true/>\nThis key allows you to enable the C7 states generator. Disabled by default.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Generate</key>\n<dict>\n  <key>CStates</key>\n  <true/>\n</dict>\nAutomatic SSDT table generation, which extends the processor section with _CST methods for each core. _CST generation is affected by parameters EnableC2, EnableC4, EnableC6, EnableISS, C3Latency. There is no need to comment them as everything will work either way. Experiment by yourself.\nBesides, Clover already has obtained the processor type and core count.\nNot using this parameter will result in following error message: ACPI_SMC_PlatformPlugin::pushCPU_CSTData - _CST evaluation failed."; ObjectID = "YGh-aR-Qpu"; */
+"YGh-aR-Qpu.ibShadowedToolTip" = "<key>Generate</key>\n<dict>\n  <key>CStates</key>\n  <true/>\n</dict>\nAutomatic SSDT table generation, which extends the processor section with _CST methods for each core. _CST generation is affected by parameters EnableC2, EnableC4, EnableC6, EnableISS, C3Latency. There is no need to comment them as everything will work either way. Experiment by yourself.\nBesides, Clover already has obtained the processor type and core count.\nNot using this parameter will result in following error message: ACPI_SMC_PlatformPlugin::pushCPU_CSTData - _CST evaluation failed.";
+
+/* Class = "NSButtonCell"; title = "NoDynamicExtract"; ObjectID = "YYA-wX-FDt"; */
+"YYA-wX-FDt.title" = "NoDynamicExtract";
+
+/* Class = "NSButtonCell"; title = "SuspendOverride"; ObjectID = "Ybd-1p-wmw"; */
+"Ybd-1p-wmw.title" = "SuspendOverride";
+
+/* Class = "NSButtonCell"; title = "APLF"; ObjectID = "ZQm-O0-R31"; */
+"ZQm-O0-R31.title" = "APLF";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Rtc8Allowed</key>\n<false>\nSome users claim that RTC length may be 8 bytes without CMOS reset, but others claim that the reset is still occurring. For those who wants len=8 it should be set to true. Default is false."; ObjectID = "ZUY-vA-984"; */
+"ZUY-vA-984.ibShadowedToolTip" = "<key>Rtc8Allowed</key>\n<false>\nSome users claim that RTC length may be 8 bytes without CMOS reset, but others claim that the reset is still occurring. For those who wants len=8 it should be set to true. Default is false.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Deletes IRQ(2) from device IPIC. Helps with a non working Power button."; ObjectID = "Znz-uO-BAw"; */
+"Znz-uO-BAw.ibShadowedToolTip" = "Deletes IRQ(2) from device IPIC. Helps with a non working Power button.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Dynamic SSDTs confuse users and are amost never needed.  Added an option to config.plist to disable extraction of them via Clover F4 (default is false)."; ObjectID = "Zpr-zM-4bX"; */
+"Zpr-zM-4bX.ibShadowedToolTip" = "Dynamic SSDTs confuse users and are amost never needed.  Added an option to config.plist to disable extraction of them via Clover F4 (default is false).";
+
+/* Class = "NSButtonCell"; title = "Smart UPS"; ObjectID = "Zsi-4I-gu1"; */
+"Zsi-4I-gu1.title" = "Smart UPS";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Only patches the \"Darwin OS\" identification."; ObjectID = "a85-0W-IoZ"; */
+"a85-0W-IoZ.ibShadowedToolTip" = "Only patches the \"Darwin OS\" identification.";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "Binary DSDT patching\n\n<key>Patches</key>\n  <array>\n    <dict>\n      <key>Find</key>\n      <data>W4IeQkFUMQhfSElEDEHQDAoIX1VJRAEUCF9TVEEApAA=</data>\n      <key>Replace</key>\n      <data></data>\n    </dict>\n    <dict>\n      <key>Find</key>\n      <data>UFhTWAhfQURSAAhfUFJXEgYC</data>\n      <key>Replace</key>\n      <data>UFhTWAhfQURSAAhfU1VOCgQIX1BSVxIGAg==</data>\n    </dict>\n  </array>"; ObjectID = "ar5-MC-CKJ"; */
+"ar5-MC-CKJ.ibShadowedToolTip" = "Binary DSDT patching\n\n<key>Patches</key>\n  <array>\n    <dict>\n      <key>Find</key>\n      <data>W4IeQkFUMQhfSElEDEHQDAoIX1VJRAEUCF9TVEEApAA=</data>\n      <key>Replace</key>\n      <data></data>\n    </dict>\n    <dict>\n      <key>Find</key>\n      <data>UFhTWAhfQURSAAhfUFJXEgYC</data>\n      <key>Replace</key>\n      <data>UFhTWAhfQURSAAhfU1VOCgQIX1BSVxIGAg==</data>\n    </dict>\n  </array>";
+
+/* Class = "NSTextFieldCell"; title = "Fixes"; ObjectID = "b57-ht-LaP"; */
+"b57-ht-LaP.title" = "Fixes";
+
+/* Class = "NSTableColumn"; headerCell.title = "Signature*"; ObjectID = "bCt-hn-8AQ"; */
+"bCt-hn-8AQ.headerCell.title" = "Signature*";
+
+/* Class = "NSTableColumn"; headerToolTip = "Signature*"; ObjectID = "bCt-hn-8AQ"; */
+"bCt-hn-8AQ.headerToolTip" = "Signature*";
+
+/* Class = "NSTabViewItem"; label = "DSDT"; ObjectID = "bKN-cf-rQr"; */
+"bKN-cf-rQr.label" = "DSDT";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Generate</key>\n<dict>\n  <key>PStates</key>\n  <true/>\n</dict>\nAutomatic SSDT table generation, which extends the processor section with _PPC, _PPC and _PSS methods.\n\n_PCT - Performance control. Controls SpeedStep functions\n_PPC - Performance Present Capabilities. SpeedStep capabilities. This method returns a value limiting the frequency. Look further for PLimitDict.\n_PSS - Performance Supported States. An array containing possible CPU states - P-States.\nPLimitDict, UnderVoltStep and Turbo will be taken into consideration when generated this array."; ObjectID = "bdA-kb-5za"; */
+"bdA-kb-5za.ibShadowedToolTip" = "<key>Generate</key>\n<dict>\n  <key>PStates</key>\n  <true/>\n</dict>\nAutomatic SSDT table generation, which extends the processor section with _PPC, _PPC and _PSS methods.\n\n_PCT - Performance control. Controls SpeedStep functions\n_PPC - Performance Present Capabilities. SpeedStep capabilities. This method returns a value limiting the frequency. Look further for PLimitDict.\n_PSS - Performance Supported States. An array containing possible CPU states - P-States.\nPLimitDict, UnderVoltStep and Turbo will be taken into consideration when generated this array.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Key UseSystemIO at SSDT section will serve to choose in the generated _CST tables between:\n\nRegister (FFixedHW,\nRegister (SystemIO,"; ObjectID = "cbd-3A-zqo"; */
+"cbd-3A-zqo.ibShadowedToolTip" = "Key UseSystemIO at SSDT section will serve to choose in the generated _CST tables between:\n\nRegister (FFixedHW,\nRegister (SystemIO,";
+
+/* Class = "NSButtonCell"; title = "FixS3D"; ObjectID = "cpB-tP-tzo"; */
+"cpB-tP-tzo.title" = "FixS3D";
+
+/* Class = "NSTextFieldCell"; title = "PLimit Dict"; ObjectID = "cr4-dk-LRs"; */
+"cr4-dk-LRs.title" = "PLimit Dict";
+
+/* Class = "NSButton"; ibShadowedToolTip = "This is a very functional patch for video devices. \nRecommended even if you don't want to inject properties to the device.\n When this bit is set other settings like FakeID will be applied as well."; ObjectID = "dff-je-gcc"; */
+"dff-je-gcc.ibShadowedToolTip" = "This is a very functional patch for video devices. \nRecommended even if you don't want to inject properties to the device.\n When this bit is set other settings like FakeID will be applied as well.";
+
+/* Class = "NSButtonCell"; title = "FixTMR"; ObjectID = "dk0-vf-rUI"; */
+"dk0-vf-rUI.title" = "FixTMR";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>MaxMultiplier</key>\n<integer>30</integer>\nIntroduces as an analogy to the minimal multiplier but not really necessary. It is not advised to set it."; ObjectID = "ecf-V5-wTF"; */
+"ecf-V5-wTF.ibShadowedToolTip" = "<key>MaxMultiplier</key>\n<integer>30</integer>\nIntroduces as an analogy to the minimal multiplier but not really necessary. It is not advised to set it.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Helps enable SpeedStep on Ivy Bridge+ systems."; ObjectID = "fUT-Un-eDT"; */
+"fUT-Un-eDT.ibShadowedToolTip" = "Helps enable SpeedStep on Ivy Bridge+ systems.";
+
+/* Class = "NSButtonCell"; title = "AddMCHC"; ObjectID = "fYz-9E-L1L"; */
+"fYz-9E-L1L.title" = "AddMCHC";
+
+/* Class = "NSButton"; ibShadowedToolTip = "AutoMerge feature for merging/replacement of SSDTs (or other AMLs) by content in ACPI/patched\n \nBy setting config.plist/ACPI/AutoMerge=true (default is false to retain old behavior), content in ACPI/patched will attempt to be matched against native bits referred to by the XSDT.  Much like how DSDT.aml placed in ACPI/patched *replaces* native DSDT, you can use this feature to replace SSDTs (or other tables) automatically without using DropTables, or DropOem. More importantly, the relative order of the tables is retained.  It means you can replace only a single table without resorting to DropOem=true and SortedOrder (which implies placing all SSDTs in ACPI/patched). \n \nThe matching is based on file name and OemTableID/signature.\n \nFor SSDTs, the number in the file name is used to find the index in XSDT.  So, a file named SSDT-5.aml in ACPI/patched will replace the 6th SSDT in XSDT (because SSDTs extracted start at SSDT-0.aml).  Additional checking is done with regard to the OEM table ID, to avoid obvious mistakes (eg. placing an SSDT-x.aml that is not a patched SSDT, or mixing up the naming/numbering of the SSDTs in ACPI/patched).\n \nWith the change to dynamic SSDT extraction file names (above) and this change, it means you can take any SSDT that was extracted, patch it, and place in ACPI/patched, and without making changes to DropOem or DropTables (or using SortedOrder) it will replace the original SSDT with the patched version, retaining SSDT order.  In other words, Clover does the right thing with AutoMerge=true, contrary to what it does by default.\n \nThis setting also affects how config.plist/ACPI/DSDT/Patches are treated.  Normally, such patches do not apply to SSDTs.  But with AutoMerge=true, such patches are now applied to patched OEM SSDTs in ACPI/patched.  Still, add-on SSDTs (eg. those that didn't match existing tables in XSDT), are not affected by ACPI/DSDT/Patches.  It means that no major surprises happen when you place a patched SSDTs in ACPI/patched.\n \nThe default of AutoMerge is false, so it is a feature you must explicitly select.<array>\n    <string>toBeDisabled.aml</string>\n    <string>toBeDisabled2.aml</string>\n    ...\n</array>"; ObjectID = "fYz-Cp-2LJ"; */
+"fYz-Cp-2LJ.ibShadowedToolTip" = "AutoMerge feature for merging/replacement of SSDTs (or other AMLs) by content in ACPI/patched\n \nBy setting config.plist/ACPI/AutoMerge=true (default is false to retain old behavior), content in ACPI/patched will attempt to be matched against native bits referred to by the XSDT.  Much like how DSDT.aml placed in ACPI/patched *replaces* native DSDT, you can use this feature to replace SSDTs (or other tables) automatically without using DropTables, or DropOem. More importantly, the relative order of the tables is retained.  It means you can replace only a single table without resorting to DropOem=true and SortedOrder (which implies placing all SSDTs in ACPI/patched). \n \nThe matching is based on file name and OemTableID/signature.\n \nFor SSDTs, the number in the file name is used to find the index in XSDT.  So, a file named SSDT-5.aml in ACPI/patched will replace the 6th SSDT in XSDT (because SSDTs extracted start at SSDT-0.aml).  Additional checking is done with regard to the OEM table ID, to avoid obvious mistakes (eg. placing an SSDT-x.aml that is not a patched SSDT, or mixing up the naming/numbering of the SSDTs in ACPI/patched).\n \nWith the change to dynamic SSDT extraction file names (above) and this change, it means you can take any SSDT that was extracted, patch it, and place in ACPI/patched, and without making changes to DropOem or DropTables (or using SortedOrder) it will replace the original SSDT with the patched version, retaining SSDT order.  In other words, Clover does the right thing with AutoMerge=true, contrary to what it does by default.\n \nThis setting also affects how config.plist/ACPI/DSDT/Patches are treated.  Normally, such patches do not apply to SSDTs.  But with AutoMerge=true, such patches are now applied to patched OEM SSDTs in ACPI/patched.  Still, add-on SSDTs (eg. those that didn't match existing tables in XSDT), are not affected by ACPI/DSDT/Patches.  It means that no major surprises happen when you place a patched SSDTs in ACPI/patched.\n \nThe default of AutoMerge is false, so it is a feature you must explicitly select.<array>\n    <string>toBeDisabled.aml</string>\n    <string>toBeDisabled2.aml</string>\n    ...\n</array>";
+
+/* Class = "NSButtonCell"; title = "SATA"; ObjectID = "fko-o0-HWc"; */
+"fko-o0-HWc.title" = "SATA";
+
+/* Class = "NSButtonCell"; title = "EnableC2"; ObjectID = "gO8-tj-vcF"; */
+"gO8-tj-vcF.title" = "EnableC2";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New way to patch an IntelGFX device."; ObjectID = "gaI-9R-Lhu"; */
+"gaI-9R-Lhu.ibShadowedToolTip" = "New way to patch an IntelGFX device.";
+
+/* Class = "NSTabViewItem"; label = "1"; ObjectID = "hBf-FJ-tnY"; */
+"hBf-FJ-tnY.label" = "1";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Fix non-ascii characters in ACPI tables headers."; ObjectID = "hSy-Jr-ymP"; */
+"hSy-Jr-ymP.ibShadowedToolTip" = "Fix non-ascii characters in ACPI tables headers.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable or disable fix on MCFG table, disabled by default."; ObjectID = "hTw-Km-4Vm"; */
+"hTw-Km-4Vm.ibShadowedToolTip" = "Enable or disable fix on MCFG table, disabled by default.";
+
+/* Class = "NSButtonCell"; title = "FixADP1"; ObjectID = "hdP-pG-vjA"; */
+"hdP-pG-vjA.title" = "FixADP1";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>EnableC4</key>\n<true/>\nThis key allows you to enable the C4 states generator. Disabled by default."; ObjectID = "hkD-Lc-e2c"; */
+"hkD-Lc-e2c.ibShadowedToolTip" = "<key>EnableC4</key>\n<true/>\nThis key allows you to enable the C4 states generator. Disabled by default.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Disabled"; ObjectID = "hus-BH-dPI"; */
+"hus-BH-dPI.headerCell.title" = "Disabled";
+
+/* Class = "NSButton"; ibShadowedToolTip = "If you see in system log:\n\nAppleLPC::notifyPlatformASPM - registering with plugin with ASPM Support false\n\nThe message will gone and macOS works smoother.\nWhy? This is FADT->Flags bit 4.\nIf set, indicates to OSPM that it must not enable OSPM ASPM control on this platform.\nYes, macOS can't control hackintosh hardware ASPM. (OSPM = OS Power Management)"; ObjectID = "iCt-FQ-aaj"; */
+"iCt-FQ-aaj.ibShadowedToolTip" = "If you see in system log:\n\nAppleLPC::notifyPlatformASPM - registering with plugin with ASPM Support false\n\nThe message will gone and macOS works smoother.\nWhy? This is FADT->Flags bit 4.\nIf set, indicates to OSPM that it must not enable OSPM ASPM control on this platform.\nYes, macOS can't control hackintosh hardware ASPM. (OSPM = OS Power Management)";
+
+/* Class = "NSButtonCell"; title = "FixMCFG"; ObjectID = "iNq-hX-5Hp"; */
+"iNq-hX-5Hp.title" = "FixMCFG";
+
+/* Class = "NSButtonCell"; title = "AddIMEI"; ObjectID = "ibY-pj-3RE"; */
+"ibY-pj-3RE.title" = "AddIMEI";
+
+/* Class = "NSButtonCell"; title = "FixRegions"; ObjectID = "jB6-mi-WyK"; */
+"jB6-mi-WyK.title" = "FixRegions";
+
+/* Class = "NSBox"; title = "SortedOrder"; ObjectID = "jMT-p2-i02"; */
+"jMT-p2-i02.title" = "SortedOrder";
+
+/* Class = "NSTableColumn"; headerCell.title = "Rename Device*"; ObjectID = "jRU-cZ-eaB"; */
+"jRU-cZ-eaB.headerCell.title" = "Rename Device*";
+
+/* Class = "NSComboBoxCell"; jae-Hd-VtP.ibShadowedObjectValues[0] = "CpuPm"; ObjectID = "jae-Hd-VtP"; */
+"jae-Hd-VtP.ibShadowedObjectValues[0]" = "CpuPm";
+
+/* Class = "NSComboBoxCell"; jae-Hd-VtP.ibShadowedObjectValues[1] = "CpuCst"; ObjectID = "jae-Hd-VtP"; */
+"jae-Hd-VtP.ibShadowedObjectValues[1]" = "CpuCst";
+
+/* Class = "NSComboBoxCell"; jae-Hd-VtP.ibShadowedObjectValues[2] = "Cpu0Cst"; ObjectID = "jae-Hd-VtP"; */
+"jae-Hd-VtP.ibShadowedObjectValues[2]" = "Cpu0Cst";
+
+/* Class = "NSComboBoxCell"; jae-Hd-VtP.ibShadowedObjectValues[3] = "Cpu0Ist"; ObjectID = "jae-Hd-VtP"; */
+"jae-Hd-VtP.ibShadowedObjectValues[3]" = "Cpu0Ist";
+
+/* Class = "NSComboBoxCell"; jae-Hd-VtP.ibShadowedObjectValues[4] = "Cpu0Tst"; ObjectID = "jae-Hd-VtP"; */
+"jae-Hd-VtP.ibShadowedObjectValues[4]" = "Cpu0Tst";
+
+/* Class = "NSComboBoxCell"; jae-Hd-VtP.ibShadowedObjectValues[5] = "ApIst"; ObjectID = "jae-Hd-VtP"; */
+"jae-Hd-VtP.ibShadowedObjectValues[5]" = "ApIst";
+
+/* Class = "NSComboBoxCell"; jae-Hd-VtP.ibShadowedObjectValues[6] = "ApCst"; ObjectID = "jae-Hd-VtP"; */
+"jae-Hd-VtP.ibShadowedObjectValues[6]" = "ApCst";
+
+/* Class = "NSComboBoxCell"; jae-Hd-VtP.ibShadowedObjectValues[7] = "UsbPpt"; ObjectID = "jae-Hd-VtP"; */
+"jae-Hd-VtP.ibShadowedObjectValues[7]" = "UsbPpt";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Injects the DeviceID from ICH6 to prevent the orange icons problem. \nNowadays this patch looks to be obsolete. \nIt is better to do the kext binary patch instead."; ObjectID = "jcL-Td-68d"; */
+"jcL-Td-68d.ibShadowedToolTip" = "Injects the DeviceID from ICH6 to prevent the orange icons problem. \nNowadays this patch looks to be obsolete. \nIt is better to do the kext binary patch instead.";
+
+/* Class = "NSTableColumn"; headerCell.title = "TgtBridge [HEX]"; ObjectID = "jvl-MO-R8F"; */
+"jvl-MO-R8F.headerCell.title" = "TgtBridge [HEX]";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "<key>PLimitDict</key>\n<string>1</string>\nLimits the maximal CPU frequency.\n\n0 - No limit.\n1 - Reduce frequency by one step\n2 - Reduce frequency by two steps\nExample: A Core2Duo T8300 with 2400 MHz operates at a maximal frequency of 2000 MHz when limited by two steps. This parameter might be used to reduce heat in mobile systems.\n\nThe same parameter exists in platform plists, for example in: System/Library/Extensions/IOPlaEormPluginFamily.kext/Contents/PlugIns/ACPI_SMC_PlaEormPlugin.kext/Conte nts/Resources/MacBook5_1.plist.\nThey will be discussed later.\n\nOther CPUs may need other values. This value has a reversed effect on a Core2Quad for instance. The optimal value is 1 in this case. It may be a DSDT error, though."; ObjectID = "jwH-TR-qrW"; */
+"jwH-TR-qrW.ibShadowedToolTip" = "<key>PLimitDict</key>\n<string>1</string>\nLimits the maximal CPU frequency.\n\n0 - No limit.\n1 - Reduce frequency by one step\n2 - Reduce frequency by two steps\nExample: A Core2Duo T8300 with 2400 MHz operates at a maximal frequency of 2000 MHz when limited by two steps. This parameter might be used to reduce heat in mobile systems.\n\nThe same parameter exists in platform plists, for example in: System/Library/Extensions/IOPlaEormPluginFamily.kext/Contents/PlugIns/ACPI_SMC_PlaEormPlugin.kext/Conte nts/Resources/MacBook5_1.plist.\nThey will be discussed later.\n\nOther CPUs may need other values. This value has a reversed effect on a Core2Quad for instance. The optimal value is 1 in this case. It may be a DSDT error, though.";
+
+/* Class = "NSButtonCell"; title = "EnableC6"; ObjectID = "jy8-kd-RGq"; */
+"jy8-kd-RGq.title" = "EnableC6";
+
+/* Class = "NSButtonCell"; title = "NoOemTableId"; ObjectID = "kSn-Lk-V7E"; */
+"kSn-Lk-V7E.title" = "NoOemTableId";
+
+/* Class = "NSComboBoxCell"; l0i-Js-FH9.ibShadowedObjectValues[1] = "TableId"; ObjectID = "l0i-Js-FH9"; */
+"l0i-Js-FH9.ibShadowedObjectValues[1]" = "TableId";
+
+/* Class = "NSComboBoxCell"; l0i-Js-FH9.ibShadowedObjectValues[2] = "Length"; ObjectID = "l0i-Js-FH9"; */
+"l0i-Js-FH9.ibShadowedObjectValues[2]" = "Length";
+
+/* Class = "NSButtonCell"; title = "FixLAN"; ObjectID = "l2G-J9-88o"; */
+"l2G-J9-88o.title" = "FixLAN";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Changes the device-id for the LPC chipset device. \nNeeded in very rare cases for non-standard (for Apple) chipsets, like ICH9."; ObjectID = "lTv-ds-RYE"; */
+"lTv-ds-RYE.ibShadowedToolTip" = "Changes the device-id for the LPC chipset device. \nNeeded in very rare cases for non-standard (for Apple) chipsets, like ICH9.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "mCb-DU-Ydc"; */
+"mCb-DU-Ydc.headerCell.title" = "Comment";
+
+/* Class = "NSButtonCell"; title = "IntelGFX"; ObjectID = "mOZ-Rg-6fF"; */
+"mOZ-Rg-6fF.title" = "IntelGFX";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Debug</key>\n<true/>\n\nEnable the debug logs of DSDT section."; ObjectID = "mcq-U0-L7F"; */
+"mcq-U0-L7F.ibShadowedToolTip" = "<key>Debug</key>\n<true/>\n\nEnable the debug logs of DSDT section.";
+
+/* Class = "NSButtonCell"; title = "Drop OEM"; ObjectID = "nLL-7D-FWd"; */
+"nLL-7D-FWd.title" = "Drop OEM";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "hex or number"; ObjectID = "nRn-bw-I6o"; */
+"nRn-bw-I6o.ibShadowedIsNilPlaceholder" = "hex or number";
+
+/* Class = "NSButtonCell"; title = "Firewire"; ObjectID = "nik-0C-hbZ"; */
+"nik-0C-hbZ.title" = "Firewire";
+
+/* Class = "NSTabViewItem"; label = "2"; ObjectID = "oKl-WI-vWA"; */
+"oKl-WI-vWA.label" = "2";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "GFX0"; ObjectID = "oQp-HA-fma"; */
+"oQp-HA-fma.ibShadowedIsNilPlaceholder" = "GFX0";
+
+/* Class = "NSButton"; ibShadowedToolTip = "This parameter affects the power profile, which will be written into table FADT.\n\nValue|Type|Power supply type :---|:---|:--- 1|Desktop|AC 2|Mobile|Battery 3|Server|SmartUPS\n\nClover will choose between 1 and 2 according to the mobility bit \nand according to the Mobile parameter in SMBIOS. \nIt is, for example, possible to fake a mobile MacMini. \nValue 3 will be chosen if this parameter is enabled."; ObjectID = "oer-mY-NZs"; */
+"oer-mY-NZs.ibShadowedToolTip" = "This parameter affects the power profile, which will be written into table FADT.\n\nValue|Type|Power supply type :---|:---|:--- 1|Desktop|AC 2|Mobile|Battery 3|Server|SmartUPS\n\nClover will choose between 1 and 2 according to the mobility bit \nand according to the Mobile parameter in SMBIOS. \nIt is, for example, possible to fake a mobile MacMini. \nValue 3 will be chosen if this parameter is enabled.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Adds initialization for IDE controllers (not SATA) to prevent panic with it."; ObjectID = "oh7-T6-pIG"; */
+"oh7-T6-pIG.ibShadowedToolTip" = "Adds initialization for IDE controllers (not SATA) to prevent panic with it.";
+
+/* Class = "NSButtonCell"; title = "FakeLPC"; ObjectID = "ovc-YG-Nfr"; */
+"ovc-YG-Nfr.title" = "FakeLPC";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find* [HEX]"; ObjectID = "pCI-vc-K5a"; */
+"pCI-vc-K5a.headerCell.title" = "Find* [HEX]";
+
+/* Class = "NSButtonCell"; title = "FixDarwin"; ObjectID = "pIx-0x-6eF"; */
+"pIx-0x-6eF.title" = "FixDarwin";
+
+/* Class = "NSButtonCell"; title = "WIFI"; ObjectID = "qUw-jb-IBL"; */
+"qUw-jb-IBL.title" = "WIFI";
+
+/* Class = "NSButtonCell"; title = "EnableC4"; ObjectID = "rdD-pH-096"; */
+"rdD-pH-096.title" = "EnableC4";
+
+/* Class = "NSButtonCell"; title = "FixHeaders"; ObjectID = "rl5-oL-jVQ"; */
+"rl5-oL-jVQ.title" = "FixHeaders";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Inserts APSN to CpuPm SSDT"; ObjectID = "sDY-89-f8k"; */
+"sDY-89-f8k.ibShadowedToolTip" = "Inserts APSN to CpuPm SSDT";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "More exact renaming Devices in DSDT and SSDT taking into account its bridge.\nExample: \n<key>ACPI</key>\n\t<dict>\n\t\t<key>RenameDevices</key>\n\t\t<dict>\n\t\t\t<key>_SB.PCI0.RP02.PSXS</key>\n\t\t\t<string>ARPT</string>\n\t\t\t<key>_SB.PCI0.EHC1</key>\n\t\t\t<string>EH01</string>\n\t\t\t<key>_SB.PCI0.POP2.PEGP</key>\n\t\t\t<string>GFX0</string>\n\t\t</dict>\nComplex case such as this DSDT is also taken into account.\nExample:\n_SB.PCI0.RP02.PSXS\nWe have to take into account fields like\nScope(\\_SB)\n{\n  Device (PCI0)\n  {\n    Device(RP02)\n    {\n      Device(PSXS)  <- to patch\n      {\n\t\tMethod(_ON)\n\t\t{\n\t\t}\n\t\tMethod(_OFF)\n\t\t{\n\t\t}\n\n\t  }\n\t  PSXS._ON() <- to patch\n\t}\n\tScope(RP02)\n\t{\n\t  PSXS._OFF() <- to patch\n\t}\n\tDevice(RP03)\n\t{\n\t  Device(PSXS) <- to not patch\n\t  {\n\t  }\n\t  PSXS._ON() <- to not patch\n\t}"; ObjectID = "sXu-RZ-a8b"; */
+"sXu-RZ-a8b.ibShadowedToolTip" = "More exact renaming Devices in DSDT and SSDT taking into account its bridge.\nExample: \n<key>ACPI</key>\n\t<dict>\n\t\t<key>RenameDevices</key>\n\t\t<dict>\n\t\t\t<key>_SB.PCI0.RP02.PSXS</key>\n\t\t\t<string>ARPT</string>\n\t\t\t<key>_SB.PCI0.EHC1</key>\n\t\t\t<string>EH01</string>\n\t\t\t<key>_SB.PCI0.POP2.PEGP</key>\n\t\t\t<string>GFX0</string>\n\t\t</dict>\nComplex case such as this DSDT is also taken into account.\nExample:\n_SB.PCI0.RP02.PSXS\nWe have to take into account fields like\nScope(\\_SB)\n{\n  Device (PCI0)\n  {\n    Device(RP02)\n    {\n      Device(PSXS)  <- to patch\n      {\n\t\tMethod(_ON)\n\t\t{\n\t\t}\n\t\tMethod(_OFF)\n\t\t{\n\t\t}\n\n\t  }\n\t  PSXS._ON() <- to patch\n\t}\n\tScope(RP02)\n\t{\n\t  PSXS._OFF() <- to patch\n\t}\n\tDevice(RP03)\n\t{\n\t  Device(PSXS) <- to not patch\n\t  {\n\t  }\n\t  PSXS._ON() <- to not patch\n\t}";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>ReuseFFFF</key>\n<true>\nSome OEM DSDT contains some device with Name (_ADR, 0xFFFF). This is a big problem as I can convert it to ADR=0 and inject properties but this is dangerous patch, it may lead to panic on IOPCIFamily.kext. So this key is proposed which will convert this device to (ADR, 0) and reused for injection. (FakeID for example)"; ObjectID = "sgl-xT-Xbu"; */
+"sgl-xT-Xbu.ibShadowedToolTip" = "<key>ReuseFFFF</key>\n<true>\nSome OEM DSDT contains some device with Name (_ADR, 0xFFFF). This is a big problem as I can convert it to ADR=0 and inject properties but this is dangerous patch, it may lead to panic on IOPCIFamily.kext. So this key is proposed which will convert this device to (ADR, 0) and reused for injection. (FakeID for example)";
+
+/* Class = "NSButtonCell"; title = "IDE"; ObjectID = "sy7-H5-uSP"; */
+"sy7-H5-uSP.title" = "IDE";
+
+/* Class = "NSButtonCell"; title = "FixMutex"; ObjectID = "uXg-Xo-4E3"; */
+"uXg-Xo-4E3.title" = "FixMutex";
+
+/* Class = "NSTextFieldCell"; title = "Reset Address"; ObjectID = "uxK-DX-nqs"; */
+"uxK-DX-nqs.title" = "Reset Address";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find Device*"; ObjectID = "vU9-IM-Id0"; */
+"vU9-IM-Id0.headerCell.title" = "Find Device*";
+
+/* Class = "NSButtonCell"; title = "FixFirewire"; ObjectID = "vml-rD-T5M"; */
+"vml-rD-T5M.title" = "FixFirewire";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NoOemTableId</key>\n<true/>\n\nTo disable OEM table ID on ACPI/orgin/SSDT file names"; ObjectID = "vwy-Cc-5SB"; */
+"vwy-Cc-5SB.ibShadowedToolTip" = "<key>NoOemTableId</key>\n<true/>\n\nTo disable OEM table ID on ACPI/orgin/SSDT file names";
+
+/* Class = "NSButtonCell"; title = "FixIntelGfx"; ObjectID = "wDo-c1-VR3"; */
+"wDo-c1-VR3.title" = "FixIntelGfx";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Also resolves some Sleep/Wake problems by correcting _S3D methods."; ObjectID = "wX2-H5-kub"; */
+"wX2-H5-kub.ibShadowedToolTip" = "Also resolves some Sleep/Wake problems by correcting _S3D methods.";
+
+/* Class = "NSComboBoxCell"; wZ8-yy-eTB.ibShadowedObjectValues[1] = "0"; ObjectID = "wZ8-yy-eTB"; */
+"wZ8-yy-eTB.ibShadowedObjectValues[1]" = "0";
+
+/* Class = "NSComboBoxCell"; wZ8-yy-eTB.ibShadowedObjectValues[2] = "1"; ObjectID = "wZ8-yy-eTB"; */
+"wZ8-yy-eTB.ibShadowedObjectValues[2]" = "1";
+
+/* Class = "NSTextFieldCell"; title = "UnderVolt Step"; ObjectID = "wcg-Zn-beR"; */
+"wcg-Zn-beR.title" = "UnderVolt Step";
+
+/* Class = "NSButtonCell"; title = "FixAirport"; ObjectID = "wrC-uG-8py"; */
+"wrC-uG-8py.title" = "FixAirport";
+
+/* Class = "NSButtonCell"; title = "HDMI"; ObjectID = "xSw-F9-Kdl"; */
+"xSw-F9-Kdl.title" = "HDMI";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>EnableC6</key>\n<true/>\nThis key allows you to enable the C6 states generator."; ObjectID = "xYb-XE-RHK"; */
+"xYb-XE-RHK.ibShadowedToolTip" = "<key>EnableC6</key>\n<true/>\nThis key allows you to enable the C6 states generator.";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "xZx-14-y8K"; */
+"xZx-14-y8K.title" = "Text Cell";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Renames AZAL to HDEF or HDAU. Adds the HMDI device if absent. \nElse AppleHDA will not work. Adds the properties \"layout-id\", \n\"MaximumBootBeepVolume\" and \"PinConfigurations\"."; ObjectID = "xf1-lI-6p1"; */
+"xf1-lI-6p1.ibShadowedToolTip" = "Renames AZAL to HDEF or HDAU. Adds the HMDI device if absent. \nElse AppleHDA will not work. Adds the properties \"layout-id\", \n\"MaximumBootBeepVolume\" and \"PinConfigurations\".";
+
+/* Class = "NSButtonCell"; title = "Rtc8Allowed"; ObjectID = "xuG-sG-SYl"; */
+"xuG-sG-SYl.title" = "Rtc8Allowed";
+
+/* Class = "NSButtonCell"; title = "FixIPIC"; ObjectID = "yC1-ju-DvC"; */
+"yC1-ju-DvC.title" = "FixIPIC";
+
+/* Class = "NSButtonCell"; title = "Use SystemIO"; ObjectID = "yDL-7O-cWR"; */
+"yDL-7O-cWR.title" = "Use SystemIO";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Injects USB devices and their properties for USB-1, \nUSB-2 and USB-3. No reason not to use this bit."; ObjectID = "yqA-Z1-Xka"; */
+"yqA-Z1-Xka.ibShadowedToolTip" = "Injects USB devices and their properties for USB-1, \nUSB-2 and USB-3. No reason not to use this bit.";
+
+/* Class = "NSMenuItem"; title = "List Of Patches"; ObjectID = "yqg-Tz-OBP"; */
+"yqg-Tz-OBP.title" = "List Of Patches";
+
+/* Class = "NSTextFieldCell"; title = "Max Multiplier"; ObjectID = "zKl-Fz-Nvt"; */
+"zKl-Fz-Nvt.title" = "Max Multiplier";
+
+/* Class = "NSTabView"; ibShadowedToolTip = "This parameter represents a whole set of DSDT patches \nwhich can be activated individually. "; ObjectID = "zlp-4F-eaR"; */
+"zlp-4F-eaR.ibShadowedToolTip" = "This parameter represents a whole set of DSDT patches \nwhich can be activated individually. ";
+
+/* Class = "NSButtonCell"; title = "AutoMerge"; ObjectID = "ztO-nn-o95"; */
+"ztO-nn-o95.title" = "AutoMerge";

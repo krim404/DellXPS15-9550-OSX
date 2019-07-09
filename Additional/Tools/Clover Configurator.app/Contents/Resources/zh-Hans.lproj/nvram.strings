@@ -1,0 +1,108 @@
+
+/* Class = "NSButtonCell"; title = "Load Partitions / Themes"; ObjectID = "C3y-wo-bwW"; */
+"C3y-wo-bwW.title" = "加载分区/主题";
+
+/* Class = "NSTextFieldCell"; title = "Maximum timestamp log files allowed:"; ObjectID = "CEg-Pz-Fbk"; */
+"CEg-Pz-Fbk.title" = "允许的最大时间戳日志文件:";
+
+/* Class = "NSTextFieldCell"; title = "Target partition"; ObjectID = "Dg2-GY-1Dd"; */
+"Dg2-GY-1Dd.title" = "目标分区";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "JDE-1Q-ZqU"; */
+"JDE-1Q-ZqU.title" = "状态";
+
+/* Class = "NSTextFieldCell"; title = "Number of EFI folder backups to keep:"; ObjectID = "LYh-1G-Zuh"; */
+"LYh-1G-Zuh.title" = "要保留的EFI文件夹备份数:";
+
+/* Class = "NSButtonCell"; title = "Create new one on every boot"; ObjectID = "MLu-9d-dd0"; */
+"MLu-9d-dd0.title" = "在每次启动时创建一个新的";
+
+/* Class = "NSButtonCell"; title = "Themes Folder"; ObjectID = "OdU-Qx-n2e"; */
+"OdU-Qx-n2e.title" = "主题文件夹";
+
+/* Class = "NSTextFieldCell"; title = "Force mount selected ESP at startup:"; ObjectID = "P5m-IZ-wA7"; */
+"P5m-IZ-wA7.title" = "在启动时强制安装选定的ESP:";
+
+/* Class = "NSTextFieldCell"; title = "NVRAM emulation:"; ObjectID = "PHh-DE-QGB"; */
+"PHh-DE-QGB.title" = "NVRAM仿真:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Apply theme to NVRAM"; ObjectID = "Sv3-b7-xz5"; */
+"Sv3-b7-xz5.ibShadowedToolTip" = "将主题应用于NVRAM";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "U9t-mE-65e"; */
+"U9t-mE-65e.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Kernel boot aguments:"; ObjectID = "UWa-yr-H98"; */
+"UWa-yr-H98.title" = "内核启动参数:";
+
+/* Class = "NSButtonCell"; title = "Store nvram.plist on system partition"; ObjectID = "XKl-ve-uGS"; */
+"XKl-ve-uGS.title" = "将nvram.plist存储在系统分区上";
+
+/* Class = "NSTextFieldCell"; title = "Current Theme"; ObjectID = "a08-BV-1uP"; */
+"a08-BV-1uP.title" = "当前主题";
+
+/* Class = "NSTextFieldCell"; title = "Other themes in folder"; ObjectID = "cnT-gc-w2z"; */
+"cnT-gc-w2z.title" = "文件夹中的其他主题";
+
+/* Class = "NSTextFieldCell"; title = "Year:"; ObjectID = "dZ4-ae-0Ab"; */
+"dZ4-ae-0Ab.title" = "年:";
+
+/* Class = "NSTextFieldCell"; title = "EFI folder backups:"; ObjectID = "gVq-p0-q3Q"; */
+"gVq-p0-q3Q.title" = "EFI文件夹备份:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "hi4-OB-L8p"; */
+"hi4-OB-L8p.title" = "OtherViews";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0"; ObjectID = "iwR-mO-rIU"; */
+"iwR-mO-rIU.ibShadowedIsNilPlaceholder" = "0";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = "0"; ObjectID = "iwR-mO-rIU"; */
+"iwR-mO-rIU.ibShadowedMultipleValuesPlaceholder" = "0";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = "0"; ObjectID = "iwR-mO-rIU"; */
+"iwR-mO-rIU.ibShadowedNoSelectionPlaceholder" = "0";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNotApplicablePlaceholder = "0"; ObjectID = "iwR-mO-rIU"; */
+"iwR-mO-rIU.ibShadowedNotApplicablePlaceholder" = "0";
+
+/* Class = "NSTextFieldCell"; title = "Timestamp boot.log file:"; ObjectID = "kVa-7e-gG3"; */
+"kVa-7e-gG3.title" = "时间戳boot.log文件:";
+
+/* Class = "NSTextFieldCell"; title = "Author:"; ObjectID = "l2o-Gr-Hpi"; */
+"l2o-Gr-Hpi.title" = "作者:";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0"; ObjectID = "uBc-dy-0uP"; */
+"uBc-dy-0uP.ibShadowedIsNilPlaceholder" = "0";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = "0"; ObjectID = "uBc-dy-0uP"; */
+"uBc-dy-0uP.ibShadowedMultipleValuesPlaceholder" = "0";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = "0"; ObjectID = "uBc-dy-0uP"; */
+"uBc-dy-0uP.ibShadowedNoSelectionPlaceholder" = "0";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNotApplicablePlaceholder = "0"; ObjectID = "uBc-dy-0uP"; */
+"uBc-dy-0uP.ibShadowedNotApplicablePlaceholder" = "0";
+
+/* Class = "NSButtonCell"; title = "Force create on destination volume"; ObjectID = "vgU-k0-9Ad"; */
+"vgU-k0-9Ad.title" = "强制在目标卷上创建";
+
+/* Class = "NSBox"; title = "Clover.Theme"; ObjectID = "wjN-Iq-NNM"; */
+"wjN-Iq-NNM.title" = "Clover.Theme";
+
+/* Class = "NSTextFieldCell"; title = "Number of previous boot log lines to save:"; ObjectID = "y3O-Nq-dcp"; */
+"y3O-Nq-dcp.title" = "要保存的先前引导日志行数:";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0"; ObjectID = "yPl-fS-pcY"; */
+"yPl-fS-pcY.ibShadowedIsNilPlaceholder" = "0";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = "0"; ObjectID = "yPl-fS-pcY"; */
+"yPl-fS-pcY.ibShadowedMultipleValuesPlaceholder" = "0";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = "0"; ObjectID = "yPl-fS-pcY"; */
+"yPl-fS-pcY.ibShadowedNoSelectionPlaceholder" = "0";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNotApplicablePlaceholder = "0"; ObjectID = "yPl-fS-pcY"; */
+"yPl-fS-pcY.ibShadowedNotApplicablePlaceholder" = "0";
+
+/* Class = "NSBox"; title = "Preferences"; ObjectID = "zR4-ZZ-wQp"; */
+"zR4-ZZ-wQp.title" = "首选项";

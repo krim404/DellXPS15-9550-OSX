@@ -1,0 +1,138 @@
+
+/* Class = "NSSegmentedCell"; 550-KJ-heg.ibShadowedLabels[0] = "encode"; ObjectID = "550-KJ-heg"; */
+"550-KJ-heg.ibShadowedLabels[0]" = "编码";
+
+/* Class = "NSSegmentedCell"; 550-KJ-heg.ibShadowedLabels[1] = "decode"; ObjectID = "550-KJ-heg"; */
+"550-KJ-heg.ibShadowedLabels[1]" = "解码";
+
+/* Class = "NSTextFieldCell"; placeholderString = "HEX string"; ObjectID = "7ge-l0-5cF"; */
+"7ge-l0-5cF.placeholderString" = "16进制字符";
+
+/* Class = "NSBox"; title = "text <-> HEX"; ObjectID = "8hF-WP-gmi"; */
+"8hF-WP-gmi.title" = "文本<->十六进制";
+
+/* Class = "NSButtonCell"; title = "Convert"; ObjectID = "8j9-Lb-tYb"; */
+"8j9-Lb-tYb.title" = "转换";
+
+/* Class = "NSButtonCell"; title = "counter"; ObjectID = "92C-6o-ysK"; */
+"92C-6o-ysK.title" = "counter";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Dnf-PZ-bHb"; */
+"Dnf-PZ-bHb.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Generate a file named config-generate in your desktop."; ObjectID = "Dp5-d4-QWm"; */
+"Dp5-d4-QWm.title" = "在桌面中生成名为config-generate的文件。";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "GNm-Uo-xnR"; */
+"GNm-Uo-xnR.title" = "生成";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "HQq-7b-M9A"; */
+"HQq-7b-M9A.title" = "Box";
+
+/* Class = "NSSegmentedCell"; HbC-Uc-cDy.ibShadowedLabels[0] = "decode"; ObjectID = "HbC-Uc-cDy"; */
+"HbC-Uc-cDy.ibShadowedLabels[0]" = "解码";
+
+/* Class = "NSSegmentedCell"; HbC-Uc-cDy.ibShadowedLabels[1] = "encode"; ObjectID = "HbC-Uc-cDy"; */
+"HbC-Uc-cDy.ibShadowedLabels[1]" = "编码";
+
+/* Class = "NSBox"; title = "decimal <-> HEX "; ObjectID = "Hef-7r-1B5"; */
+"Hef-7r-1B5.title" = "10进制 <-> 16进制 ";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Check Configurations"; ObjectID = "Ig7-Pf-GcQ"; */
+"Ig7-Pf-GcQ.ibShadowedToolTip" = "检测配置";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "JTq-97-yeJ"; */
+"JTq-97-yeJ.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "KPs-xr-AQK"; */
+"KPs-xr-AQK.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; placeholderString = "base64 string"; ObjectID = "O6W-lm-fgb"; */
+"O6W-lm-fgb.placeholderString" = "base64字符";
+
+/* Class = "NSTextFieldCell"; placeholderString = "text string"; ObjectID = "Ou2-va-NgM"; */
+"Ou2-va-NgM.placeholderString" = "文本字符";
+
+/* Class = "NSSegmentedCell"; Pcr-Ly-2xE.ibShadowedLabels[0] = "encode"; ObjectID = "Pcr-Ly-2xE"; */
+"Pcr-Ly-2xE.ibShadowedLabels[0]" = "编码";
+
+/* Class = "NSSegmentedCell"; Pcr-Ly-2xE.ibShadowedLabels[1] = "decode"; ObjectID = "Pcr-Ly-2xE"; */
+"Pcr-Ly-2xE.ibShadowedLabels[1]" = "解码";
+
+/* Class = "NSTextFieldCell"; title = "Pay attention because more values could be wrong. clover-genconfig must be installed in /usr/local/bin directory."; ObjectID = "Uii-al-t3k"; */
+"Uii-al-t3k.title" = "注意，因为一些值可能是错误的。clover-genconfig必须安装在/usr/local/bin目录下。\n\n中文汉化：草原企鹅";
+
+/* Class = "NSTextFieldCell"; title = "Search (⌘F)"; ObjectID = "Wd6-KD-rqx"; */
+"Wd6-KD-rqx.title" = "搜索 (⌘F)";
+
+/* Class = "NSButtonCell"; title = "Item enabled by default"; ObjectID = "ZYT-Jt-TM0"; */
+"ZYT-Jt-TM0.title" = "默认启用的项目";
+
+/* Class = "NSTextFieldCell"; title = "(Check your Custom Entry  -> Settings field in your config.plist)"; ObjectID = "aoq-qJ-YJW"; */
+"aoq-qJ-YJW.title" = "(检查你的自定义条目 - >在你的config.plis里设置字段)";
+
+/* Class = "NSTextFieldCell"; placeholderString = "decimal string"; ObjectID = "bdn-ET-6RK"; */
+"bdn-ET-6RK.placeholderString" = "10进制字符";
+
+/* Class = "NSButtonCell"; title = "Synchronized"; ObjectID = "cZ7-39-tJB"; */
+"cZ7-39-tJB.title" = "同步";
+
+/* Class = "NSBox"; title = "Bdmesg"; ObjectID = "dWI-0b-N1o"; */
+"dWI-0b-N1o.title" = "启动信息";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "deR-8f-IR8"; */
+"deR-8f-IR8.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; placeholderString = "HEX string"; ObjectID = "e9m-0V-mNu"; */
+"e9m-0V-mNu.placeholderString" = "16进制字符";
+
+/* Class = "NSButtonCell"; title = "counter"; ObjectID = "fgZ-nV-LUE"; */
+"fgZ-nV-LUE.title" = "counter";
+
+/* Class = "NSTextFieldCell"; placeholderString = "HEX string"; ObjectID = "ipc-1D-gt0"; */
+"ipc-1D-gt0.placeholderString" = "16进制字符";
+
+/* Class = "NSTextFieldCell"; title = "Settings=special mean a file special.plist which is the same as config.plist but with other values.  "; ObjectID = "ja5-Rv-50N"; */
+"ja5-Rv-50N.title" = "Settings = special表示文件special.plist，它与config.plist相同但具有其他值。  ";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "jwI-H0-DFk"; */
+"jwI-H0-DFk.title" = "Table View Cell";
+
+/* Class = "NSBox"; title = "Base64 <-> HEX"; ObjectID = "kT0-sB-GaB"; */
+"kT0-sB-GaB.title" = "Base64<->十六进制";
+
+/* Class = "NSTextFieldCell"; title = "This way you get a nearly complete configuration file with the parameters used to successfully load the OS. Some more manual work is needed to finish it."; ObjectID = "mUm-Cj-uPR"; */
+"mUm-Cj-uPR.title" = "这样会获得一个几乎完整的配置文件，其中包含用于成功加载操作系统的参数。 完成它需要一些更多的手工工作。";
+
+/* Class = "NSTextFieldCell"; title = "Boot and GUI keys will be deleted"; ObjectID = "ncW-Qc-6pw"; */
+"ncW-Qc-6pw.title" = "将删除Boot和GUI键值";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "generateView"; ObjectID = "otT-3d-4z2"; */
+"otT-3d-4z2.ibExternalAccessibilityDescription" = "generateView";
+
+/* Class = "NSButtonCell"; title = "Save as different settings"; ObjectID = "r77-9U-hOe"; */
+"r77-9U-hOe.title" = "保存为不同的设置";
+
+/* Class = "NSTextFieldCell"; title = "HEX code will be converted in base 64 [Hex]    Required field (*)"; ObjectID = "rL1-iT-PGa"; */
+"rL1-iT-PGa.title" = "16进制代码将转换为base 64 [16进制](*)为必填字段";
+
+/* Class = "NSButtonCell"; title = "Convert"; ObjectID = "sEJ-sd-OSF"; */
+"sEJ-sd-OSF.title" = "转换";
+
+/* Class = "NSTextFieldCell"; title = "CONFIGURATIONS ACQUIRED"; ObjectID = "uVS-zl-WvC"; */
+"uVS-zl-WvC.title" = "找到的配置文件";
+
+/* Class = "NSTextFieldCell"; title = "Go To Line:"; ObjectID = "vSo-jI-rK1"; */
+"vSo-jI-rK1.title" = "跳到行:";
+
+/* Class = "NSTextFieldCell"; title = "HEADER CELL"; ObjectID = "xJj-6e-JML"; */
+"xJj-6e-JML.title" = "HEADER CELL";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "xOd-HO-29H"; */
+"xOd-HO-29H.title" = "Window";
+
+/* Class = "NSButtonCell"; title = "Convert"; ObjectID = "xY9-mg-K2n"; */
+"xY9-mg-K2n.title" = "转换";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "z7l-aG-l2v"; */
+"z7l-aG-l2v.title" = "Table View Cell";

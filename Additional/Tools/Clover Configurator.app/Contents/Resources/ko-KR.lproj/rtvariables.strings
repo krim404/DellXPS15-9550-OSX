@@ -1,0 +1,46 @@
+/* Start of Additional Translation by ZISQO */
+/* Class = "NSTextFieldCell"; title = "ROM"; ObjectID = "Wb4-wf-DjH"; */
+"Wb4-wf-DjH.title" = "네트워크 ROM";
+
+/* Class = "NSComboBoxCell"; Z1e-OV-wLC.ibShadowedObjectValues[0] = "UseMacAddr0"; ObjectID = "Z1e-OV-wLC"; */
+"Z1e-OV-wLC.ibShadowedObjectValues[0]" = "1번 이더넷 MAC 주소 사용";
+
+/* Class = "NSComboBoxCell"; Z1e-OV-wLC.ibShadowedObjectValues[1] = "UseMacAddr1"; ObjectID = "Z1e-OV-wLC"; */
+"Z1e-OV-wLC.ibShadowedObjectValues[1]" = "2번 이더넷 MAC 주소 사용";
+
+/* Class = "NSBox"; title = "Info"; ObjectID = "PhT-pr-ARX"; */
+"PhT-pr-ARX.title" = "시스템에 사용된 정보";
+
+/* Class = "NSTextFieldCell"; title = "CsrActiveConfig"; ObjectID = "RKP-GB-mer"; */
+"RKP-GB-mer.title" = "CSR 활성화 설정";
+
+/* Class = "NSTextFieldCell"; title = "BooterConfig"; ObjectID = "elH-so-LWT"; */
+"elH-so-LWT.title" = "부팅 설정";
+
+/* Class = "NSSegmentedCell"; bTi-aD-UHm.ibShadowedLabels[0] = "Mac"; ObjectID = "bTi-aD-UHm"; */
+"bTi-aD-UHm.ibShadowedLabels[0]" = "리얼맥";
+
+/* Class = "NSSegmentedCell"; bTi-aD-UHm.ibShadowedLabels[1] = "Hack"; ObjectID = "bTi-aD-UHm"; */
+"bTi-aD-UHm.ibShadowedLabels[1]" = "해킨토시";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>MLB</key>\n<string>XXXXXXXXXX</string>\nDigits and letters, 13-17 in length, describing the motherboard's serial number. No special rule exists here. The best option is to choose a real serial number and to replace digits in the middle."; ObjectID = "3Rz-bH-ov6"; */
+"3Rz-bH-ov6.ibShadowedToolTip" = "<key>MLB</key>\n\
+<string>XXXXXXXXXX</string>\n\
+마더보드의 일련 번호를 설명하는 13-17자의 숫자+문자 조합 구성으로 이뤄진 항목 입니다 SMBIOS에서 시리얼을 생성한 다음 알파벳과 숫자로 이뤄진 추가 5문자를 더하면 아이메세지를 활성할 때 큰 도움이 됩니다 만약 중복되는 시리얼이 발생할 경우 가장 좋은 해결 방법은 MLB 값의 중간 숫자를 변경하는 것 입니다";
+
+/* Class = "NSButtonCell"; title = "from SMBIOS"; ObjectID = "GuE-NO-NRB"; */
+"GuE-NO-NRB.title" = "SMBIOS 읽기";
+
+/* Class = "NSButtonCell"; title = "from System"; ObjectID = "Kps-63-923"; */
+"Kps-63-923.title" = "시스템 읽기";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "cP0-fk-re9"; */
+"cP0-fk-re9.title" = "만들기";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "13 o 17 digits length"; ObjectID = "KwA-l4-d8A"; */
+"KwA-l4-d8A.ibShadowedIsNilPlaceholder" = "보드 시리얼 + 5자 조합의 텍스트";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "valid ROM or MAC address"; ObjectID = "lZC-mm-lJY"; */
+"lZC-mm-lJY.ibShadowedIsNilPlaceholder" = "사용 가능한 ROM 또는 MAC 주소";
+
+"kEV-Mm-MDm.ibShadowedToolTip" = "<key>ROM</key>\n<data>AAAAAAAA</data> OR <string>UseMacAddrX</string>\n\n이더넷 카드의 MAC 주소와 일치하는 12자리의 16진수 (여러 의견에 따르면 랜덤 값일 수 있습니다\n\n리비전 3051의 클로버는 이더넷 카드의 MAC 주소를 탐지하여 ROM으로 사용할 수 있습니다\nUEFI의 경우, 먼저 UEFI 프로토콜에서 LAN 정보를 확인하지만, 레거시에서는 하드웨어의 롬에서 가져오려고 시도하는데 이 절차는 안정적이지 않기 때문에 UseMacAddr0또는 UseMacAddr1로 LAN 장치를 직접 지정하여 기능을 활성화 합니다(최대 4개의 장치를 사용할 수 있지만 2개만 사용 됩니다\nUseMacAddrX를 설정하지 않으면 MAC 주소가 레거시인지 테스트하지 않고 이와 반대로 테스트 과정이 안정적인 UEFI를 사용하는 것이 더욱 유리하므로 UEFI를 사용할 것을 권장 합니다";

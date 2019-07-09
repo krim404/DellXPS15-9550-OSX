@@ -1,0 +1,93 @@
+/* Class = "NSTextFieldCell"; placeholderString = "HEX string"; ObjectID = "7ge-l0-5cF"; */
+"7ge-l0-5cF.placeholderString" = "HEX Zeichenkette";
+
+/* Class = "NSButtonCell"; title = "Convert"; ObjectID = "8j9-Lb-tYb"; */
+"8j9-Lb-tYb.title" = "Konvertieren";
+
+/* Class = "NSSegmentedCell"; 550-KJ-heg.ibShadowedLabels[0] = "encode"; ObjectID = "550-KJ-heg"; */
+"550-KJ-heg.ibShadowedLabels[0]" = "kodieren";
+
+/* Class = "NSSegmentedCell"; 550-KJ-heg.ibShadowedLabels[1] = "decode"; ObjectID = "550-KJ-heg"; */
+"550-KJ-heg.ibShadowedLabels[1]" = "dekodieren";
+
+/* Class = "NSTextFieldCell"; title = "(Check your Custom Entry  -> Settings field in your config.plist)"; ObjectID = "aoq-qJ-YJW"; */
+"aoq-qJ-YJW.title" = "(Überprüfen Sie das Feld Benutzerdefinierter Eintrag ->Einstellungen in Ihrer config.plist.)";
+
+/* Class = "NSTextFieldCell"; placeholderString = "decimal string"; ObjectID = "bdn-ET-6RK"; */
+"bdn-ET-6RK.placeholderString" = "dezimal Zeichenkette";
+
+/* Class = "NSButtonCell"; title = "Synchronized"; ObjectID = "cZ7-39-tJB"; */
+"cZ7-39-tJB.title" = "Synchronisiert";
+
+/* Class = "NSTextFieldCell"; title = "Generate a file named config-generate in your desktop."; ObjectID = "Dp5-d4-QWm"; */
+"Dp5-d4-QWm.title" = "Generiere";
+
+/* Class = "NSTextFieldCell"; placeholderString = "HEX string"; ObjectID = "e9m-0V-mNu"; */
+"e9m-0V-mNu.placeholderString" = "HEX Zeichenkette";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "GNm-Uo-xnR"; */
+"GNm-Uo-xnR.title" = "Generieren";
+
+/* Class = "NSSegmentedCell"; HbC-Uc-cDy.ibShadowedLabels[0] = "decode"; ObjectID = "HbC-Uc-cDy"; */
+"HbC-Uc-cDy.ibShadowedLabels[0]" = "dekodieren";
+
+/* Class = "NSSegmentedCell"; HbC-Uc-cDy.ibShadowedLabels[1] = "encode"; ObjectID = "HbC-Uc-cDy"; */
+"HbC-Uc-cDy.ibShadowedLabels[1]" = "kodieren";
+
+/* Class = "NSBox"; title = "decimal <-> HEX "; ObjectID = "Hef-7r-1B5"; */
+"Hef-7r-1B5.title" = "Dezimal<->HEX";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Check Configurations"; ObjectID = "Ig7-Pf-GcQ"; */
+"Ig7-Pf-GcQ.ibShadowedToolTip" = "Überprüfe Konfigurationen";
+
+/* Class = "NSTextFieldCell"; placeholderString = "HEX string"; ObjectID = "ipc-1D-gt0"; */
+"ipc-1D-gt0.placeholderString" = "HEX Zeichenkette";
+
+/* Class = "NSTextFieldCell"; title = "Settings=special mean a file special.plist which is the same as config.plist but with other values.  "; ObjectID = "ja5-Rv-50N"; */
+"ja5-Rv-50N.title" = "Einstellungen=speziell bedeutet eine Datei special.plist, die mit config.plist identisch ist, jedoch mit anderen Werten.";
+
+/* Class = "NSTextFieldCell"; title = "This way you get a nearly complete configuration file with the parameters used to successfully load the OS. Some more manual work is needed to finish it."; ObjectID = "mUm-Cj-uPR"; */
+"mUm-Cj-uPR.title" = "Auf diese Weise erhalten Sie eine nahezu vollständige Konfigurationsdatei mit den Parametern, die zum erfolgreichen Laden des Betriebssystems verwendet werden. Es bedarf weiterer Handarbeit, um den Vorgang abzuschließen.";
+
+/* Class = "NSTextFieldCell"; title = "Boot and GUI keys will be deleted"; ObjectID = "ncW-Qc-6pw"; */
+"ncW-Qc-6pw.title" = "Boot- und GUI-Keys werden gelöscht";
+
+/* Class = "NSTextFieldCell"; placeholderString = "base64 string"; ObjectID = "O6W-lm-fgb"; */
+"O6W-lm-fgb.placeholderString" = "Base64 Zeichenkette";
+
+/* Class = "NSTextFieldCell"; placeholderString = "text string"; ObjectID = "Ou2-va-NgM"; */
+"Ou2-va-NgM.placeholderString" = "Text Zeichenkette";
+
+/* Class = "NSSegmentedCell"; Pcr-Ly-2xE.ibShadowedLabels[0] = "encode"; ObjectID = "Pcr-Ly-2xE"; */
+"Pcr-Ly-2xE.ibShadowedLabels[0]" = "kodieren";
+
+/* Class = "NSSegmentedCell"; Pcr-Ly-2xE.ibShadowedLabels[1] = "decode"; ObjectID = "Pcr-Ly-2xE"; */
+"Pcr-Ly-2xE.ibShadowedLabels[1]" = "dekodieren";
+
+/* Class = "NSButtonCell"; title = "Save as different settings"; ObjectID = "r77-9U-hOe"; */
+"r77-9U-hOe.title" = "Als andere Einstellungen speichern";
+
+/* Class = "NSTextFieldCell"; title = "HEX code will be converted in base 64 [Hex]    Required field (*)"; ObjectID = "rL1-iT-PGa"; */
+"rL1-iT-PGa.title" = "HEX-Code wird in Base 64 umgewandelt [Hex]    Erforderliches Feld (*)";
+
+/* Class = "NSButtonCell"; title = "Convert"; ObjectID = "sEJ-sd-OSF"; */
+"sEJ-sd-OSF.title" = "Konvertieren";
+
+/* Class = "NSTextFieldCell"; title = "Pay attention because more values could be wrong. clover-genconfig must be installed in /usr/local/bin directory."; ObjectID = "Uii-al-t3k"; */
+"Uii-al-t3k.title" = "Achten Sie darauf, dass mehr Werte falsch sein könnten. clover-genconfig muss im Verzeichnis /usr/local/bin installiert sein.";
+
+/* Class = "NSTextFieldCell"; title = "CONFIGURATIONS ACQUIRED"; ObjectID = "uVS-zl-WvC"; */
+"uVS-zl-WvC.title" = "KONFIGURATIONEN ERWORBEN";
+
+/* Class = "NSTextFieldCell"; title = "Go To Line:"; ObjectID = "vSo-jI-rK1"; */
+"vSo-jI-rK1.title" = "Springe zu Zeile:";
+
+/* Class = "NSTextFieldCell"; title = "Search (⌘F)"; ObjectID = "Wd6-KD-rqx"; */
+"Wd6-KD-rqx.title" = "Suchen (⌘F)";
+
+/* Class = "NSButtonCell"; title = "Convert"; ObjectID = "xY9-mg-K2n"; */
+"xY9-mg-K2n.title" = "Konvertieren";
+
+/* Class = "NSButtonCell"; title = "Item enabled by default"; ObjectID = "ZYT-Jt-TM0"; */
+"ZYT-Jt-TM0.title" = "Element ist standardmässig aktiviert";
+

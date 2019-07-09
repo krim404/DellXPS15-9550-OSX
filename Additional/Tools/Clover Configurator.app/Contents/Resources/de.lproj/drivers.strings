@@ -1,0 +1,51 @@
+/* Class = "NSButtonCell"; title = "Backup driver"; ObjectID = "6md-z5-SFB"; */
+"6md-z5-SFB.title" = "Backup des Treibers erstellen";
+
+/* Class = "NSTextFieldCell"; title = "Source from:"; ObjectID = "7hx-jG-2PR"; */
+"7hx-jG-2PR.title" = "Quelle aus:";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "c8G-aG-JTM"; */
+"c8G-aG-JTM.title" = "Herunterladen";
+
+/* Class = "NSTextFieldCell"; title = "Driver Not Installed"; ObjectID = "cP9-9b-JRb"; */
+"cP9-9b-JRb.title" = "Treiber nicht Installiert";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "dYD-Cb-IuP"; */
+"dYD-Cb-IuP.headerCell.title" = "Name";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "fdI-aN-BLf"; */
+"fdI-aN-BLf.headerCell.title" = "Name";
+
+/* Class = "NSButton"; ibShadowedToolTip = "open partition"; ObjectID = "GIf-I3-W2e"; */
+"GIf-I3-W2e.ibShadowedToolTip" = "öffne Partition";
+
+/* Class = "NSTextFieldCell"; title = "target partition"; ObjectID = "ip5-UB-jBM"; */
+"ip5-UB-jBM.title" = "Zielpartition";
+
+/* Class = "NSTableColumn"; headerCell.title = "Delete"; ObjectID = "JNz-6c-SYZ"; */
+"JNz-6c-SYZ.headerCell.title" = "Löschen";
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "LxY-U9-fBY"; */
+"LxY-U9-fBY.headerCell.title" = "Beschreibung";
+
+/* Class = "NSButton"; ibShadowedToolTip = "reload data"; ObjectID = "NhD-l1-Uc1"; */
+"NhD-l1-Uc1.ibShadowedToolTip" = "Daten neu laden";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "NUT-Vu-NPF"; */
+"NUT-Vu-NPF.title" = "Status";
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "NyC-yN-nrL"; */
+"NyC-yN-nrL.headerCell.title" = "Beschreibung";
+
+/* Class = "NSTableColumn"; headerCell.title = "Installed"; ObjectID = "tix-Pb-64r"; */
+"tix-Pb-64r.headerCell.title" = "Installiert";
+
+/* Class = "NSTableColumn"; headerCell.title = "Delete"; ObjectID = "tQ0-fb-yNb"; */
+"tQ0-fb-yNb.headerCell.title" = "Löschen";
+
+/* Class = "NSTextFieldCell"; title = "Driver Installed"; ObjectID = "Ut9-XO-1M0"; */
+"Ut9-XO-1M0.title" = "Treiber Installiert";
+
+/* Class = "NSTableColumn"; headerCell.title = "Installed"; ObjectID = "x48-UQ-jdF"; */
+"x48-UQ-jdF.headerCell.title" = "Installiert";
+

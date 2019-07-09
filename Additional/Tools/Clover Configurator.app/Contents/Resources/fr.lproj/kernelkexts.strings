@@ -1,0 +1,303 @@
+
+/* Class = "NSMenuItem"; title = "040660 CrystalWell"; ObjectID = "0Cb-ok-TcQ"; */
+"0Cb-ok-TcQ.title" = "040660 CrystalWell";
+
+/* Class = "NSTextFieldCell"; title = "ATI Connectors Patch"; ObjectID = "17L-60-k1v"; */
+"17L-60-k1v.title" = "ATI Connectors Patch";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace* [HEX]"; ObjectID = "1KW-6y-tEW"; */
+"1KW-6y-tEW.headerCell.title" = "Replace* [HEX]";
+
+/* Class = "NSTableColumn"; headerCell.title = "Disabled"; ObjectID = "1dq-W9-920"; */
+"1dq-W9-920.headerCell.title" = "Disabled";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find* [HEX]"; ObjectID = "1pY-PQ-E4v"; */
+"1pY-PQ-E4v.headerCell.title" = "Find* [HEX]";
+
+/* Class = "NSTextFieldCell"; title = "FakeCPUID"; ObjectID = "4kQ-S2-0fh"; */
+"4kQ-S2-0fh.title" = "FakeCPUID";
+
+/* Class = "NSTabViewItem"; label = "BootPatches"; ObjectID = "55w-mJ-Wxn"; */
+"55w-mJ-Wxn.label" = "BootPatches";
+
+/* Class = "NSMenuItem"; title = "List Of Patches"; ObjectID = "6OQ-Cx-38E"; */
+"6OQ-Cx-38E.title" = "List Of Patches";
+
+/* Class = "NSMenuItem"; title = "020650 Clarkdale"; ObjectID = "6Wp-C5-hb0"; */
+"6Wp-C5-hb0.title" = "020650 Clarkdale";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "6ah-g6-EOn"; */
+"6ah-g6-EOn.headerCell.title" = "Comment";
+
+/* Class = "NSTableColumn"; headerCell.title = "InfoPlistPatch"; ObjectID = "6f2-y0-d3r"; */
+"6f2-y0-d3r.headerCell.title" = "InfoPlistPatch";
+
+/* Class = "NSTableColumn"; headerCell.title = "MatchBuild"; ObjectID = "8Eh-7N-7GG"; */
+"8Eh-7N-7GG.headerCell.title" = "MatchBuild";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ATIConnectorsData</key>\n<string>000400000403000000010000210302040400000014020000000100000000 040310000000100000000001000000000001</string>\n\nInject ATI Connectors to the host controller."; ObjectID = "8Qv-nN-rmZ"; */
+"8Qv-nN-rmZ.ibShadowedToolTip" = "<key>ATIConnectorsData</key>\n<string>000400000403000000010000210302040400000014020000000100000000 040310000000100000000001000000000001</string>\n\nInject ATI Connectors to the host controller.";
+
+/* Class = "NSMenuItem"; title = "020670 Lincroft"; ObjectID = "90k-vL-UyL"; */
+"90k-vL-UyL.title" = "020670 Lincroft";
+
+/* Class = "NSButtonCell"; title = "DellSMBIOSPatch"; ObjectID = "9mX-If-zv5"; */
+"9mX-If-zv5.title" = "DellSMBIOSPatch";
+
+/* Class = "NSButtonCell"; title = "AsusAICPUPM"; ObjectID = "9tC-b7-D4K"; */
+"9tC-b7-D4K.title" = "AsusAICPUPM";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "A99-1h-pPZ"; */
+"A99-1h-pPZ.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Disabled"; ObjectID = "A9H-1z-MIn"; */
+"A9H-1z-MIn.headerCell.title" = "Disabled";
+
+/* Class = "NSMenuItem"; title = "0006E6 Yonah"; ObjectID = "BOj-uE-0K7"; */
+"BOj-uE-0K7.title" = "0006E6 Yonah";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>KernelCpu</key>\n<true/>\nEliminates kernel panics related to an unsupported CPU like Yonah, Atom or Haswell for old systems. However, the kernel has other algorithms which will not work correctly when using an unsupported CPU and this patch will not solve all problems. It is highly unlikely that this will work with a Pentium M, Pentium 4 or and AMD. The use of a special replacement kernel is advised in such cases."; ObjectID = "BuJ-7z-Om5"; */
+"BuJ-7z-Om5.ibShadowedToolTip" = "<key>KernelCpu</key>\n<true/>\nEliminates kernel panics related to an unsupported CPU like Yonah, Atom or Haswell for old systems. However, the kernel has other algorithms which will not work correctly when using an unsupported CPU and this patch will not solve all problems. It is highly unlikely that this will work with a Pentium M, Pentium 4 or and AMD. The use of a special replacement kernel is advised in such cases.";
+
+/* Class = "NSButtonCell"; title = "AppleIntelCPUPM"; ObjectID = "C3D-s9-0Hh"; */
+"C3D-s9-0Hh.title" = "AppleIntelCPUPM";
+
+/* Class = "NSMenuItem"; title = "0306A0 IvyBridge"; ObjectID = "Ceo-Ms-S6O"; */
+"Ceo-Ms-S6O.title" = "0306A0 IvyBridge";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Cz1-kM-J8u"; */
+"Cz1-kM-J8u.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "MatchBuild"; ObjectID = "DIN-uZ-12B"; */
+"DIN-uZ-12B.headerCell.title" = "MatchBuild";
+
+/* Class = "NSMenuItem"; title = "0106D0 XeonMP"; ObjectID = "E45-W1-gqP"; */
+"E45-W1-gqP.title" = "0106D0 XeonMP";
+
+/* Class = "NSTableColumn"; headerCell.title = "MatchOS"; ObjectID = "EMr-Lt-Ork"; */
+"EMr-Lt-Ork.headerCell.title" = "MatchOS";
+
+/* Class = "NSMenuItem"; title = "0206F0 WestmereEx"; ObjectID = "EUQ-EV-bG4"; */
+"EUQ-EV-bG4.title" = "0206F0 WestmereEx";
+
+/* Class = "NSMenuItem"; title = "0206D0 Jaketown"; ObjectID = "Ekb-Ab-6H8"; */
+"Ekb-Ab-6H8.title" = "0206D0 Jaketown";
+
+/* Class = "NSButtonCell"; title = "Kernel LAPIC"; ObjectID = "EzT-Kb-ZbE"; */
+"EzT-Kb-ZbE.title" = "Kernel LAPIC";
+
+/* Class = "NSMenuItem"; title = "0006F2 Conroe"; ObjectID = "FE7-Co-m2i"; */
+"FE7-Co-m2i.title" = "0006F2 Conroe";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "Fc0-zk-qC2"; */
+"Fc0-zk-qC2.headerCell.title" = "Comment";
+
+/* Class = "NSTextFieldCell"; title = "Ati Connectors Controller"; ObjectID = "Ful-3A-jBn"; */
+"Ful-3A-jBn.title" = "Ati Connectors Controller";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ATIConnectorsController</key>\n<string>6000</string>\nFor a fully working AMD video card injecting properties into the registry is not enough. Additionally a modification of the connectors in the according controller binary file is necessary. The example points to the 6000 series controller file:\n\n<key>ATIConnectorsData</key>\n<string>000400000403000000010000210302040400000014020000000100000000 040310000000100000000001000000000001</string>\n<key>ATIConnectorsPatch</key>\n<string>040000001402000000010000000004040004000004030000000100001102 010500000000000000000000000000000000</string>\nThis method works for systems using Mac OS X 10.7 or newer."; ObjectID = "Gho-ZW-2Ud"; */
+"Gho-ZW-2Ud.ibShadowedToolTip" = "<key>ATIConnectorsController</key>\n<string>6000</string>\nFor a fully working AMD video card injecting properties into the registry is not enough. Additionally a modification of the connectors in the according controller binary file is necessary. The example points to the 6000 series controller file:\n\n<key>ATIConnectorsData</key>\n<string>000400000403000000010000210302040400000014020000000100000000 040310000000100000000001000000000001</string>\n<key>ATIConnectorsPatch</key>\n<string>040000001402000000010000000004040004000004030000000100001102 010500000000000000000000000000000000</string>\nThis method works for systems using Mac OS X 10.7 or newer.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>KernelLapic</key>\n<false/>\nHP notebooks have lapic problems, which can be solved by using the boot parameter cpus=1 or by using this option."; ObjectID = "GrX-RG-9oN"; */
+"GrX-RG-9oN.ibShadowedToolTip" = "<key>KernelLapic</key>\n<false/>\nHP notebooks have lapic problems, which can be solved by using the boot parameter cpus=1 or by using this option.";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "HV5-nU-8c3"; */
+"HV5-nU-8c3.title" = "Box";
+
+/* Class = "NSMenuItem"; title = "0206A0 SandyBridge"; ObjectID = "Hhb-e2-7Js"; */
+"Hhb-e2-7Js.title" = "0206A0 SandyBridge";
+
+/* Class = "NSMenuItem"; title = "020660 AtomSandy"; ObjectID = "KRQ-FJ-puk"; */
+"KRQ-FJ-puk.title" = "020660 AtomSandy";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find* [HEX]"; ObjectID = "Kuf-nc-3Cb"; */
+"Kuf-nc-3Cb.headerCell.title" = "Find* [HEX]";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "NLu-1t-Rsd"; */
+"NLu-1t-Rsd.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ONV-EJ-Lea"; */
+"ONV-EJ-Lea.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "0106C2 Atom"; ObjectID = "OW0-7d-dcN"; */
+"OW0-7d-dcN.title" = "0106C2 Atom";
+
+/* Class = "NSTableColumn"; headerCell.title = "MatchBuild"; ObjectID = "Ort-Ca-n5u"; */
+"Ort-Ca-n5u.headerCell.title" = "MatchBuild";
+
+/* Class = "NSMenuItem"; title = "Items"; ObjectID = "PwU-ue-NQZ"; */
+"PwU-ue-NQZ.title" = "Items";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>DellSMBIOSPatch</key>\n<true/>\n\nDedicated patch for Dell where SMBIOS's product name get truncated."; ObjectID = "QwB-es-MsD"; */
+"QwB-es-MsD.ibShadowedToolTip" = "<key>DellSMBIOSPatch</key>\n<true/>\n\nDedicated patch for Dell where SMBIOS's product name get truncated.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>AppleIntelCPUPM</key>\n<true/>\nAsusAICPUPM key was renamed to AppleIntelCPUPM.\n\nSome vendors, like ASUS, restrict the use of MSR register 0xE2 in their power management module to ReadOnly. On Sandy/Ivy Bridge systems the kext AppleIntelCpuPowerManagement will try to write to this register and cause a kernel panic. This patch will eliminate the kext's write operations."; ObjectID = "Tha-bt-y4P"; */
+"Tha-bt-y4P.ibShadowedToolTip" = "<key>AppleIntelCPUPM</key>\n<true/>\nAsusAICPUPM key was renamed to AppleIntelCPUPM.\n\nSome vendors, like ASUS, restrict the use of MSR register 0xE2 in their power management module to ReadOnly. On Sandy/Ivy Bridge systems the kext AppleIntelCpuPowerManagement will try to write to this register and cause a kernel panic. This patch will eliminate the kext's write operations.";
+
+/* Class = "NSMenuItem"; title = "0306C0 Haswell"; ObjectID = "UKL-Tr-zMq"; */
+"UKL-Tr-zMq.title" = "0306C0 Haswell";
+
+/* Class = "NSButtonCell"; title = "Apple RTC"; ObjectID = "UVL-fi-NbL"; */
+"UVL-fi-NbL.title" = "Apple RTC";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "- Name: kext executable name (i.e. without extension), \n        but You can, instead, use the CFBundleIdentifier.\n\n- Find: data to to be found inside the desired kext \n\n- Replace: data to be replaced with the contents of the Find key.\n\n- Comment: this remind you what this patch does. \n           In truth this key is optional, but it's a bad (bad) practice\n           to not use it. Remind that this comment show up in the GUI\n           so please use a short description or will be truncated.\n\nOptional keys:\n\n- InfoPlistPatch: boolean key, if true, data replacement wil be performed\n                  on the _PrelinkInfoDictionary (Info.plist inside prelinkedkernel) \n\t\t  instead of the executable.\n                  In older OSes this also happened on the real kexts\n                  loaded from the filesystem by boot.efi (now only prelinked\n                  kexts are taken into account) so be aware that what you see on the real\n\t\t  kext can be different due to some different tags used (IDREF).\n\n- Disabled: boolean key, if true this patch will be skipped by Clover.\n           Mind that you can use different configs callable at boot in GUI, so this\n           can be usefull on purpose.  \n           You can make your pattern (Find/Replace) unique by increasing the data length\n           and your patch will be only performed if a match exist, but this can be \n\t   problematic. AppleHDA need zeroing codec 1 (example) until 10.11, and codec 2 \n\t   in 10.12 ...but codec 1 must not be patched..otherwise no sound:\n\t   Consider to use MatchOS or MatchBuild to dinamically\n\t   load/skip variants of the same kind of patch in different OS versions.\n \n\n- MatchOS: string containings one or more os version separated by comma:\n\t   10.11 means that only if you boot into 10.11 the patch will be activated, but not for 10.11.1\n           10.11.x means that every revision of 10.11 will activate your patch, but not for 10.12\n           \n\t   10.11.6,10.12.x,10.13.x\n\n           the above string will activate your patch for all versions of Sierra and High Sierra, but\n           in El Capitan only if 10.11.6 is detected.\n\n- MatchBuild: Suppose that your patch only works in 10.11.6 with security update installed:\n\n              15G1004\n\n\t      by specifying the build number you can apply this patch only if the build 15G1004.\n       \t      As for MatchOS you can use more then one build string separated by comma."; ObjectID = "VEJ-gW-nUU"; */
+"VEJ-gW-nUU.ibShadowedToolTip" = "- Name: kext executable name (i.e. without extension), \n        but You can, instead, use the CFBundleIdentifier.\n\n- Find: data to to be found inside the desired kext \n\n- Replace: data to be replaced with the contents of the Find key.\n\n- Comment: this remind you what this patch does. \n           In truth this key is optional, but it's a bad (bad) practice\n           to not use it. Remind that this comment show up in the GUI\n           so please use a short description or will be truncated.\n\nOptional keys:\n\n- InfoPlistPatch: boolean key, if true, data replacement wil be performed\n                  on the _PrelinkInfoDictionary (Info.plist inside prelinkedkernel) \n\t\t  instead of the executable.\n                  In older OSes this also happened on the real kexts\n                  loaded from the filesystem by boot.efi (now only prelinked\n                  kexts are taken into account) so be aware that what you see on the real\n\t\t  kext can be different due to some different tags used (IDREF).\n\n- Disabled: boolean key, if true this patch will be skipped by Clover.\n           Mind that you can use different configs callable at boot in GUI, so this\n           can be usefull on purpose.  \n           You can make your pattern (Find/Replace) unique by increasing the data length\n           and your patch will be only performed if a match exist, but this can be \n\t   problematic. AppleHDA need zeroing codec 1 (example) until 10.11, and codec 2 \n\t   in 10.12 ...but codec 1 must not be patched..otherwise no sound:\n\t   Consider to use MatchOS or MatchBuild to dinamically\n\t   load/skip variants of the same kind of patch in different OS versions.\n \n\n- MatchOS: string containings one or more os version separated by comma:\n\t   10.11 means that only if you boot into 10.11 the patch will be activated, but not for 10.11.1\n           10.11.x means that every revision of 10.11 will activate your patch, but not for 10.12\n           \n\t   10.11.6,10.12.x,10.13.x\n\n           the above string will activate your patch for all versions of Sierra and High Sierra, but\n           in El Capitan only if 10.11.6 is detected.\n\n- MatchBuild: Suppose that your patch only works in 10.11.6 with security update installed:\n\n              15G1004\n\n\t      by specifying the build number you can apply this patch only if the build 15G1004.\n       \t      As for MatchOS you can use more then one build string separated by comma.";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "kext name"; ObjectID = "VMl-as-cIc"; */
+"VMl-as-cIc.ibShadowedIsNilPlaceholder" = "kext name";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "W4b-rM-0Je"; */
+"W4b-rM-0Je.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "WH2-hI-7oC"; */
+"WH2-hI-7oC.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Disabled"; ObjectID = "WYf-di-eHU"; */
+"WYf-di-eHU.headerCell.title" = "Disabled";
+
+/* Class = "NSMenuItem"; title = "010676 Penryn"; ObjectID = "WZA-zi-bLx"; */
+"WZA-zi-bLx.title" = "010676 Penryn";
+
+/* Class = "NSTabViewItem"; label = "ForceKextsToLoad"; ObjectID = "WbB-Px-Xj0"; */
+"WbB-Px-Xj0.label" = "ForceKextsToLoad";
+
+/* Class = "NSMenuItem"; title = "0106A2 Nehalem"; ObjectID = "Wbs-tC-htd"; */
+"Wbs-tC-htd.title" = "0106A2 Nehalem";
+
+/* Class = "NSMenuItem"; title = "0306D0 Broadwell"; ObjectID = "XHM-Wa-lNw"; */
+"XHM-Wa-lNw.title" = "0306D0 Broadwell";
+
+/* Class = "NSMenuItem"; title = "0806E9 Kabylake U"; ObjectID = "Xe7-YN-tF8"; */
+"Xe7-YN-tF8.title" = "0806E9 Kabylake U";
+
+/* Class = "NSTableColumn"; headerCell.title = "MatchOS"; ObjectID = "XuX-U8-TWu"; */
+"XuX-U8-TWu.headerCell.title" = "MatchOS";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>KernelXCPM</key>\n<true/>\n\nRev 4250\nXCPM patch will no more be unconditional.\nDefault value is <false/>. \nIt can arise some problems because old revision has default to true.\nBut many users can't boot at all because of this. Let it be conditional setting from config or from Clover GUI."; ObjectID = "YSu-h3-1N4"; */
+"YSu-h3-1N4.ibShadowedToolTip" = "<key>KernelXCPM</key>\n<true/>\n\nRev 4250\nXCPM patch will no more be unconditional.\nDefault value is <false/>. \nIt can arise some problems because old revision has default to true.\nBut many users can't boot at all because of this. Let it be conditional setting from config or from Clover GUI.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>KernelAndKextPatches</key>\n<dict>\n   <key>KernelPm</key>\n   <true/>\n</dict>\nKernel power management patch for Haswell with locked msrs. Works with 10.8.5 and 10.9 kernels."; ObjectID = "YYX-cr-aFn"; */
+"YYX-cr-aFn.ibShadowedToolTip" = "<key>KernelAndKextPatches</key>\n<dict>\n   <key>KernelPm</key>\n   <true/>\n</dict>\nKernel power management patch for Haswell with locked msrs. Works with 10.8.5 and 10.9 kernels.";
+
+/* Class = "NSMenuItem"; title = "0506E3 Skylake H"; ObjectID = "ZcP-rI-xoZ"; */
+"ZcP-rI-xoZ.title" = "0506E3 Skylake H";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "aHM-4H-dLq"; */
+"aHM-4H-dLq.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "0306F2 Haswell E"; ObjectID = "bGd-Gr-1nd"; */
+"bGd-Gr-1nd.title" = "0306F2 Haswell E";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ATIConnectorsPatch</key>\n<string>040000001402000000010000000004040004000004030000000100001102 010500000000000000000000000000000000</string>\n\nPatch and Inject ATI Connectors to the host controller."; ObjectID = "bj3-FA-qqt"; */
+"bj3-FA-qqt.ibShadowedToolTip" = "<key>ATIConnectorsPatch</key>\n<string>040000001402000000010000000004040004000004030000000100001102 010500000000000000000000000000000000</string>\n\nPatch and Inject ATI Connectors to the host controller.";
+
+/* Class = "NSButtonCell"; title = "KernelXCPM"; ObjectID = "bm5-LE-dIt"; */
+"bm5-LE-dIt.title" = "KernelXCPM";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "c0M-Pr-uvn"; */
+"c0M-Pr-uvn.title" = "Text Cell";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "write a MS-DOS path (\"\\\") to a folder or a single kext"; ObjectID = "d5H-ev-FTW"; */
+"d5H-ev-FTW.ibShadowedIsNilPlaceholder" = "write a MS-DOS path (\"\\\") to a folder or a single kext";
+
+/* Class = "NSMenuItem"; title = "050654 Skylake X"; ObjectID = "dHc-ct-soq"; */
+"dHc-ct-soq.title" = "050654 Skylake X";
+
+/* Class = "NSMenuItem"; title = "0906E9 Kabylake H"; ObjectID = "dOB-dz-5TU"; */
+"dOB-dz-5TU.title" = "0906E9 Kabylake H";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name*"; ObjectID = "eoj-a9-1kx"; */
+"eoj-a9-1kx.headerCell.title" = "Name*";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find* [HEX]"; ObjectID = "ern-lL-2eE"; */
+"ern-lL-2eE.headerCell.title" = "Find* [HEX]";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "- Find: data to to be found inside the desired kext \n\n- Replace: data to be replaced with the contents of the Find key.\n\n- Comment: this remind you what this patch does. \n           In truth this key is optional, but it's a bad (bad) practice\n           to not use it. Remind that this comment show up in the GUI\n           so please use a short description or will be truncated.\n\nOptional keys:\n\n- Disabled: boolean key, if true this patch will be skipped by Clover..\n \n\n- MatchOS: string containings one or more os version separated by comma:\n\t   10.11 means that only if you boot into 10.11 the patch will be activated, but not for 10.11.1\n           10.11.x means that every revision of 10.11 will activate your patch, but not for 10.12\n           \n\t   10.11.6,10.12.x,10.13.x\n\n           the above string will activate your patch for all versions of Sierra and High Sierra, but\n           in El Capitan only if 10.11.6 is detected.\n\n- MatchBuild: Suppose that your patch only works in 10.11.6 with security update installed:\n\n              15G1004\n\n\t      by specifying the build number you can apply this patch only if the build 15G1004.\n       \t      As for MatchOS you can use more then one build string separated by comma."; ObjectID = "fwV-Ju-Xrc"; */
+"fwV-Ju-Xrc.ibShadowedToolTip" = "- Find: data to to be found inside the desired kext \n\n- Replace: data to be replaced with the contents of the Find key.\n\n- Comment: this remind you what this patch does. \n           In truth this key is optional, but it's a bad (bad) practice\n           to not use it. Remind that this comment show up in the GUI\n           so please use a short description or will be truncated.\n\nOptional keys:\n\n- Disabled: boolean key, if true this patch will be skipped by Clover..\n \n\n- MatchOS: string containings one or more os version separated by comma:\n\t   10.11 means that only if you boot into 10.11 the patch will be activated, but not for 10.11.1\n           10.11.x means that every revision of 10.11 will activate your patch, but not for 10.12\n           \n\t   10.11.6,10.12.x,10.13.x\n\n           the above string will activate your patch for all versions of Sierra and High Sierra, but\n           in El Capitan only if 10.11.6 is detected.\n\n- MatchBuild: Suppose that your patch only works in 10.11.6 with security update installed:\n\n              15G1004\n\n\t      by specifying the build number you can apply this patch only if the build 15G1004.\n       \t      As for MatchOS you can use more then one build string separated by comma.";
+
+/* Class = "NSMenuItem"; title = "0306E0 IvyBridgeE5"; ObjectID = "gHn-fM-NPg"; */
+"gHn-fM-NPg.title" = "0306E0 IvyBridgeE5";
+
+/* Class = "NSTableColumn"; headerCell.title = "MatchOS"; ObjectID = "gMY-Pf-myq"; */
+"gMY-Pf-myq.headerCell.title" = "MatchOS";
+
+/* Class = "NSMenuItem"; title = "040650 HaswellULT"; ObjectID = "hky-BN-9Hv"; */
+"hky-BN-9Hv.title" = "040650 HaswellULT";
+
+/* Class = "NSTextFieldCell"; title = "(?) InfoPlistPatch available only with valid Find & Replace text string"; ObjectID = "hnL-Gj-XtT"; */
+"hnL-Gj-XtT.title" = "(?) InfoPlistPatch available only with valid Find & Replace text string";
+
+/* Class = "NSMenuItem"; title = "030660 Atom2000"; ObjectID = "jaG-DV-Tnf"; */
+"jaG-DV-Tnf.title" = "030660 Atom2000";
+
+/* Class = "NSTextFieldCell"; title = "ATI Connectors Data"; ObjectID = "jxO-JO-Amx"; */
+"jxO-JO-Amx.title" = "ATI Connectors Data";
+
+/* Class = "NSMenuItem"; title = "040670 Broadwell H"; ObjectID = "myE-3F-Miw"; */
+"myE-3F-Miw.title" = "040670 Broadwell H";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace* [HEX]"; ObjectID = "nu5-mT-QWj"; */
+"nu5-mT-QWj.headerCell.title" = "Replace* [HEX]";
+
+/* Class = "NSTabViewItem"; label = "KextsToPatch"; ObjectID = "pZK-Hw-m3I"; */
+"pZK-Hw-m3I.label" = "KextsToPatch";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>FakeCPUID</key>\n<string>0x010676</string>\nFake CPUID is intended to be a replacement for the Kernel CPU patch. It influences the kernel and AppleCPUPowerManagement as well.\n\nIf you want to install OSX with an unsupported CPU then you'll need to fake its ID to avoid kernel panics. Useful if you're trying to install OSX with an Atom CPU, or 10.7.2 with an IvyBridge CPU.\n\nFor these cases Clover allows you to set FakeCPUID in config.plist or even through the GUI, in the Binaries patching menu."; ObjectID = "psf-7V-53d"; */
+"psf-7V-53d.ibShadowedToolTip" = "<key>FakeCPUID</key>\n<string>0x010676</string>\nFake CPUID is intended to be a replacement for the Kernel CPU patch. It influences the kernel and AppleCPUPowerManagement as well.\n\nIf you want to install OSX with an unsupported CPU then you'll need to fake its ID to avoid kernel panics. Useful if you're trying to install OSX with an Atom CPU, or 10.7.2 with an IvyBridge CPU.\n\nFor these cases Clover allows you to set FakeCPUID in config.plist or even through the GUI, in the Binaries patching menu.";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "q9s-WQ-f34"; */
+"q9s-WQ-f34.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "0206C0 Westmere"; ObjectID = "qL9-wu-RJD"; */
+"qL9-wu-RJD.title" = "0206C0 Westmere";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "- Find: data to to be found inside the desired kext \n\n- Replace: data to be replaced with the contents of the Find key.\n\n- Comment: this remind you what this patch does. \n           In truth this key is optional, but it's a bad (bad) practice\n           to not use it. Remind that this comment show up in the GUI\n           so please use a short description or will be truncated.\n\nOptional keys:\n\n- Disabled: boolean key, if true this patch will be skipped by Clover..\n \n\n- MatchOS: string containings one or more os version separated by comma:\n\t   10.11 means that only if you boot into 10.11 the patch will be activated, but not for 10.11.1\n           10.11.x means that every revision of 10.11 will activate your patch, but not for 10.12\n           \n\t   10.11.6,10.12.x,10.13.x\n\n           the above string will activate your patch for all versions of Sierra and High Sierra, but\n           in El Capitan only if 10.11.6 is detected.\n\n- MatchBuild: Suppose that your patch only works in 10.11.6 with security update installed:\n\n              15G1004\n\n\t      by specifying the build number you can apply this patch only if the build 15G1004.\n       \t      As for MatchOS you can use more then one build string separated by comma."; ObjectID = "qvb-uI-e59"; */
+"qvb-uI-e59.ibShadowedToolTip" = "- Find: data to to be found inside the desired kext \n\n- Replace: data to be replaced with the contents of the Find key.\n\n- Comment: this remind you what this patch does. \n           In truth this key is optional, but it's a bad (bad) practice\n           to not use it. Remind that this comment show up in the GUI\n           so please use a short description or will be truncated.\n\nOptional keys:\n\n- Disabled: boolean key, if true this patch will be skipped by Clover..\n \n\n- MatchOS: string containings one or more os version separated by comma:\n\t   10.11 means that only if you boot into 10.11 the patch will be activated, but not for 10.11.1\n           10.11.x means that every revision of 10.11 will activate your patch, but not for 10.12\n           \n\t   10.11.6,10.12.x,10.13.x\n\n           the above string will activate your patch for all versions of Sierra and High Sierra, but\n           in El Capitan only if 10.11.6 is detected.\n\n- MatchBuild: Suppose that your patch only works in 10.11.6 with security update installed:\n\n              15G1004\n\n\t      by specifying the build number you can apply this patch only if the build 15G1004.\n       \t      As for MatchOS you can use more then one build string separated by comma.";
+
+/* Class = "NSTabViewItem"; label = "KernelToPatch"; ObjectID = "qyB-wi-AYY"; */
+"qyB-wi-AYY.label" = "KernelToPatch";
+
+/* Class = "NSMenuItem"; title = "0306F0 HaswellMB"; ObjectID = "r72-Mn-ijX"; */
+"r72-Mn-ijX.title" = "0306F0 HaswellMB";
+
+/* Class = "NSMenuItem"; title = "0406E3 Skylake U"; ObjectID = "rxZ-uJ-t3A"; */
+"rxZ-uJ-t3A.title" = "0406E3 Skylake U";
+
+/* Class = "NSMenuItem"; title = "0206E0 NehalemEx"; ObjectID = "sZw-xE-UNB"; */
+"sZw-xE-UNB.title" = "0206E0 NehalemEx";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>AppleRTC</key>\n<true/>\nOS X has compatibility issues with a BIOS CMOS resulting in its reset on each wake after sleep and reboot, which is noticeable in a loss of BIOS settings. Mostly Gigabyte motherboards are affected. Usually it can be solved by patching Device(RTC) in the DSDT.\nIf this does not help, the kext itself can be patched, which is done here."; ObjectID = "sev-5V-SEO"; */
+"sev-5V-SEO.ibShadowedToolTip" = "<key>AppleRTC</key>\n<true/>\nOS X has compatibility issues with a BIOS CMOS resulting in its reset on each wake after sleep and reboot, which is noticeable in a loss of BIOS settings. Mostly Gigabyte motherboards are affected. Usually it can be solved by patching Device(RTC) in the DSDT.\nIf this does not help, the kext itself can be patched, which is done here.";
+
+/* Class = "NSButtonCell"; title = "Kernel CPU"; ObjectID = "t0X-K4-D3Q"; */
+"t0X-K4-D3Q.title" = "Kernel CPU";
+
+/* Class = "NSMenuItem"; title = "0106E0 Linnfield"; ObjectID = "uUr-km-e6N"; */
+"uUr-km-e6N.title" = "0106E0 Linnfield";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace* [HEX]"; ObjectID = "uZD-a5-GP0"; */
+"uZD-a5-GP0.headerCell.title" = "Replace* [HEX]";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>ForceKextsToLoad</key>\n<array>\n  <string>\\System\\Library\\Extensions\\AppleHDA.kext</string>\n  <string>\\Extra\\Extensions</string>\n</array>\nForce load kexts (and plugins) from booted volume so it can be patched. It also accepts directories to force load/inject every kext in the folder."; ObjectID = "wic-aG-JaM"; */
+"wic-aG-JaM.ibShadowedToolTip" = "<key>ForceKextsToLoad</key>\n<array>\n  <string>\\System\\Library\\Extensions\\AppleHDA.kext</string>\n  <string>\\Extra\\Extensions</string>\n</array>\nForce load kexts (and plugins) from booted volume so it can be patched. It also accepts directories to force load/inject every kext in the folder.";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "wpB-J9-6PQ"; */
+"wpB-J9-6PQ.title" = "Text Cell";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Debug</key>\n<true/>\n\nEnables logging of KernelAndKextPatches."; ObjectID = "x8t-Ge-ksy"; */
+"x8t-Ge-ksy.ibShadowedToolTip" = "<key>Debug</key>\n<true/>\n\nEnables logging of KernelAndKextPatches.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "xHc-3E-PlG"; */
+"xHc-3E-PlG.headerCell.title" = "Comment";
+
+/* Class = "NSMenuItem"; title = "0106F0 Havendale"; ObjectID = "xSd-vQ-l40"; */
+"xSd-vQ-l40.title" = "0106F0 Havendale";
+
+/* Class = "NSButtonCell"; title = "KernelPm"; ObjectID = "yOE-J6-QvN"; */
+"yOE-J6-QvN.title" = "KernelPm";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "yxp-B8-9Xj"; */
+"yxp-B8-9Xj.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Debug"; ObjectID = "zcK-tk-zKy"; */
+"zcK-tk-zKy.title" = "Debug";

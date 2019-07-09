@@ -1,0 +1,20 @@
+/* Start of Additional Translation by ZISQO */
+"t6f-Xb-YhG.ibShadowedLabels[0]" = "레거시 64비트";
+
+/* Class = "NSSegmentedCell"; t6f-Xb-YhG.ibShadowedLabels[1] = "UEFI 64 bit"; ObjectID = "t6f-Xb-YhG"; */
+"t6f-Xb-YhG.ibShadowedLabels[1]" = "UEFI 64비트";
+
+/* Class = "NSTableColumn"; headerCell.title = "Drivers Name"; ObjectID = "7IZ-Ik-dch"; */
+"7IZ-Ik-dch.headerCell.title" = "드라이버 이름";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>DisableDrivers</key>\n<array>\n    <string>CsmVideoDxe</string>\n    <string>VBoxExt4</string>\n</array>\nThe purpose of this parameter is to have multiple configurations in the OEM folder. Only one driver folder exists, though, and it may be necessary to disable specific drivers for different configurations. One may need OsxAptioFixDxe, another one EmuVariableDxe."; ObjectID = "kIa-hw-7fZ"; */
+"kIa-hw-7fZ.ibShadowedToolTip" = "<key>DisableDrivers</key>
+<array>
+    <string>CsmVideoDxe</string>
+    <string>VBoxExt4</string>
+</array>
+이 매개 변수의 목적은 OEM 폴더에 여러 구성을 설정하는 것 입니다 그러나 드라이버 폴더는 하나만 존재하며, 다른 구성을 위해 특정 드라이버를 비활성화해야 할 수도 있습니다 OsxAptioFixDxe, 또 다른 EmuVariableDxe가 필요할 수 있습니다";
+
+/* Class = "NSBox"; title = "Disable Drivers"; ObjectID = "QMN-5M-i3s"; */
+"QMN-5M-i3s.title" = "EFI 드라이버 비활성화 | 하단 좌측의 목록에서 파일을 선택하면 부팅중 해당 드라이버를 비활성화 할 수 있습니다";
+

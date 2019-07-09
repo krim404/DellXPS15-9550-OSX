@@ -1,0 +1,21 @@
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "6f4-HV-RvA"; */
+"6f4-HV-RvA.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Drivers Name"; ObjectID = "7IZ-Ik-dch"; */
+"7IZ-Ik-dch.headerCell.title" = "驱动名称";
+
+/* Class = "NSBox"; title = "Disable Drivers"; ObjectID = "QMN-5M-i3s"; */
+"QMN-5M-i3s.title" = "禁用驱动";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>DisableDrivers</key>\n<array>\n    <string>CsmVideoDxe</string>\n    <string>VBoxExt4</string>\n</array>\nThe purpose of this parameter is to have multiple configurations in the OEM folder. Only one driver folder exists, though, and it may be necessary to disable specific drivers for different configurations. One may need OsxAptioFixDxe, another one EmuVariableDxe."; ObjectID = "kIa-hw-7fZ"; */
+"kIa-hw-7fZ.ibShadowedToolTip" = "<key>DisableDrivers</key>\n<array><string>CsmVideoDxe</string>\n<string>VBoxExt4</string>\n</array>\n\n此参数的目的是在OEM文件夹中具有多个配置。但是，只存在一个驱动程序文件夹，可能需要为不同的配置禁用特定的驱动程序。可能需要OsxAptioFixDxe，另一个需要EmuVariableDxe。";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "pZ0-k0-NG5"; */
+"pZ0-k0-NG5.title" = "OtherViews";
+
+/* Class = "NSSegmentedCell"; t6f-Xb-YhG.ibShadowedLabels[0] = "BIOS 64 bit"; ObjectID = "t6f-Xb-YhG"; */
+"t6f-Xb-YhG.ibShadowedLabels[0]" = "BIOS 64 bit";
+
+/* Class = "NSSegmentedCell"; t6f-Xb-YhG.ibShadowedLabels[1] = "UEFI 64 bit"; ObjectID = "t6f-Xb-YhG"; */
+"t6f-Xb-YhG.ibShadowedLabels[1]" = "UEFI 64 bit";

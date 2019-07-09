@@ -1,0 +1,74 @@
+/* Class = "NSComboBox"; ibShadowedToolTip = "<key>Inject</key>\n<string>Detect</string>\nProperty injection for the sound chip. Only works when the DSDT defines Device (HDEF). If you renamed it, you can also inject the other properties differently. Do not use this parameter with VoodooHDA. Possible options are:\n\nNo - Injection is turned off\nDetect - Automatic detection of the sound chip and injection of its ID as layout ID. Actually this is nonsense but still very popular. Does not do any harm and affects the display of sound properties in System Profiler.\n883 - Decimal number representing. Refers to Realtek ALC883 in this case.\n0x373 - Same as above in hexadecimal.\nThese numbers are incorrect, you will need to find the correct value and possibly replace the layout file bundled with AppleHDA to get the chip working."; ObjectID = "0Ex-U9-H5a"; */
+"0Ex-U9-H5a.ibShadowedToolTip" = "Инжекция свойств звуковой карточки. Правда, это работает, только если устройство в DSDT называется HDEF, если же заниматься его переименованием, то и остальное можно другим способом инжектировать. Также эти усилия не нужны при использовании драйвера VoodooHDA.\n\
+Варианты значений следующие:\n\
+NO – ничего не инжектируется, например, если будете сами инжектировать свойства через Properties\n\
+Detect – автоматическое определение установленной звуковой микросхемы, чтобы ее ID употребить в качестве лейаута. Вообще-то бред, но очень популярный. Во многих случаях не мешает, и оказывает влияние на отображание звуковой карточки в Систем-Профайлере.\n\
+883 – в десятичном виде номер лейаута. Имеется ввиду Realtek ALC883.\n\
+0x0373 – тоже самое в 16-чном виде становится неузнаваемым.\n\
+На самом деле эти числа неправильные, правильный лэйаут, например, 12 = 0x0C, но, как ни странно, являются допустимыми.\n\
+С появлением AppleALC этот параметр приобрел новую жизнь. Теперь это действительно номер лейаута, и вам нужно его подбирать из списка рекомендованных для вашего звукового кодека. Смотрите документацию к этому кексту.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>FixOwnership</key>\n<true/>\nIt is possible to leave USB injection enabled and only turn off the ownership fix.\n\nThis fix is not relevant for UEFI booting."; ObjectID = "2I2-ep-g7I"; */
+"2I2-ep-g7I.ibShadowedToolTip" = "БИОС захватывает управление ЮСБ, и перед стартом ядра мы должны оторвать ЮСБ от БИОСа";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>ResetHDA</key>\n<true/>\nAudio controller initialization. Some users have non-working sound after cold boot but works after restart or wake (even on Windows!). This is a workaround that works at early boot, so it will affect Windows as well."; ObjectID = "4ga-hk-hZY"; */
+"4ga-hk-hZY.ibShadowedToolTip" = "Иногда звук перестает работать при перезагрузке между OS X и Windows, включите данный параметр чтобы избежать этого.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key*"; ObjectID = "5Yq-DI-Ikq"; */
+//"5Yq-DI-Ikq.headerCell.title" = "Ключ*";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "HEX in DATA type; 0 = \"NO\", 1 = \"YES\" in BOOLEAN type "; ObjectID = "8r1-Ie-cZD"; */
+"8r1-Ie-cZD.ibShadowedIsNilPlaceholder" = "HEX – в типе DATA; 0=НЕТ, 1=ДА в типе Boolean";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Some tuning about C4/C6 States and SpeedStep"; ObjectID = "9QK-wm-bPF"; */
+"9QK-wm-bPF.ibShadowedToolTip" = "Параметры для настройки C4/C6 States и SpeedStep.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value Type"; ObjectID = "E6H-GQ-ELu"; */
+"E6H-GQ-ELu.headerCell.title" = "Тип значения";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Inject</key>\n<true/>\nInjects USB properties. You can turn it off for whatever reason, if you need. It is also disabled if the DSDT patch mask matches 0x1000 to prevent data duplication."; ObjectID = "Eq8-eZ-fBy"; */
+"Eq8-eZ-fBy.ibShadowedToolTip" = "Инжектирует свойства USB, по умолчанию влючена, но можно и выключить.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NoDefaultProperties</key>\n<false/>\nThis key will affect DSDT fixes and force them to generate an empty _DSM. For example, if you enable FIX_DISPLAY Clover will create a device for the graphics card but with an empty _DSM. AddProperties and FakeID values will still be injected.\n\nThis works only for Display, Sound, LAN and WiFi."; ObjectID = "Fbo-vD-sOq"; */
+"Fbo-vD-sOq.ibShadowedToolTip" = "Параметры в DSM методе DSDT не создаются, однако, инжекция и подмена ID будет работать";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>HighCurrent</key>\n<true/>\nMore power needed to charge iPad from USB ports."; ObjectID = "H9i-56-9Ga"; */
+"H9i-56-9Ga.ibShadowedToolTip" = "<key>HighCurrent</key><true/>Повышение тока USB lля возможности заряжать iPad через USB.";
+
+/* Class = "NSView"; ibShadowedToolTip = "Now Devices->Properties can be written into config.plist in format as DarwinDumper do\n\nFor example\n<dict>\n<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>\n\t<dict>\n\t\t<key>MaximumBootBeepVolume</key>\n\t\t<string>M</string>\n\t\t<key>PinConfigurations</key>\n\t\t<data>\n\t\tUEArAUABEJBCARCQIDCLARABoJAw4MsBYOBLAQ==\n\t\t</data>\n\t\t<key>layout-id</key>\n\t\t<data>\n\t\tEgAAAA==\n\t\t</data>\n\t\t<key>platformFamily</key>\n\t\t<data>\n\t\tAA==\n\t\t</data>\n\t</dict>\n\t<key>PciRoot(0x0)/Pci(0x1c,0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>\n\t<dict>\n\t\t<key>fwswappedbib</key>\n\t\t<data>\n\t\tAQAAAA==\n\t\t</data>\n\t</dict>\n\nThis way we can deprecate Arbitrary section."; ObjectID = "HE5-9l-mik"; */
+"HE5-9l-mik.ibShadowedToolTip" = "Теперь устройства могут вноситься в config plist также, как это делает DarwinDumper:\n\nFor example\n<dict>\n<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>\n\t<dict>\n\t\t<key>MaximumBootBeepVolume</key>\n\t\t<string>M</string>\n\t\t<key>PinConfigurations</key>\n\t\t<data>\n\t\tUEArAUABEJBCARCQIDCLARABoJAw4MsBYOBLAQ==\n\t\t</data>\n\t\t<key>layout-id</key>\n\t\t<data>\n\t\tEgAAAA==\n\t\t</data>\n\t\t<key>platformFamily</key>\n\t\t<data>\n\t\tAA==\n\t\t</data>\n\t</dict>\n\t<key>PciRoot(0x0)/Pci(0x1c,0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>\n\t<dict>\n\t\t<key>fwswappedbib</key>\n\t\t<data>\n\t\tAQAAAA==\n\t\t</data>\n\t</dict>";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Try to force enable HPET if isn't."; ObjectID = "Hfo-IB-7nr"; */
+"Hfo-IB-7nr.ibShadowedToolTip" = "Clover попытается принудительно включить HPET если отсутствует вохможность его включения в BIOS.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Inject</key>\n<false/>\nEnabling it will cause the automatic injection to turn off and allow the injection of a custom string from Properties"; ObjectID = "HY8-2T-aia"; */
+"HY8-2T-aia.ibShadowedToolTip" = "Можно поставить false, если вы почему-то хотите отказаться от инжекции свойств USB, например, если будете сами инжектировать свойства через Properties.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value Type"; ObjectID = "Jke-Be-RCo"; */
+"Jke-Be-RCo.headerCell.title" = "Тип значения";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value Type"; ObjectID = "pxi-J0-2Fb"; */
+"pxi-J0-2Fb.headerCell.title" = "Тип значения";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable or disable HDMI injection, disabled by default."; ObjectID = "Mi8-oT-4ye"; */
+"Mi8-oT-4ye.ibShadowedToolTip" = "Включить или выключить инжекцию HDMI, по умолчанию выключена.";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>AddProperties</key>\n<array>\n  <dict>\n    <key>Device</key>\n    <string>NVidia</string>\n    <key>Key</key>\n    <string>AAPL,HasPanel</string>\n    <key>Value</key>\n    <data>AQAAAA==</data>\n  </dict>\n  <dict>\n    <key>Device</key>\n    <string>NVidia</string>\n    <key>Key</key>\n    <string>AAPL,Haslid</string>\n    <key>Value</key>\n    <data>AQAAAA==</data>\n    </dict>\n</array>\nUsing device properties injection may be insufficient for some cases (new device, new standard, new OS), so this function lets you customize these injected properties.\n\nYou may write as many properties as you want for these devices: * ATI * NVidia * IntelGFX * LAN * WIFI * Firewire * SATA * IDE * HDA * HDMI * LPC * SmBUS * USB"; ObjectID = "Ob7-UX-r0p"; */
+"Ob7-UX-r0p.ibShadowedToolTip" = "<key>AddProperties</key>\n<array>\n  <dict>\n    <key>Device</key>\n    <string>NVidia</string>\n    <key>Key</key>\n    <string>AAPL,HasPanel</string>\n    <key>Value</key>\n    <data>AQAAAA==</data>\n  </dict>\n  <dict>\n    <key>Device</key>\n    <string>NVidia</string>\n    <key>Key</key>\n    <string>AAPL,Haslid</string>\n    <key>Value</key>\n    <data>AQAAAA==</data>\n    </dict>\n</array>\nЗначение Value может быть <data> или шестнадцатиричная строка. Просто строку нельзя. То есть вместо <string> ABC.... надо писать <string>0x414243....\n\
+Конвертируйте через PlistEditor или через Xcode.\n\
+Первый ключ Device определяет, на какое именно устройство будет добавлено такое свойство. Названия устройств: * ATI * NVidia * IntelGFX * LAN * WIFI * Firewire * SATA * IDE * HDA * HDMI * LPC * SmBUS * USB";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Replace Airport device name inside your DSDT"; ObjectID = "PQZ-Qh-lD1"; */
+"PQZ-Qh-lD1.ibShadowedToolTip" = "Меняет имя устройству Airport в DSDT.";
+
+/* Class = "NSView"; ibShadowedToolTip = "First you should look your boot.log or preboot.log (obtained by press F2 in Clover GUI). There is a list of your PCI devices.\n\n4:432 0:000 PCI (00|02:05.00) : 10EC 8167 class=020000\n\nThis is LAN device\n\nVendorID= 10EC - this is Realtek\n\nDeviceID= 8167 - This is Realtek 8167/8169/8110 Gigabyte Ethernet Controller\n\nIt is located on the PCI bus (green digits)\n\nBus = 02\n\nDevice = 05 \n\nFunction = 00\n\nThis location will be unique for every device in your computer. You may have two equal graphics cards with the same IDs and same model. But their locations will be different.\n\nWe have to write into config.plist in section \"Devices\", array \"Arbitrary\" of items one per device you want to inject properties.\n\n\t<key>Devices</key>\n\t<dict>\n\t\t<key>Arbitrary</key>\n\t\t<array>\n\t\t\t<dict>\n\t\t\t\t<key>PciAddr</key>\n\t\t\t\t<string>02:05.00</string>\n\t\t\t\t<key>Comment</key>\n\t\t\t\t<string>Realtek LAN 8167</string>\n\t\t\t\t<key>CustomProperties</key>\n\t\t\t\t<array>\n\t\t\t\t\t<dict>\n\t\t\t\t\t\t<key>Key</key>\n\t\t\t\t\t\t<string>model</string>\n\t\t\t\t\t\t<key>Value</key>\n\t\t\t\t\t\t<string>Realtek 8169 Gigabit Ethernet Controller</string>\n\t\t\t\t\t</dict>\n\t\t\t\t\t<dict>\n\t\t\t\t\t\t<key>Key</key>\n\t\t\t\t\t\t<string>built-in</string>\n\t\t\t\t\t\t<key>Value</key>\n\t\t\t\t\t\t<data>AQAAAA==</data>\n\t\t\t\t\t</dict>\n\t\t\t\t</array>\n\t\t\t</dict>\n\t\t</array>"; ObjectID = "Qxp-DC-Voo"; */
+"Qxp-DC-Voo.ibShadowedToolTip" = "Arbitrary представляет собой массив словарей, каждый из которых соответствует одному устройству с заданным адресом, и для описания каждого устройства используется массив CustomProperties состоящий из пар Key-Value. Также конкретное свойство может быть выключено ключом Disabled.\n\
+Включить или выключить свойство можно динамически в меню Кловера. Key должен быть строкой <string>\n\
+Value может быть строкой, числом или данными <string>, <integer>, <data>";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value*"; ObjectID = "Txa-kI-pAD"; */
+//"Txa-kI-pAD.headerCell.title" = "Значение*";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>Properties</key>\n<string>0207364862FA54HG345</string>\nTo create your own string you need the tool gfxutil that, for example, is bundled with DarwinDumper. You will need to create an xml file using a device path in standard notation as header and list properties, which will be injected. The example shows a file used to enable a video card:\n\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n    <key>PciRoot(0x0)/Pci(0x2,0x0)</key>\n    <dict>\n        <key>AAPL,HasPanel</key>\n        <data>AQAAAA== </data>\n        <key>built-in</key>\n        <data>AA==</data>\n        <key>class-code</key>\n        <data>AAADAA==</data>\n        <key>device_type</key>\n        <data>ZGlzcGxheQA=</data>\n        <key>model</key>\n        <data>R01BIDk1MAA=</data>\n    </dict>\n</dict>\n</plist>\nIt is possible to obtain the currently used plist with DarwinDumper, to modify it and convert it into string form with the command:\n\n./gfxutil –i xml –o hex devprop.plist devprop.hex\n.. resulting in:\n\nd30000000100000001000000c70000000500000002010c00d041030a000000000101060000027fff0400100000006d006f00640065006c0000000c000000474d4120393530001c0000006400650076006900630065005f00740079007000650000000c000000646973706c617900200000004100410050004c002c00480061007300500061006e0065006c0000000800000001000000160000006200750069006c0074002d0069006e00000005000000001a00000063006c006100730073002d0063006f006400650000000800000000000300\nThe result needs to be used as a value for DeviceProperties. The same effect can be achieved by adding a _DMS method into the according section of your DSDT. It may be practical to use the string method when no DSDT is available yet."; ObjectID = "UDA-0b-dPf"; */
+"UDA-0b-dPf.ibShadowedToolTip" = "Чтобы создать свою строку параметров для устройства, потребуется утилита gfxutil, которая взодит в состав DarwinDumper. Пример файла для запуска видеокарты:\n\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n    <key>PciRoot(0x0)/Pci(0x2,0x0)</key>\n    <dict>\n        <key>AAPL,HasPanel</key>\n        <data>AQAAAA== </data>\n        <key>built-in</key>\n        <data>AA==</data>\n        <key>class-code</key>\n        <data>AAADAA==</data>\n        <key>device_type</key>\n        <data>ZGlzcGxheQA=</data>\n        <key>model</key>\n        <data>R01BIDk1MAA=</data>\n    </dict>\n</dict>\n</plist>\nЕсть возможность переконвертировать значения в лучший вид командой:\n\n./gfxutil –i xml –o hex devprop.plist devprop.hex\n.. и получится:\n\nd30000000100000001000000c70000000500000002010c00d041030a000000000101060000027fff0400100000006d006f00640065006c0000000c000000474d4120393530001c0000006400650076006900630065005f00740079007000650000000c000000646973706c617900200000004100410050004c002c00480061007300500061006e0065006c0000000800000001000000160000006200750069006c0074002d0069006e00000005000000001a00000063006c006100730073002d0063006f006400650000000800000000000300";
+

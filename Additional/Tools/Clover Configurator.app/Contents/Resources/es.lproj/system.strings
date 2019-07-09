@@ -1,0 +1,69 @@
+
+/* Class = "NSMenuItem"; title = "Automatic"; ObjectID = "3CA-zx-rKT"; */
+"3CA-zx-rKT.title" = "Automatic";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>CustomUUID</key>\n<string>511CE200-1000-4000-9999-010203040506</string>\nUnique identification number of your computer. If not set, an automatically generated UUID will be used. Customise it with hexadecimal digits for full control over your hackintosh."; ObjectID = "4BK-IU-OIj"; */
+"4BK-IU-OIj.ibShadowedToolTip" = "<key>CustomUUID</key>\n<string>511CE200-1000-4000-9999-010203040506</string>\nUnique identification number of your computer. If not set, an automatically generated UUID will be used. Customise it with hexadecimal digits for full control over your hackintosh.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NoCaches</key>\n<string>Yes/No</string> or <true/> or <false/>\nIf enabled, the cache will be skipped on each boot. And just like InjectKexts, this key defines the global rule, so the value defined on Custom Entries will override this one."; ObjectID = "7rA-zU-QPM"; */
+"7rA-zU-QPM.ibShadowedToolTip" = "<key>NoCaches</key>\n<string>Yes/No</string> or <true/> or <false/>\nIf enabled, the cache will be skipped on each boot. And just like InjectKexts, this key defines the global rule, so the value defined on Custom Entries will override this one.";
+
+/* Class = "NSButtonCell"; title = "Generate New"; ObjectID = "8Tc-aa-Viw"; */
+"8Tc-aa-Viw.title" = "Generate New";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "BRn-UA-1j0"; */
+"BRn-UA-1j0.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Get it from system"; ObjectID = "D8G-yI-JqN"; */
+"D8G-yI-JqN.title" = "Get it from system";
+
+/* Class = "NSButtonCell"; title = "Inject System ID"; ObjectID = "ImK-S6-Jh7"; */
+"ImK-S6-Jh7.title" = "Inject System ID";
+
+/* Class = "NSButtonCell"; title = "No Caches"; ObjectID = "LgZ-vH-2gZ"; */
+"LgZ-vH-2gZ.title" = "No Caches";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "Tn8-aq-k8j"; */
+"Tn8-aq-k8j.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Backlight Level"; ObjectID = "UE7-LV-Dev"; */
+"UE7-LV-Dev.title" = "Backlight Level";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>InjectSystemID</key>\n<false/>\nThe number described above can be injected differently and transformed by the OS into another ID. The aim is to provide an option for Chameleon users to replicate their UUID. Set to <true/> and change CustomUUID to match the UUID used with Chameleon found in registry at IODeviceTree:/efi/platform>system-id. Profiler will show a different UUID that will match the one generated with Chameleon."; ObjectID = "Zl1-0v-TXi"; */
+"Zl1-0v-TXi.ibShadowedToolTip" = "<key>InjectSystemID</key>\n<false/>\nThe number described above can be injected differently and transformed by the OS into another ID. The aim is to provide an option for Chameleon users to replicate their UUID. Set to <true/> and change CustomUUID to match the UUID used with Chameleon found in registry at IODeviceTree:/efi/platform>system-id. Profiler will show a different UUID that will match the one generated with Chameleon.";
+
+/* Class = "NSMenuItem"; title = "No"; ObjectID = "b3k-Xu-uee"; */
+"b3k-Xu-uee.title" = "No";
+
+/* Class = "NSTextFieldCell"; title = "Custom UUID"; ObjectID = "d9a-iz-TEJ"; */
+"d9a-iz-TEJ.title" = "Custom UUID";
+
+/* Class = "NSButtonCell"; title = "ExposeSysVariables"; ObjectID = "fZT-pM-47W"; */
+"fZT-pM-47W.title" = "ExposeSysVariables";
+
+/* Class = "NSTextFieldCell"; title = "Inject Kexts"; ObjectID = "gTj-9Q-40k"; */
+"gTj-9Q-40k.title" = "Inject Kexts";
+
+/* Class = "NSButtonCell"; title = "NvidiaWeb"; ObjectID = "lPe-8l-elb"; */
+"lPe-8l-elb.title" = "NvidiaWeb";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Set \"ExposeSysVariables\" to TRUE in Config:SystemParameters to expose more. Current: \"MLB\", \"ROM\", \"CustomUUID\" & \"InjectSystemID\".\n\n<key>SystemParameters</key>\n<dict>\n  <key>ExposeSysVariables</key>\n  <true/>\n  ...\n</dict>"; ObjectID = "s7Z-gL-ccf"; */
+"s7Z-gL-ccf.ibShadowedToolTip" = "Set \"ExposeSysVariables\" to TRUE in Config:SystemParameters to expose more. Current: \"MLB\", \"ROM\", \"CustomUUID\" & \"InjectSystemID\".\n\n<key>SystemParameters</key>\n<dict>\n  <key>ExposeSysVariables</key>\n  <true/>\n  ...\n</dict>";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaWeb</key>\n<true/>\nIf key value is true, it will allow access to load and use Nvidia WebDriver kexts under the new MacOS systems (10.12.x)."; ObjectID = "snz-sq-cnq"; */
+"snz-sq-cnq.ibShadowedToolTip" = "<key>NvidiaWeb</key>\n<true/>\nIf key value is true, it will allow access to load and use Nvidia WebDriver kexts under the new MacOS systems (10.12.x).";
+
+/* Class = "NSMenuItem"; title = "Yes"; ObjectID = "tCN-5E-ZUc"; */
+"tCN-5E-ZUc.title" = "Yes";
+
+/* Class = "NSMenuItem"; title = "Detect"; ObjectID = "wmO-Iz-gmN"; */
+"wmO-Iz-gmN.title" = "Detect";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>BacklightLevel</key>\n<string>0x0101</string>\nMonitor brightness level. However, only few systems will be affected by this parameter. It also is read from NVRAM. By default a value given by the system is used. Specifying it in the configuration file will override it."; ObjectID = "zAr-em-pJU"; */
+"zAr-em-pJU.ibShadowedToolTip" = "<key>BacklightLevel</key>\n<string>0x0101</string>\nMonitor brightness level. However, only few systems will be affected by this parameter. It also is read from NVRAM. By default a value given by the system is used. Specifying it in the configuration file will override it.";
+
+/* Class = "NSMenuItem"; title = "IfNoFakeSMC"; ObjectID = "zO9-ov-r4i"; */
+"zO9-ov-r4i.title" = "IfNoFakeSMC";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "<key>InjectKexts</key>\n<string>Detect/Yes/No</string> or <true/> or <false/>\nThis key defines the global policy regarding kext injection.\n\nYes or <true/> - Always inject kexts from /EFI/CLOVER/kexts/\nNo or <false/>- Never inject kexts\nDetect - Kexts from /EFI/CLOVER/kexts/ will be injected only if FakeSMC is not present in the kernelcache\nIn case Custom Entries are defined, its own InjectKexts key will override this global one."; ObjectID = "zs4-70-NC9"; */
+"zs4-70-NC9.ibShadowedToolTip" = "<key>InjectKexts</key>\n<string>Detect/Yes/No</string> or <true/> or <false/>\nThis key defines the global policy regarding kext injection.\n\nYes or <true/> - Always inject kexts from /EFI/CLOVER/kexts/\nNo or <false/>- Never inject kexts\nDetect - Kexts from /EFI/CLOVER/kexts/ will be injected only if FakeSMC is not present in the kernelcache\nIn case Custom Entries are defined, its own InjectKexts key will override this global one.";

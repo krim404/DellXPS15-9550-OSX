@@ -1,0 +1,309 @@
+
+/* Class = "NSButtonCell"; title = "ChangeNonSelectedGrey"; ObjectID = "0rK-1J-iyd"; */
+"0rK-1J-iyd.title" = "未被选择的启动项变为灰色";
+
+/* Class = "NSTextFieldCell"; title = "ScreenEdgeX"; ObjectID = "1CM-mH-OVe"; */
+"1CM-mH-OVe.title" = "屏幕水平边距";
+
+/* Class = "NSMenuItem"; title = "Scale"; ObjectID = "1ZQ-1F-ccp"; */
+"1ZQ-1F-ccp.title" = "Scale";
+
+/* Class = "NSTextFieldCell"; title = "TileXSpace"; ObjectID = "25g-IE-MHM"; */
+"25g-IE-MHM.title" = "平铺水平间隔";
+
+/* Class = "NSTextFieldCell"; title = "ScrollHeight"; ObjectID = "3AB-29-dxS"; */
+"3AB-29-dxS.title" = "滚动条高度";
+
+/* Class = "NSButtonCell"; title = "Save Theme"; ObjectID = "3VQ-MU-24B"; */
+"3VQ-MU-24B.title" = "保存主题";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "3lt-aO-JPg"; */
+"3lt-aO-JPg.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "OffsetY"; ObjectID = "3qb-DM-3Gj"; */
+"3qb-DM-3Gj.title" = "垂直位移";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path"; ObjectID = "55N-MG-3mo"; */
+"55N-MG-3mo.headerCell.title" = "路径";
+
+/* Class = "NSTextFieldCell"; title = "DistanceFromScreenEdgeY"; ObjectID = "5Xc-GX-3MK"; */
+"5Xc-GX-3MK.title" = "与屏幕边缘的垂直距离";
+
+/* Class = "NSButtonCell"; title = "OnTop"; ObjectID = "62u-5J-gC2"; */
+"62u-5J-gC2.title" = "最前面";
+
+/* Class = "NSTableColumn"; headerCell.title = "DistanceFromScreenEdgeX"; ObjectID = "64p-Jy-bp6"; */
+"64p-Jy-bp6.headerCell.title" = "与屏幕边缘的水平距离X";
+
+/* Class = "NSTextFieldCell"; title = "CharWidth"; ObjectID = "67G-HQ-2y4"; */
+"67G-HQ-2y4.title" = "字符宽度";
+
+/* Class = "NSBox"; title = "Origination"; ObjectID = "68z-QE-SMw"; */
+"68z-QE-SMw.title" = "主题分辨率";
+
+/* Class = "NSTableColumn"; headerCell.title = "DistanceFromScreenEdgeY"; ObjectID = "6az-IX-SPA"; */
+"6az-IX-SPA.headerCell.title" = "与屏幕边缘的垂直距离Y";
+
+/* Class = "NSTableColumn"; headerCell.title = "ID"; ObjectID = "9Pw-GJ-z9b"; */
+"9Pw-GJ-z9b.headerCell.title" = "ID";
+
+/* Class = "NSBox"; title = "Background"; ObjectID = "9ye-3h-NRT"; */
+"9ye-3h-NRT.title" = "背景";
+
+/* Class = "NSButtonCell"; title = "Show"; ObjectID = "AHy-TJ-dX0"; */
+"AHy-TJ-dX0.title" = "显示";
+
+/* Class = "NSButtonCell"; title = "MenuTitle"; ObjectID = "BQL-MT-3hL"; */
+"BQL-MT-3hL.title" = "菜单标题";
+
+/* Class = "NSButtonCell"; title = "Proportional"; ObjectID = "CpF-wg-mAf"; */
+"CpF-wg-mAf.title" = "按比例";
+
+/* Class = "NSTextFieldCell"; title = "Sharp"; ObjectID = "DTa-vL-Jpt"; */
+"DTa-vL-Jpt.title" = "锐度";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "E8Z-mV-LYh"; */
+"E8Z-mV-LYh.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "SelectionSmallWidth"; ObjectID = "EAX-cV-YhQ"; */
+"EAX-cV-YhQ.title" = "选择器小图标宽度";
+
+/* Class = "NSMenuItem"; title = "Load"; ObjectID = "Ev2-I2-beu"; */
+"Ev2-I2-beu.title" = "Load";
+
+/* Class = "NSMenuItem"; title = "left"; ObjectID = "Hb9-Dp-bzw"; */
+"Hb9-Dp-bzw.title" = "left";
+
+/* Class = "NSTextFieldCell"; title = "Scale"; ObjectID = "HrL-09-KBY"; */
+"HrL-09-KBY.title" = "比例";
+
+/* Class = "NSTextFieldCell"; title = "TileYSpace"; ObjectID = "ImK-ar-vUN"; */
+"ImK-ar-vUN.title" = "平铺垂直间隔";
+
+/* Class = "NSBox"; title = "Font"; ObjectID = "J3S-ql-pZq"; */
+"J3S-ql-pZq.title" = "字体";
+
+/* Class = "NSTextFieldCell"; title = "DistanceFromScreenEdgeX"; ObjectID = "J9E-qI-wDH"; */
+"J9E-qI-wDH.title" = "与屏幕边缘的垂直距离";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "JJ3-W4-GpI"; */
+"JJ3-W4-GpI.title" = "Text Cell";
+
+/* Class = "NSBox"; title = "Anime"; ObjectID = "JTH-QL-XmF"; */
+"JTH-QL-XmF.title" = "动画";
+
+/* Class = "NSMenuItem"; title = "Gray"; ObjectID = "Jgi-hR-PdH"; */
+"Jgi-hR-PdH.title" = "Gray";
+
+/* Class = "NSTextFieldCell"; title = "Height"; ObjectID = "KjY-OH-lww"; */
+"KjY-OH-lww.title" = "高度";
+
+/* Class = "NSTableColumn"; headerCell.title = "ScreenEdgeX"; ObjectID = "KzK-jb-No9"; */
+"KzK-jb-No9.headerCell.title" = "屏幕水平边距";
+
+/* Class = "NSBox"; title = "Selection"; ObjectID = "L2a-CW-8xB"; */
+"L2a-CW-8xB.title" = "选择";
+
+/* Class = "NSTableColumn"; headerCell.title = "FrameTime"; ObjectID = "LyG-lr-Xq3"; */
+"LyG-lr-Xq3.headerCell.title" = "帧时间";
+
+/* Class = "NSButtonCell"; title = "BootCampStyle"; ObjectID = "MO3-Gx-W7a"; */
+"MO3-Gx-W7a.title" = "BootCamp风格";
+
+/* Class = "NSTextFieldCell"; title = "Author:"; ObjectID = "MSp-Gq-hj6"; */
+"MSp-Gq-hj6.title" = "作者：";
+
+/* Class = "NSTextFieldCell"; title = "Other themes in folder"; ObjectID = "Nmj-VK-8s8"; */
+"Nmj-VK-8s8.title" = "文件夹中的其他主题";
+
+/* Class = "NSButtonCell"; title = "Swap"; ObjectID = "NxV-os-tEF"; */
+"NxV-os-tEF.title" = "交换";
+
+/* Class = "NSButtonCell"; title = "Inline"; ObjectID = "Q1r-aj-M9K"; */
+"Q1r-aj-M9K.title" = "内嵌";
+
+/* Class = "NSTextFieldCell"; title = "Indicator"; ObjectID = "QSK-zf-3p4"; */
+"QSK-zf-3p4.title" = "指示符";
+
+/* Class = "NSBox"; title = "Info"; ObjectID = "Qm6-cj-Tmb"; */
+"Qm6-cj-Tmb.title" = "主题信息";
+
+/* Class = "NSTextFieldCell"; title = "OffsetX"; ObjectID = "Te6-BG-SYX"; */
+"Te6-BG-SYX.title" = "水平位移";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "VGF-AR-hbe"; */
+"VGF-AR-hbe.title" = "路径";
+
+/* Class = "NSTextFieldCell"; title = "MainEntriesSize"; ObjectID = "VlG-0k-Y8z"; */
+"VlG-0k-Y8z.title" = "主启动图标大小";
+
+/* Class = "NSTextFieldCell"; title = "SelectionBigWidth"; ObjectID = "VuQ-1l-Dw5"; */
+"VuQ-1l-Dw5.title" = "选择器大图标宽度";
+
+/* Class = "NSTableColumn"; headerCell.title = "Frames"; ObjectID = "WHl-4a-f5m"; */
+"WHl-4a-f5m.headerCell.title" = "帧数";
+
+/* Class = "NSButtonCell"; title = "Revision"; ObjectID = "Wnb-hA-hw0"; */
+"Wnb-hA-hw0.title" = "修订";
+
+/* Class = "NSTextFieldCell"; title = "AnimAdjustForMenuX"; ObjectID = "WoA-jI-P0C"; */
+"WoA-jI-P0C.title" = "动画菜单水平位置调整";
+
+/* Class = "NSBox"; title = "Badges"; ObjectID = "XbB-3O-sM5"; */
+"XbB-3O-sM5.title" = "系统图标";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "Y6b-Zp-j45"; */
+"Y6b-Zp-j45.title" = "路径";
+
+/* Class = "NSTableColumn"; headerCell.title = "ScreenEdgeY"; ObjectID = "ZVx-Tw-44l"; */
+"ZVx-Tw-44l.headerCell.title" = "屏幕垂直边距";
+
+/* Class = "NSTextFieldCell"; title = "NudgeY"; ObjectID = "ZXv-b8-wbH"; */
+"ZXv-b8-wbH.title" = "Y微调";
+
+/* Class = "NSButtonCell"; title = "Dark"; ObjectID = "b5q-Q8-kWr"; */
+"b5q-Q8-kWr.title" = "黑暗";
+
+/* Class = "NSButtonCell"; title = "MenuTitleImage"; ObjectID = "bDh-GB-qgg"; */
+"bDh-GB-qgg.title" = "菜单标题图标";
+
+/* Class = "NSBox"; title = "Target Partition"; ObjectID = "cCw-Ly-mbU"; */
+"cCw-Ly-mbU.title" = "目标分区";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "cSJ-S6-xJP"; */
+"cSJ-S6-xJP.title" = "Text Cell";
+
+/* Class = "NSBox"; title = "Layout"; ObjectID = "ddr-sA-r4b"; */
+"ddr-sA-r4b.title" = "主题布局";
+
+/* Class = "NSButtonCell"; title = "Label"; ObjectID = "dkH-lY-Pl2"; */
+"dkH-lY-Pl2.title" = "Label";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "eCZ-bk-ZUp"; */
+"eCZ-bk-ZUp.title" = "类型";
+
+/* Class = "NSButtonCell"; title = "Themes Folder"; ObjectID = "ef1-TT-gJ9"; */
+"ef1-TT-gJ9.title" = "主题文件夹";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "elK-sV-faA"; */
+"elK-sV-faA.title" = "路径";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "epY-tK-wcO"; */
+"epY-tK-wcO.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "ScreenEdgeY"; ObjectID = "eq9-cB-uDN"; */
+"eq9-cB-uDN.title" = "屏幕垂直边距Y";
+
+/* Class = "NSTableColumn"; headerCell.title = "NudgeX"; ObjectID = "ey4-SJ-m5I"; */
+"ey4-SJ-m5I.headerCell.title" = "X微调";
+
+/* Class = "NSButtonCell"; title = "Help"; ObjectID = "ffy-wu-DgR"; */
+"ffy-wu-DgR.title" = "帮助";
+
+/* Class = "NSMenuItem"; title = "right"; ObjectID = "g7E-Ne-LKa"; */
+"g7E-Ne-LKa.title" = "right";
+
+/* Class = "NSTableColumn"; headerCell.title = "Once"; ObjectID = "gdZ-VP-yMw"; */
+"gdZ-VP-yMw.headerCell.title" = "一次";
+
+/* Class = "NSTextFieldCell"; title = "DesignHeight"; ObjectID = "giN-Qg-VhU"; */
+"giN-Qg-VhU.title" = "设计高度";
+
+/* Class = "NSTextFieldCell"; title = "Width"; ObjectID = "hR8-XP-Sbe"; */
+"hR8-XP-Sbe.title" = "宽度";
+
+/* Class = "NSBox"; title = "Components"; ObjectID = "haY-Pq-JZU"; */
+"haY-Pq-JZU.title" = "组件";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "hkq-Tx-miG"; */
+"hkq-Tx-miG.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "huU-p8-NNM"; */
+"huU-p8-NNM.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "BarHeight"; ObjectID = "k4a-uF-ugc"; */
+"k4a-uF-ugc.title" = "栏高度";
+
+/* Class = "NSMenuItem"; title = "Alfa"; ObjectID = "kK7-St-iDY"; */
+"kK7-St-iDY.title" = "Alfa";
+
+/* Class = "NSTableColumn"; headerCell.title = "NudgeY"; ObjectID = "lBA-7E-Zct"; */
+"lBA-7E-Zct.headerCell.title" = "Y微调";
+
+/* Class = "NSBox"; title = "Scroll"; ObjectID = "mFu-tq-vW7"; */
+"mFu-tq-vW7.title" = "滚动条";
+
+/* Class = "NSMenuItem"; title = "Tile"; ObjectID = "n8v-qG-b2F"; */
+"n8v-qG-b2F.title" = "Tile";
+
+/* Class = "NSTextFieldCell"; title = "DesignWidth"; ObjectID = "nE2-We-ovk"; */
+"nE2-We-ovk.title" = "设计宽度";
+
+/* Class = "NSTextFieldCell"; title = "BannerOffset"; ObjectID = "no4-gj-P8N"; */
+"no4-gj-P8N.title" = "横幅偏移";
+
+/* Class = "NSButtonCell"; title = "Functions"; ObjectID = "ooZ-yq-puo"; */
+"ooZ-yq-puo.title" = "功能";
+
+/* Class = "NSComboBoxCell"; pn5-FS-ZAC.ibShadowedObjectValues[1] = "top"; ObjectID = "pn5-FS-ZAC"; */
+"pn5-FS-ZAC.ibShadowedObjectValues[1]" = "顶部";
+
+/* Class = "NSComboBoxCell"; pn5-FS-ZAC.ibShadowedObjectValues[2] = "bottom"; ObjectID = "pn5-FS-ZAC"; */
+"pn5-FS-ZAC.ibShadowedObjectValues[2]" = "底部";
+
+/* Class = "NSButtonCell"; title = "Load Themes / Partitions"; ObjectID = "q25-pB-uhX"; */
+"q25-pB-uhX.title" = "加载主题/分区";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "qJJ-CC-NBb"; */
+"qJJ-CC-NBb.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Small"; ObjectID = "qpA-xs-f9k"; */
+"qpA-xs-f9k.title" = "小图";
+
+/* Class = "NSTextFieldCell"; title = "Big"; ObjectID = "s8T-cz-b5m"; */
+"s8T-cz-b5m.title" = "大图";
+
+/* Class = "NSTextFieldCell"; title = "NudgeX"; ObjectID = "sNx-Oi-zeP"; */
+"sNx-Oi-zeP.title" = "X微调";
+
+/* Class = "NSButtonCell"; title = "Banner"; ObjectID = "tBZ-nb-JlC"; */
+"tBZ-nb-JlC.title" = "横幅LOGO";
+
+/* Class = "NSMenuItem"; title = "bottom"; ObjectID = "tia-Km-gGY"; */
+"tia-Km-gGY.title" = "bottom";
+
+/* Class = "NSTextFieldCell"; title = "TextOffset"; ObjectID = "tkr-x1-LdZ"; */
+"tkr-x1-LdZ.title" = "文字偏移量";
+
+/* Class = "NSMenuItem"; title = "top"; ObjectID = "uQ0-6T-IPH"; */
+"uQ0-6T-IPH.title" = "top";
+
+/* Class = "NSTextFieldCell"; title = "ButtonOffset"; ObjectID = "uWL-2Q-FUN"; */
+"uWL-2Q-FUN.title" = "按钮偏移量";
+
+/* Class = "NSTextFieldCell"; title = "Year:"; ObjectID = "vKB-Ls-d9J"; */
+"vKB-Ls-d9J.title" = "年：";
+
+/* Class = "NSBox"; title = "Banner"; ObjectID = "vcp-AH-oaj"; */
+"vcp-AH-oaj.title" = "横幅LOGO";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "w9W-gy-Wwv"; */
+"w9W-gy-Wwv.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Vertical"; ObjectID = "xaA-4x-M1H"; */
+"xaA-4x-M1H.title" = "垂直排列";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "yS1-ct-JR3"; */
+"yS1-ct-JR3.title" = "类型";
+
+/* Class = "NSComboBoxCell"; yXg-dW-9wb.ibShadowedObjectValues[1] = "left"; ObjectID = "yXg-dW-9wb"; */
+"yXg-dW-9wb.ibShadowedObjectValues[1]" = "left";
+
+/* Class = "NSComboBoxCell"; yXg-dW-9wb.ibShadowedObjectValues[2] = "right"; ObjectID = "yXg-dW-9wb"; */
+"yXg-dW-9wb.ibShadowedObjectValues[2]" = "right";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "yiE-kB-MI0"; */
+"yiE-kB-MI0.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Color"; ObjectID = "zKq-5d-EOd"; */
+"zKq-5d-EOd.title" = "颜色";

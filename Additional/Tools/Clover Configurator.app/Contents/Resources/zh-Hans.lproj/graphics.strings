@@ -1,0 +1,978 @@
+
+/* Class = "NSMenuItem"; title = "Dashimaki"; ObjectID = "028-Cv-tgL"; */
+"028-Cv-tgL.title" = "Dashimaki";
+
+/* Class = "NSMenuItem"; title = "DashimakiS"; ObjectID = "02g-Yw-F2R"; */
+"02g-Yw-F2R.title" = "DashimakiS";
+
+/* Class = "NSMenuItem"; title = "MaguroS"; ObjectID = "06T-7y-Nne"; */
+"06T-7y-Nne.title" = "MaguroS";
+
+/* Class = "NSMenuItem"; title = "AMD3800 Controller:"; ObjectID = "0IR-4Y-Yda"; */
+"0IR-4Y-Yda.title" = "AMD3800 Controller:";
+
+/* Class = "NSMenuItem"; title = "3E9B0006 Intel UHD Graphics 630"; ObjectID = "0w5-js-JOY"; */
+"0w5-js-JOY.title" = "3E9B0006 Intel UHD Graphics 630";
+
+/* Class = "NSMenuItem"; title = "Raven"; ObjectID = "0z9-j2-Qgp"; */
+"0z9-j2-Qgp.title" = "Raven";
+
+/* Class = "NSMenuItem"; title = "59260002 Intel Iris Plus Graphics 640 for MacBookPro14,1"; ObjectID = "1B5-wO-sIo"; */
+"1B5-wO-sIo.title" = "59260002 适用于MacBookPro14,1的Intel Iris Plus Graphics 640";
+
+/* Class = "NSMenuItem"; title = "Ebi"; ObjectID = "1QU-2Y-JkK"; */
+"1QU-2Y-JkK.title" = "Ebi";
+
+/* Class = "NSMenuItem"; title = "Ramen"; ObjectID = "1i7-B7-aWH"; */
+"1i7-B7-aWH.title" = "Ramen";
+
+/* Class = "NSMenuItem"; title = "AMD9300 Controller:"; ObjectID = "24N-oy-78j"; */
+"24N-oy-78j.title" = "AMD9300 Controller:";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "number"; ObjectID = "25N-fC-6b4"; */
+"25N-fC-6b4.ibShadowedIsNilPlaceholder" = "number";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>ATI</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10021234</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>AMD very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\nMore than one AMD video cards? Add info under Graphics->ATI as an array of dictionaries:\n\n- IOPCIPrimaryMatch, device id\n- IOPCISubDevId, sub vendor id of your card\n- LoadVBios, load video bios\n- Model, name to be displayed\n- VRAM, the amount of video RAM, cosmetic only\n- VideoPorts, the ports available for this card"; ObjectID = "2E4-Ux-C7E"; */
+"2E4-Ux-C7E.ibShadowedToolTip" = "<key>ATI</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10021234</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>AMD very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\n多个AMD显卡？在Graphics->ATI下添加信息作为字典数组：\n\n\n\n- IOPCIPrimaryMatch, 设备id\n\n- IOPCISubDevId, 您的卡的子供应商ID\n\n- LoadVBios, 加载显卡BIOS\n\n- Model, 要显示的名称\n\n- VRAM, 显存数字显示，只是为了好看\n\n- VideoPorts, 显卡卡可用的端口";
+
+/* Class = "NSMenuItem"; title = "87C00000 Intel UHD Graphics 617"; ObjectID = "2dT-k1-b7R"; */
+"2dT-k1-b7R.title" = "87C00000 Intel UHD Graphics 617";
+
+/* Class = "NSMenuItem"; title = "Sphyrna"; ObjectID = "2ek-qO-gFu"; */
+"2ek-qO-gFu.title" = "Sphyrna";
+
+/* Class = "NSMenuItem"; title = "Cannonlake (desktop):"; ObjectID = "37H-Rx-Zg5"; */
+"37H-Rx-Zg5.title" = "Cannonlake (desktop):";
+
+/* Class = "NSMenuItem"; title = "0c260000"; ObjectID = "38O-yY-egN"; */
+"38O-yY-egN.title" = "0c260000";
+
+/* Class = "NSMenuItem"; title = "0a260000"; ObjectID = "38V-JM-shE"; */
+"38V-JM-shE.title" = "0a260000";
+
+/* Class = "NSTextFieldCell"; title = "ProductID"; ObjectID = "3p4-vG-tT7"; */
+"3p4-vG-tT7.title" = "ProductID";
+
+/* Class = "NSTextFieldCell"; title = "NVCAP"; ObjectID = "3wr-yh-UDo"; */
+"3wr-yh-UDo.title" = "NVCAP";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "MBytes"; ObjectID = "3yU-qL-6yD"; */
+"3yU-qL-6yD.ibShadowedIsNilPlaceholder" = "MBytes";
+
+/* Class = "NSTableColumn"; headerCell.title = "Model"; ObjectID = "3yk-pP-O2b"; */
+"3yk-pP-O2b.headerCell.title" = "Model";
+
+/* Class = "NSMenuItem"; title = "16060002"; ObjectID = "44q-da-nAZ"; */
+"44q-da-nAZ.title" = "16060002";
+
+/* Class = "NSMenuItem"; title = "Ipomoea"; ObjectID = "4AQ-Pq-uIM"; */
+"4AQ-Pq-uIM.title" = "Ipomoea";
+
+/* Class = "NSMenuItem"; title = "191e0003"; ObjectID = "4FU-Zs-UAQ"; */
+"4FU-Zs-UAQ.title" = "191e0003";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "4OH-vs-pKB"; */
+"4OH-vs-pKB.title" = "Text Cell";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x10DEXXXX"; ObjectID = "4db-4g-rnO"; */
+"4db-4g-rnO.ibShadowedIsNilPlaceholder" = "0x10DEXXXX";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x11"; ObjectID = "4iw-62-ebB"; */
+"4iw-62-ebB.ibShadowedIsNilPlaceholder" = "0x11";
+
+/* Class = "NSMenuItem"; title = "Basset"; ObjectID = "4sT-im-y2x"; */
+"4sT-im-y2x.title" = "Basset";
+
+/* Class = "NSMenuItem"; title = "59260000 Intel Iris Plus Graphics 640"; ObjectID = "55U-KU-C6R"; */
+"55U-KU-C6R.title" = "59260000 Intel Iris Plus Graphics 640";
+
+/* Class = "NSMenuItem"; title = "04060000"; ObjectID = "55b-9R-mWa"; */
+"55b-9R-mWa.title" = "04060000";
+
+/* Class = "NSMenuItem"; title = "Lamna"; ObjectID = "588-cy-wYI"; */
+"588-cy-wYI.title" = "Lamna";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x"; ObjectID = "5Af-la-hQy"; */
+"5Af-la-hQy.ibShadowedIsNilPlaceholder" = "0x";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = "0x"; ObjectID = "5Af-la-hQy"; */
+"5Af-la-hQy.ibShadowedNoSelectionPlaceholder" = "0x";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable/Disable Clover's injection for NVidia's GPUs"; ObjectID = "5lf-Yf-tCI"; */
+"5lf-Yf-tCI.ibShadowedToolTip" = "为NVidia的GPU启用/禁用Clover的注入";
+
+/* Class = "NSMenuItem"; title = "0d260000"; ObjectID = "64f-d3-dIA"; */
+"64f-d3-dIA.title" = "0d260000";
+
+/* Class = "NSMenuItem"; title = "3E920000 Intel UHD Graphics 630"; ObjectID = "66q-il-K2r"; */
+"66q-il-K2r.title" = "3E920000 Intel UHD Graphics 630";
+
+/* Class = "NSButtonCell"; title = "Inject NVidia"; ObjectID = "6U0-ce-YRL"; */
+"6U0-ce-YRL.title" = "注入NVidia显卡";
+
+/* Class = "NSMenuItem"; title = "5A400000"; ObjectID = "6YE-L1-E5X"; */
+"6YE-L1-E5X.title" = "5A400000";
+
+/* Class = "NSMenuItem"; title = "Maltese"; ObjectID = "6dP-1w-DuB"; */
+"6dP-1w-DuB.title" = "Maltese";
+
+/* Class = "NSMenuItem"; title = "Typha"; ObjectID = "6vP-dT-3Fe"; */
+"6vP-dT-3Fe.title" = "Typha";
+
+/* Class = "NSMenuItem"; title = "IkuraS"; ObjectID = "7JU-H3-hn3"; */
+"7JU-H3-hn3.title" = "IkuraS";
+
+/* Class = "NSMenuItem"; title = "Alopias"; ObjectID = "7Zr-7N-NrC"; */
+"7Zr-7N-NrC.title" = "Alopias";
+
+/* Class = "NSMenuItem"; title = "Greyhound"; ObjectID = "7hD-OH-6ig"; */
+"7hD-OH-6ig.title" = "Greyhound";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "83J-Re-tdE"; */
+"83J-Re-tdE.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "AMD6000 Controller:"; ObjectID = "8LD-ry-5ah"; */
+"8LD-ry-5ah.title" = "AMD6000 Controller:";
+
+/* Class = "NSBox"; title = "PatchVBios"; ObjectID = "8O6-lT-HAq"; */
+"8O6-lT-HAq.title" = "修补VBios";
+
+/* Class = "NSMenuItem"; title = "19120000 for HD530 use iMac17,1 (this produce artifacts on some system before 10.11.4)"; ObjectID = "8XP-2d-x05"; */
+"8XP-2d-x05.title" = "19120000 用于iMac17,1的HD530(这会在10.11.4之前在某些系统上产生伪影)";
+
+/* Class = "NSMenuItem"; title = "3E910003 Intel UHD Graphics 630"; ObjectID = "8cR-O7-Ahc"; */
+"8cR-O7-Ahc.title" = "3E910003 Intel UHD Graphics 630";
+
+/* Class = "NSMenuItem"; title = "Orangutan"; ObjectID = "8ey-nW-48Y"; */
+"8ey-nW-48Y.title" = "Orangutan";
+
+/* Class = "NSMenuItem"; title = "00010000 use with MacBookPro8,1"; ObjectID = "97V-fv-zRo"; */
+"97V-fv-zRo.title" = "00010000 用于MacBookPro8,1";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "HEX value"; ObjectID = "9Pk-hp-bb6"; */
+"9Pk-hp-bb6.ibShadowedIsNilPlaceholder" = "HEX value";
+
+/* Class = "NSTableColumn"; headerCell.title = "IOPCIPrimaryMatch"; ObjectID = "9Qj-KQ-elN"; */
+"9Qj-KQ-elN.headerCell.title" = "IOPCIPrimaryMatch";
+
+/* Class = "NSMenuItem"; title = "16260004"; ObjectID = "A2y-87-s0k"; */
+"A2y-87-s0k.title" = "16260004";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaGeneric</key>\n<true/>\n\nIf this true then generic name for Videocard will be used. For example instead of\nGigabyte Geforce 7300LE \nYou will see\nNVIDIA Geforce 7300LE"; ObjectID = "A8W-lA-vZO"; */
+"A8W-lA-vZO.ibShadowedToolTip" = "<key>NvidiaGeneric</key>\n<true/>\n\n如果这是真的，那么将使用Videocard的通用名称。\n例如，你会看见NVIDIA Geforce 7300LE，而不是\n技嘉Geforce 7300LE";
+
+/* Class = "NSMenuItem"; title = "AMD8000 Controller:"; ObjectID = "ANX-FT-7iO"; */
+"ANX-FT-7iO.title" = "AMD8000 Controller:";
+
+/* Class = "NSMenuItem"; title = "0c160000"; ObjectID = "BEq-eg-jDS"; */
+"BEq-eg-jDS.title" = "0c160000";
+
+/* Class = "NSMenuItem"; title = "Ikura"; ObjectID = "BIR-yu-X80"; */
+"BIR-yu-X80.title" = "Ikura";
+
+/* Class = "NSMenuItem"; title = "16120003"; ObjectID = "Bf6-jH-Tpm"; */
+"Bf6-jH-Tpm.title" = "16120003";
+
+/* Class = "NSButtonCell"; title = "NvidiaGeneric"; ObjectID = "BgG-Eu-Y6R"; */
+"BgG-Eu-Y6R.title" = "Nvidia显卡通用显示";
+
+/* Class = "NSMenuItem"; title = "AMD9520 Controller:"; ObjectID = "Bj4-yD-beB"; */
+"Bj4-yD-beB.title" = "AMD9520 Controller:";
+
+/* Class = "NSMenuItem"; title = "3E9B0007 Intel UHD Graphics 630"; ObjectID = "C8g-Mq-UnT"; */
+"C8g-Mq-UnT.title" = "3E9B0007 Intel UHD Graphics 630";
+
+/* Class = "NSMenuItem"; title = "5A590000 Intel Cannonlake GT1.5"; ObjectID = "CbS-iD-Cxw"; */
+"CbS-iD-Cxw.title" = "5A590000 Intel Cannonlake GT1.5";
+
+/* Class = "NSMenuItem"; title = "5A410000 Intel Cannonlake GT1"; ObjectID = "Cqh-kl-wBb"; */
+"Cqh-kl-wBb.title" = "5A410000 Intel Cannonlake GT1";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "number"; ObjectID = "Cxs-xM-Pp3"; */
+"Cxs-xM-Pp3.ibShadowedIsNilPlaceholder" = "number";
+
+/* Class = "NSMenuItem"; title = "00020000 use with MacBookPro8,3"; ObjectID = "D94-JQ-rVe"; */
+"D94-JQ-rVe.title" = "00020000 用于MacBookPro8,3";
+
+/* Class = "NSMenuItem"; title = "Chutoro"; ObjectID = "DGg-aq-FHH"; */
+"DGg-aq-FHH.title" = "Chutoro";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>PatchVBios</key>\n<true/>\nClover applies corrections to the shadow ROM at address 0xC0000 to allow support of the highest monitor resolution. For instance, a monitor's EDID contains the mode 1920x1080 but the video bios does not. Clover will apply it as the first mode to be used. In case the monitor does not produce an EDID, it can be injected manually.\n\nIn case ScreenResolution in section GUI is set, it will be used for this patch.\n\nShould the automatic patch fail, then you can specify a manual one."; ObjectID = "DJ3-O6-phs"; */
+"DJ3-O6-phs.ibShadowedToolTip" = "<key>PatchVBios</key>\n<true/>\n\nClover对地址0xC0000处的影子ROM应用校正，以支持最高的监视器分辨率。 例如，监视器的EDID包含模式1920x1080，但视频BIOS不包含。 Clover将其作为第一种使用模式。 如果显示器不产生EDID，可以手动注入。\n\n\n\nI如果设置了GUI部分中的ScreenResolution，它将用于此修补程序。\n\n\n\n如果自动修补程序失败，则可以指定手动修补程序。";
+
+/* Class = "NSMenuItem"; title = "04160000"; ObjectID = "EH9-3W-lT2"; */
+"EH9-3W-lT2.title" = "04160000";
+
+/* Class = "NSMenuItem"; title = "3EA50009 Intel Iris Plus Graphics 655"; ObjectID = "EJv-nB-8yA"; */
+"EJv-nB-8yA.title" = "3EA50009 Intel Iris Plus Graphics 655";
+
+/* Class = "NSMenuItem"; title = "01660001"; ObjectID = "EN0-h9-4VA"; */
+"EN0-h9-4VA.title" = "01660001";
+
+/* Class = "NSTextFieldCell"; title = "Dual Link"; ObjectID = "ESj-Ip-vqI"; */
+"ESj-Ip-vqI.title" = "Dual Link";
+
+/* Class = "NSMenuItem"; title = "Shrike"; ObjectID = "EWF-SD-Jjr"; */
+"EWF-SD-Jjr.title" = "Shrike";
+
+/* Class = "NSMenuItem"; title = "3EA50004 Intel Iris Plus Graphics 655 - MacBookPro15,2"; ObjectID = "Eja-Ki-dPV"; */
+"Eja-Ki-dPV.title" = "3EA50004 Intel Iris Plus Graphics 655 - MacBookPro15,2";
+
+/* Class = "NSMenuItem"; title = "MalteseS"; ObjectID = "FAo-sE-bwj"; */
+"FAo-sE-bwj.title" = "MalteseS";
+
+/* Class = "NSTableColumn"; headerCell.title = "IOPCISubDevId"; ObjectID = "G5P-e4-lQn"; */
+"G5P-e4-lQn.headerCell.title" = "IOPCISubDevId";
+
+/* Class = "NSMenuItem"; title = "5A400009"; ObjectID = "GDr-Yj-QVT"; */
+"GDr-Yj-QVT.title" = "5A400009";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "GIt-so-J5I"; */
+"GIt-so-J5I.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Skylake (mobile):"; ObjectID = "GdN-hS-ZSb"; */
+"GdN-hS-ZSb.title" = "Skylake (笔记本):";
+
+/* Class = "NSTableColumn"; headerCell.title = "VRAM"; ObjectID = "GdW-mg-f1W"; */
+"GdW-mg-f1W.headerCell.title" = "VRAM";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VideoPorts</key>\n<integer>2</integer>\nThe amount of ports on a video card, including TVO and/or HDMI. The chosen Apple framebuffer may not correspond to our real video card."; ObjectID = "HtU-h4-2EC"; */
+"HtU-h4-2EC.ibShadowedToolTip" = "<key>VideoPorts</key>\n<integer>2</integer>\n\n视频卡上的端口数量，包括TVO和/或HDMI。选择的Apple帧缓冲区可能与我们的真实视频卡不对应。";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "MBytes"; ObjectID = "INc-ym-JP0"; */
+"INc-ym-JP0.ibShadowedIsNilPlaceholder" = "MBytes";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ig-platform-id</key>\n<string>0x01620005</string>\nThis parameter is used to enable the internal Intel HD 4000 video card. Until now no common rule for selecting a value was found, so either let Clover handle this parameter or use another one if it does not work.\n\nHere is a table with possible values:\n\nValue|Type|Ports :---|:---|:--- 0x01660000|Mobile|4 ports: 1 LVDS, 3 DP 0x01660001|Mobile|4 ports: 1 LVDS, 1 HDMI, 2 DP 0x01660002|Mobile|1 port: LVDS 0x01660003|Mobile|4 ports: 1 LVDS, 1 HDMI e 2 DP 0x01660004|Mobile|1 port: LVDS 0x01620005|Desktop|3 ports: DP 0x01620006|Desktop|0 ports 0x01620007|Desktop|0 ports 0x01660008|Mobile|3 ports: 1 LVDS, 2 DP 0x01660009|Mobile|3 ports: 1 LVDS, 2 DP 0x0166000a|Mobile|3 ports: 2 DP, 1 HDMI 0x0166000b|Mobile|3 ports: 2 DP, 1 HDMI"; ObjectID = "IRG-f1-fId"; */
+"IRG-f1-fId.ibShadowedToolTip" = "<key>ig-platform-id</key>\n<string>0x01620005</string>\n\n此参数用于启用内部Intel HD 4000视频卡。到目前为止，还没有找到选择值的常用规则，因此要么让Clover处理此参数，要么使用另一个参数，如果它不起作用。\n\n\n\n这是一个包含可能值的表:\n\n\n\nValue|Type|Ports :---|:---|:--- 0x01660000|Mobile|4 ports: 1 LVDS, 3 DP 0x01660001|Mobile|4 ports: 1 LVDS, 1 HDMI, 2 DP 0x01660002|Mobile|1 port: LVDS 0x01660003|Mobile|4 ports: 1 LVDS, 1 HDMI e 2 DP 0x01660004|Mobile|1 port: LVDS 0x01620005|Desktop|3 ports: DP 0x01620006|Desktop|0 ports 0x01620007|Desktop|0 ports 0x01660008|Mobile|3 ports: 1 LVDS, 2 DP 0x01660009|Mobile|3 ports: 1 LVDS, 2 DP 0x0166000a|Mobile|3 ports: 2 DP, 1 HDMI 0x0166000b|Mobile|3 ports: 2 DP, 1 HDMI";
+
+/* Class = "NSMenuItem"; title = "162b0002"; ObjectID = "IdG-bB-Wiq"; */
+"IdG-bB-Wiq.title" = "162b0002";
+
+/* Class = "NSMenuItem"; title = "Coffeelake (desktop):"; ObjectID = "Ijx-3T-O4D"; */
+"Ijx-3T-O4D.title" = "Coffeelake (台式机):";
+
+/* Class = "NSMenuItem"; title = "19160002"; ObjectID = "J0K-Ph-MMC"; */
+"J0K-Ph-MMC.title" = "19160002";
+
+/* Class = "NSMenuItem"; title = "Mazaruni"; ObjectID = "JD5-14-sp5"; */
+"JD5-14-sp5.title" = "Mazaruni";
+
+/* Class = "NSMenuItem"; title = "00040000 use with MacBookAir4,1"; ObjectID = "JGN-GV-EOw"; */
+"JGN-GV-EOw.title" = "00040000 用于MacBookAir4,1";
+
+/* Class = "NSMenuItem"; title = "0A010000 Intel Cannonlake GT1"; ObjectID = "JTx-MP-IuG"; */
+"JTx-MP-IuG.title" = "0A010000 Intel Cannonlake GT1";
+
+/* Class = "NSMenuItem"; title = "Langur"; ObjectID = "JgR-48-tbl"; */
+"JgR-48-tbl.title" = "Langur";
+
+/* Class = "NSMenuItem"; title = "16260002"; ObjectID = "Jk6-Xn-kxl"; */
+"Jk6-Xn-kxl.title" = "16260002";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "Jrc-fS-99G"; */
+"Jrc-fS-99G.title" = "Box";
+
+/* Class = "NSMenuItem"; title = "Ivy Bridge HD4000 (mobile):"; ObjectID = "JuO-57-0kg"; */
+"JuO-57-0kg.title" = "Ivy Bridge HD4000 (笔记本):";
+
+/* Class = "NSMenuItem"; title = "16260000"; ObjectID = "JwC-Mt-oFE"; */
+"JwC-Mt-oFE.title" = "16260000";
+
+/* Class = "NSMenuItem"; title = "Maguro"; ObjectID = "K02-vO-3oN"; */
+"K02-vO-3oN.title" = "Maguro";
+
+/* Class = "NSMenuItem"; title = "Uakari"; ObjectID = "K7i-Tg-GEi"; */
+"K7i-Tg-GEi.title" = "Uakari";
+
+/* Class = "NSMenuItem"; title = "5A500000 Intel Cannonlake GT2"; ObjectID = "K9n-YL-zxE"; */
+"K9n-YL-zxE.title" = "5A500000 Intel Cannonlake GT2";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "KGX-cj-cts"; */
+"KGX-cj-cts.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "0a260008"; ObjectID = "KKo-xu-Rin"; */
+"KKo-xu-Rin.title" = "0a260008";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x1006"; ObjectID = "KS4-4B-20d"; */
+"KS4-4B-20d.ibShadowedIsNilPlaceholder" = "0x1006";
+
+/* Class = "NSMenuItem"; title = "AMD9510 Controller:"; ObjectID = "KaM-2f-15R"; */
+"KaM-2f-15R.title" = "AMD9510 Controller:";
+
+/* Class = "NSMenuItem"; title = "0d260007"; ObjectID = "KsL-FN-tjI"; */
+"KsL-FN-tjI.title" = "0d260007";
+
+/* Class = "NSMenuItem"; title = "Douc"; ObjectID = "Kvr-eb-qie"; */
+"Kvr-eb-qie.title" = "Douc";
+
+/* Class = "NSMenuItem"; title = "Gari"; ObjectID = "Kwa-d9-rvz"; */
+"Kwa-d9-rvz.title" = "Gari";
+
+/* Class = "NSMenuItem"; title = "Eulemur"; ObjectID = "L16-UR-6DT"; */
+"L16-UR-6DT.title" = "Eulemur";
+
+/* Class = "NSMenuItem"; title = "Zonalis"; ObjectID = "L1v-AD-mF9"; */
+"L1v-AD-mF9.title" = "Zonalis";
+
+/* Class = "NSMenuItem"; title = "AMD4600 Controller:"; ObjectID = "LGz-Cs-q86"; */
+"LGz-Cs-q86.title" = "AMD4600 Controller:";
+
+/* Class = "NSMenuItem"; title = "5A410009 Intel Cannonlake GT1"; ObjectID = "Luv-NU-N6f"; */
+"Luv-NU-N6f.title" = "5A410009 Intel Cannonlake GT1";
+
+/* Class = "NSMenuItem"; title = "Gibba"; ObjectID = "MTB-wa-DVj"; */
+"MTB-wa-DVj.title" = "Gibba";
+
+/* Class = "NSMenuItem"; title = "Haswell (desktop):"; ObjectID = "MtX-4n-ZO4"; */
+"MtX-4n-ZO4.title" = "Haswell (台式机):";
+
+/* Class = "NSMenuItem"; title = "Guariba"; ObjectID = "N0G-dd-Fna"; */
+"N0G-dd-Fna.title" = "Guariba";
+
+/* Class = "NSMenuItem"; title = "160e0000"; ObjectID = "N3m-bQ-dML"; */
+"N3m-bQ-dML.title" = "160e0000";
+
+/* Class = "NSMenuItem"; title = "87C00005 Intel UHD Graphics 617 for MacBookAir8,1"; ObjectID = "N9N-OY-8lL"; */
+"N9N-OY-8lL.title" = "87C00005  针对MacBookAir8,1的Intel UHD Graphics 617";
+
+/* Class = "NSMenuItem"; title = "BroadWell:"; ObjectID = "NEb-YT-nAn"; */
+"NEb-YT-nAn.title" = "BroadWell:";
+
+/* Class = "NSMenuItem"; title = "lago"; ObjectID = "NFo-gG-sVt"; */
+"NFo-gG-sVt.title" = "lago";
+
+/* Class = "NSMenuItem"; title = "162b0004"; ObjectID = "NP6-1N-X3H"; */
+"NP6-1N-X3H.title" = "162b0004";
+
+/* Class = "NSMenuItem"; title = "Ivy Bridge HD4000 (desktop):"; ObjectID = "Ncf-SM-J6X"; */
+"Ncf-SM-J6X.title" = "Ivy Bridge HD4000 (台式机):";
+
+/* Class = "NSTableColumn"; headerCell.title = "VideoPorts"; ObjectID = "NjL-84-2Lh"; */
+"NjL-84-2Lh.headerCell.title" = "VideoPorts";
+
+/* Class = "NSMenuItem"; title = "GreyhoundS"; ObjectID = "Nou-pb-EgJ"; */
+"Nou-pb-EgJ.title" = "GreyhoundS";
+
+/* Class = "NSMenuItem"; title = "Cardinal"; ObjectID = "OMD-nZ-kqN"; */
+"OMD-nZ-kqN.title" = "Cardinal";
+
+/* Class = "NSMenuItem"; title = "19120001"; ObjectID = "OPC-dC-90b"; */
+"OPC-dC-90b.title" = "19120001";
+
+/* Class = "NSMenuItem"; title = "19260002"; ObjectID = "Ov3-VY-ECU"; */
+"Ov3-VY-ECU.title" = "19260002";
+
+/* Class = "NSMenuItem"; title = "591e0000 Intel HD Graphics 615 for MacBook10,1"; ObjectID = "PeH-1b-kEN"; */
+"PeH-1b-kEN.title" = "591e0000 用于MacBook10,1的Intel HD Graphics 615";
+
+/* Class = "NSMenuItem"; title = "16160002"; ObjectID = "Pra-NN-1aF"; */
+"Pra-NN-1aF.title" = "16160002";
+
+/* Class = "NSMenuItem"; title = "1"; ObjectID = "PvJ-m1-oaO"; */
+"PvJ-m1-oaO.title" = "1";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "Pwr-re-CR7"; */
+"Pwr-re-CR7.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "AMD9000 Controller:"; ObjectID = "PzC-3O-TKX"; */
+"PzC-3O-TKX.title" = "AMD9000 Controller:";
+
+/* Class = "NSMenuItem"; title = "Quail"; ObjectID = "QFa-wa-MwS"; */
+"QFa-wa-MwS.title" = "Quail";
+
+/* Class = "NSMenuItem"; title = "Kudzu"; ObjectID = "Qty-t1-b6q"; */
+"Qty-t1-b6q.title" = "Kudzu";
+
+/* Class = "NSMenuItem"; title = "162b0000"; ObjectID = "R2Y-Yz-jqU"; */
+"R2Y-Yz-jqU.title" = "162b0000";
+
+/* Class = "NSBox"; title = "NVIDIA"; ObjectID = "RWV-gV-PWA"; */
+"RWV-gV-PWA.title" = "NVIDIA显卡";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "RWq-tp-iOi"; */
+"RWq-tp-iOi.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "19170001"; ObjectID = "RXn-qI-V49"; */
+"RXn-qI-V49.title" = "19170001";
+
+/* Class = "NSMenuItem"; title = "Aji"; ObjectID = "RXv-w9-wTb"; */
+"RXv-w9-wTb.title" = "Aji";
+
+/* Class = "NSMenuItem"; title = "01660002"; ObjectID = "RtT-oC-mTQ"; */
+"RtT-oC-mTQ.title" = "01660002";
+
+/* Class = "NSTableColumn"; headerCell.title = "VRAM"; ObjectID = "S4P-y7-KUo"; */
+"S4P-y7-KUo.headerCell.title" = "VRAM";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VideoInputSignal</key>\n<string>0xA0</string>\n\nVideoInputSignal - this is additional patch for the same problem but I found no inluence.\nDefinition of the value is follow\nBit 7=1\nDigital input. If set, the following bit definitions apply:\n\nBits 6–4 Bit depth: 000=undefined, 001=6, 010=8, 011=10, 100=12, 101=14, 110=16 bits per color, 111=reserved Bits 3–0 Video interface: 0000=undefined, 0001=HDMIa, 0010=HDMIb, 0100=MDDI, 0101=DisplayPort\n\nMy default values for desktop 0x80 (Digital, all undefined), for laptop 0x90 -6bits per color?! - not good.\nIt seems value 0xA0 will be better if used.\nAnd I don't know interface for intenal screen."; ObjectID = "SMy-mc-QWc"; */
+"SMy-mc-QWc.ibShadowedToolTip" = "<key>VideoInputSignal</key>\n<string>0xA0</string>\n\nVideoInputSignal - 这是针对同一问题的补充补丁，但我没有发现任何影响。\n值的定义如下\n\nBit 7=1\n\n数字信号输入。如果设置，则以下位定义适用：\n\n\n\nBits 6–4 Bit depth: 000=undefined, 001=6, 010=8, 011=10, 100=12, 101=14, 110=16 bits per color, 111=reserved Bits 3–0 Video interface: 0000=undefined, 0001=HDMIa, 0010=HDMIb, 0100=MDDI, 0101=DisplayPort\n\n\n\n我的默认值为桌面0x80（数字，全部未定义），适用于每种颜色的笔记本电脑0x90 -6位?! - 不好.\n\n如果使用，似乎值0xA0会更好。\n\n并且我不知道内屏的界面。";
+
+/* Class = "NSTextFieldCell"; title = "Video Ports"; ObjectID = "SP1-WM-7bJ"; */
+"SP1-WM-7bJ.title" = "显卡端口";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "T87-UP-Cwd"; */
+"T87-UP-Cwd.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "3E9B0009 Intel UHD Graphics 630"; ObjectID = "TIJ-RW-2uq"; */
+"TIJ-RW-2uq.title" = "3E9B0009 Intel UHD Graphics 630";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable/Disable Clover's injection for Intel's iGPUs"; ObjectID = "Tj9-VD-Udo"; */
+"Tj9-VD-Udo.ibShadowedToolTip" = "为英特尔的iGPU启用/禁用Clover的注入";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x106B"; ObjectID = "TkB-O7-DiS"; */
+"TkB-O7-DiS.ibShadowedIsNilPlaceholder" = "0x106B";
+
+/* Class = "NSMenuItem"; title = "Hoolock"; ObjectID = "U3X-yI-GYC"; */
+"U3X-yI-GYC.title" = "Hoolock";
+
+/* Class = "NSTextFieldCell"; title = "VendorID"; ObjectID = "UAQ-Jt-Em7"; */
+"UAQ-Jt-Em7.title" = "VendorID";
+
+/* Class = "NSMenuItem"; title = "59230000 Intel HD Graphics 635"; ObjectID = "UPI-ue-hzv"; */
+"UPI-ue-hzv.title" = "59230000 Intel HD Graphics 635";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>RadeonDeInit</key>\n<true/>\n\nRev 4296\nA possibility to de-init Radeon cards.\nIt was very old problem since ElCapitan that AMD Radeon HD6xxx and up will not wake after sleep if used as first card.\nIf the card is secondary and CSM enabled then the card works fine. So the differences is initialisation.\nThe solution was found by vit9696 and used in private WhateverGreen.kext. Then Mieze proposed the solution as ACPI patch.\nNow I included this into Clover.\nYou have to set in config.plist"; ObjectID = "UTZ-9I-Mss"; */
+"UTZ-9I-Mss.ibShadowedToolTip" = "<key>RadeonDeInit</key>\n<true/>\n\n从Rev 4296版本开始，可以去掉初始化Radeon显卡。\n\n      从ElCapitan开始，如果把它作为第一显卡，AMD Radeon HD6xxx及以上在睡眠后不会唤醒，这是一个非常古老的问题。\n\n       如果该卡是辅助卡并且启用了CSM，则该卡正常工作。所以差异就是初始化。\n\n       该解决方案由vit9696发现，并在他自己的WhateverGreen.kext中使用。然后Mieze提出了解决方案作为ACPI补丁。\n\n现在我将它包含在Clover中。你必须在config.plist中设置";
+
+/* Class = "NSMenuItem"; title = "Kipunji"; ObjectID = "UX8-JC-Dvi"; */
+"UX8-JC-Dvi.title" = "Kipunji";
+
+/* Class = "NSMenuItem"; title = "Nomascus"; ObjectID = "Uer-L1-obo"; */
+"Uer-L1-obo.title" = "Nomascus";
+
+/* Class = "NSMenuItem"; title = "161e0001"; ObjectID = "UnQ-qC-V1f"; */
+"UnQ-qC-V1f.title" = "161e0001";
+
+/* Class = "NSMenuItem"; title = "19260000"; ObjectID = "V6c-0e-dHn"; */
+"V6c-0e-dHn.title" = "19260000";
+
+/* Class = "NSMenuItem"; title = "Sandy Bridge HD3000:"; ObjectID = "V8p-Nb-5t0"; */
+"V8p-Nb-5t0.title" = "Sandy Bridge HD3000:";
+
+/* Class = "NSMenuItem"; title = "KaniS"; ObjectID = "VOp-el-lZO"; */
+"VOp-el-lZO.title" = "KaniS";
+
+/* Class = "NSMenuItem"; title = "Radeon"; ObjectID = "Vf6-Dj-J7S"; */
+"Vf6-Dj-J7S.title" = "Radeon";
+
+/* Class = "NSMenuItem"; title = "Galago"; ObjectID = "W39-f0-Khj"; */
+"W39-f0-Khj.title" = "Galago";
+
+/* Class = "NSMenuItem"; title = "Berbice"; ObjectID = "WCG-5Q-OpC"; */
+"WCG-5Q-OpC.title" = "Berbice";
+
+/* Class = "NSMenuItem"; title = "0c060000"; ObjectID = "Wvb-8g-qTx"; */
+"Wvb-8g-qTx.title" = "0c060000";
+
+/* Class = "NSMenuItem"; title = "Osmunda"; ObjectID = "XYL-rM-eCj"; */
+"XYL-rM-eCj.title" = "Osmunda";
+
+/* Class = "NSButtonCell"; title = "Patch VBios"; ObjectID = "XgX-Jz-Fiz"; */
+"XgX-Jz-Fiz.title" = "修补VBios";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Xpm-Zx-yVN"; */
+"Xpm-Zx-yVN.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "VRAM"; ObjectID = "XuG-aC-IxA"; */
+"XuG-aC-IxA.title" = "显存";
+
+/* Class = "NSMenuItem"; title = "5A500009"; ObjectID = "Xuf-sy-QtI"; */
+"Xuf-sy-QtI.title" = "5A500009";
+
+/* Class = "NSMenuItem"; title = "160e0001"; ObjectID = "Y50-h8-uVj"; */
+"Y50-h8-uVj.title" = "160e0001";
+
+/* Class = "NSMenuItem"; title = "Spikerush"; ObjectID = "YFK-vp-H92"; */
+"YFK-vp-H92.title" = "Spikerush";
+
+/* Class = "NSMenuItem"; title = "0"; ObjectID = "YGq-ic-bAU"; */
+"YGq-ic-bAU.title" = "0";
+
+/* Class = "NSMenuItem"; title = "Hamachi"; ObjectID = "YJR-hX-fvT"; */
+"YJR-hX-fvT.title" = "Hamachi";
+
+/* Class = "NSMenuItem"; title = "16160000"; ObjectID = "YJc-KG-I7K"; */
+"YJc-KG-I7K.title" = "16160000";
+
+/* Class = "NSMenuItem"; title = "Acre"; ObjectID = "YWt-er-r9f"; */
+"YWt-er-r9f.title" = "Acre";
+
+/* Class = "NSBox"; title = "Custom EDID [HEX]"; ObjectID = "Yle-1C-wIg"; */
+"Yle-1C-wIg.title" = "自定义EDID [16进制]";
+
+/* Class = "NSMenuItem"; title = "OPM"; ObjectID = "YwE-XW-de3"; */
+"YwE-XW-de3.title" = "OPM";
+
+/* Class = "NSMenuItem"; title = "0d220003"; ObjectID = "Z4D-lw-QGY"; */
+"Z4D-lw-QGY.title" = "0d220003";
+
+/* Class = "NSMenuItem"; title = "04160002"; ObjectID = "ZI1-Ft-4Wb"; */
+"ZI1-Ft-4Wb.title" = "04160002";
+
+/* Class = "NSMenuItem"; title = "Namako"; ObjectID = "Zhw-Qt-PNL"; */
+"Zhw-Qt-PNL.title" = "Namako";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace* [HEX]"; ObjectID = "ZqR-YD-VUX"; */
+"ZqR-YD-VUX.headerCell.title" = "替换* [16进制]";
+
+/* Class = "NSMenuItem"; title = "01660000"; ObjectID = "ZsJ-AX-kaw"; */
+"ZsJ-AX-kaw.title" = "01660000";
+
+/* Class = "NSMenuItem"; title = "Orinoco"; ObjectID = "Zyy-Me-exO"; */
+"Zyy-Me-exO.title" = "Orinoco";
+
+/* Class = "NSTableColumn"; headerCell.title = "LoadVBios"; ObjectID = "a1h-h1-T2g"; */
+"a1h-h1-T2g.headerCell.title" = "LoadVBios";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find* [HEX]"; ObjectID = "aJc-cD-qIz"; */
+"aJc-cD-qIz.headerCell.title" = "查找* [16进制]";
+
+/* Class = "NSMenuItem"; title = "Elodea"; ObjectID = "aKO-IV-kYN"; */
+"aKO-IV-kYN.title" = "Elodea";
+
+/* Class = "NSMenuItem"; title = "Gliff"; ObjectID = "acY-lB-NH5"; */
+"acY-lB-NH5.title" = "Gliff";
+
+/* Class = "NSMenuItem"; title = "Dayman"; ObjectID = "aoT-Bx-uTd"; */
+"aoT-Bx-uTd.title" = "Dayman";
+
+/* Class = "NSMenuItem"; title = "Muskgrass"; ObjectID = "b5K-ej-ite"; */
+"b5K-ej-ite.title" = "Muskgrass";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>FBName</key>\n<string>Macaque</string>\nThis parameter is specific to AMD Radeon cards, which have a bunch of different framebuffers without any specific pattern. For a wide range of common video cards Clover will automatically choose a suiting framebuffer name. Feel free to set your own if you want. If you do not know what to write here, delete this parameter completely.\n\nDo not use Macaque! It is solely used for absurdity. But no - people still use it in their configurations!\n\nSmall guidance table:\n\nSeries v / Type >|Mobile|Desktop :---|:---|:--- HD 5000|Alouatta|Baboon HD 6000|Cttail|Ipomoea HD 7000|Pondweed|Futomaki"; ObjectID = "b8m-kf-9cV"; */
+"b8m-kf-9cV.ibShadowedToolTip" = "<key>FBName</key>\n<string>Macaque</string>\n\n此参数特定于AMD Radeon卡，它具有一堆不同的帧缓冲器，没有任何特定模式。 对于各种常见的显卡，Clover会自动选择适合的帧缓冲名称。 如果您愿意，可以随意设置。 如果您不知道在此处写什么，请完全删除此参数。\n\n\n\n不要使用Macaque！ 它很荒谬。 但是仍然有 人们仍然在他们的配置中使用它！\n\n\n\n指导表:\n\n\n\nSeries v / Type >|Mobile|Desktop :---|:---|:--- HD 5000|Alouatta|Baboon HD 6000|Cttail|Ipomoea HD 7000|Pondweed|Futomaki";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x9XXX"; ObjectID = "bES-8Y-5oh"; */
+"bES-8Y-5oh.ibShadowedIsNilPlaceholder" = "0x9XXX";
+
+/* Class = "NSMenuItem"; title = "19020001"; ObjectID = "bSG-OH-Vrm"; */
+"bSG-OH-Vrm.title" = "19020001";
+
+/* Class = "NSMenuItem"; title = "19320001"; ObjectID = "bTq-C4-MJr"; */
+"bTq-C4-MJr.title" = "19320001";
+
+/* Class = "NSMenuItem"; title = "0a260006 advised for HD5000/5100/5200 (for HD4200/4400/4600 require Devices->FakeID->IntelGFX = 0x04128086"; ObjectID = "bZx-xO-8Ur"; */
+"bZx-xO-8Ur.title" = "0a260006 建议使用HD5000/5100/5200 (对于HD4200/4400/4600需要设置 设备->仿冒ID->IntelGFX = 0x04128086)";
+
+/* Class = "NSMenuItem"; title = "59270000 Intel Iris Plus Graphics 650"; ObjectID = "bao-xu-KGz"; */
+"bao-xu-KGz.title" = "59270000 Intel Iris Plus Graphics 650";
+
+/* Class = "NSMenuItem"; title = "Cattail"; ObjectID = "bb6-EO-dbH"; */
+"bb6-EO-dbH.title" = "Cattail";
+
+/* Class = "NSMenuItem"; title = "Kakapo"; ObjectID = "bej-jY-eqE"; */
+"bej-jY-eqE.title" = "Kakapo";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>NVCAP</key>\n<string>04000000000003000C0000000000000A00000000</string>\nThis parameter is only useful for Nvidia video cards and configures types and usage of video ports. The example line contains 40 capitalised hexadecimal digits. Theory is missing in this case and praxis shows controversial results.\n\nYou can also find other methods on calculating a correct value for this line.\n\nClover will try to generate one according to the video bios."; ObjectID = "bf1-cI-er9"; */
+"bf1-cI-er9.ibShadowedToolTip" = "<key>NVCAP</key>\n<string>04000000000003000C0000000000000A00000000</string>\n\n此参数仅对Nvidia视频卡有用，并配置视频端口的类型和用法。 示例行包含40个大写十六进制数字。 在这种情况下理论缺失，实践表明有争议的结果。\n\n\n\n您还可以找到有关计算此行的正确值的其他方法。\n\n\n\nClover将尝试根据视频BIOS生成一个。";
+
+/* Class = "NSMenuItem"; title = "Haswell (mobile):"; ObjectID = "c55-ZL-CnZ"; */
+"c55-ZL-CnZ.title" = "Haswell (笔记本):";
+
+/* Class = "NSMenuItem"; title = "5A590009 Intel Cannonlake GT1.5"; ObjectID = "cPu-AZ-v00"; */
+"cPu-AZ-v00.title" = "5A590009 Intel Cannonlake GT1.5";
+
+/* Class = "NSMenuItem"; title = "59270004 Intel Iris Plus Graphics 650 for MacBookPro14,2"; ObjectID = "coO-vp-Y2j"; */
+"coO-vp-Y2j.title" = "59270004 用于MacBookPro14,2的Intel Iris Plus Graphics 650";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Inject</key>\n<true/>\n\nInject, if true, your EDID->Custom"; ObjectID = "cr7-K5-nzi"; */
+"cr7-K5-nzi.ibShadowedToolTip" = "<key>Inject</key>\n<true/>\n\n注入, 如果选true, 从EDID->Custom设置";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable/Disable Clover's injection for AMD/ATI GPUs/APUs"; ObjectID = "cu0-HH-4QS"; */
+"cu0-HH-4QS.ibShadowedToolTip" = "为AMD/ATI GPU/APU启用/禁用Clover注入";
+
+/* Class = "NSMenuItem"; title = "Elqui"; ObjectID = "d2H-zh-0sS"; */
+"d2H-zh-0sS.title" = "Elqui";
+
+/* Class = "NSMenuItem"; title = "Duckweed"; ObjectID = "d2m-cO-mcf"; */
+"d2m-cO-mcf.title" = "Duckweed";
+
+/* Class = "NSTextFieldCell"; title = "ig-platform-id"; ObjectID = "dCW-1q-qLG"; */
+"dCW-1q-qLG.title" = "ig-platform-id";
+
+/* Class = "NSButtonCell"; title = "Inject EDID"; ObjectID = "dCc-Ws-R6K"; */
+"dCc-Ws-R6K.title" = "注入EDID";
+
+/* Class = "NSMenuItem"; title = "Buri"; ObjectID = "dGy-2v-Q4T"; */
+"dGy-2v-Q4T.title" = "Buri";
+
+/* Class = "NSMenuItem"; title = "01660008"; ObjectID = "dVP-2I-lRr"; */
+"dVP-2I-lRr.title" = "01660008";
+
+/* Class = "NSMenuItem"; title = "Hullaga"; ObjectID = "dab-CM-GbN"; */
+"dab-CM-GbN.title" = "Hullaga";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x1002XXXX"; ObjectID = "dvj-Pp-if9"; */
+"dvj-Pp-if9.ibShadowedIsNilPlaceholder" = "0x1002XXXX";
+
+/* Class = "NSMenuItem"; title = "Coffeelake (mobile):"; ObjectID = "dwQ-0C-wRz"; */
+"dwQ-0C-wRz.title" = "Coffeelake (笔记本):";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "dwu-5B-0a1"; */
+"dwu-5B-0a1.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "01620005"; ObjectID = "dye-cG-hKh"; */
+"dye-cG-hKh.title" = "01620005";
+
+/* Class = "NSMenuItem"; title = "16220002"; ObjectID = "e5e-B0-yt6"; */
+"e5e-B0-yt6.title" = "16220002";
+
+/* Class = "NSMenuItem"; title = "Lotus"; ObjectID = "eWh-bo-7D4"; */
+"eWh-bo-7D4.title" = "Lotus";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>PatchVBiosBytes</key>\n<array>\n    <dict>\n        <key>Find</key>\n        <data>gAeoAqAF</data>\n        <key>Replace</key>\n        <data>gAeoAjgE</data>\n    </dict>\n</array>\n\nThis example applied to an AMD Radeon HD 6670 video bios, resulting in a replacement of mode 1920x1440 with mode 1920x1080. \nIt is advised to choose a mode with the same horizontal resolution.\n\nIt is possible to apply multiple patches. An Nvidia video bios, for instance, was successfully modified with four patches."; ObjectID = "eeh-6p-NEB"; */
+"eeh-6p-NEB.ibShadowedToolTip" = "<key>PatchVBiosBytes</key>\n<array>\n<dict>\n<key>Find</key>\n<data>gAeoAqAF</data>\n<key>Replace</key>\n<data>gAeoAjgE</data>\n</dict>\n</array>\n\n此示例适用于AMD Radeon HD 6670视频BIOS，从而以1920x1080模式替换模式1920x1440。\n建议选择具有相同水平分辨率的模式。\n\n\n\n可以应用多个补丁。例如，Nvidia视频BIOS已成功修改了四个补丁。";
+
+/* Class = "NSMenuItem"; title = "3E000000"; ObjectID = "ekA-HP-Ysf"; */
+"ekA-HP-Ysf.title" = "3E000000";
+
+/* Class = "NSMenuItem"; title = "AMD9515 Controller:"; ObjectID = "f1u-CV-pQ0"; */
+"f1u-CV-pQ0.title" = "AMD9515 Controller:";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "fLx-95-TNp"; */
+"fLx-95-TNp.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Juncus"; ObjectID = "faj-lb-Rac"; */
+"faj-lb-Rac.title" = "Juncus";
+
+/* Class = "NSMenuItem"; title = "16260006 advised for HD5300/5500/5600/6000 mobile (use MacBookAir6,2/7,1 MacBookPro12,1)"; ObjectID = "fje-Ql-57W"; */
+"fje-Ql-57W.title" = "16260006 建议HD5300/5500/5600/6000的笔记本使用 (用MacBookAir6,2/7,1 MacBookPro12,1)";
+
+/* Class = "NSMenuItem"; title = "3E920009 Intel UHD Graphics 630"; ObjectID = "fmy-8u-QZL"; */
+"fmy-8u-QZL.title" = "3E920009 Intel UHD Graphics 630";
+
+/* Class = "NSButtonCell"; title = "NvidiaNoEFI"; ObjectID = "fvj-gz-fFb"; */
+"fvj-gz-fFb.title" = "禁用Nvidia显卡EFI";
+
+/* Class = "NSMenuItem"; title = "Florin"; ObjectID = "gA6-ma-hyj"; */
+"gA6-ma-hyj.title" = "Florin";
+
+/* Class = "NSMenuItem"; title = "Colobus"; ObjectID = "gEB-wq-WZN"; */
+"gEB-wq-WZN.title" = "Colobus";
+
+/* Class = "NSMenuItem"; title = "Hypoprion"; ObjectID = "gQB-uq-oOh"; */
+"gQB-uq-oOh.title" = "Hypoprion";
+
+/* Class = "NSMenuItem"; title = "Caretta"; ObjectID = "gkj-ri-Dy6"; */
+"gkj-ri-Dy6.title" = "Caretta";
+
+/* Class = "NSButtonCell"; title = "Load VBios"; ObjectID = "gnq-h7-b8g"; */
+"gnq-h7-b8g.title" = "加载VBios";
+
+/* Class = "NSMenuItem"; title = "01660004 advised with high resolution display (>1400w pixels), also require DualLink=1 and MacBookPro9,2"; ObjectID = "gp7-N4-95p"; */
+"gp7-N4-95p.title" = "01660004 建议使用高分辨率显示器 (>1400w像素), 还需要设置DualLink=1 和 MacBookPro9,2";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x106B"; ObjectID = "h17-d2-Mdv"; */
+"h17-d2-Mdv.ibShadowedIsNilPlaceholder" = "0x106B";
+
+/* Class = "NSMenuItem"; title = "591b0006 Intel HD Graphics 630"; ObjectID = "h5Z-Si-R3q"; */
+"h5Z-Si-R3q.title" = "591b0006 Intel HD Graphics 630";
+
+/* Class = "NSMenuItem"; title = "Pithecia"; ObjectID = "hB5-P6-gV5"; */
+"hB5-P6-gV5.title" = "Pithecia";
+
+/* Class = "NSMenuItem"; title = "Hydrilla"; ObjectID = "hWp-FE-fcQ"; */
+"hWp-FE-fcQ.title" = "Hydrilla";
+
+/* Class = "NSTextFieldCell"; title = "VideoInputSignal"; ObjectID = "hab-XY-5Kd"; */
+"hab-XY-5Kd.title" = "视频输入信号";
+
+/* Class = "NSMenuItem"; title = "01660003 advised with low resolution display (<1400w pixels) use with MacBookPro9,2"; ObjectID = "hhc-bu-23m"; */
+"hhc-bu-23m.title" = "01660003 建议使用低分辨率显示器 (<1400w pixels)用于MacBookPro9,2";
+
+/* Class = "NSMenuItem"; title = "0a260005"; ObjectID = "hzl-yL-yPD"; */
+"hzl-yL-yPD.title" = "0a260005";
+
+/* Class = "NSMenuItem"; title = "5A510009 Intel Cannonlake GT2"; ObjectID = "i66-cA-RUH"; */
+"i66-cA-RUH.title" = "5A510009 Intel Cannonlake GT2";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VendorID</key>\n<string>0x11BF</string>\n\nOverrides and inject your Display Vendor id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info."; ObjectID = "iB3-Ov-vXN"; */
+"iB3-Ov-vXN.ibShadowedToolTip" = "<key>VendorID</key>\n<string>0x11BF</string>\n\n覆盖并注入您的显示供应商ID。\n有些时候，您的显示器的EEPROM不好，OEM制造商通常会安装\n\n为了获得良好的结果，操作系统使用正确的EDID数据进行定制，忽略了EEPROM上的内容。\n\n因此，如果EEPROM损坏，您必须注入正确的信息。";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "iEN-ym-cIb"; */
+"iEN-ym-cIb.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Longavi"; ObjectID = "iFh-Fk-bgb"; */
+"iFh-Fk-bgb.title" = "Longavi";
+
+/* Class = "NSMenuItem"; title = "00030010 use with Macmini5,1"; ObjectID = "iqK-4w-QKt"; */
+"iqK-4w-QKt.title" = "00030010 用于Macmini5,1";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ProductID</key>\n<string>0x06DE</string>\n\nOverrides and inject your Display product id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info.<string>0x11BF</string>\n\nOverrides and inject your Display Vendor id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info."; ObjectID = "j0a-hX-BLv"; */
+"j0a-hX-BLv.ibShadowedToolTip" = "<key>ProductID</key>\n<string>0x06DE</string>\n\n覆盖并注入您的Display产品ID。\n有的时候，您的显示器的EEPROM不好，OEM制造商通常会安装\n为了获得良好的结果，操作系统使用正确的EDID数据进行定制，忽略了EEPROM上的内容。\n\n因此，如果EEPROM损坏，您必须注入正确的信息。<string>0x11BF</string>覆盖并注入您的显示供应商ID。\n\n有些时候，您的显示器的EEPROM不好，\nOEM制造商通常会安装\n\n为了获得良好的结果，操作系统使用正确的EDID数据进行定制，忽略了EEPROM上的内容。\n\n因此，如果EEPROM损坏，您必须注入正确的信息。";
+
+/* Class = "NSMenuItem"; title = "16060000"; ObjectID = "j0z-qx-4du"; */
+"j0z-qx-4du.title" = "16060000";
+
+/* Class = "NSMenuItem"; title = "Alouatta"; ObjectID = "jR4-pG-OuU"; */
+"jR4-pG-OuU.title" = "Alouatta";
+
+/* Class = "NSMenuItem"; title = "Kani"; ObjectID = "jTn-3n-Fkd"; */
+"jTn-3n-Fkd.title" = "Kani";
+
+/* Class = "NSMenuItem"; title = "Kabylake (desktop):"; ObjectID = "kS0-gp-mxi"; */
+"kS0-gp-mxi.title" = "Kabylake (台式机):";
+
+/* Class = "NSMenuItem"; title = "Labrador"; ObjectID = "kXF-gR-F0f"; */
+"kXF-gR-F0f.title" = "Labrador";
+
+/* Class = "NSMenuItem"; title = "59120003 Intel HD Graphics 630 for iMac18,2/18,3"; ObjectID = "kgE-HG-VPp"; */
+"kgE-HG-VPp.title" = "59120003 Intel HD Graphics 630用于iMac18,2/18,3";
+
+/* Class = "NSMenuItem"; title = "0166000b"; ObjectID = "l0Z-wg-FIO"; */
+"l0Z-wg-FIO.title" = "0166000b";
+
+/* Class = "NSMenuItem"; title = "AMD7000 Controller:"; ObjectID = "lUL-rE-jeZ"; */
+"lUL-rE-jeZ.title" = "AMD7000 Controller:";
+
+/* Class = "NSMenuItem"; title = "FlueveSWIP"; ObjectID = "lcz-4j-01L"; */
+"lcz-4j-01L.title" = "FlueveSWIP";
+
+/* Class = "NSButtonCell"; title = "NvidiaSingle"; ObjectID = "lf3-pM-5zH"; */
+"lf3-pM-5zH.title" = "只注入第一张N卡";
+
+/* Class = "NSMenuItem"; title = "Mangabey"; ObjectID = "lo0-Na-dY5"; */
+"lo0-Na-dY5.title" = "Mangabey";
+
+/* Class = "NSMenuItem"; title = "5A510000 Intel Cannonlake GT2"; ObjectID = "lyp-hh-vRn"; */
+"lyp-hh-vRn.title" = "5A510000 Intel Cannonlake GT2";
+
+/* Class = "NSTextFieldCell"; title = "Display-cfg"; ObjectID = "m0Z-0x-ds5"; */
+"m0Z-0x-ds5.title" = "Display-cfg";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "<key>DualLink</key>\n<integer>0</integer>\nDefault is 1.\n\nSome systems show a quartered screen. Use 0 to solve this problem, as showed in the example above."; ObjectID = "m64-hn-3cg"; */
+"m64-hn-3cg.ibShadowedToolTip" = "<key>DualLink</key>\n<integer>0</integer>\n\n默认值为1.\n\n\n\n一些系统显示四分之一屏幕。使用0来解决此问题，如上例所示。";
+
+/* Class = "NSTableColumn"; headerCell.title = "LoadVBios"; ObjectID = "m80-IH-kcC"; */
+"m80-IH-kcC.headerCell.title" = "LoadVBios";
+
+/* Class = "NSMenuItem"; title = "16220000"; ObjectID = "m9o-h1-dyL"; */
+"m9o-h1-dyL.title" = "16220000";
+
+/* Class = "NSMenuItem"; title = "591e0001 Intel HD Graphics 615 for MacBook10,1"; ObjectID = "mK6-Ek-uoh"; */
+"mK6-Ek-uoh.title" = "591e0001 Intel HD Graphics 615 for MacBook10,1";
+
+/* Class = "NSMenuItem"; title = "Motmot"; ObjectID = "mRm-pT-dm6"; */
+"mRm-pT-dm6.title" = "Motmot";
+
+/* Class = "NSMenuItem"; title = "Pondweed"; ObjectID = "mYm-3g-TDa"; */
+"mYm-3g-TDa.title" = "Pondweed";
+
+/* Class = "NSMenuItem"; title = "5A490000 Intel Cannonlake GT0.5"; ObjectID = "mal-7g-76X"; */
+"mal-7g-76X.title" = "5A490000 Intel Cannonlake GT0.5";
+
+/* Class = "NSTextFieldCell"; title = "BootDisplay"; ObjectID = "myC-cS-tvp"; */
+"myC-cS-tvp.title" = "BootDisplay";
+
+/* Class = "NSMenuItem"; title = "Lagotto"; ObjectID = "nQV-AW-E79"; */
+"nQV-AW-E79.title" = "Lagotto";
+
+/* Class = "NSMenuItem"; title = "Bulrushes"; ObjectID = "neC-QX-hyQ"; */
+"neC-QX-hyQ.title" = "Bulrushes";
+
+/* Class = "NSTableColumn"; headerCell.title = "Model"; ObjectID = "no0-fu-M1Y"; */
+"no0-fu-M1Y.headerCell.title" = "Model";
+
+/* Class = "NSMenuItem"; title = "5A520000"; ObjectID = "non-AP-tWg"; */
+"non-AP-tWg.title" = "5A520000";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>HorizontalSyncPulseWidth</key>\n<integer>100</integer>\n\nHorizontalSyncPulseWidth - this patch helps to resolve garbled screen at boot with Intel graphics. Known problem of 8 apples.\nI see that the patch is still needed\n\n<dict>\n<key>Comment</key>\n<string>Patch 8 apples</string>\n<key>Disabled</key>\n<false/>\n<key>Find</key>\n<data>AQAAdRc=</data>\n<key>MatchOS</key>\n<string>10.11</string>\n<key>Name</key>\n<string>IOGraphicsFamily</string>\n<key>Replace</key>\n<data>AQAA6xc=</data>\n</dict>\n\nbut this patch alone is not full solution. The apple is broken for a several seconds and then restored.\nWith new Clover setting HorizontalSyncPulseWidth = 100 there is a full solution. The image is good and not jumped."; ObjectID = "o0y-Gr-iUz"; */
+"o0y-Gr-iUz.ibShadowedToolTip" = "<key>HorizontalSyncPulseWidth</key>\n<integer>100</integer>\n\nHorizontalSyncPulseWidth - 此补丁有助于在启动时使用英特尔图形解决乱码比如8个苹果的已知问题。\n\n我看到补丁仍然需要\n\n<dict>\n<key>Comment</key>\n<string>Patch 8 apples</string>\n<key>Disabled</key>\n<false/>\n<key>Find</key>\n<data>AQAAdRc=</data>\n<key>MatchOS</key>\n<string>10.11</string>\n<key>Name</key>\n<string>IOGraphicsFamily</string>\n<key>Replace</key>\n<data>AQAA6xc=</data>\n</dict>\n\n但这个补丁本身并不是完整的解决方案。苹果画面撕破几秒钟然后恢复。\n\n使用新的Clover设置\nHorizontalSyncPulseWidth = 100这是一个完整的解决方案。图像很好而且没有跳跃";
+
+/* Class = "NSMenuItem"; title = "3E920003 Intel UHD Graphics 630"; ObjectID = "o0y-dJ-SnT"; */
+"o0y-dJ-SnT.title" = "3E920003 Intel UHD Graphics 630";
+
+/* Class = "NSMenuItem"; title = "191e0000"; ObjectID = "oWr-3T-j8T"; */
+"oWr-3T-j8T.title" = "191e0000";
+
+/* Class = "NSTextFieldCell"; title = "FB Name"; ObjectID = "oow-qe-zgk"; */
+"oow-qe-zgk.title" = "FB名称";
+
+/* Class = "NSMenuItem"; title = "Baladi"; ObjectID = "orS-OR-ycs"; */
+"orS-OR-ycs.title" = "Baladi";
+
+/* Class = "NSMenuItem"; title = "Megalodon"; ObjectID = "p33-rn-q69"; */
+"p33-rn-q69.title" = "Megalodon";
+
+/* Class = "NSMenuItem"; title = "Cannonlake (mobile):"; ObjectID = "p4w-eQ-IYE"; */
+"p4w-eQ-IYE.title" = "Cannonlake (笔记本):";
+
+/* Class = "NSMenuItem"; title = "Fanwort"; ObjectID = "p59-HA-oJq"; */
+"p59-HA-oJq.title" = "Fanwort";
+
+/* Class = "NSMenuItem"; title = "Old ATI Controller:"; ObjectID = "pUt-Uh-yfc"; */
+"pUt-Uh-yfc.title" = "旧的ATI Controller:";
+
+/* Class = "NSMenuItem"; title = "AMD5000 Controller:"; ObjectID = "pa6-L5-DJh"; */
+"pa6-L5-DJh.title" = "AMD5000 Controller:";
+
+/* Class = "NSMenuItem"; title = "04260000"; ObjectID = "poM-wV-pz0"; */
+"poM-wV-pz0.title" = "04260000";
+
+/* Class = "NSMenuItem"; title = "Futomaki"; ObjectID = "pog-ag-IlQ"; */
+"pog-ag-IlQ.title" = "Futomaki";
+
+/* Class = "NSMenuItem"; title = "AMD2600 Controller:"; ObjectID = "q45-CE-7pX"; */
+"q45-CE-7pX.title" = "AMD2600 Controller:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaSingle</key>\n<true/>\n\nImplemented NvidiaSingle\nIf you have two cards Nvidia and wants to inject only first one:\nthen you can set this parameter."; ObjectID = "qbi-hO-FhU"; */
+"qbi-hO-FhU.ibShadowedToolTip" = "<key>NvidiaSingle</key>\n<true/>\n\nImplemented NvidiaSingle\n如果你有两张Nvidia显卡并且只想注入第一张显卡:\n\n然后你可以设置这个参数。";
+
+/* Class = "NSMenuItem"; title = "AMD9500 Controller:"; ObjectID = "qrP-2S-fn2"; */
+"qrP-2S-fn2.title" = "AMD9500 Controller:";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "parameter is for providing custom EDID when it's missing. The main requirement is to have a correct maximal resolution.\n\nAnother possibility is to use ViewSonic EDID Editor v3.1.5 that can easily be ported to Mac, if needed.\n\nAn EDID from a Dell Inspiron will be used in the sample configuration file with a matrix of 1440x900.\n\nA custom EDID will also be used for automatic video bios patching. Look above.\n\nYou can override VendorID and ProductID in EDID."; ObjectID = "qrY-PP-Osn"; */
+"qrY-PP-Osn.ibShadowedToolTip" = "参数用于在缺少自定义EDID时提供。主要要求是具有正确的最大分辨率。\n\n\n\n另一种可能性是使用ViewSonic EDID Editor v3.1.5，如果需要，可以轻松移植到Mac。\n\n\n\nDell Inspiron的EDID将在样本配置文件中使用，矩阵为1440x900。\n\n\n\n自定义EDID也将用于自动视频BIOS修补。看上面。\n\n\n\n您可以在EDID中覆盖供应商ID和产品ID。";
+
+/* Class = "NSMenuItem"; title = "01660009"; ObjectID = "qrj-Qj-aKx"; */
+"qrj-Qj-aKx.title" = "01660009";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VRAM</key>\n<integer>1024</integer>\nAmount of video memory in MB. It is determined automatically but no one will be harmed if you write a correct value. However, changing it has not helped anyone yet."; ObjectID = "qtF-e6-lNk"; */
+"qtF-e6-lNk.ibShadowedToolTip" = "<key>VRAM</key>\n<integer>1024</integer>\n\n以MB为单位的显卡显存大小。它会自动确定，但如果您写出正确的值，则不会有其它损害。然而，改变它还没有任何意义。";
+
+/* Class = "NSMenuItem"; title = "AMD2400 Controller:"; ObjectID = "qyq-um-vWq"; */
+"qyq-um-vWq.title" = "AMD2400 Controller:";
+
+/* Class = "NSMenuItem"; title = "Caroni"; ObjectID = "r3s-2B-ScB"; */
+"r3s-2B-ScB.title" = "Caroni";
+
+/* Class = "NSMenuItem"; title = "59260007 Intel Iris Plus Graphics 640"; ObjectID = "rCm-YJ-SoP"; */
+"rCm-YJ-SoP.title" = "59260007 Intel Iris Plus Graphics 640";
+
+/* Class = "NSMenuItem"; title = "Baboon"; ObjectID = "rFe-40-P9T"; */
+"rFe-40-P9T.title" = "Baboon";
+
+/* Class = "NSMenuItem"; title = "591c0005"; ObjectID = "rGO-WX-k25"; */
+"rGO-WX-k25.title" = "591c0005";
+
+/* Class = "NSMenuItem"; title = "3EA50000 Intel Iris Plus Graphics 655"; ObjectID = "rXg-s6-fgw"; */
+"rXg-s6-fgw.title" = "3EA50000 Intel Iris Plus Graphics 655";
+
+/* Class = "NSMenuItem"; title = "16260005"; ObjectID = "rgk-gm-pW6"; */
+"rgk-gm-pW6.title" = "16260005";
+
+/* Class = "NSMenuItem"; title = "59120000 Intel HD Graphics 630"; ObjectID = "ryb-RM-0lF"; */
+"ryb-RM-0lF.title" = "59120000 Intel HD Graphics 630";
+
+/* Class = "NSMenuItem"; title = "Vervet"; ObjectID = "ryc-Vb-dyQ"; */
+"ryc-Vb-dyQ.title" = "Vervet";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "HEX value"; ObjectID = "s4T-rc-I13"; */
+"s4T-rc-I13.ibShadowedIsNilPlaceholder" = "十六进制值";
+
+/* Class = "NSMenuItem"; title = "591b0000 Intel HD Graphics 630 for MacBookPro14,3"; ObjectID = "sd1-gQ-Q4z"; */
+"sd1-gQ-Q4z.title" = "591b0000 Intel HD Graphics 630 用于MacBookPro14,3";
+
+/* Class = "NSMenuItem"; title = "191b0000"; ObjectID = "sd2-oE-gLs"; */
+"sd2-oE-gLs.title" = "191b0000";
+
+/* Class = "NSMenuItem"; title = "Flicker"; ObjectID = "tLb-nb-9Kv"; */
+"tLb-nb-9Kv.title" = "Flicker";
+
+/* Class = "NSMenuItem"; title = "Kabylake (mobile):"; ObjectID = "tdP-7s-wAa"; */
+"tdP-7s-wAa.title" = "Kabylake (笔记本):";
+
+/* Class = "NSTableColumn"; headerCell.title = "IOPCIPrimaryMatch"; ObjectID = "tyQ-WL-gQa"; */
+"tyQ-WL-gQa.headerCell.title" = "IOPCIPrimaryMatch";
+
+/* Class = "NSMenuItem"; title = "Peregrine"; ObjectID = "u95-SS-ZWc"; */
+"u95-SS-ZWc.title" = "Peregrine";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>display-cfg</key>\n<string>03010300FFFF0001</string>\nThis parameter is also just for Nvidia cards. However the listed examples are controversial. Apparently it is best to just let Clover handle this value. Leave it out completely and let Clover do the calculation."; ObjectID = "uFv-WW-DKn"; */
+"uFv-WW-DKn.ibShadowedToolTip" = "<key>display-cfg</key>\n<string>03010300FFFF0001</string>\n\n此参数也适用于Nvidia卡。然而，列出的例子是有争议的。显然最好让Clover处理这个值。完全不让它，让Clover做计算。";
+
+/* Class = "NSMenuItem"; title = "Triakis"; ObjectID = "uUY-ie-MpJ"; */
+"uUY-ie-MpJ.title" = "Triakis";
+
+/* Class = "NSMenuItem"; title = "Wormy"; ObjectID = "upE-8D-U2T"; */
+"upE-8D-U2T.title" = "Wormy";
+
+/* Class = "NSTableColumn"; headerCell.title = "VideoPorts"; ObjectID = "uqj-6E-WFJ"; */
+"uqj-6E-WFJ.headerCell.title" = "VideoPorts";
+
+/* Class = "NSMenuItem"; title = "Tako"; ObjectID = "usU-p6-i0w"; */
+"usU-p6-i0w.title" = "Tako";
+
+/* Class = "NSMenuItem"; title = "161e0000"; ObjectID = "v2W-Pj-bg1"; */
+"v2W-Pj-bg1.title" = "161e0000";
+
+/* Class = "NSMenuItem"; title = "0a160000"; ObjectID = "vQR-zy-pTs"; */
+"vQR-zy-pTs.title" = "0a160000";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "framebuffer"; ObjectID = "vUX-ax-DYA"; */
+"vUX-ax-DYA.ibShadowedIsNilPlaceholder" = "framebuffer";
+
+/* Class = "NSMenuItem"; title = "AMD4800 Controller:"; ObjectID = "vr8-X9-g6h"; */
+"vr8-X9-g6h.title" = "AMD4800 Controller:";
+
+/* Class = "NSMenuItem"; title = "Skylake (desktop):"; ObjectID = "vyD-G1-PJu"; */
+"vyD-G1-PJu.title" = "Skylake (台式机):";
+
+/* Class = "NSMenuItem"; title = "Exmoor"; ObjectID = "vzv-Mq-ZRX"; */
+"vzv-Mq-ZRX.title" = "Exmoor";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0xA1"; ObjectID = "wLY-r7-6EP"; */
+"wLY-r7-6EP.ibShadowedIsNilPlaceholder" = "0xA1";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>NVIDIA</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10de5665</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>NVidia very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\nMore than one NVidia video cards? Add info under Graphics->NVIDIA as an array of dictionaries:\n\n- IOPCIPrimaryMatch, device id\n- IOPCISubDevId, sub vendor id of your card\n- LoadVBios, load video bios\n- Model, name to be displayed\n- VRAM, the amount of video RAM, cosmetic only\n- VideoPorts, the ports available for this card"; ObjectID = "wQc-iv-n48"; */
+"wQc-iv-n48.ibShadowedToolTip" = "<key>NVIDIA</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10de5665</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>NVidia very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\n一个以上的NVidia显卡？在Graphics->NVIDIA下添加信息作为字典数组:\n\n\n\n- IOPCIPrimaryMatch, 设备id\n\n- IOPCISubDevId, 你显卡的sub vendor id \n\n- LoadVBios, 加载显卡BIOS\n\n- Model, 要显示的名称\n\n- VRAM, 显存容量，仅限装饰\n\n- VideoPorts, 此显卡可用的端口";
+
+/* Class = "NSMenuItem"; title = "59180002"; ObjectID = "wSG-bs-2m5"; */
+"wSG-bs-2m5.title" = "59180002";
+
+/* Class = "NSMenuItem"; title = "Junsai"; ObjectID = "wa3-os-fEx"; */
+"wa3-os-fEx.title" = "Junsai";
+
+/* Class = "NSMenuItem"; title = "19160000 advised for HD520/530/540"; ObjectID = "wuN-DG-WtC"; */
+"wuN-DG-WtC.title" = "19160000 建议用于HD520/530/540";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "MBytes"; ObjectID = "wxs-SX-jxM"; */
+"wxs-SX-jxM.ibShadowedIsNilPlaceholder" = "MBytes";
+
+/* Class = "NSMenuItem"; title = "0a2e0008"; ObjectID = "x2C-wV-JBd"; */
+"x2C-wV-JBd.title" = "0a2e0008";
+
+/* Class = "NSMenuItem"; title = "59270009 Intel Iris Plus Graphics 650"; ObjectID = "x6F-w5-ZmZ"; */
+"x6F-w5-ZmZ.title" = "59270009 Intel Iris Plus Graphics 650";
+
+/* Class = "NSButtonCell"; title = "Inject ATI"; ObjectID = "xHW-vO-ZWg"; */
+"xHW-vO-ZWg.title" = "注入ATI/AMD显卡";
+
+/* Class = "NSMenuItem"; title = "59160000 Intel HD Graphics 620"; ObjectID = "xKn-eD-C9g"; */
+"xKn-eD-C9g.title" = "59160000 Intel HD Graphics 620";
+
+/* Class = "NSBox"; title = "ATI"; ObjectID = "xQv-pV-Y0b"; */
+"xQv-pV-Y0b.title" = "ATI显卡";
+
+/* Class = "NSTextFieldCell"; title = "HorizontalSync\nPulseWidth"; ObjectID = "xjJ-kN-bpt"; */
+"xjJ-kN-bpt.title" = "水平同步\n脉冲宽度";
+
+/* Class = "NSMenuItem"; title = "3E9B0000 Intel UHD Graphics 630 - MacBookPro15,1"; ObjectID = "xtb-aB-O1h"; */
+"xtb-aB-O1h.title" = "3E9B0000 Intel UHD Graphics 630 - MacBookPro15,1";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>LoadVBios</key>\n<true/>\nLoads a video bios from a file, which needs to be stored at the directory EFI/CLOVER/OEM/[model]/ROM or EFI/CLOVER/ROM with the name [vendor]_[device].rom, for instance 1002_68d8.rom. Sometimes it makes sense to load video bios manually, for example when you need a patched version or when the video card does not show it to the system - like mobile Radeon cards. In this case it is enough to set this parameter to Yes without providing any file. Clover will read the video bios from legacy memory at 0xC0000, where it is present most of the times, and enable functionality.\nApparently the video bios written to the card's ROM does not match the one stored at address 0xC0000 - the shadow ROM. In short:\n\n<true/> - Use for mobile Radeon cards without any external file.\nCan also be used to supply a legacy video bios to cards, which only contain a UEFI video bios.\n<false/> - For all other variants"; ObjectID = "xyg-JY-TIM"; */
+"xyg-JY-TIM.ibShadowedToolTip" = "<key>LoadVBios</key>\n<true/>\n\n从文件加载显卡BIOS，需要将其存储在目录 EFI/CLOVER/OEM/[model]/ROM 或 EFI/CLOVER/ROM with the name [vendor]_[device].rom, 例如1002_68d8.rom。 有时，手动加载显卡BIOS是有意义的，例如当您需要修补版本或显卡未向系统显示时 - 例如笔记本Radeon显卡。 在这种情况下，将此参数设置为Yes就足以提供任何文件。 Clover将从0xC0000处读取传统内存中的视频BIOS，其中大多数时间都存在，并启用功能。\n\n显然，写入卡ROM的视频BIOS与存储在地址0xC0000的视频BIOS不匹配 - the shadow ROM. \n总之:<true/>- 用于移动Radeon卡，无需任何外部文件。\n\n也可用于向显卡提供传统BIOS，其中仅包含UEFI显卡BIOS。<false/>- 对于所有其他变种";
+
+/* Class = "NSTableColumn"; headerCell.title = "IOPCISubDevId"; ObjectID = "ycu-IU-5bG"; */
+"ycu-IU-5bG.headerCell.title" = "IOPCISubDevId";
+
+/* Class = "NSMenuItem"; title = "00030020 use with Macmini5,2"; ObjectID = "yp1-fr-FtD"; */
+"yp1-fr-FtD.title" = "00030020 use with Macmini5,2";
+
+/* Class = "NSButtonCell"; title = "RadeonDeInit"; ObjectID = "ytd-YO-bYX"; */
+"ytd-YO-bYX.title" = "RadeonDeInit";
+
+/* Class = "NSMenuItem"; title = "5A490009 Intel Cannonlake GT0.5"; ObjectID = "z0k-qk-5xV"; */
+"z0k-qk-5xV.title" = "5A490009 Intel Cannonlake GT0.5";
+
+/* Class = "NSMenuItem"; title = "59160009 Intel HD Graphics 620"; ObjectID = "z19-Pi-t2F"; */
+"z19-Pi-t2F.title" = "59160009 Intel HD Graphics 620";
+
+/* Class = "NSMenuItem"; title = "0166000a"; ObjectID = "zNX-aC-4aa"; */
+"zNX-aC-4aa.title" = "0166000a";
+
+/* Class = "NSButtonCell"; title = "Inject Intel"; ObjectID = "zO0-H0-wzL"; */
+"zO0-H0-wzL.title" = "注入Intel显卡";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaNoEFI</key>\n<true/>\n\nIf your card have a bad EFI bios just don't use it:\n\n\t\"NVDA,noEFI\", \n\tBuffer (0x05)\n\t{\n           \"true\"\n\t},"; ObjectID = "zd9-VZ-weX"; */
+"zd9-VZ-weX.ibShadowedToolTip" = "<key>NvidiaNoEFI</key>\n<true/>\n\n如果您的显卡有不太好的EFI BIOS，请不要使用它:\n\n\n\n\t\t\"NVDA,noEFI\", \n\tBuffer (0x05)\n\t{\n           \"true\"\n\t},";

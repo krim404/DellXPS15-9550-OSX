@@ -1,0 +1,69 @@
+/* Class = "NSButton"; ibShadowedToolTip = "disable Clover's keyboard shortcuts"; ObjectID = "2ou-qM-F9Q"; */
+"2ou-qM-F9Q.ibShadowedToolTip" = "Выключить сочетания клавиш для Clover";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Policy for Secure Boot. Using WhiteList and BlackList require an array of allowed and denied binary"; ObjectID = "3c7-hz-Sd8"; */
+"3c7-hz-Sd8.ibShadowedToolTip" = "Политика для Secure Boot (WhiteList и BlackList).";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Skip the Hibernation timeout"; ObjectID = "3SI-Go-M3B"; */
+"3SI-Go-M3B.ibShadowedToolTip" = "Пропустить отсчет времени для Гибернации.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Debug</key>\n<false/>\nIf you are unable to boot into the Clover you can use this setting to produces a debug output to /EFI/CLOVER/misc/debug.log. This log then can be assessed to find out what the problem is. !WARNING turning on this log will dramatically increase loading time as it has to write the log to the disk as it goes. So please be patient and give plenty of time before reseting your computer."; ObjectID = "4Wo-7U-l4l"; */
+"4Wo-7U-l4l.ibShadowedToolTip" = "Включает запись лога загрузки в файл /EFI/CLOVER/misc/debug.log. ВНИМАНИЕ!!! ВКЛЮЧЕНИЕ ДАННОГО ЛОГА ОЧЕНЬ СИЛЬНО УВЕЛИЧИТ ВРЕМЯ ЗАПУСКА CLOVER (до 10 минут). ДАЙТЕ ВРЕМЯ КОМПЬЮТЕРУ ПЕРЕД ПЕРЕЗАГРУЗКОЙ!";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>Timeout</key>\n<integer>5</integer>\nThe boot loader will pause for 5 seconds after starting before automatically loading an operating system. If a key is pressed during this period of time, the countdown is stopped. Options:\n\n0 - GUI is not invoked, the OS is loaded instantly\n-1 - GUI is invoked, automatic OS loading is turned off\nClover must have be able to find a default entry for it to automatically boot into an OS.\n\nNOTE: If the Timeout integer is set to 0, hold any key when powering on to invoke the bootloader GUI."; ObjectID = "6h3-7F-Ex1"; */
+"6h3-7F-Ex1.ibShadowedToolTip" = "Тайм-аут перед запуском системы по умолчанию (диск должен быть указан в DefaultVolume).  0 - запуск системы без взода в оболочку (перед запуском нажмите Пробел для входа в оболочку. -1 - отключает тайм-аут.";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "White list for Secure Boot (allowed). Policy must be set to WhiteList"; ObjectID = "6sX-vb-IgQ"; */
+"6sX-vb-IgQ.ibShadowedToolTip" = "Белый список для Secure Boot (разрешенные).";
+
+/* Class = "NSButton"; ibShadowedToolTip = "In the case when ordinary boot failed the boot.efi can set flag \"recovery-boot-mode\". It is not reliable for us and we want just ignore this variable to boot ordinary."; ObjectID = "Ch7-ok-KtP"; */
+"Ch7-ok-KtP.ibShadowedToolTip" = "Если обычный запуск прошел неудачно, может быть поставлен флаг \"recovery-boot-mode\", включите этот параметр чтобы загружаться всегда нормально.";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "Black list for Secure Boot (not allowed). Policy must be set to BlackList"; ObjectID = "d4m-0h-hax"; */
+"d4m-0h-hax.ibShadowedToolTip" = "Черный список для Secure Boot.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NeverHibernate</key>\n<true/>\nDisables the hibernation state detection."; ObjectID = "dLU-KX-GK6"; */
+"dLU-KX-GK6.ibShadowedToolTip" = "Выключает определение состояния Гибернации.";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "<key>CustomLogo</key>\n<true/> OR <false/> OR <string>Apple/Alternate/Theme/None/Path</string> OR <data>PNG/BMP/ICNS base64 data</data>\nEnable the drawing of the custom boot logo.\n\ntrue - Uses the default boot style, Apple.\nfalse - Disables custom boot logo.\nApple - Use the default gray on gray apple logo.\nAlternate - Use the alternate white on black apple logo.\nTheme - Use the theme boot screen for entry type - NOT IMPLEMENTED.\nNone - Use no logo only background color, gray if not specified by custom entry.\nPath - A file path to load a custom image from\n<data> - A base64 encoded PNG, BMP, or ICNS data.\nIf no option is specified then the boot screen will be drawn only for >= 10.10 Yosemite, so it remains compatible with previous behavior.\n\nThe CustomLogo key can also be used under GUI/Custom/Entries in conjunction with BootBgColor for a different screen for every OS. However, the graphics output protocol is not in anyway modified so if the OS draws after it is started then it is after the boot screen is drawn and will overwrite the custom logo, at least for now."; ObjectID = "dq6-TB-u6t"; */
+"dq6-TB-u6t.ibShadowedToolTip" = "Включить свой стиль загрузки: true - использует стандартный стиль загрузки. false - выключает изменения стиля загрузки. Apple - использует серое яблоко на сером фоне. Alternate - Использует белое яблоко на черном фоне (БЕЗ ПОЛОСЫ ЗАГРУЗКИ)";
+
+/* Class = "NSSegmentedControl"; ibShadowedToolTip = "<key>XMPDetection</key>\n<true/> OR <false/> OR <string>Yes/No</string>\nDetect best eXtreme Memory Profile when detecting memory or disable XMP detection.\n\n<key>XMPDetection</key>\n<integer>1/2</integer>"; ObjectID = "Jix-7R-EdR"; */
+"Jix-7R-EdR.ibShadowedToolTip" = "Включить определение лучшего профиля eXtreme Memory, когда определяется ОЗУ.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "A data leak issue was identified in the hibernation code, allowing hibernation encryption key to be passed to the system through RTC and preserved till the next hibernation without a subsequent erase. More details could be found in this message. To workaround this issue a new option enabling RTC memory erase upon waking from hibernation was added:\nBoot → RtcHibernateAware﻿﻿ = YES (BOOLEAN, off by default)\n \nThis option relies on a poorly documented (or rather undocumented) RTC memory access, and unspecified RTC memory layout, which is implementation-specific. While it is extremely recommended to be turned on if you rely on hibernation, it may not work on your hardware (should be fine on Ivy Bridge and newer at least), and is thus optional and disabled by default.\n \nNote, that AppleRTC or FixRTC patches effectively break hibernation by reducing the available RTC memory and avoiding encryption key preservation. You should DISABLE them if you have no issues with BIOS preferences afterwards or use HibernationFixup. However, if RtcHibernateAware does not work for you, enabling AppleRTC patch and using HibernationFixup may be a safer workaround."; ObjectID = "Jl7-Yz-DVL"; */
+"Jl7-Yz-DVL.ibShadowedToolTip" = "Если ключ шифрования Гибернации теряется, включите параметр, работает не у всех, и не поможет при включенных FixRTC или AppleRTC.";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "<key>Legacy</key>\n<string>PBR</string>\nNecessary for loading old versions of Windows and Linux. Greatly depends on hardware and BIOS. Several algorithms were developed to allow customisation:\n\nLegacyBiosDefault - for UEFI BIOS variants containing protocol LegacyBios\nPBRtest - PBR boot algorithm\nPBR - Another PBR boot algorithm\nAdditionally for UEFI boot you may specify which HDD to boot (not only the first one).\n\n<key>Legacy</key>\n<string>LegacyBiosDefault</string>\n<key>LegacyBiosDefaultEntry</key>\n<integer>2</integer>"; ObjectID = "MRU-pn-ell"; */
+"MRU-pn-ell.ibShadowedToolTip" = "Требуется для запуска старых систем Windows и Linux, представлены несколько алгоритмов.";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "ofj-iB-WDq"; */
+"ofj-iB-WDq.title" = "Помощь";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "Ry8-9p-YDp"; */
+"Ry8-9p-YDp.title" = "Помощь";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Hide some debug messages while Clover is loading"; ObjectID = "sj2-ly-IP6"; */
+"sj2-ly-IP6.ibShadowedToolTip" = "Скрывает некоторые отладочные сообщения во время загрузки Clover";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>DefaultLoader</key>\n<string>BOOTX64.efi</string>\nIn addition to DefaultVolume above, the path of the loader can be specified as DefaultLoader. This provides more precise default entry selection for Volumes that have multiple Loaders. The value can be the complete path or a unique portion like like file name."; ObjectID = "uqt-fc-Hj8"; */
+"uqt-fc-Hj8.ibShadowedToolTip" = "Указывает стандартный загрузчик для загрузки по умолчанию, если на диске их несколько.";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "<key>DefaultVolume</key>\n<string>MacHDD</string>\nDefaultVolume is used to specify which entry is the default boot entry in Clover GUI. See also DefaultLoader. It can be set to:\n\nVolume Name - The name of the volume. E.g. Macintosh.\nGUID - Globally Unique ID of the volume shown in Clover's boot, preboot or debug log. E.g. 57272A5A-7EFE-4404-9CDA-C33761D0DB3C.\nPart of Device Path - Also shown in Clover's logs. E.g. HD(1,GPT,57272A5A-7EFE-4404-9CDA-C33761D0DB3C,0x800,0xFF000).\nLastBootedVolume - The last booted volume will be set as default one in Clover GUI.\nOS X Startup Disk can be used to reboot into another volume, but for the following reboot DefaultVolume will be used again."; ObjectID = "W4Z-vf-9Gr"; */
+"W4Z-vf-9Gr.ibShadowedToolTip" = "DefaultVolume используется чтобы указать раздел для загрузки по умолчанию (В виде имени раздела, GUID или пути к устройству). LastBootedVolume - по умолчанию ставится тот диск, который был загружен посаледним.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Secure</key>\n<true/>\nSecure Boot protocol, a contorversial subject, will restrict the booting process to signed binaries only. By enabling this option in your BIOS, booting of many operating systems won't be possible anymore, except Windows 8, 2013 and some Linux distributions.\n\nThe aim is to use Clover while Secure Boot is enabled. Clover's binary will need to be signed and a certificate to be loaded."; ObjectID = "WsY-WH-EMR"; */
+"WsY-WH-EMR.ibShadowedToolTip" = "Если требуется загрузка Clover с включенным в BIOS Secure Boot, включите параметр.";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>Arguments</key>\n<string>ARGUMENTS</string>\nAt this section you can add \"Boot Flags\" and \"Kernel Flags\" to be used by the system... Here we will list only Clover's proprietary \"Boot Flags\", different flags, like for example, npci=0x2000, npci=0x3000, darkwake=0, etc..., should work as expected...\n\n-v - Verbose Boot.\n-s - Boot OS X into Single User Mode.\n-x - Boot OS X into SafeBoot (Safe Mode).\nMountEFI=yes/diskX - Mount EFI partition at every boot or from disk X (X = disk number).\nLogLineCount=0 - Set maximum number of lines for log file, default 0 (no Limit).\nLogLocation=PATH - Set the path for the log files to be saved.\nLogEveryBoot=Yes/No\t- Save log files at every boot."; ObjectID = "WTT-ia-xfP"; */
+"WTT-ia-xfP.ibShadowedToolTip" = "Параметры запуска - можно добавить параметры ядра и загрузки, используемые системой, такие как -v, -x, -s, npci=0x2000, darkwake=0.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Strict Hibernation, requires  UEFI, a real NVRAM, a GPT with ESP and a hibernate mode 25"; ObjectID = "XaP-uv-pDa"; */
+"XaP-uv-pDa.ibShadowedToolTip" = "Строгая гибернация, требует UEFI, настоящего NVRAM, GPT-диска с ESP разделом и hibernate mode 25";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Fast</key>\n<true/>\nSimilar to setting Timeout to 0 but: * nvram.plist will be searched only until first occurrence * does not search for the best video mode * does not load themes and graphics * no chance to enter the GUI\n\nHaving this parameter enabled might not really have any big effect.\nInstead, you can try a custom compilation: * disable GUI in CloverEFI (3 seconds difference) * only search for Sata0 drivers (9 seconds difference)"; ObjectID = "XJt-ur-AbR"; */
+"XJt-ur-AbR.ibShadowedToolTip" = "Быстрая загрузка, без шансов попасть в оболочку, однако особого прироста скорости не дает.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Boot Arguments (right click context menu)"; ObjectID = "Ydc-N3-vnt"; */
+"Ydc-N3-vnt.headerCell.title" = "Аргументы загрузки (ПКМ для примеров)";
+

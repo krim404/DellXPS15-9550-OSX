@@ -1,0 +1,48 @@
+/* Class = "NSTextFieldCell"; title = "Revision to install:"; ObjectID = "4Fo-9O-iBk"; */
+"4Fo-9O-iBk.title" = "설치할 리비전:";
+
+/* Class = "NSTextFieldCell"; title = "Current booted revision:"; ObjectID = "biW-b1-vEV"; */
+"biW-b1-vEV.title" = "현재 부팅된 설치 리비전:";
+
+/* Class = "NSTextFieldCell"; title = "Remote available revision:"; ObjectID = "Hf1-JQ-oTo"; */
+"Hf1-JQ-oTo.title" = "다운로드 가능한 리비전:";
+
+/* Class = "NSBox"; title = "Stable"; ObjectID = "Hqf-3H-iDA"; */
+"Hqf-3H-iDA.title" = "안정화 버전";
+
+/* Class = "NSButtonCell"; title = "Save to desktop"; ObjectID = "jLk-88-BgO"; */
+"jLk-88-BgO.title" = "바탕화면으로 저장";
+
+/* Class = "NSButtonCell"; title = "Package"; ObjectID = "jps-lE-Xyw"; */
+"jps-lE-Xyw.title" = "패키지";
+
+/* Class = "NSButtonCell"; title = "Check Now"; ObjectID = "K5M-rd-XgE"; */
+"K5M-rd-XgE.title" = "새로운 버전 확인";
+
+/* Class = "NSTextFieldCell"; title = "Installed revision:"; ObjectID = "MKq-Hh-HaU"; */
+"MKq-Hh-HaU.title" = "설치된 리비전:";
+
+/* Class = "NSButtonCell"; title = "CLOVERX64.efi"; ObjectID = "mZY-x4-Dgm"; */
+"mZY-x4-Dgm.title" = "CLOVERX64.efi";
+
+/* Class = "NSTextFieldCell"; title = "(*) You need to reboot for changes to take effect after install"; ObjectID = "RsJ-mA-tkY"; */
+"RsJ-mA-tkY.title" = "(*) 새로운 변경사항을 적용하려면 재부팅 해주세요";
+
+/* Class = "NSTextFieldCell"; title = "Location:"; ObjectID = "sM3-cP-0cH"; */
+"sM3-cP-0cH.title" = "위치:";
+
+/* Class = "NSBox"; title = "Beta"; ObjectID = "Tyh-TA-m0s"; */
+"Tyh-TA-m0s.title" = "베타 버전";
+
+/* Class = "NSSegmentedCell"; U0d-UK-E3n.ibShadowedLabels[0] = "Stable"; ObjectID = "U0d-UK-E3n"; */
+"U0d-UK-E3n.ibShadowedLabels[0]" = "안정화 버전";
+
+/* Class = "NSSegmentedCell"; U0d-UK-E3n.ibShadowedLabels[1] = "Beta"; ObjectID = "U0d-UK-E3n"; */
+"U0d-UK-E3n.ibShadowedLabels[1]" = "베타 버전";
+
+/* Class = "NSButtonCell"; title = "Backup file"; ObjectID = "ycf-6k-J1F"; */
+"ycf-6k-J1F.title" = "백업 파일";
+
+/* Class = "NSTextFieldCell"; title = "Remote available revision:"; ObjectID = "zkx-MF-wiA"; */
+"zkx-MF-wiA.title" = "다운로드 가능한 리비전:";
+
