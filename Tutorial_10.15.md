@@ -171,3 +171,5 @@ As I said before, this is not a tutorial for absolute beginners, though it's muc
 
 The official [Dell adaptor DA200](http://accessories.euro.dell.com/sna/productdetail.aspx?c=at&l=de&s=dhs&cs=atdhs1&sku=470-abry) seem to work. You can use the Network, USB, HDMI and VGA. 
 A cheap 3rd party unbranded USB-C -> VGA adaptor won't work. You can charge the Dell with a generic USB-C Power Adaptor, but USB-C has a maximum power of only 100W, so it's either charging OR usage, not both. Dont forget you need a special USB-C cable (Power Delivery 3.0) for charging. Charging with the Apple USB-C Charger works, but will be limited to ~60W (and therefore throttle the whole system).
+  
+The WD15 Docking works as well, but cannot be hotplugged and may break the sleep of your device. Ethernet requires [the official realtek drivers](https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-usb-3-0-software) to work.
