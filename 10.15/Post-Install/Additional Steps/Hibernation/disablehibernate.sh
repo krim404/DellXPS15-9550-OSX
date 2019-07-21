@@ -9,7 +9,7 @@ sudo pmset -b tcpkeepalive 0
 echo
 echo "Hibernatemode, standby, and autopoweroff set to 0..."
 
-sudo rm /private/var/vm/sleepimage
+sudo rm -f /private/var/vm/sleepimage
 
 echo
 echo "Sleepimage deleted..."
