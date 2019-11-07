@@ -182,26 +182,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change GPI0 device _STA to XSTA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1NUQQCgCZNTQlJHAA==</data>
-					<key>Replace</key>
-					<data>WFNUQQCgCZNTQlJHAA==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change I2C devices _CRS to XCRS</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X0NSUwCgDg==</data>
-					<key>Replace</key>
-					<data>WENSUwCgDg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change HECI to IMEI, optionally pair with SSDT-IMEI.aml</string>
 					<key>Disabled</key>
 					<false/>
