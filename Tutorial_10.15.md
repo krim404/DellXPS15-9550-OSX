@@ -14,11 +14,10 @@ and many others. I try to give credit whenever possible in the corresponding rea
 
 ## What's not working:
 
-- Hibernation
 - SD-Card reader
 - Killer 1535 Wifi (rarely used in the 9550, though if you have it, it must be replaced)
 - nVidia Graphics card
-- FileVault2
+- Thunderbolt 3
 
 ## Requirements:
 
