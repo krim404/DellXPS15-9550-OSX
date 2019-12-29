@@ -48,7 +48,7 @@ If you upgrade from an old version of OSX and you want to skip Step 2 from this 
 
 ### Create Boot Media
 
-Use the existing Mac to download the 10.15 installer from the App Store and create a bootable USB stick with CLOVER. Open Terminal and enter `diskutil list` and search for the deviceid of the USB stick (ex. disk2). Then reformat it by entering
+Use the existing Mac to download the 10.15 installer from the App Store (make sure you have the full version) and create a bootable USB stick with CLOVER. Open Terminal and enter `diskutil list` and search for the deviceid of the USB stick (ex. disk2). Then reformat it by entering
 
 ```
 diskutil partitionDisk /dev/disk2 GPT JHFS+ Catalina 0b
@@ -60,7 +60,7 @@ copy the Catalina installation files to the stick by entering
 sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Catalina --nointeraction
 ```
 
-then install clover onto the USB stick (use the pkg in Additional) and select to 'install it in the ESP' by clicking on advanced when possible.
+then install clover onto the USB stick (use google) and select to 'install it in the ESP' by clicking on advanced when possible.
 Check twice that you definitely selected the USB stick as the target, installing clover on the internal HDD/SSD can break your system!
 
 Mount the hidden EFI partition of the USB Stick by entering
