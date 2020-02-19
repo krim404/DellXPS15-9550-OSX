@@ -22,12 +22,12 @@ a bug, which occurs if there are more than one possible targets. Delete `EmuVari
 ## Audio Fixes
 ### Audio Fix by using ported hdaverb
 this is the newest fix by KNNSpeed - engineered for the Dell 9560, but works on the 9550, too. This has a dependency on Lilu.kext, which is rarely known to generate kernel panics on boot - especially on upgrades. Keep that in mind.  
-See [this Tutorial](10.15/Post-Install/Additional Steps/Audio/ComboJack/README.md)  
+See [this Tutorial](10.15/Post-Install/Additional%20Steps/Audio/ComboJack/README.md)  
 folder: ./10.15/Post-Install/Additional\ Steps/Audio/ComboJack
 
 ### Audio Fix by using patched AppleHDA - DEPRECATED
 alternative to VoodooHDA and with better compatibility, but less stability. Requires replacing the AppleHDA Kext from Apple
-See [this Tutorial](/10.15/Post-Install/Additional\ Steps/Audio/AppleHDA_sysCL/readme.md)  
+See [this Tutorial](10.15/Post-Install/Additional%20Steps/Audio/AppleHDA_sysCL/readme.md)  
 folder: ./10.15/Post-Install/Additional\ Steps/Audio/AppleHDA_sysCL
 
 ## Display Backlight Control not working
