@@ -33,6 +33,7 @@ sudo cp com.XPS.ComboJack.plist /Library/LaunchAgents/
 sudo chmod 644 /Library/LaunchAgents/com.XPS.ComboJack.plist
 sudo chown root:wheel /Library/LaunchAgents/com.XPS.ComboJack.plist
 sudo launchctl load /Library/LaunchAgents/com.XPS.ComboJack.plist
+sudo mkdir -p /usr/local/share/ComboJack/
 sudo cp Headphone.icns /usr/local/share/ComboJack/
 sudo chmod 644 /usr/local/share/ComboJack/Headphone.icns
 sudo cp l10n.json /usr/local/share/ComboJack/
