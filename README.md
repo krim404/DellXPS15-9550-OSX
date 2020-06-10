@@ -1,6 +1,3 @@
-# WARNING
-This is a beta branch for Mac OSX Catalina. It should be stable enough for daily use, but can result in unexpected behaviour.
-
 # Dell XPS 15 - 9550-OSX
 This contains the required files and a tutorial for the installation of OS X 10.15 DP on the Dell XPS 15 9550. The files and tutorials for 10.11, 10.12, 10.13 and 10.14 are in a different branch
   
