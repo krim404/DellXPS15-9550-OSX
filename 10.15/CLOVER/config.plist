@@ -414,6 +414,8 @@
 			<true/>
 			<key>Inject</key>
 			<true/>
+			<key>HighCurrent</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>DisableDrivers</key>
