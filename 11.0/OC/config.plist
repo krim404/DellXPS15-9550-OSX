@@ -261,8 +261,6 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAbGQ==</data>
-				<key>AAPL00,override-no-connect</key>
-				<data>AP///////wBNED4UAAAAACgZAQSlIxN4DiViqFQ0uSUMTFQAAAABAQEBAQEBAQEBAQEBAQEBpqYAoPBwPoAwIDUAWsIQAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAA/gA3UEhQVIJMUTE1NkQxAAAAAAACQQMoABIAAAsBCiAgABU=</data>
 				<key>agdpmod</key>
 				<string>vit9696</string>
 				<key>disable-external-gpu</key>
@@ -271,7 +269,7 @@
 				<data>FAAAAA==</data>
 				<key>enable-hdmi-dividers-fix</key>
 				<data>AQAAAA==</data>
-				<key>enable-hdmi20</key>
+				<key>enable-max-pixel-clock-override</key>
 				<data>AQAAAA==</data>
 				<key>force-online</key>
 				<data>AQAAAA==</data>
