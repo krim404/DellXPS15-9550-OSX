@@ -766,7 +766,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
