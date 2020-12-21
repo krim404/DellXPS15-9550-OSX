@@ -1,6 +1,6 @@
 ![Computer Logo](Additional/icon.png "Dell XPS 15")
 Before we start:
-This installation includes real time DSDT/SSDT patching from within clover. This is pretty easy to install, but it is NOT suited for people with no or only limited knowledge of Hackintosh Systems. If you only know how to copy/paste commands in your shell and you dont know what they're doing, then stop the tutorial and revert to Windows or buy a real Mac. Even if you get it running, this system is not failsafe and will likely be broken multiple times in its usage time, it is likely you will encounter problems in future which will need to be fixed without a step by step tutorial.
+This installation includes real time DSDT/SSDT patching from within opencore. This is pretty easy to install, but it is NOT suited for people with no or only limited knowledge of Hackintosh Systems. If you only know how to copy/paste commands in your shell and you dont know what they're doing, then stop the tutorial and revert to Windows or buy a real Mac. Even if you get it running, this system is not failsafe and will likely be broken multiple times in its usage time, it is likely you will encounter problems in future which will need to be fixed without a step by step tutorial.
 English is not my mother-tongue and I'm writing this without proof reading, so please forgive my bad spelling.
 
 If you have questions please read the whole document before reporting an issue to prevent duplicates. Also check [Step 7](Tutorial_11.0_Step7.md) and do a Google search.
@@ -47,7 +47,7 @@ If you upgrade from an old version of OSX and you want to skip Step 2 from this 
 
 ### Create Boot Media
 
-Use the existing Mac to download the 11.0 installer from the App Store (make sure you have the full version) and create a bootable USB stick with CLOVER. Open Terminal and enter `diskutil list` and search for the deviceid of the USB stick (ex. disk2). Then reformat it by entering
+Use the existing Mac to download the 11.0 installer from the App Store (make sure you have the full version) and create a bootable USB stick with OpenCore. Open Terminal and enter `diskutil list` and search for the deviceid of the USB stick (ex. disk2). Then reformat it by entering
 
 ```
 diskutil partitionDisk /dev/disk2 GPT JHFS+ BigSur 0b
@@ -59,8 +59,8 @@ copy the Catalina installation files to the stick by entering
 sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/BigSur --nointeraction
 ```
 
-then install clover onto the USB stick (use google) and select to 'install it in the ESP' by clicking on advanced when possible.
-Check twice that you definitely selected the USB stick as the target, installing clover on the internal HDD/SSD can break your system!
+then install opencore onto the USB stick (use google in case you dont know how, it is pretty straight forward).
+Check twice that you definitely selected the USB stick as the target, installing opencore on the internal HDD/SSD can break your working system!
 
 Mount the hidden EFI partition of the USB Stick by entering
 `diskutil mount EFI`
@@ -79,7 +79,7 @@ Go into the EFI Configuration (BIOS) of your Dell XPS 15:
 
 ```
 gymnae said:
-In order to boot the Clover from the USB, you should visit your BIOS settings:
+In order to boot the Clover (now opencore) from the USB, you should visit your BIOS settings:
 - "VT-d" (virtualization for directed i/o) should be disabled if possible (the config.plist includes dart=0 in case you can't do this)
 - "DEP" (data execution prevention) should be enabled for OS X
 - "secure boot " should be disabled
@@ -103,7 +103,7 @@ Close the Diskutil.
 
 ## Step 3: Install and make it bootable
 
-Install OSX as you would on a real mac. You'll have to reboot multiple times - make sure to always boot using the attached USB stick => don't forget to press F12 if you didn't set the USB stick as your primary boot device. After the first reboot you should see a new boot option inside clover called "Install macOS Big Sur from OSX", which is highlighted by default. Just press enter. If you only see one boot device, then something went wrong and you should retry the installation. After a few reboots you should be inside your new macOS enviroment. You can always boot into it using the USB stick. Remove the USB drive after successful bootup. To make it bootable, enter
+Install OSX as you would on a real mac. You'll have to reboot multiple times - make sure to always boot using the attached USB stick => don't forget to press F12 if you didn't set the USB stick as your primary boot device. After the first reboot you should see a new boot option called "Install macOS Big Sur from OSX", which is highlighted by default. Just press enter. If you only see one boot device, then something went wrong and you should retry the installation. After a few reboots you should be inside your new macOS enviroment. You can always boot into it using the USB stick. Remove the USB drive after successful bootup. To make it bootable, enter
 `diskutil mount EFI`
 in your terminal, which should mount the EFI partition of your local installation.
 Now copy everything from ./11.0/OC to EFI/OC like you did before when creating the USB stick. Note: If you had to modify the config.plist in step 1, do it here too. Your system should now be bootable by itself. Reboot to verify.
@@ -142,7 +142,7 @@ Take a look in the folder `/11.0/Post-Install/Additional\ Steps/`. There are mul
 
 WARNING: DONT USE YOUR MAIN APPLE ACCOUNT FOR TESTING! It's pretty common that apple BANS your apple-id from iMessage and other services if you've logged in on poorly configured hackintosh machines!
 If you want to use the iServices, you'll have to do some advanced steps, which are not completly explained in this tutorial. If you are using NullEthernet.kext from step 4 or your Wi-Fi card is not en0. Go to your network settings and remove every network interface, then `sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist` and reboot. Go back in the network configuration and add the network interfaces (LAN) before Wi-Fi if you are using NullEthernet.kext or add Wi-Fi. If you are using Wi-Fi with no NullEthernet.kext make sure it is en0 before continuing.
-You also need to modify your SMBIOS in the config.plist of Clover in your EFI partition with valid information about your "fake" mac. There are [multiple tutorials](http://www.fitzweekly.com/2016/02/hackintosh-imessage-tutorial.html) which explain how to do it.
+You also need to modify your SMBIOS in the config.plist of opencore in your EFI partition with valid information about your "fake" mac. There are [multiple tutorials](http://www.fitzweekly.com/2016/02/hackintosh-imessage-tutorial.html) which explain how to do it.
 It's possible you may need to call the apple hotline to get your fake serial whitelisted by telling a good story why apple forgot to add your serial number in their system. (aka: dont do it if you dont own a real mac). I personally suggest using real data from an old (broken) macbook.
 
 ## Step 6: Upgrading to macOS 11.0.1 or higher / installing security updates
