@@ -417,8 +417,6 @@
 				<string>BrcmBluetoothInjector.kext</string>
 				<key>Enabled</key>
 				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BrcmBluetoothInjector</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
