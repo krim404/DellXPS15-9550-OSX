@@ -133,6 +133,8 @@ Sometimes you'll have to redo the last command if your system shows "Lock acquir
 OSX 10.12.2 removed the posibility to load unsigned code. You can enable this by entering
 `sudo spctl --master-disable`
 
+If you have the FHD (1080p) version of the Notebook, set the `UIScale` to `AQ==` (1) in the OC _config.plist_ file.
+
 To prevent accidental hibernation (which can and will corrupt your data if you're not using the 4k switch), enter the following
 `sudo pmset -a hibernatemode 0` or run the script in `./11.0/Post-Install/Additional\ Steps/Hibernation/disablehibernate.sh`
 
