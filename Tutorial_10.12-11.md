@@ -10,5 +10,5 @@ https://github.com/wmchris/DellXPS15-9550-OSX/blob/10.14/Tutorial_10.14.md
 Tutorial for Catalina 10.15 has been moved to branch 10.15  
 https://github.com/wmchris/DellXPS15-9550-OSX/blob/10.15/Tutorial_10.15.md  
 
-Tutorial for Big Sur 11.0 has been moved to branch 11.0 
+Tutorial for Big Sur 11.0 has been moved to branch 11.0  
 https://github.com/wmchris/DellXPS15-9550-OSX/blob/11.0/Tutorial_11.0.md  
