@@ -28,7 +28,7 @@ I try to give credit whenever possible in the corresponding readme.md files.
 
 ## Locations and required Files
 
-- [This repository](https://github.com/wmchris/DellXPS15-9550-OSX/archive/1112.0.0.zip). Unzip this to a folder of your choice, I'll refer to this folder as "./" throughout the rest of the tutorial.
+- [This repository](https://github.com/krim404/DellXPS15-9550-OSX/archive/refs/heads/12.0.zip). Unzip this to a folder of your choice, I'll refer to this folder as "./" throughout the rest of the tutorial.
 - EFI Partition containing the folder "EFI". This is a hidden partition on your HD/SSD. After mounting it's normally available at /Volumes/EFI/EFI/. I'll refer to it as "EFI/" throughout the rest of the tutorial.
 
 ## Step 0: Prepare Installation
