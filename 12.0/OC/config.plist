@@ -305,36 +305,6 @@
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Patch for Hynix NVMe drives - Ignore FLBAS bit:4 being set</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Identifier</key>
-				<string>IONVMeFamily</string>
-				<key>Find</key>
-				<data>SBr2wRAPhQ==</data>
-				<key>Replace</key>
-				<data>SBr2wQAPhQ==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -551,7 +521,7 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-	    		<dict>
+			<dict>
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
@@ -1007,7 +977,38 @@
 			</dict>
 		</array>
 		<key>Patch</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Patch for Hynix NVMe drives - Ignore FLBAS bit:4 being set</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Identifier</key>
+				<string>IONVMeFamily</string>
+				<key>Find</key>
+				<data>SBr2wRAPhQ==</data>
+				<key>Replace</key>
+				<data>SBr2wQAPhQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -1412,7 +1413,7 @@
 			<key>AppleDebugLog</key>
 			<false/>
 			<key>AppleEg2Info</key>
-			<false/>			
+			<false/>
 			<key>AppleFramebufferInfo</key>
 			<false/>
 			<key>AppleImageConversion</key>
