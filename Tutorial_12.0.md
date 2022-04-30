@@ -116,8 +116,6 @@ Because all DSDT/SSDT changes are already in the config.plist, you dont need to 
 sudo cp -r ./12.0/Post-Install/LE-Kexts/* /Library/Extensions/
 ```
 
-I suggest moving some of the kext from EFI/OC/kexts to /Library/Extensions and removing them from the config.plist, but this is optional.
-
 Run 12.0/Post-Install/Additional Steps/Audio/install.sh to install ComboJack
 
 Finalize the kext-copy by recreating the kernel cache:
